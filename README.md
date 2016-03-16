@@ -12,3 +12,5 @@ https://github.com/Gapminder/waffle-server-importers-exporters/blob/world-legacy
 
 https://github.com/Gapminder/waffle-server-importers-exporters/blob/world-legacy-with-data/data/synonym/regions.json
 
+detail impletementations can be found in the notebook waffle.ipynb
+
