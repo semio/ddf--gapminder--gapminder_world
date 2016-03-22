@@ -59,8 +59,7 @@ cri,cri,i52,Costa Rica,,,,,Costa Rica,,,,,,,CRI,g77,Costa Rica,america,america,C
 civ,civ,i53,Cote d'Ivoire,Ivory Coast,Cote Divoire,Côte d'Ivoire,CÃ´te d'Ivoire,Cote D Ivoire,CÃ´te dâ€™Ivoire,Cote d&apos;Ivoire,Cote_dIvoire,,,,CIV,g77,Cote d'Ivoire,sub_saharan_africa,africa,CI,lower_middle_income,TRUE,coastline,8.0,-5.5,,384.0,COTE D'IVOIRE,COTE D'IVOIRE,africa
 hrv,hrv,i54,Croatia,,,,,Croatia,,,,,,,HRV,others,Croatia,europe_central_asia,europe,HR,high_income,TRUE,coastline,45.16667,15.5,christian,191.0,CROATIA,CROATIA (local name: Hrvatska),europe
 cub,cub,i55,Cuba,,,,,Cuba,,,,,,,CUB,g77,Cuba,america,america,CU,upper_middle_income,TRUE,coastline,22.0,-79.5,christian,192.0,,CUBA,americas
-nl-cw,,i280,Curaçao,,,,,,,,,,,,,,,,,CW,high_income,TRUE,,,,,,,,
-,nld_curacao,,Curaï¿½ao,,,,,,,,,,,,,,,,,,,,,12.16667,-68.96667,,,,,americas
+nl-cw,nld_curacao,i280,Curaçao,,,,,,,,,,,,,,,,,CW,high_income,TRUE,,12.16667,-68.96667,,,,,americas
 cyp,cyp,i56,Cyprus,,,,,Cyprus,,,,,,,CYP,others,Cyprus,europe_central_asia,europe,CY,high_income,TRUE,coastline,35.0,33.0,christian,196.0,CYPRUS,CYPRUS,europe
 cze,cze,i57,Czech Republic,,Czech Republic,Czech Rep,,Czech Republic,,,,,,,CZE,oecd,Czech Rep.,europe_central_asia,europe,CZ,high_income,TRUE,landlocked,49.75,15.0,christian,203.0,CZECH REPUBLIC,CZECH REPUBLIC,europe
 cheslo,cheslo,i58,Czechoslovakia,,,,,Czechoslovakia,,,,,,,,others,Czechoslovakia,europe_central_asia,europe,Czechoslovakia,,TRUE,landlocked,,,,,,,europe
@@ -220,8 +219,7 @@ ssd,ssd,i211,South Sudan,,South â€Žsudan,Sudan South,,,,,,,,,,,South Sudan,s
 yem_south,yem_south,i253,South Yemen (former),,,,,,,,,,,,,others,Yemen Democratic (Former),middle_east_north_africa,asia,South_Yemen,,TRUE,coastline,,,,,,,asia
 esp,esp,i212,Spain,,,,,Spain,,,,,,,ESP,oecd,Spain,europe_central_asia,europe,ES,high_income,TRUE,coastline,40.0,-4.0,christian,724.0,SPAIN,SPAIN,europe
 lka,lka,i213,Sri Lanka,,,,,Sri Lanka,,,,,,,LKA,g77,Sri Lanka,south_asia,asia,LK,lower_middle_income,TRUE,coastline,7.75,80.75,eastern_religions,144.0,,SRI LANKA,asia
-stbar,,i186,St. Barthélemy,,St. Barth√©lemy,,,,,,,,,,,others,Saint Barthélemy,america,america,BL,,TRUE,coastline,,,,,,,
-,stbar,,St. Barthï¿½lemy,,,,,,,,,,,,,,,,,,,,,,,,,,,americas
+stbar,stbar,i186,St. Barthélemy,,St. Barth√©lemy,,,,,,,,,,,others,Saint Barthélemy,america,america,BL,,TRUE,coastline,,,,,,,americas
 shn,shn,i187,St. Helena,,,,,Saint Helena,,,,,,,SHN,others,Saint Helena,sub_saharan_africa,africa,SH,,TRUE,coastline,-15.95,-5.7,christian,654.0,,SAINT HELENA,africa
 kna,kna,i188,St. Kitts and Nevis,,St. Kitts and Nevis,Saint Kitts & Nevis,,St. Kitts-Nevis,,,,,,,KNA,g77,Saint Kitts and Nevis,america,america,KN,high_income,TRUE,coastline,17.33333,-62.75,christian,659.0,,SAINT KITTS AND NEVIS,americas
 lca,lca,i189,St. Lucia,,St. Lucia,St.Lucia,,Saint Lucia,,,,,,,LCA,g77,Saint Lucia,america,america,LC,upper_middle_income,TRUE,coastline,13.883329999999999,-60.96666999999999,christian,662.0,,SAINT LUCIA,americas
@@ -275,5 +273,4 @@ yem,yem,i254,Yemen,,Yemen Republic,,,Yemen,,,,,,,YEM,g77,"Yemen, Rep.",middle_ea
 yug,yug,i255,Yugoslavia,,,,,Yugoslavia,,,,,,,,others,Yugoslavia,europe_central_asia,europe,Yugoslavia,,TRUE,coastline,,,,,,,europe
 zmb,zmb,i256,Zambia,,,,,Zambia,,,,,,,ZMB,g77,Zambia,sub_saharan_africa,africa,ZM,lower_middle_income,TRUE,landlocked,-14.333329999999998,28.5,christian,894.0,ZAMBIA,ZAMBIA,africa
 zwe,zwe,i257,Zimbabwe,,,,,Zimbabwe,,,,,,,ZWE,g77,Zimbabwe,sub_saharan_africa,africa,ZW,low_income,TRUE,landlocked,-19.0,29.75,christian,716.0,ZIMBABWE,ZIMBABWE,africa
-ala,,i258,Åland,,√Öland,,,,,,,,,,ALA,others,Åland,europe_central_asia,europe,AX,,TRUE,coastline,,,,248.0,,AALAND ISLANDS,
-,ala,,ï¿½land,,,,,,,,,,,,,,,,,,,,,60.25,20.0,,,,,europe
+ala,ala,i258,Åland,,√Öland,,,,,,,,,,ALA,others,Åland,europe_central_asia,europe,AX,,TRUE,coastline,60.25,20.0,,248.0,,AALAND ISLANDS,europe
