@@ -7,13 +7,9 @@ import numpy as np
 import re
 import os
 import json
-from . ddf import to_concept_id
+from . common import to_concept_id, to_dict_dropna
 
-
-# update the translation file
-en_source = '/Users/semio/src/work/Gapminder/vizabi/.data/translation/en.json'
-concept_file = '../source/graph_settings - Indicators.csv'
-
+# TODO.
 concepts = pd.read_csv(concept_file)
 k = concepts[concepts['ddf_id'] == u'———————————————————————'].index
 concepts = concepts.drop(k)
