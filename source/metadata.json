@@ -1,0 +1,148 @@
+{
+    "indicatorsDB": {
+        "time": {
+            "use": "indicator",
+            "scales": ["time"],
+            "sourceLink": ""
+        },
+        "geo": {
+            "use": "property",
+            "scales": ["ordinal"],
+            "sourceLink": "https://docs.google.com/spreadsheets/d/1OxmGUNWeADbPJkQxVPupSOK5MbAECdqThnvyPrwG5Os/pub"
+        },
+        "geo.name": {
+            "use": "property",
+            "scales": ["ordinal"],
+            "sourceLink": "https://docs.google.com/spreadsheets/d/1OxmGUNWeADbPJkQxVPupSOK5MbAECdqThnvyPrwG5Os/pub"
+        },
+        "geo.latitude": {
+            "use": "property",
+            "scales": ["linear"],
+            "sourceLink": "https://gapminder.org"
+        },
+        "geo.longitude": {
+            "use": "property",
+            "scales": ["linear"],
+            "sourceLink": "https://gapminder.org"
+        },
+        "geo.region": {
+            "use": "property",
+            "scales": ["ordinal"],
+            "sourceLink": "https://docs.google.com/spreadsheets/d/1OxmGUNWeADbPJkQxVPupSOK5MbAECdqThnvyPrwG5Os/pub",
+            "color": {
+                "shades": {
+                    "fill1": 0,
+                    "fill2": 1,
+                    "fill3": 2,
+                    "shade": 3,
+                    "print_fill": 4,
+                    "print_stroke": 5
+                },
+                "palette": {
+                    "asia": ["#ff5872", "#ff5178", "#ff658a", "#da0025", "#fa4e73", "#b2043a"], 
+                    "europe": ["#ffe700", "#fbdd00", "#fff400", "#fbaf09", "#ffe700", "#b17f4a"], 
+                    "americas": ["#7feb00", "#5de200", "#81f201", "#00b900", "#b5ea32", "#008d36"], 
+                    "africa": ["#00d5e9", "#00c8ec", "#00e1ec", "#0098df", "#77dff7", "#0586c6"], 
+                    "_default": ["#ffb600", "#ffaa14", "#ffc500", "#fb6d19", "#ffb600", "#9b4838"] 
+                },
+                "selectable": false
+            }
+        },
+        "size": {
+            "use": "property",
+            "scales": ["ordinal"],
+            "sourceLink": ""
+        },
+        "population": {
+            "use": "indicator",
+            "scaleType": "log",
+            "scales": ["linear", "log"],
+            "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+            "domain": [14000, 1400000000]
+        },
+        "life_expectancy": {
+            "use": "indicator",
+            "scales": ["linear"],
+            "domain": [10, 83],
+            "sourceLink": "https://docs.google.com/spreadsheets/d/1H3nzTwbn8z4lJ5gJ_WfDgCeGEXK3PVGcNjQ_U5og8eo/pub?gid=1"
+        },
+        "fertility_rate": {
+            "use": "indicator",
+            "scales": ["linear"],
+            "domain": [0, 10],
+            "sourceLink": "https://gapminder.org"
+        },
+        "gini": {
+            "use": "indicator",
+            "scales": ["linear"],
+            "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty"
+        },
+        "gdp_p_cap_const_ppp2011_dollar": {
+            "use": "indicator",
+            "interpolation": "exp",
+            "scales": ["log", "linear"],
+            "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+            "domain": [300, 140000],
+            "color": {
+                "palette": {
+                    "0": "#62CCE3",
+                    "1": "#B4DE79",
+                    "2": "#E1CE00",
+                    "3": "#F77481"
+                }
+            }
+        },
+        "gdp_const_ppp2011_dollar": {
+            "use": "indicator",
+            "interpolation": "exp",
+            "scales": ["log", "linear"],
+            "sourceLink": "https://gapminder.org",
+            "domain": [1e6, 100e12]
+        },
+        "child_mortality_rate_per1000": {
+            "use": "indicator",
+            "scales": ["linear", "log"],
+            "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+            "domain": [0, 550]
+        },
+        "age": {
+            "use": "indicator",
+            "scales": ["linear", "log"],
+            "sourceLink": ""
+        },
+        "_default": {
+            "use": "constant",
+            "scales": ["ordinal"],
+            "sourceLink": ""
+        }
+    },
+    "indicatorsTree":{ 
+        "id": "_root",
+        "children": [
+            {
+                "id": "time"
+            }, {
+                "id": "_properties",
+                "children": [{"id": "geo"}, {"id": "geo.name"}, {"id": "geo.region"}]
+            }, {
+                "id": "economy",
+                "children": [
+                    {"id": "inequality", "children": [{"id":"gini"}]}, 
+                    {"id": "gdp_p_cap_const_ppp2011_dollar"},
+                    {"id": "gdp_const_ppp2011_dollar"}
+                ]
+            }, {
+                "id": "health",
+                "children": [
+                    {"id": "life_expectancy"}, 
+                    {"id": "child_mortality_rate_per1000"},
+                    {"id": "fertility_rate"}
+                ]
+            }, {
+                "id": "population"
+            }, {
+                "id": "_default"
+            }
+        ]
+    }
+}
