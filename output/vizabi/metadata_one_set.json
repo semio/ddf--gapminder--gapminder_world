@@ -2069,13 +2069,6 @@
     2011
    ]
   },
-  "geo.main_religion_2008": {
-   "sourceLink": "http://spreadsheets.google.com/spreadsheet/pub?key=0ArtujvvFrPjVdHUzTGVicFJZQ1NjaFhqelV5SDNxMVE",
-   "use": "property",
-   "scales": [
-    "ordinal"
-   ]
-  },
   "suicide_age_30_44_per_100000_people": {
    "sourceLink": "https://spreadsheets.google.com/pub?key=0AgogXXPMARyldG9MeHpzRkNHQmZ4MmtxSnd2Y0o2UFE",
    "use": "indicator",
@@ -4692,13 +4685,6 @@
     2005
    ]
   },
-  "geo.geographic_regions_in_4_colors": {
-   "sourceLink": "http://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwCdHlocWJBM1Uyd1ZPeHduU3c4WGplMEE",
-   "use": "property",
-   "scales": [
-    "ordinal"
-   ]
-  },
   "extreme_temperature_deaths_annual_number": {
    "sourceLink": "http://spreadsheets.google.com/pub?key=r4WUTsck3NfccM6UsKlGF7g",
    "use": "indicator",
@@ -5115,13 +5101,6 @@
     2005
    ]
   },
-  "geo.landlocked": {
-   "sourceLink": "http://spreadsheets.google.com/pub?key=rBwKBodk7Y08pGiA4OAfzUA",
-   "use": "property",
-   "scales": [
-    "ordinal"
-   ]
-  },
   "population_aged_0_4_years_total_number": {
    "sourceLink": "http://spreadsheets.google.com/pub?key=rovrK0Uj9JPN95P9adob0tw",
    "use": "indicator",
@@ -5440,13 +5419,6 @@
    "availability": [
     1800,
     2015
-   ]
-  },
-  "geo.income_groups": {
-   "sourceLink": "http://spreadsheets.google.com/pub?key=phT4mwjvEuGCSmAe5aq7HKw",
-   "use": "property",
-   "scales": [
-    "ordinal"
    ]
   },
   "literacy_rate_adult_female_percent_of_females_ages_15_above": {
@@ -6247,13 +6219,6 @@
    "availability": [
     2005,
     2005
-   ]
-  },
-  "geo.geographic_regions": {
-   "sourceLink": "http://spreadsheets.google.com/pub?key=phT4mwjvEuGBtdf1ZeO7_PQ",
-   "use": "property",
-   "scales": [
-    "ordinal"
    ]
   },
   "total_health_spending_per_person_us": {
@@ -8424,13 +8389,6 @@
     2008
    ]
   },
-  "geo.g77_and_oecd_countries": {
-   "sourceLink": "http://spreadsheets.google.com/pub?key=tVI_UCwI1enCk4p61fWxUig",
-   "use": "property",
-   "scales": [
-    "ordinal"
-   ]
-  },
   "all_forms_of_tb_existing_cases_per_100000_estimated": {
    "sourceLink": "http://spreadsheets.google.com/pub?key=rZNoyaocUmUGuFyRgjJUpig",
    "use": "indicator",
@@ -8653,24 +8611,6 @@
      },
      {
       "id": "geo.name"
-     },
-     {
-      "id": "geo.geographic_regions"
-     },
-     {
-      "id": "geo.income_groups"
-     },
-     {
-      "id": "geo.landlocked"
-     },
-     {
-      "id": "geo.g77_and_oecd_countries"
-     },
-     {
-      "id": "geo.geographic_regions_in_4_colors"
-     },
-     {
-      "id": "geo.main_religion_2008"
      },
      {
       "id": "geo.world_4region"
