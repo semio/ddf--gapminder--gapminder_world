@@ -1,5 +1,5 @@
 geographic_regions_in_4_colors,name,gwid,is--geographic_regions_in_4_colors
-africa,[Africa],i277,TRUE
-asia,[Asia],i276,TRUE
-america,[America],i278,TRUE
-europe,[Europe],i275,TRUE
+america,,i278,TRUE
+europe,,i275,TRUE
+africa,,i277,TRUE
+asia,,i276,TRUE
