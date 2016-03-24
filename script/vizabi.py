@@ -7,156 +7,145 @@ import numpy as np
 import re
 import os
 import json
-from . common import to_concept_id, to_dict_dropna
-
-# TODO.
-concepts = pd.read_csv(concept_file)
-k = concepts[concepts['ddf_id'] == u'———————————————————————'].index
-concepts = concepts.drop(k)
+from common import to_concept_id, to_dict_dropna
+from collections import OrderedDict
 
 
-with open(en_source) as f:
-    enj = json.load(f)
-    f.close()
+def update_enjson(enj, c_all, concepts):
+    trs = c_all[['concept', 'name', 'unit', 'description']]
+    trs = trs.iloc[6:-3].copy()
+    trs['key_1'] = 'indicator/'+trs['concept']
+    trs['key_2'] = 'unit/'+trs['concept']
+    trs['key_3'] = 'description/'+trs['concept']
 
-concepts.columns = list(map(to_concept_id, concepts.columns))
+    trs1 = trs.drop('concept', axis=1).set_index('key_1')
+    trs2 = trs.drop('concept', axis=1).set_index('key_2')
+    trs3 = trs.drop('concept', axis=1).set_index('key_3')
 
-trs = concepts[['ddf_id', 'ddf_name', 'ddf_unit', 'tooltip']].copy()
-trs['key_1'] = 'indicator/'+trs['concept']
-trs['key_2'] = 'unit/'+trs['concept']
-trs['key_3'] = 'description/'+trs['concept']
+    enj.update(trs1['name'].dropna().to_dict())
+    enj.update(trs2['unit'].dropna().to_dict())
+    enj.update(trs3['description'].dropna().to_dict())
 
-trs1 = trs.drop('concept', axis=1).set_index('key_1')
-trs2 = trs.drop('concept', axis=1).set_index('key_2')
-trs3 = trs.drop('concept', axis=1).set_index('key_3')
+    c_all4 = concepts[['concept', 'menu_level1', 'menu_level_2']]
 
-enj.update(trs1['ddf_name'].dropna().to_dict())
-enj.update(trs2['ddf_unit'].dropna().to_dict())
-enj.update(trs3['tooltip'].dropna().to_dict())
+    l1 = c_all4['menu_level1'].unique()
+    l2 = c_all4['menu_level_2'].unique()
 
-with open(en_source, 'w') as f:
-    json.dump(enj, f, indent=1, sort_keys=True)
-    f.close()
+    for i in l1:
+        if i is not np.nan:
+            key = to_concept_id(i)
+            enj['indicator/'+key] = i
 
-# update the metadata
-indb_file = '/Users/semio/src/work/Gapminder/vizabi/.data/waffles/metadata.json'
-indb_0 = json.load(open(indb_file))
+    for i in l2:
+        if i is not np.nan:
+            key = to_concept_id(i)
+            enj['indicator/'+key] = i
 
-# 1. data domain and availability
-dps = [x for x in os.listdir('../output/') if 'datapoints' in x]  # all datapoints files.
-for i in dps:
-    tc = re.match(r'ddf--datapoints--(.*)--by--geo--time.csv', i).groups()[0]
+    c5 = c_all[c_all['concept_type'] == 'entity_set'].copy()
+    for i, v in c5.iterrows():
+        enj['indicator/'+'geo.'+v['concept']] = v['name']
 
-    df = pd.read_csv('../output/'+i, dtype={tc:float, 'time': int})
-    dm = [float(df[tc].min()), float(df[tc].max())]
-    av = [int(df['time'].min()), int(df['time'].max())]
+    enj['indicator/sg_population'] = enj['indicator/population']
+    enj['indicator/sg_gini'] = enj['indicator/gini']
+    enj['indicator/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['indicator/gdp_p_cap_const_ppp2011_dollar']
 
-    if tc in indb_0['indicatorsDB'].keys():
-        indb_0['indicatorsDB'][tc].update({'domain':dm, 'availability': av})
-    else:
-        # print(k, ' is not in indicatorsDB, will insert to it')
-        indb_0['indicatorsDB'][tc] = {'domain':dm, 'availability': av, 'use': 'indicator'}
+    enj['unit/sg_population'] = enj['unit/population']
+    enj['unit/sg_gini'] = enj['unit/gini']
+    enj['unit/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['unit/gdp_p_cap_const_ppp2011_dollar']
 
-# 2. source link
-urls = concepts[['ddf_id', 'indicator_url']]
-urls.columns = ['concept', 'sourcelink']
+    return enj
 
-for k, v in urls.set_index('concept').to_dict('index').items():
-    if k in indb_0['indicatorsDB'].keys():
-        indb_0['indicatorsDB'][k].update(v)
-    else:
-        # print(k, ' is not in indicatorsDB, will insert to it')
-        indb_0['indicatorsDB'][k] = v
 
-# 3. indicator Tree
-def get_menus(tree, upper=''):
-    res = []
-    if upper:
-        lv1 = get_menus(tree)
-        i = lv1.index(upper)
-        if 'children' in tree['children'][i].keys():
-            for t in tree['children'][i]['children']:
-                res.append(t['id'])
-    else:
-        for t in tree['children']:
-            res.append(t['id'])
+def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
+    mdata = c_all[c_all['concept_type'] == 'measure'][['concept', 'indicator_url', 'scales', 'interpolation']]
+    mdata = mdata.set_index('concept')
+    mdata = mdata.drop(['longitude', 'latitude'])
+    mdata.columns = ['sourceLink', 'scales', 'interpolation']
+    mdata['use'] = 'indicator'
 
-    return res
+    indb = OrderedDict([['indicatorsDB', {}]])
+    # indb = {'indicatorsDB': {}}
+    indb['indicatorsDB'].update(to_dict_dropna(mdata))
 
-# TODO: filter it first from indicatorDB
-g = concepts.set_index('ddf_id').groupby(['menu_level1', 'menu_level_2']).groups
-for k, v in g.items():
+    rm = {'gini': 'sg_gini',
+          'population': 'sg_population',
+          'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
+    }
+    panic = dict([[rm[i],meta2['indicatorsDB'][i]] for i in rm.keys()])
+    indb['indicatorsDB'].update(panic)
 
-    l1, l2 = k
+    geomd = {'geo.world_4region': meta2['indicatorsDB']['geo.region']}
+    indb['indicatorsDB'].update(geomd)
 
-    if l1 is np.nan:
-        for c in v:
-            d = {'id': c}
-            if d not in indb_0['indicatorsTree']['children']:
-                indb_0['indicatorsTree']['children'].append(d)
+    if not oneset:
+        res = {}
 
-    else:
+        for i in range(len(area)):
+            key = to_concept_id(area[i]['n'])
+            source = area[i]['sourceName']
+
+            res['geo.'+key] = {'use': 'property', 'scales': ['ordinal'], 'sourceLink': source}
+        indb['indicatorsDB'].update(res)
+
+    for i in indb['indicatorsDB'].keys():
+        fname = os.path.join(outdir, 'ddf', 'ddf--datapoints--'+i+'--by--geo--time.csv')
         try:
-            m1 = get_menus(indb_0['indicatorsTree'])
-            i1 = m1.index(l1)
-        except ValueError:
-            indb_0['indicatorsTree']['children'].append({'id': l1, 'children': []})
-            m1 = get_menus(indb_0['indicatorsTree'])
-            i1 = m1.index(l1)
-
-        if l2 is np.nan:
-            for c in v:
-                d = {'id': c}
-                if d not in indb_0['indicatorsTree']['children'][i1]['children']:
-                    indb_0['indicatorsTree']['children'][i1]['children'].append(d)
-
-        else:
-            try:
-                m2 = get_menus(indb_0['indicatorsTree'], l1)
-                i2 = m2.index(l2)
-            except ValueError:
-                if 'children' in indb_0['indicatorsTree']['children'][i1].keys():
-                    indb_0['indicatorsTree']['children'][i1]['children'].append({'id': l2, 'children': []})
-                else:
-                    indb_0['indicatorsTree']['children'][i1]['children'] = [{'id': l2, 'children': []}]
-                m2 = get_menus(indb_0['indicatorsTree'], l1)
-                i2 = m2.index(l2)
-
-            for c in v:
-                d = {'id': c}
-                if d not in indb_0['indicatorsTree']['children'][i1]['children'][i2]['children']:
-                    indb_0['indicatorsTree']['children'][i1]['children'][i2]['children'].append(d)
-
-
-# 4. en_old.json and metadata_old.json
-trs = concepts[['ddf_id', 'ddf_name', 'ddf_unit', 'tooltip', 'old_ddf_id']].copy()
-a = trs[['ddf_id', 'old_ddf_id']].ix[trs['old_ddf_id'].dropna().index].set_index('ddf_id')['old_ddf_id']
-
-for k, v in a.iteritems():
-    for i in ['indicator/', 'unit/', 'description/']:
-        try:
-            d = enj[i+k]
-            del enj[i+k]
-            enj[i+v] = d
-        except KeyError:
+            df = pd.read_csv(fname, dtype={i:float, 'time': int})
+        except OSError:
+            print('no data for', i)
             continue
 
-with open('../output/en_old.json', 'w') as f:
-    json.dump(enj, f, indent=1, sort_keys=True)
-    f.close()
+        dm = [float(df[i].min()), float(df[i].max())]
+        av = [int(df['time'].min()), int(df['time'].max())]
 
-f_in = open('/Users/semio/src/work/Gapminder/vizabi/.data/waffles/metadata.json')
-f_out = open('/Users/semio/src/work/Gapminder/vizabi/.data/waffles/metadata_old.json', 'w')
+        indb['indicatorsDB'][i].update({'domain': dm, 'availability': av})
 
-new = f_in.read()
+    # newdb = OrderedDict([[key, indb['indicatorsDB'][key]] for key in sorted(indb['indicatorsDB'].keys())])
+    # indb['indicatorsDB'] = newdb
 
-for k, v in a.iteritems():
-    if k in new:
-        new = new.replace(k, v)
-    else:
-        print(k)
+    indb['indicatorsTree'] = OrderedDict([['id', '_root'], ['children', []]])
+    ti = OrderedDict([['id', 'time']])
+    pro = OrderedDict([['id', '_properties'], ['children', [{'id': 'geo'}, {'id': 'geo.name'}]]])
 
-f_out.write(new)
-f_out.close()
+    indb['indicatorsTree']['children'].append(ti)
+    c_all3 = concepts[['concept', 'menu_level1', 'menu_level_2']].sort_values(['menu_level1', 'menu_level_2'], na_position='first')
 
-# TODO: what if I change one of the indicator names?
+    c_all3['menu_level1'] = c_all3['menu_level1'].apply(to_concept_id).fillna('0')
+    c_all3['menu_level_2'] = c_all3['menu_level_2'].apply(to_concept_id).fillna('1')
+
+    c_all3 = c_all3.set_index('concept')
+
+    g = c_all3.groupby('menu_level1').groups
+
+    ks = list(sorted(g.keys()))
+
+    if 'for_advanced_users' in ks:
+        ks.remove('for_advanced_users')
+        ks.append('for_advanced_users')
+
+    for key in ks:
+        if key == '0':
+            for i in sorted(g[key]):
+                indb['indicatorsTree']['children'].append({'id': i})
+            indb['indicatorsTree']['children'].append(pro)
+            for i in range(len(area)):
+                key = 'geo.'+to_concept_id(area[i]['n'])
+                indb['indicatorsTree']['children'][-1]['children'].append({'id': key})
+            indb['indicatorsTree']['children'][-1]['children'].append({'id': 'geo.world_4region'})
+            continue
+
+        od = OrderedDict([['id', key], ['children', []]])
+        indb['indicatorsTree']['children'].append(od)
+
+        g2 = c_all3.ix[g[key]].groupby('menu_level_2').groups
+        for key2 in sorted(g2.keys()):
+            if key2 == '1':
+                for i in sorted(g2[key2]):
+                    indb['indicatorsTree']['children'][-1]['children'].append({'id': i})
+            else:
+                od = OrderedDict([['id', key2], ['children', []]])
+                indb['indicatorsTree']['children'][-1]['children'].append(od)
+                for i in sorted(g2[key2]):
+                    indb['indicatorsTree']['children'][-1]['children'][-1]['children'].append({'id': i})
+
+    return indb

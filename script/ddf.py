@@ -90,7 +90,8 @@ def extract_entities_country(regs, geo, gps, geo_sg):
     country4 = country4.rename(columns={'index': 'name'})
     country4 = country4.drop('country_2', axis=1)
 
-    ex_col = ['country', 'gwid', 'name', *country4.columns.drop(['country', 'gwid', 'name'])]
+    cols = country4.columns.drop(['country', 'gwid', 'name'])
+    ex_col = np.r_[['country', 'gwid', 'name'], cols]
     return country4.loc[:, ex_col]
 
 # TODO: below functions not completed yet.

@@ -5,7 +5,7 @@ import json
 import os
 from ddf import (extract_entities_groups, extract_entities_country,
                  extract_datapoints, cleanup_concepts, extract_concepts)
-# from . vizabi import *
+from vizabi import update_enjson, generate_metadata
 
 # source files to be read. More can be found in README in this repo.
 # indicator name and their hash names.
@@ -38,6 +38,7 @@ def main(source_dir, out_dir):
     # read files
     idt = pd.read_json(os.path.join(source_dir, idt_f))
     gps = pd.read_json(os.path.join(source_dir, gps_f))
+    area = json.load(open(os.path.join(source_dir, gps_f)))
     geo = pd.read_excel(os.path.join(source_dir, geo_f))
     regs = json.load(open(os.path.join(source_dir, reg_f)))
     concepts = pd.read_csv(os.path.join(source_dir, concept_f), encoding='utf8')
@@ -61,18 +62,33 @@ def main(source_dir, out_dir):
     c.to_csv(path, index=False, encoding='utf-8')
 
     # 3. datapoints
-    # print('creating datapoints...')
-    # concepts_ = cleanup_concepts(concepts)
-    # # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
-    # for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo):
-    #     path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
-    #     dp.to_csv(path, index=False, encoding='utf-8')
+    print('creating datapoints...')
+    concepts_ = cleanup_concepts(concepts)
+    # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
+    for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo):
+        path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
+        dp.to_csv(path, index=False, encoding='utf-8')
 
     # 4. concepts
     print('creating concepts...')
     cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
     path = os.path.join(out_dir, 'ddf', 'ddf--concepts.csv')
     cs.to_csv(path, index=False, encoding='utf-8')
+
+    # 5. update en.json
+    print('updating en.json...')
+    concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
+    new_enj = update_enjson(enj, cs, concepts_)
+    with open(os.path.join(out_dir, 'vizabi', 'en.json'), 'w') as f:
+        json.dump(new_enj, f, indent=1, sort_keys=True)
+        f.close()
+
+    # 6. update metadata.json
+    print('updating metadata.json')
+    md = generate_metadata(cs, concepts_, mdata, area, out_dir)
+    with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
+        json.dump(md, f, indent=1)
+        f.close()
 
 if __name__ == '__main__':
     main('../source/', '../output/')
