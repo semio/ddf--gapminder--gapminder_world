@@ -51,7 +51,7 @@ def main(source_dir, out_dir):
     c = extract_entities_country(regs, geo, gps, geo_sg)
 
     print(c.head())
-    print(g.keys())
+    print(g[list(g.keys())[1]])
 
 
 if __name__ == '__main__':

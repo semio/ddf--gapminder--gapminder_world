@@ -34,14 +34,14 @@ def extract_entities_groups(regs, gps):
         regd[i.get(list(i.keys())[0])] = list(i.keys())[0]
 
     for i, n in gps.n.apply(to_concept_id).iteritems():
-        df = pd.DataFrame([], columns=[n, 'name', n+'_id', 'is--'+n])
-        df[n+'_id'] = gps.iloc[i]['groupings'].keys()
+        df = pd.DataFrame([], columns=[n, 'name', 'gwid', 'is--'+n])
+        df['gwid'] = gps.iloc[i]['groupings'].keys()
         if i == 4:
-            df[n] = df[n+'_id'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+', sep=''))
+            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+', sep=''))
         else:
-            df[n] = df[n+'_id'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+'))
+            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+'))
 
-        df['name'] = df[n+'_id'].apply(lambda x: regd[x])
+            df['name'] = df['gwid'].apply(lambda x: regd[x])
         df['is--'+n] = 'TRUE'
         res[n] = df
 
