@@ -573,6 +573,7 @@
  "hints/mount/onlyshowthefollowing": "Hide all shapes except:",
  "hints/mount/probe": "X-line: extreme poverty at 1.85",
  "hints/mount/xlimits": "X-axis limits:",
+ "hints/source": "More info and source",
  "indicator/20120905_extreme_poverty_percent_people_below_125_a_day": "Extreme poverty (2012-09-05)",
  "indicator/_indicators": "Indicators",
  "indicator/_properties": "Properties",
