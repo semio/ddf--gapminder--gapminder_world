@@ -3,7 +3,8 @@
 import pandas as pd
 import json
 import os
-from ddf import (extract_entities_groups, extract_entities_country)
+from ddf import (extract_entities_groups, extract_entities_country,
+                 extract_datapoints, cleanup_concepts, extract_concepts)
 # from . vizabi import *
 
 # source files to be read. More can be found in README in this repo.
@@ -26,6 +27,8 @@ dpp_f = 'dont-panic-poverty.csv'
 sgdc_f = 'ddf--concepts--discrete.csv'
 # country properities from systema_globalis
 geo_sg_f = 'ddf--entities--geo--country.csv'
+# old metadata.json
+mdata_f = 'metadata.json'
 
 # datapoint folder
 dps_f = 'indicators'
@@ -41,18 +44,35 @@ def main(source_dir, out_dir):
     enj = json.load(open(os.path.join(source_dir, enj_f)))
     dpp = pd.read_csv(os.path.join(source_dir, dpp_f))
     sgdc = pd.read_csv(os.path.join(source_dir, sgdc_f))
-    geo_sg = pd.read_csv(os.path.join(source_dir, geo_sg_f))
+    geo_sg = pd.read_csv(os.path.join(source_dir, geo_sg_f), encoding='latin')
+    mdata = json.load(open(os.path.join(source_dir, mdata_f)))
 
     # build ddf
     # 1. entities for country groupings
+    print('creating entities...')
     g = extract_entities_groups(regs, gps)
+    for k, v in g.items():
+        path = os.path.join(out_dir, 'ddf/', 'ddf--entities--geo--'+k+'.csv')
+        v.to_csv(path, index=False, encoding='utf-8')
 
     # 2. entities for countries
     c = extract_entities_country(regs, geo, gps, geo_sg)
+    path = os.path.join(out_dir, 'ddf', 'ddf--entities--geo--country.csv')
+    c.to_csv(path, index=False, encoding='utf-8')
 
-    print(c.head())
-    print(g[list(g.keys())[1]])
+    # 3. datapoints
+    # print('creating datapoints...')
+    # concepts_ = cleanup_concepts(concepts)
+    # # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
+    # for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo):
+    #     path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
+    #     dp.to_csv(path, index=False, encoding='utf-8')
 
+    # 4. concepts
+    print('creating concepts...')
+    cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
+    path = os.path.join(out_dir, 'ddf', 'ddf--concepts.csv')
+    cs.to_csv(path, index=False, encoding='utf-8')
 
 if __name__ == '__main__':
     main('../source/', '../output/')
