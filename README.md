@@ -24,6 +24,17 @@
 
 ## How to run the script
 
+For now you have to manually download all source files into one directory, and also symlink/download the indicators datapoints dir into the source dir.
+
+When data are ready, go to script directory and run main.py:
+
+```
+cd source
+python main.py
+```
+
+only python 3 is tested for now, will do more testing soon.
+
 ## Implementation Notes
 
 * concept properties of indicators (all measure types):
