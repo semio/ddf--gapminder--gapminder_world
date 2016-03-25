@@ -172,6 +172,7 @@ def extract_concepts(concepts, geo, gps, sgdc, mdata):
     dc.loc[6, 'concept_type'] = 'entity_domain'
     dc.loc[7, 'concept_type'] = 'entity_set'
     dc.loc[8, 'concept_type'] = 'time'
+    dc.loc[8, 'domain'] = 'year'
     dc.loc[36, 'concept_type'] = 'entity_set'
     dc.loc[[37,38], 'concept_type'] = 'measure'
     dc.loc[[37,38], 'unit'] = 'degrees'
@@ -179,7 +180,7 @@ def extract_concepts(concepts, geo, gps, sgdc, mdata):
     dc.loc[38, 'scale'] = 'long'
 
     dc.loc[39, 'concept_type'] = 'time'
-    dc.loc[39, 'domain'] = 'time'
+    dc.loc[39, 'domain'] = 'year'
     dc.loc[40, 'domain'] = 'geo'
     dc.loc[40, 'concept_type'] = 'entity_set'
 
