@@ -91,7 +91,7 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
         fname = os.path.join(outdir, 'ddf', 'ddf--datapoints--'+i+'--by--geo--time.csv')
         try:
             df = pd.read_csv(fname, dtype={i:float, 'time': int})
-        except OSError:
+        except (OSError, IOError):
             print('no data for', i)
             continue
 

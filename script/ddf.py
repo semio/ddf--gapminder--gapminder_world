@@ -26,8 +26,10 @@ def rename_col(s, idt, concepts):
 
 def rename_geo(s, gwidmap, isomap):
     """map gwid to iso code"""
-    iso = gwidmap.get_value(s, 'ISO3dig_ext')
-    return isomap.get_value(iso)
+    # iso = gwidmap.get_value(s, 'ISO3dig_ext')
+    # return isomap.get_value(iso)
+    iso = gwidmap.ix[s]['ISO3dig_ext']
+    return isomap.ix[iso].values
 
 # Entities of country gourps
 def extract_entities_groups(regs, gps):
@@ -198,10 +200,13 @@ def extract_datapoints(data_source, idt, concepts, geo, geomap):
     geo_ = geo[['ISO3dig_ext', 'Gwid']]
     geo_ = geo_.set_index('Gwid')
     fs = os.listdir(data_source)
-    for f in fs[1:]:
+    for f in fs:
+        if '.json' not in f:
+            continue
+
         p = os.path.join(data_source, f)
 
-        col = f[:-5]  # get indicator name
+        col = f[:-5]  # get indicator file name
         try:
             col_r = rename_col(col, idt, concepts)  # get indicator's id
         except:
@@ -210,7 +215,8 @@ def extract_datapoints(data_source, idt, concepts, geo, geomap):
         d = pd.read_json(p)
 
         if 'geo' in d.columns:
-            d['geo'] = d['geo'].apply(lambda x: rename_geo(x, geo_, geomap))
+            # d['geo'] = d['geo'].apply(lambda x: rename_geo(x, geo_, geomap))
+            d['geo'] = rename_geo(d['geo'], geo_, geomap)
             d = d.rename(columns={col: col_r})
             # d.to_csv(os.path.join(out_dir, 'ddf--datapoints--'+col_r+'--by--geo--time.csv'), index=False, encoding='utf8')
             # res[col_r] = d

@@ -34,7 +34,7 @@ mdata_f = 'metadata.json'
 dps_f = 'indicators'
 
 
-def main(source_dir, out_dir):
+def main(source_dir, out_dir, make='all'):
     # read files
     idt = pd.read_json(os.path.join(source_dir, idt_f))
     gps = pd.read_json(os.path.join(source_dir, gps_f))
@@ -48,47 +48,74 @@ def main(source_dir, out_dir):
     geo_sg = pd.read_csv(os.path.join(source_dir, geo_sg_f), encoding='latin')
     mdata = json.load(open(os.path.join(source_dir, mdata_f)))
 
-    # build ddf
-    # 1. entities for country groupings
-    print('creating entities...')
-    g = extract_entities_groups(regs, gps)
-    for k, v in g.items():
-        path = os.path.join(out_dir, 'ddf/', 'ddf--entities--geo--'+k+'.csv')
-        v.to_csv(path, index=False, encoding='utf-8')
+    if make == 'all':
+        make = ['entities', 'datapoints', 'concepts', 'metadata', 'enjson']
 
-    # 2. entities for countries
-    c = extract_entities_country(regs, geo, gps, geo_sg)
-    path = os.path.join(out_dir, 'ddf', 'ddf--entities--geo--country.csv')
-    c.to_csv(path, index=False, encoding='utf-8')
+    # build ddf
+    if 'entities' in make:
+        make.remove('entities')
+        # 1. entities for country groupings
+        print('creating entities...')
+        g = extract_entities_groups(regs, gps)
+        for k, v in g.items():
+            path = os.path.join(out_dir, 'ddf/', 'ddf--entities--geo--'+k+'.csv')
+            v.to_csv(path, index=False, encoding='utf-8')
+
+        # 2. entities for countries
+        c = extract_entities_country(regs, geo, gps, geo_sg)
+        path = os.path.join(out_dir, 'ddf', 'ddf--entities--geo--country.csv')
+        c.to_csv(path, index=False, encoding='utf-8')
 
     # 3. datapoints
-    print('creating datapoints...')
-    concepts_ = cleanup_concepts(concepts)
-    # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
-    for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo):
-        path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
-        dp.to_csv(path, index=False, encoding='utf-8')
+    if 'datapoints' in make:
+        make.remove('datapoints')
+        print('creating datapoints...')
+        concepts_ = cleanup_concepts(concepts)
+        geomap = extract_entities_country(regs, geo, gps, geo_sg, geo_map=True)
+        # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
+        for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo, geomap):
+            path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
+            dp.to_csv(path, index=False, encoding='utf-8')
 
     # 4. concepts
-    print('creating concepts...')
-    cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
-    path = os.path.join(out_dir, 'ddf', 'ddf--concepts.csv')
-    cs.to_csv(path, index=False, encoding='utf-8')
+    if 'concepts' in make:
+        make.remove('concepts')
+        print('creating concepts...')
+        cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
+        path = os.path.join(out_dir, 'ddf', 'ddf--concepts.csv')
+        cs.to_csv(path, index=False, encoding='utf-8')
 
     # 5. update en.json
-    print('updating en.json...')
-    concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
-    new_enj = update_enjson(enj, cs, concepts_)
-    with open(os.path.join(out_dir, 'vizabi', 'en.json'), 'w') as f:
-        json.dump(new_enj, f, indent=1, sort_keys=True)
-        f.close()
+    if 'enjson' in make:
+        make.remove('enjson')
+        print('updating en.json...')
+        concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
+        new_enj = update_enjson(enj, cs, concepts_)
+        with open(os.path.join(out_dir, 'vizabi', 'en.json'), 'w') as f:
+            json.dump(new_enj, f, indent=1, sort_keys=True)
+            f.close()
 
     # 6. update metadata.json
-    print('updating metadata.json')
-    md = generate_metadata(cs, concepts_, mdata, area, out_dir)
-    with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
-        json.dump(md, f, indent=1)
-        f.close()
+    if 'metadata' in make:
+        make.remove('metadata')
+        print('updating metadata.json')
+        md = generate_metadata(cs, concepts_, mdata, area, out_dir)
+        with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
+            json.dump(md, f, indent=1)
+            f.close()
+    if len(make) > 0:
+        print('command not recognized: ' + str(make))
+        return -1
+
+    return 1
 
 if __name__ == '__main__':
-    main('../source/', '../output/')
+    import sys
+    make = sys.argv[1:]
+    if len(make) == 0:
+        make = 'all'
+    elif 'all' in make:
+        make = 'all'
+    r = main('../source/', '../output/', make)
+    if r > 0:
+        print('Done.')
