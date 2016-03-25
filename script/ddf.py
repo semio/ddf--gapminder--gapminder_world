@@ -24,9 +24,10 @@ def rename_col(s, idt, concepts):
     return cid
 
 
-def rename_geo(s, geo_):
+def rename_geo(s, gwidmap, isomap):
     """map gwid to iso code"""
-    return geo_.get_value(s, 'ISO3dig_ext')  # geo_ will be defined below.
+    iso = gwidmap.get_value(s, 'ISO3dig_ext')
+    return isomap.get_value(iso)
 
 # Entities of country gourps
 def extract_entities_groups(regs, gps):
@@ -52,7 +53,8 @@ def extract_entities_groups(regs, gps):
     return res
 
 # Entities of Country
-def extract_entities_country(regs, geo, gps, geo_sg):
+def extract_entities_country(regs, geo, gps, geo_sg, geo_map=False):
+    """if geo_map is True, return a geomap which maps the old country id to new id"""
     regd = {}
     for i in regs:
         regd[i.get(list(i.keys())[0])] = list(i.keys())[0]
@@ -91,11 +93,15 @@ def extract_entities_country(regs, geo, gps, geo_sg):
     country4 = pd.concat([country2.set_index('name'), country3], axis=1)
     country4 = country4.reset_index()
     country4 = country4.rename(columns={'index': 'name'})
-    country4 = country4.drop('country_2', axis=1)
 
-    cols = country4.columns.drop(['country', 'gwid', 'name'])
-    ex_col = np.r_[['country', 'gwid', 'name'], cols]
-    return country4.loc[:, ex_col]
+    if not geo_map:
+        country4 = country4.drop('country_2', axis=1)
+        cols = country4.columns.drop(['country', 'gwid', 'name'])
+        ex_col = np.r_[['country', 'gwid', 'name'], cols]
+        return country4.loc[:, ex_col]
+    else:
+        country4 = country4.set_index('country_2')
+        return country4['country']
 
 # TODO: below functions not completed yet.
 # concepts
@@ -152,9 +158,9 @@ def extract_concepts(concepts, geo, gps, sgdc, mdata):
     w4r_name = sgdc[sgdc['concept'] == 'world_4region']['name'].iloc[0]
 
     dcl_ = np.r_[dcl, ['geo', 'country','time', 'name', 'gwid', 'name_short', 'name_long', 'description'],
-                 ccs_id, ['indicator_url', 'scales', 'unit', 'interpolation', 'world_4region', 'latitude', 'longitude'] ]
+                 ccs_id, ['indicator_url', 'scales', 'unit', 'interpolation', 'world_4region', 'latitude', 'longitude', 'year', 'global']]
     dcl_2 = np.r_[gps.n.values, ['Geo', 'Country','Time', 'Name', 'Gwid', 'Name Short', 'Name Long', 'Description'],
-                  ccs, ['Indicator Url', 'Scales', 'Unit', 'Interpolation', w4r_name, 'Latitude', 'Longitude']]
+                  ccs, ['Indicator Url', 'Scales', 'Unit', 'Interpolation', w4r_name, 'Latitude', 'Longitude', 'Year', 'World']]
 
     dc['concept'] = dcl_
     dc['name'] = dcl_2
@@ -170,6 +176,11 @@ def extract_concepts(concepts, geo, gps, sgdc, mdata):
     dc.loc[37, 'scale'] = 'lat'
     dc.loc[38, 'scale'] = 'long'
 
+    dc.loc[39, 'concept_type'] = 'time'
+    dc.loc[39, 'domain'] = 'time'
+    dc.loc[40, 'domain'] = 'geo'
+    dc.loc[40, 'concept_type'] = 'entity_set'
+
     dc.loc[:5, 'domain'] = 'geo'
     dc.loc[7, 'drill_up'] = dcl
     dc.loc[7, 'domain'] = 'geo'
@@ -182,7 +193,7 @@ def extract_concepts(concepts, geo, gps, sgdc, mdata):
 
 
 # Datapoints
-def extract_datapoints(data_source, idt, concepts, geo):
+def extract_datapoints(data_source, idt, concepts, geo, geomap):
     # res = {}
     geo_ = geo[['ISO3dig_ext', 'Gwid']]
     geo_ = geo_.set_index('Gwid')
@@ -199,7 +210,7 @@ def extract_datapoints(data_source, idt, concepts, geo):
         d = pd.read_json(p)
 
         if 'geo' in d.columns:
-            d['geo'] = d['geo'].apply(lambda x: rename_geo(x, geo_))
+            d['geo'] = d['geo'].apply(lambda x: rename_geo(x, geo_, geomap))
             d = d.rename(columns={col: col_r})
             # d.to_csv(os.path.join(out_dir, 'ddf--datapoints--'+col_r+'--by--geo--time.csv'), index=False, encoding='utf8')
             # res[col_r] = d
