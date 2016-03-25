@@ -16,7 +16,11 @@ from common import to_concept_id
 def rename_col(s, idt, concepts):
     '''map concept name to concept id'''
     real = idt[idt['-t-ind'] == s]['-t-name'].iloc[0]
-    cid = concepts[concepts['full_name'] == real]['concept'].iloc[0]
+    try:
+        cid = concepts[concepts['full_name'] == real]['concept'].iloc[0]
+    except:
+        print('concept not found: ', real)
+        raise
     return cid
 
 
@@ -25,7 +29,6 @@ def rename_geo(s, geo_):
     return geo_.get_value(s, 'ISO3dig_ext')  # geo_ will be defined below.
 
 # Entities of country gourps
-
 def extract_entities_groups(regs, gps):
     regd = {}  # a dictionary, which keys are region id and values are region names
     res = {}
@@ -188,7 +191,10 @@ def extract_datapoints(data_source, idt, concepts, geo):
         p = os.path.join(data_source, f)
 
         col = f[:-5]  # get indicator name
-        col_r = rename_col(col, idt, concepts)  # get indicator's id
+        try:
+            col_r = rename_col(col, idt, concepts)  # get indicator's id
+        except:
+            continue
 
         d = pd.read_json(p)
 
