@@ -570,6 +570,6 @@ number_of_people_in_poverty,Number of people in poverty,measure,Number of the po
 income_per_person_long_series,Income per person (long series),measure,"Income per person, version 15, including historical data & projections",https://docs.google.com/spreadsheet/pub?key=1SKMoV61HUNwWfYNCZs2M9zgMWqVrs9YrbJxs5HQbJSQ,,,,,"['linear', 'log']"
 newborn_mortality_rate_per_1000,Newborn mortality rate per 1000,measure,Neonatal mortality rate. Children dying within the first 28 days per 1000 live births.,https://docs.google.com/spreadsheets/d/1S3Kcw96vp5-fZbaM7Lck_06IbJ8DagThGI5KHnzeSps/pub,,,,,"['linear', 'log']"
 newborn_deaths,Newborn deaths,measure,Neonatal deaths Children dying within the first 28 days.,https://docs.google.com/spreadsheets/d/1iTvolhgIMta3MmsoPkGnewJiaybev3MvR9e_7mxZ48o/pubhtml,,,,,"['linear', 'log']"
-sg_population,sg_population,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,"['linear', 'log']"
 sg_gdp_p_cap_const_ppp2011_dollar,sg_gdp_p_cap_const_ppp2011_dollar,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,"['log', 'linear']"
+sg_population,sg_population,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,"['linear', 'log']"
 sg_gini,sg_gini,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,['linear']
