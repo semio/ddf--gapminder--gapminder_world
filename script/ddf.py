@@ -208,6 +208,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     dc.loc[7, 'drill_up'] = dcl
     dc.loc[7, 'domain'] = 'geo'
     dc.loc[8, 'concept_type'] = 'time'  # time
+    dc.loc[8, 'domain'] = 'year'
     dc.loc[36, 'concept_type'] = 'entity_set'  # world_4region
     dc.loc[36, 'domain'] = 'geo'
     dc.loc[[37,38], 'concept_type'] = 'measure'  # latitude and longitude
