@@ -29,7 +29,7 @@ For now you have to manually download all source files into one directory, and a
 When data are ready, go to script directory and run main.py:
 
 ```
-cd source
+cd script
 python main.py
 ```
 

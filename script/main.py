@@ -90,6 +90,7 @@ def main(source_dir, out_dir, make='all'):
         make.remove('enjson')
         print('updating en.json...')
         concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
+        cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
         new_enj = update_enjson(enj, cs, concepts_)
         with open(os.path.join(out_dir, 'vizabi', 'en.json'), 'w') as f:
             json.dump(new_enj, f, indent=1, sort_keys=True)
@@ -99,10 +100,13 @@ def main(source_dir, out_dir, make='all'):
     if 'metadata' in make:
         make.remove('metadata')
         print('updating metadata.json')
+        concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
+        cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
         md = generate_metadata(cs, concepts_, mdata, area, out_dir)
         with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
             json.dump(md, f, indent=1)
             f.close()
+
     if len(make) > 0:
         print('command not recognized: ' + str(make))
         return -1
