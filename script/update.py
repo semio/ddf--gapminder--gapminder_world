@@ -7,7 +7,8 @@ from io import BytesIO
 
 
 # github token. change to your token please.
-token = 'token d6315f80892d004602d1f9fb234f3a399f05b5af'
+# token = 'token d6315f80892d004602d1f9fb234f3a399f05b5af'
+token = ''
 
 # files:
 files = {}
