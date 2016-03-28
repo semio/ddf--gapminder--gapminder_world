@@ -32,12 +32,12 @@
   python update.py
   ```
   
-- run main.py to generate files. you can choose which files you want to create: all, entities, countries, datapoints, enjson, metadata
+- run main.py to generate files. you can choose which files you want to create: all, entities, concepts, datapoints, enjson, metadata
 
   ```
   $ python main.py all  # all ddf files and en.json and metadata.json
   $ python main.py entities  # only entities will be created
-  $ python main.py countries, datapoints  # create countries and datapoints
+  $ python main.py concepts datapoints  # create countries and datapoints
   ```
 
 only python 3 is tested for now, will do more testing soon.
