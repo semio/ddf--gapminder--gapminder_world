@@ -128,7 +128,7 @@ def cleanup_concepts(concepts, drop_placeholder=False):
     cs = concepts.copy()
     cs.columns = list(map(to_concept_id, cs.columns))
     cs['concept_type'] = 'measure'
-    cs = cs.drop(['download', 'old_ddf_id'], axis=1)
+    cs = cs.drop(['download'], axis=1)
     # Change below to cs.loc?
     cs = cs.loc[:, ['ddf_id', 'name', 'tooltip', 'menu_level1', 'menu_level_2',
                     'indicator_url', 'scale', 'ddf_name', 'ddf_unit', 'interpolation',
@@ -156,11 +156,11 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
                                         'ddf_name':'Name', 'ddf_unit': 'Unit',
                                         'Tooltip': 'Description'}).copy()
     dsc = concepts.columns
-    dsc = dsc.drop(['Download', 'old_ddf_id', 'Menu level1', 'Menu level 2', 'Scale'])
+    dsc = dsc.drop(['Download', 'Menu level1', 'Menu level 2', 'Scale'])
 
     concepts.columns = list(map(to_concept_id, concepts.columns))
     concepts['concept_type'] = 'measure'
-    concepts = concepts.drop(['download', 'old_ddf_id'], axis=1)
+    concepts = concepts.drop(['download'], axis=1)
     concepts = concepts.iloc[:, [5, 0, 1 , 2, 3, 4, 6, 7, 8, 9, 10]]
     cc = concepts[['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']].copy()
     k = concepts[concepts.concept == u'———————————————————————'].index
