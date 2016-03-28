@@ -7,7 +7,7 @@ from io import BytesIO
 
 
 # github token. change to your token please.
-token = 'token ff5cb2a2eeff13be90b22aa9fcc2d6010090212d'
+token = 'token d6315f80892d004602d1f9fb234f3a399f05b5af'
 
 # files:
 files = {}
@@ -76,33 +76,55 @@ branch = 'develop'
 files['en'] = {'org': org, 'repo': repo,
                'branch': branch, 'path': path}
 
+# 9. The graph settings file
+graph = {'url': 'https://docs.google.com/spreadsheets/d/192pjt2vtwAQzi154LJ3Eb5RF8W9Fx3ZAiUZy-zXgyJo/export?format=csv&id=192pjt2vtwAQzi154LJ3Eb5RF8W9Fx3ZAiUZy-zXgyJo&gid=3',
+         'fname': 'graph_settings - Indicators.csv'}
 
-def getGoogleDoc():
-    pass
+
+def getGoogleDoc(url, outfile):
+    r = requests.get(url)
+
+    with open(outfile, 'wb') as f:
+        obj = BytesIO(r.content)
+        f.write(obj.read())
+        f.close()
+    return
 
 
 def getFileName(path):
-    return path.split('/')[-1]
+    if '/' in path:
+        return path.split('/')[-1]
+    else:
+        return path
+
+def getDirPath(path):
+    if '/' in path:
+        return '/'.join(path.split('/')[:-1])
+    else:
+        return ''
 
 
 def getGithubFile(org, repo, branch, path, token, outfile):
-    u1 = "https://api.github.com/repos/{org}/{repo}/contents".format(**{'org': org, 'repo': repo})
+    dir = getDirPath(path)
+    fn = getFileName(path)
+    if dir:
+        u1 = "https://api.github.com/repos/{org}/{repo}/contents/{dir}".format(**{'org': org, 'repo': repo, 'dir': dir})
+    else:
+        u1 = "https://api.github.com/repos/{org}/{repo}/contents".format(**{'org': org, 'repo': repo})
     r = requests.get(u1, headers={'Authorization': token}, params={'ref': branch})
 
     for i in r.json():
-        if i['name'] == path:
-            print(i['sha'])
+        if i['name'] == fn:
+            # print(i['sha'])
             sha = i['sha']
-
     try:
         blob_url = 'https://api.github.com/repos/{org}/{repo}/git/blobs/{sha}'.format(org=org, repo=repo, sha=sha)
     except UnboundLocalError:
-        print(r)
-        print(org, repo, branch, path)
+        for i in r.json():
+            print(i['name'])
         raise
 
     r2 = requests.get(blob_url, headers={'Authorization': token, 'Accept': 'application/vnd.github.v3.raw'})
-
     cont = BytesIO(r2.content)
 
     with open(outfile, 'wb') as f:
@@ -113,11 +135,13 @@ def getGithubFile(org, repo, branch, path, token, outfile):
 
 
 if __name__ == '__main__':
+    outpath = '../source/'
     for v in files.values():
         fn = getFileName(v['path'])
-        outfile = os.path.join('../output/tmp', fn)
+        outfile = os.path.join(outpath, fn)
         print(fn)
-        try:
-            getGithubFile(v['org'], v['repo'], v['branch'], v['path'], token, outfile)
-        except:
-            continue
+        getGithubFile(v['org'], v['repo'], v['branch'], v['path'], token, outfile)
+
+    outfile2 = os.path.join(outpath, graph['fname'])
+    print(graph['fname'])
+    getGoogleDoc(graph['url'], outfile2)
