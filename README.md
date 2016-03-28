@@ -26,11 +26,14 @@
 
 - change the symlink of indicators dir to your local copy of indicators dir
 - go to script dir and run update.py to update other source files
+
   ```
   cd script
   python main.py
   ```
+  
 - run main.py to generate files. you can choose which files you want to create: all, entities, countries, datapoints, enjson, metadata
+
   ```
   $ python main.py all  # all ddf files and en.json and metadata.json
   $ python main.py entities  # only entities will be created
