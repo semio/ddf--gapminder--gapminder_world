@@ -29,7 +29,7 @@
 
   ```
   cd script
-  python main.py
+  python update.py
   ```
   
 - run main.py to generate files. you can choose which files you want to create: all, entities, countries, datapoints, enjson, metadata
