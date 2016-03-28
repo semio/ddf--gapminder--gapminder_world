@@ -5,7 +5,6 @@ import sys
 import os
 from io import BytesIO
 
-
 # github token. change to your token please.
 # token = 'token d6315f80892d004602d1f9fb234f3a399f05b5af'
 token = ''
@@ -146,3 +145,4 @@ if __name__ == '__main__':
     outfile2 = os.path.join(outpath, graph['fname'])
     print(graph['fname'])
     getGoogleDoc(graph['url'], outfile2)
+    print('Done.')
