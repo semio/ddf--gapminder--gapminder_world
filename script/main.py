@@ -46,6 +46,8 @@ def main(source_dir, out_dir, make='all'):
     dpp = pd.read_csv(os.path.join(source_dir, dpp_f))
     sgdc = pd.read_csv(os.path.join(source_dir, sgdc_f))
     geo_sg = pd.read_csv(os.path.join(source_dir, geo_sg_f), encoding='latin')
+    # quick fix: there is a line break in the name of United Korea
+    geo_sg['name'] = geo_sg['name'].apply(lambda x: x.strip('\n'))
     mdata = json.load(open(os.path.join(source_dir, mdata_f)))
 
     if make == 'all':
