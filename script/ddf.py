@@ -216,7 +216,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     dc.loc[37, 'scale'] = 'lat'
     dc.loc[38, 'scale'] = 'long'
     dc.loc[39, 'concept_type'] = 'time'  # year
-    dc.loc[39, 'domain'] = 'time'
+    dc.loc[39, 'domain'] = 'year'
     dc.loc[40, 'domain'] = 'geo'  # global
     dc.loc[40, 'concept_type'] = 'entity_set'
 
