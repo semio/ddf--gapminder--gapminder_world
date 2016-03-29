@@ -191,35 +191,44 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     w4r_name = sgdc[sgdc['concept'] == 'world_4region']['name'].iloc[0]
 
     # make a list of all concepts.
-    dcl_ = np.r_[dcl, ['geo', 'country','time', 'name', 'gwid', 'name_short', 'name_long', 'description'],
-                 ccs_id, ['indicator_url', 'scales', 'unit', 'interpolation', 'world_4region', 'latitude', 'longitude', 'year', 'global']]
-    dcl_2 = np.r_[gps.n.values, ['Geo', 'Country','Time', 'Name', 'Gwid', 'Name Short', 'Name Long', 'Description'],
-                  ccs, ['Indicator Url', 'Scales', 'Unit', 'Interpolation', w4r_name, 'Latitude', 'Longitude', 'Year', 'World']]
+
+    manually = ['geo', 'country', 'name', 'gwid', 'name_short', 'name_long', 'description',
+                'indicator_url', 'scales', 'unit', 'interpolation', 'world_4region', 'latitude',
+                'longitude', 'global']
+    manually_name = ['Geo', 'Country', 'Name', 'Gwid', 'Name Short', 'Name Long', 'Description',
+                     'Indicator Url', 'Scales', 'Unit', 'Interpolation', w4r_name, 'Latitude',
+                     'Longitude', 'World']
+
+    dcl_ = np.r_[dcl, manually, ccs_id]
+    dcl_2 = np.r_[gps.n.values, manually_name, ccs]
 
     dc['concept'] = dcl_
     dc['name'] = dcl_2
 
-    # TODO: maybe change hard code index to name comparing?
+    dc = dc.set_index('concept')
     dc['concept_type'] = 'string'
-    dc.loc[:5, 'concept_type'] = 'entity_set'  # all groups
-    dc.loc[:5, 'domain'] = 'geo'
-    dc.loc[6, 'concept_type'] = 'entity_domain'  # geo
-    dc.loc[7, 'concept_type'] = 'entity_set'  # country
-    dc.loc[7, 'drill_up'] = dcl
-    dc.loc[7, 'domain'] = 'geo'
-    dc.loc[8, 'concept_type'] = 'time'  # time
-    dc.loc[8, 'domain'] = 'year'
-    dc.loc[36, 'concept_type'] = 'entity_set'  # world_4region
-    dc.loc[36, 'domain'] = 'geo'
-    dc.loc[[37,38], 'concept_type'] = 'measure'  # latitude and longitude
-    dc.loc[[37,38], 'unit'] = 'degrees'
-    dc.loc[37, 'scale'] = 'lat'
-    dc.loc[38, 'scale'] = 'long'
-    dc.loc[39, 'concept_type'] = 'time'  # year
-    dc.loc[39, 'domain'] = 'year'
-    dc.loc[40, 'domain'] = 'geo'  # global
-    dc.loc[40, 'concept_type'] = 'entity_set'
 
+    dc.loc[dcl, 'concept_type'] = 'entity_set'  # all groups
+    dc.loc[dcl, 'domain'] = 'geo'
+
+    dc.loc['geo', 'concept_type'] = 'entity_domain'  # geo
+
+    dc.loc['country', 'concept_type'] = 'entity_set'  # country
+    dc.loc['country', 'drill_up'] = dcl
+    dc.loc['country', 'domain'] = 'geo'
+
+    dc.loc['world_4region', 'concept_type'] = 'entity_set'  # world_4region
+    dc.loc['world_4region', 'domain'] = 'geo'
+
+    dc.loc[['latitude', 'longitude'], 'concept_type'] = 'measure'  # latitude and longitude
+    dc.loc[['latitude', 'longitude'], 'unit'] = 'degrees'
+    dc.loc['latitude', 'scale'] = 'lat'
+    dc.loc['longitude', 'scale'] = 'long'
+
+    dc.loc['global', 'domain'] = 'geo'  # global
+    dc.loc['global', 'concept_type'] = 'entity_set'
+
+    dc = dc.reset_index()
 
     c_all = pd.concat([dc, cc, cc2])
     c_all = c_all.drop('scale', axis=1)
