@@ -155,14 +155,18 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     concepts = cs.rename(columns={'ddf_id': 'Concept', 'Name': 'Full Name',
                                         'ddf_name':'Name', 'ddf_unit': 'Unit',
                                         'Tooltip': 'Description'}).copy()
-    dsc = concepts.columns
-    dsc = dsc.drop(['Download', 'Menu level1', 'Menu level 2', 'Scale'])
+    # dsc_name will be use later in creation of discrete concepts dataframe.
+    dsc_name = concepts.columns
+    dsc_name = dsc_name.drop(['Download', 'Menu level1', 'Menu level 2', 'Scale', 'Concept', 'Full Name'])
+    dsc_col = list(map(to_concept_id, dsc_name))
+
+    cols = ['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']
 
     concepts.columns = list(map(to_concept_id, concepts.columns))
     concepts['concept_type'] = 'measure'
-    concepts = concepts.drop(['download'], axis=1)
-    concepts = concepts.iloc[:, [5, 0, 1 , 2, 3, 4, 6, 7, 8, 9, 10]]
-    cc = concepts[['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']].copy()
+
+    concepts = concepts.loc[:, cols]  # only keep columns needed
+    cc = concepts.copy()
     k = concepts[concepts.concept == u'———————————————————————'].index
     cc = cc.drop(k)
     cc['drill_up'] = np.nan
@@ -192,15 +196,13 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
     # make a list of all concepts.
 
-    manually = ['geo', 'country', 'name', 'gwid', 'name_short', 'name_long', 'description',
-                'indicator_url', 'scales', 'unit', 'interpolation', 'world_4region', 'latitude',
-                'longitude', 'global']
-    manually_name = ['Geo', 'Country', 'Name', 'Gwid', 'Name Short', 'Name Long', 'Description',
-                     'Indicator Url', 'Scales', 'Unit', 'Interpolation', w4r_name, 'Latitude',
-                     'Longitude', 'World']
+    manually = ['geo', 'country', 'name', 'gwid', 'name_short', 'name_long',
+                'world_4region', 'latitude', 'longitude', 'global']
+    manually_name = ['Geo', 'Country', 'Name', 'Gwid', 'Name Short', 'Name Long',
+                     w4r_name, 'Latitude', 'Longitude', 'World']
 
-    dcl_ = np.r_[dcl, manually, ccs_id]
-    dcl_2 = np.r_[gps.n.values, manually_name, ccs]
+    dcl_ = np.r_[dcl, dsc_col, manually, ccs_id]
+    dcl_2 = np.r_[gps.n.values, dsc_name, manually_name, ccs]
 
     dc['concept'] = dcl_
     dc['name'] = dcl_2
