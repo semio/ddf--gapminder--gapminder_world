@@ -75,7 +75,7 @@ def main(source_dir, out_dir, make='all'):
         concepts_ = cleanup_concepts(concepts)
         geomap = extract_entities_country(regs, geo, gps, geo_sg, geo_map=True)
         # dp = extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo)
-        for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), idt, concepts_, geo, geomap):
+	for k, dp in extract_datapoints(os.path.join(source_dir, dps_f), dpp, idt, concepts_, geo, geomap):
             path = os.path.join(out_dir, 'ddf', 'ddf--datapoints--'+k+'--by--geo--time.csv')
             dp.to_csv(path, index=False, encoding='utf-8')
 

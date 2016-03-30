@@ -239,14 +239,17 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
 
 # Datapoints
-def extract_datapoints(data_source, idt, concepts, geo, geomap):
+def extract_datapoints(data_source, dpp, idt, concepts, geo, geomap):
     """yields each datapoint dataframe from files in indicators dir
 
     data_source: indicators data dir
     idt: DataFrame containing concept name and hashed file name.
+    dpp: dont-panic-poverty data set.
     """
     geo_ = geo[['ISO3dig_ext', 'Gwid']]
     geo_ = geo_.set_index('Gwid')
+
+    # process all json file in data_source dir.
     fs = os.listdir(data_source)
     for f in fs:
         if '.json' not in f:
@@ -268,3 +271,13 @@ def extract_datapoints(data_source, idt, concepts, geo, geomap):
             yield (col_r, d)
         else:  # it's empty.
             continue
+
+    # process the dont-panic-poverty data file.
+    rm = {'gini': 'sg_gini',
+	  'population': 'sg_population',
+	  'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
+	  }
+    dpp = dpp.rename(columns=rm)
+    for k in rm.values():
+	df = dpp[['geo', 'time', k]].dropna().sort_values(by=['geo', 'time'])
+	yield (k, df)
