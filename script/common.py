@@ -3,7 +3,9 @@
 import numpy as np
 import re
 
+
 # TODO: make the sub parameter just a list of string, not expr
+# using re.escape()
 def to_concept_id(s, sub='[/ -\.\*";]+', sep='_'):
     '''convert a string to lowercase alphanumeric + underscore id for concepts'''
     if s is np.nan:
@@ -22,4 +24,5 @@ def to_concept_id(s, sub='[/ -\.\*";]+', sep='_'):
 
 
 def to_dict_dropna(data):
+    """return a dictionary that do not contain any NaN values from a dataframe."""
     return dict((k, v.dropna().to_dict()) for k, v in data.iterrows())

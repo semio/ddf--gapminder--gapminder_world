@@ -41,6 +41,8 @@ def extract_entities_groups(regs, gps):
 
     regs: regions.json, contains country/region name and gwid.
     gps: area_categorizarion.json, contains groups name and group levels
+
+    returns a dictionary which keys are group name and values are dataframes.
     """
     res = {}
 
@@ -129,7 +131,7 @@ def cleanup_concepts(concepts, drop_placeholder=False):
     cs.columns = list(map(to_concept_id, cs.columns))
     cs['concept_type'] = 'measure'
     cs = cs.drop(['download'], axis=1)
-    # Change below to cs.loc?
+    # get only columns needed
     cs = cs.loc[:, ['ddf_id', 'name', 'tooltip', 'menu_level1', 'menu_level_2',
                     'indicator_url', 'scale', 'ddf_name', 'ddf_unit', 'interpolation',
                     'concept_type']]
@@ -152,20 +154,23 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     sgdc: discrete concept file from systema_globals
     mdata: metadata.json
     """
+    # columns needed
+    cols = ['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']
+
+    # build continuous concepts dataframe
     concepts = cs.rename(columns={'ddf_id': 'Concept', 'Name': 'Full Name',
-                                        'ddf_name':'Name', 'ddf_unit': 'Unit',
-                                        'Tooltip': 'Description'}).copy()
+                                  'ddf_name': 'Name', 'ddf_unit': 'Unit',
+                                  'Tooltip': 'Description'}).copy()
+
     # dsc_name will be use later in creation of discrete concepts dataframe.
     dsc_name = concepts.columns
     dsc_name = dsc_name.drop(['Download', 'Menu level1', 'Menu level 2', 'Scale', 'Concept', 'Full Name'])
     dsc_col = list(map(to_concept_id, dsc_name))
 
-    cols = ['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']
-
     concepts.columns = list(map(to_concept_id, concepts.columns))
     concepts['concept_type'] = 'measure'
-
     concepts = concepts.loc[:, cols]  # only keep columns needed
+
     cc = concepts.copy()
     k = concepts[concepts.concept == u'———————————————————————'].index
     cc = cc.drop(k)
@@ -173,6 +178,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     cc['domain'] = np.nan
     cc['scales'] = cc['scale'].apply(lambda x: ['log', 'linear'] if x == 'log' else ['linear', 'log'])
 
+    # here are concepts from dont-panic-poverty data set.
     rm = {'gini': 'sg_gini',
           'population': 'sg_population',
           'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
@@ -185,6 +191,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     cc2['indicator_url'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x[3:]]['sourceLink'])
     cc2['scales'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x[3:]]['scales'])
 
+    # now build discrete concepts dataframe
     dc = pd.DataFrame([], columns=cc.columns)
     dcl = list(map(to_concept_id, gps.n.values))
 
@@ -194,8 +201,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
     w4r_name = sgdc[sgdc['concept'] == 'world_4region']['name'].iloc[0]
 
-    # make a list of all concepts.
-
+    # manually add more discrete concepts.
     manually = ['geo', 'country', 'name', 'gwid', 'name_short', 'name_long',
                 'world_4region', 'latitude', 'longitude', 'global']
     manually_name = ['Geo', 'Country', 'Name', 'Gwid', 'Name Short', 'Name Long',
@@ -232,6 +238,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
     dc = dc.reset_index()
 
+    # combine them all.
     c_all = pd.concat([dc, cc, cc2])
     c_all = c_all.drop('scale', axis=1)
 
@@ -274,10 +281,10 @@ def extract_datapoints(data_source, dpp, idt, concepts, geo, geomap):
 
     # process the dont-panic-poverty data file.
     rm = {'gini': 'sg_gini',
-	  'population': 'sg_population',
-	  'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
-	  }
+          'population': 'sg_population',
+          'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
+          }
     dpp = dpp.rename(columns=rm)
     for k in rm.values():
-	df = dpp[['geo', 'time', k]].dropna().sort_values(by=['geo', 'time'])
-	yield (k, df)
+        df = dpp[['geo', 'time', k]].dropna().sort_values(by=['geo', 'time'])
+        yield (k, df)
