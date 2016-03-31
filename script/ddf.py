@@ -202,10 +202,10 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     w4r_name = sgdc[sgdc['concept'] == 'world_4region']['name'].iloc[0]
 
     # manually add more discrete concepts.
-    manually = ['geo', 'country', 'name', 'gwid', 'name_short', 'name_long',
-                'world_4region', 'latitude', 'longitude', 'global']
-    manually_name = ['Geo', 'Country', 'Name', 'Gwid', 'Name Short', 'Name Long',
-                     w4r_name, 'Latitude', 'Longitude', 'World']
+    manually = ['geo', 'country', 'name_short', 'name_long',
+                'world_4region', 'latitude', 'longitude', 'global', 'color']
+    manually_name = ['Geo', 'Country', 'Name Short', 'Name Long',
+                     w4r_name, 'Latitude', 'Longitude', 'World', 'Color']
 
     dcl_ = np.r_[dcl, dsc_col, manually, ccs_id]
     dcl_2 = np.r_[gps.n.values, dsc_name, manually_name, ccs]

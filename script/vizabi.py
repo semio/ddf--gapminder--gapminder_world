@@ -94,7 +94,7 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     panic = dict([[rm[i], meta2['indicatorsDB'][i]] for i in rm.keys()])
     indb['indicatorsDB'].update(panic)
 
-    geomd = {'geo.world_4region': meta2['indicatorsDB']['geo.region']}
+    geomd = {'geo.world_4region': meta2['indicatorsDB']['geo.world_4region']}
     indb['indicatorsDB'].update(geomd)
 
     if not oneset:
