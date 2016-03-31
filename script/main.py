@@ -3,6 +3,7 @@
 import pandas as pd
 import json
 import os
+from shutil import copy
 from ddf import (extract_entities_groups, extract_entities_country,
                  extract_datapoints, cleanup_concepts, extract_concepts)
 from vizabi import update_enjson, generate_metadata
@@ -29,6 +30,10 @@ sgdc_f = 'ddf--concepts--discrete.csv'
 geo_sg_f = 'ddf--entities--geo--country.csv'
 # old metadata.json
 mdata_f = 'metadata.json'
+# geo--global
+global_f = 'ddf--entities--geo--global.csv'
+# world_4region
+w4r_f = 'ddf--entities--geo--world_4region.csv'
 
 # datapoint folder
 dps_f = 'indicators'
@@ -67,6 +72,10 @@ def main(source_dir, out_dir, make='all'):
         c = extract_entities_country(regs, geo, gps, geo_sg)
         path = os.path.join(out_dir, 'ddf', 'ddf--entities--geo--country.csv')
         c.to_csv(path, index=False, encoding='utf-8')
+
+        # just copy the global and world_4region entities
+        copy(os.path.join(source_dir, global_f), os.path.join(out_dir, 'ddf'))
+        copy(os.path.join(source_dir, w4r_f), os.path.join(out_dir, 'ddf'))
 
     # 3. datapoints
     if 'datapoints' in make:

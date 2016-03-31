@@ -11,7 +11,7 @@ token = ''
 # files:
 files = {}
 
-# 1. dont-panic-poverty.csv
+# dont-panic-poverty.csv
 org = 'Gapminder'
 repo = 'vizabi'
 path = '.data/waffles/dont-panic-poverty.csv'
@@ -19,7 +19,7 @@ branch = 'develop'
 files['dont_panic_poverty'] = {'org': org, 'repo': repo,
                                'branch': branch, 'path': path}
 
-# 2. country entities from systema_globalis
+# country entities from systema_globalis
 branch = 'newdefinition'
 org = 'open-numbers'
 repo = 'ddf--gapminder--systema_globalis'
@@ -27,7 +27,7 @@ path = 'ddf--entities--geo--country.csv'
 files['geo_country'] = {'org': org, 'repo': repo,
                         'branch': branch, 'path': path}
 
-# 3. country_synonyms.xlsx from waffle-server
+# country_synonyms.xlsx from waffle-server
 org = 'Gapminder'
 repo = 'waffle-server-importers-exporters'
 path = 'data/synonym/country_synonyms.xlsx'
@@ -35,7 +35,7 @@ branch = 'world-legacy-with-data'
 files['country_synonyms'] = {'org': org, 'repo': repo,
                              'branch': branch, 'path': path}
 
-# 4. area_categorizarion.json from waffle-server
+# area_categorizarion.json from waffle-server
 org = 'Gapminder'
 repo = 'waffle-server-importers-exporters'
 path = 'data/out/gw/meta/area_categorizarion.json'
@@ -43,7 +43,7 @@ branch = 'world-legacy-with-data'
 files['area_categorizarion'] = {'org': org, 'repo': repo,
                                 'branch': branch, 'path': path}
 
-# 5. world_4region entities from systema_globalis
+# world_4region entities from systema_globalis
 branch = 'newdefinition'
 org = 'open-numbers'
 repo = 'ddf--gapminder--systema_globalis'
@@ -51,7 +51,15 @@ path = 'ddf--entities--geo--world_4region.csv'
 files['world_4region'] = {'org': org, 'repo': repo,
                           'branch': branch, 'path': path}
 
-# 6. quantities.json from waffle-server
+# global entities from systema_globalis
+branch = 'newdefinition'
+org = 'open-numbers'
+repo = 'ddf--gapminder--systema_globalis'
+path = 'ddf--entities--geo--global.csv'
+files['global'] = {'org': org, 'repo': repo,
+		   'branch': branch, 'path': path}
+
+# quantities.json from waffle-server
 org = 'Gapminder'
 repo = 'waffle-server-importers-exporters'
 path = 'data/out/gw/meta/quantities.json'
@@ -59,7 +67,7 @@ branch = 'world-legacy-with-data'
 files['quantities'] = {'org': org, 'repo': repo,
                        'branch': branch, 'path': path}
 
-# 7. metadata.json from vizabi
+# metadata.json from vizabi
 org = 'Gapminder'
 repo = 'vizabi'
 path = '.data/waffles/metadata.json'
@@ -67,7 +75,7 @@ branch = 'develop'
 files['metadata'] = {'org': org, 'repo': repo,
                      'branch': branch, 'path': path}
 
-# 8. en.json from vizabi
+# en.json from vizabi
 org = 'Gapminder'
 repo = 'vizabi'
 path = '.data/translation/en.json'
@@ -75,7 +83,7 @@ branch = 'develop'
 files['en'] = {'org': org, 'repo': repo,
                'branch': branch, 'path': path}
 
-# 9. The graph settings file
+# The graph settings file
 graph = {'url': 'https://docs.google.com/spreadsheets/d/192pjt2vtwAQzi154LJ3Eb5RF8W9Fx3ZAiUZy-zXgyJo/export?format=csv&id=192pjt2vtwAQzi154LJ3Eb5RF8W9Fx3ZAiUZy-zXgyJo&gid=3',
          'fname': 'graph_settings - Indicators.csv'}
 
