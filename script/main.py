@@ -7,6 +7,7 @@ from shutil import copy
 from ddf import (extract_entities_groups, extract_entities_country,
                  extract_datapoints, cleanup_concepts, extract_concepts)
 from vizabi import update_enjson, generate_metadata
+from index import create_index_file
 
 # source files to be read. More can be found in README in this repo.
 # indicator name and their hash names.
@@ -117,6 +118,13 @@ def main(source_dir, out_dir, make='all'):
         with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
             json.dump(md, f, indent=1)
             f.close()
+
+    # 7. index file
+    if 'index' in make:
+        make.remove('index')
+        print('generating index file')
+        path = os.path.join(out_dir, 'ddf')
+        create_index_file(path, os.path.join(path, 'ddf--index.csv'))
 
     if len(make) > 0:
         print('command not recognized: ' + str(make))
