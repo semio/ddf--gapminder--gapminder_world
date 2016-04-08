@@ -96,12 +96,12 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
 
     # copy geo and time from old metadata.json
     geomd = {'geo': meta2['indicatorsDB']['geo'],
-	     'geo.name': meta2['indicatorsDB']['geo.name'],
-	     'geo.latitude': meta2['indicatorsDB']['geo.latitude'],
-	     'geo.longitude': meta2['indicatorsDB']['geo.longitude'],
-	     'geo.world_4region': meta2['indicatorsDB']['geo.world_4region'],
-	     'time': meta2['indicatorsDB']['time']
-	     }
+             'geo.name': meta2['indicatorsDB']['geo.name'],
+             'geo.latitude': meta2['indicatorsDB']['geo.latitude'],
+             'geo.longitude': meta2['indicatorsDB']['geo.longitude'],
+             'geo.world_4region': meta2['indicatorsDB']['geo.world_4region'],
+             'time': meta2['indicatorsDB']['time']
+             }
     indb['indicatorsDB'].update(geomd)
 
     if not oneset:
@@ -117,9 +117,9 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     for i in indb['indicatorsDB'].keys():
         fname = os.path.join(outdir, 'ddf', 'ddf--datapoints--'+i+'--by--geo--time.csv')
         try:
-            df = pd.read_csv(fname, dtype={i:float, 'time': int})
+            df = pd.read_csv(fname, dtype={i: float, 'time': int})
         except (OSError, IOError):
-            print('no data for', i)
+            print('no datapoints for ', i)
             continue
 
         dm = [float(df[i].min()), float(df[i].max())]
