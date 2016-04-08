@@ -94,7 +94,14 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     panic = dict([[rm[i], meta2['indicatorsDB'][i]] for i in rm.keys()])
     indb['indicatorsDB'].update(panic)
 
-    geomd = {'geo.world_4region': meta2['indicatorsDB']['geo.world_4region']}
+    # copy geo and time from old metadata.json
+    geomd = {'geo': meta2['indicatorsDB']['geo'],
+	     'geo.name': meta2['indicatorsDB']['geo.name'],
+	     'geo.latitude': meta2['indicatorsDB']['geo.latitude'],
+	     'geo.longitude': meta2['indicatorsDB']['geo.longitude'],
+	     'geo.world_4region': meta2['indicatorsDB']['geo.world_4region'],
+	     'time': meta2['indicatorsDB']['time']
+	     }
     indb['indicatorsDB'].update(geomd)
 
     if not oneset:
