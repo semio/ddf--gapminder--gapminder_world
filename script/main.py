@@ -119,6 +119,12 @@ def main(source_dir, out_dir, make='all'):
             json.dump(md, f, indent=1)
             f.close()
 
+        print('updating metadata_one_set.json')
+        md_one = generate_metadata(cs, concepts_, mdata, area, out_dir, oneset=True)
+        with open(os.path.join(out_dir, 'vizabi', 'metadata_one_set.json'), 'w') as f:
+            json.dump(md_one, f, indent=1)
+            f.close()
+
     # 7. index file
     if 'index' in make:
         make.remove('index')

@@ -164,9 +164,10 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
                 indb['indicatorsTree']['children'].append({'id': i})
             # insert _properities entity after the root level menus as requested.
             indb['indicatorsTree']['children'].append(pro)
-            for i in range(len(area)):
-                key = 'geo.'+to_concept_id(area[i]['n'])
-                indb['indicatorsTree']['children'][-1]['children'].append({'id': key})
+            if not oneset:
+                for i in range(len(area)):
+                    key = 'geo.'+to_concept_id(area[i]['n'])
+                    indb['indicatorsTree']['children'][-1]['children'].append({'id': key})
             indb['indicatorsTree']['children'][-1]['children'].append({'id': 'geo.world_4region'})
             continue
 
