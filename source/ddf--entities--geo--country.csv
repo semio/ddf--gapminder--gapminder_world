@@ -123,7 +123,8 @@ lao,Lao,TRUE,TRUE,asia,18,105
 lva,Latvia,TRUE,TRUE,europe,57,25
 lbn,Lebanon,TRUE,TRUE,asia,33.83333,35.83333
 lso,Lesotho,TRUE,TRUE,africa,-29.5,28.25
-korea_union,"United Korea (former)",TRUE,FALSE,asia,,
+korea_union,"United Korea (former)
+",TRUE,FALSE,asia,,
 lbr,Liberia,TRUE,TRUE,africa,6.5,-9.5
 kos,Kosovo,TRUE,FALSE,europe,,
 lby,Libya,TRUE,TRUE,africa,28,17
