@@ -140,6 +140,13 @@ def main(source_dir, out_dir, make='all'):
 
 if __name__ == '__main__':
     import sys
+    from update import update_all_source
+
+    # update source
+    print('updating source files...')
+    update_all_source('../source/')
+
+    # make ddf
     make = sys.argv[1:]
     if len(make) == 0:
         make = 'all'

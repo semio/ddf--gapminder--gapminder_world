@@ -104,6 +104,7 @@ def getFileName(path):
     else:
         return path
 
+
 def getDirPath(path):
     if '/' in path:
         return '/'.join(path.split('/')[:-1])
@@ -127,8 +128,10 @@ def getGithubFile(org, repo, branch, path, token, outfile):
     try:
         blob_url = 'https://api.github.com/repos/{org}/{repo}/git/blobs/{sha}'.format(org=org, repo=repo, sha=sha)
     except UnboundLocalError:
+	print('files in repo:')
         for i in r.json():
             print(i['name'])
+	print('file not found:', fn)
         raise
 
     r2 = requests.get(blob_url, headers={'Authorization': token, 'Accept': 'application/vnd.github.v3.raw'})
@@ -141,8 +144,8 @@ def getGithubFile(org, repo, branch, path, token, outfile):
     return
 
 
-if __name__ == '__main__':
-    outpath = '../source/'
+def update_all_source(outpath):
+    # outpath = '../source/'
     for v in files.values():
         fn = getFileName(v['path'])
         outfile = os.path.join(outpath, fn)
@@ -152,4 +155,4 @@ if __name__ == '__main__':
     outfile2 = os.path.join(outpath, graph['fname'])
     print(graph['fname'])
     getGoogleDoc(graph['url'], outfile2)
-    print('Done.')
+    print('Done Updating Source.')
