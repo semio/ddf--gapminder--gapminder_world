@@ -18,8 +18,8 @@ world_4region,World Regions,entity_set,,,,,,geo,
 latitude,Latitude,measure,,,degrees,,,,
 longitude,Longitude,measure,,,degrees,,,,
 global,World,entity_set,,,,,,geo,
-time,Time,time,,,,,,,
 color,Color,string,,,,,,,
+time,Time,time,,,,,,,
 gapminder_list,Gapminder list,string,,,,,,,
 alternative_1,Alternative 1,string,,,,,,,
 alternative_2,Alternative 2,string,,,,,,,
@@ -110,8 +110,8 @@ hourly_compensation_us,Hourly compensation,measure,"Amount of financial compensa
 working_hours_per_week,Working hours,measure,Total amount of yearly working hours devided by 52 weeks.,http://spreadsheets.google.com/pub?key=rdCufG2vozTpKw7TBGbyoWw,per week,,,,"['linear', 'log']"
 market_value_of_listed_companies_percent_of_gdp,Market value of listed companies,measure,"Market capitalization (also known as market value) is the share price times the number of shares outstanding. Listed domestic companies are the domestically incorporated companies listed on the country's stock exchanges at the end of the year. Listed companies does not include investment companies, mutual funds, or other collective investment vehicles.",http://spreadsheets.google.com/pub?key=pyj6tScZqmEfMkeuokDLVIQ,% of GDP,,,,"['linear', 'log']"
 military_expenditure_percent_of_gdp,Military expenditure,measure,"Data, from SIPRI, are derived from the NATO definition, which includes all current and capital expenditures on the armed forces, including peacekeeping forces; defense ministries and other government agencies engaged in defense projects; paramilitary forces, if these are judged to be trained and equipped for military operations; and military space activities. ",https://docs.google.com/spreadsheet/pub?key=0AkBd6lyS3EmpdDNPQjFBT2s5Zko3U2V0NFQzS3owRnc,% of GDP,,,,"['linear', 'log']"
-math_achievement_4th_grade,"Math achievement, 4th grade",measure,Average score in the international TIMSS test for children in the 4th grade.,http://spreadsheets.google.com/pub?key=phAwcNAVuyj3Iw3kqbjJTZQ,,,,,"['linear', 'log']"
-math_achievement_8th_grade,"Math achievement, 8th grade",measure,Average score in the international TIMSS test for childeren in the 8th grade.,http://spreadsheets.google.com/pub?key=phAwcNAVuyj3fwfA8XA25Eg,,,,,"['linear', 'log']"
+math_achievement_4th_grade,"Math achievement, 4th grade",measure,Average score in the international TIMSS test for children in the 4th grade.,http://spreadsheets.google.com/pub?key=phAwcNAVuyj3Iw3kqbjJTZQ,TIMSS test score,,,,"['linear', 'log']"
+math_achievement_8th_grade,"Math achievement, 8th grade",measure,Average score in the international TIMSS test for childeren in the 8th grade.,http://spreadsheets.google.com/pub?key=phAwcNAVuyj3fwfA8XA25Eg,TIMSS test score,,,,"['linear', 'log']"
 ratio_of_girls_to_boys_in_primary_and_secondary_education_perc,Ratio girls/boys in school,measure,Break in series between 1997 and 1998 due to change from International Standard Classification of Education (ISCED76) to ISCED97. Recent data are provisional. Ratio of girls to boys in primary and secondary education is the percentage of girls to boys enrolled at primary and secondary levels in public and private schools.,http://spreadsheets.google.com/pub?key=pyj6tScZqmEcWM3hb0x-BZA,"primary and secondary education, %",,,,"['linear', 'log']"
 ratio_of_young_literate_females_to_males_percent_ages_15_24,Ratio of young literate females to males,measure,"Ratio of young literate females to males is the percentage of females to males ages 15-24 who can, with understanding, read and write a short, simple statement on their everyday life.",https://docs.google.com/spreadsheet/pub?key=0AkBd6lyS3EmpdE8xR0dUWDI4ME02SjQ5bi1NYnFHN0E,"%, ages 15-24",,,,"['linear', 'log']"
 literacy_rate_adult_female_percent_of_females_ages_15_above,Literacy of adult females,measure,"Adult literacy rate is the percentage of people ages 15 and above who can, with understanding, read and write a short, simple statement on their everyday life.",http://spreadsheets.google.com/pub?key=pyj6tScZqmEc96gAEE60-Zg,"%, ages 15+",,,,"['linear', 'log']"
@@ -571,5 +571,5 @@ income_per_person_long_series,Income per person (long series),measure,"Income pe
 newborn_mortality_rate_per_1000,Newborn mortality rate per 1000,measure,Neonatal mortality rate. Children dying within the first 28 days per 1000 live births.,https://docs.google.com/spreadsheet/pub?key=1S3Kcw96vp5-fZbaM7Lck_06IbJ8DagThGI5KHnzeSps,,,,,"['linear', 'log']"
 newborn_deaths,Newborn deaths,measure,Neonatal deaths Children dying within the first 28 days.,https://docs.google.com/spreadsheet/pub?key=1iTvolhgIMta3MmsoPkGnewJiaybev3MvR9e_7mxZ48o,,,,,"['linear', 'log']"
 sg_gdp_p_cap_const_ppp2011_dollar,sg_gdp_p_cap_const_ppp2011_dollar,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,"['log', 'linear']"
-sg_gini,sg_gini,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,['linear']
 sg_population,sg_population,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,"['linear', 'log']"
+sg_gini,sg_gini,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,,,,['linear']
