@@ -70,7 +70,7 @@ files['quantities'] = {'org': org, 'repo': repo,
 # metadata.json from vizabi
 org = 'Gapminder'
 repo = 'vizabi'
-path = '.data/waffles/metadata.json'
+path = '.data/metadata.json'
 branch = 'develop'
 files['metadata'] = {'org': org, 'repo': repo,
                      'branch': branch, 'path': path}

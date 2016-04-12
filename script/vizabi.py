@@ -55,13 +55,13 @@ def update_enjson(enj, c_all, concepts):
         enj['indicator/'+'geo.'+v['concept']] = v['name']
 
     # manually set the dont-panic-poverty data set concepts.
-    enj['indicator/sg_population'] = enj['indicator/population']
-    enj['indicator/sg_gini'] = enj['indicator/gini']
-    enj['indicator/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['indicator/gdp_p_cap_const_ppp2011_dollar']
+    # enj['indicator/sg_population'] = enj['indicator/population']
+    # enj['indicator/sg_gini'] = enj['indicator/gini']
+    # enj['indicator/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['indicator/gdp_p_cap_const_ppp2011_dollar']
 
-    enj['unit/sg_population'] = enj['unit/population']
-    enj['unit/sg_gini'] = enj['unit/gini']
-    enj['unit/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['unit/gdp_p_cap_const_ppp2011_dollar']
+    # enj['unit/sg_population'] = enj['unit/population']
+    # enj['unit/sg_gini'] = enj['unit/gini']
+    # enj['unit/sg_gdp_p_cap_const_ppp2011_dollar'] = enj['unit/gdp_p_cap_const_ppp2011_dollar']
 
     return enj
 
@@ -85,27 +85,26 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
 
     # use OrderedDict in order to keep the order of insertion.
     indb = OrderedDict([['indicatorsDB', {}]])
-    indb['indicatorsDB'].update(to_dict_dropna(mdata))
+    mdata_dict = to_dict_dropna(mdata)
+    for k in sorted(mdata_dict.keys()):
+        indb['indicatorsDB'][k] = mdata_dict.get(k)
 
-    rm = {'gini': 'sg_gini',
-          'population': 'sg_population',
-          'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
-          }
-    panic = dict([[rm[i], meta2['indicatorsDB'][i]] for i in rm.keys()])
+    # rm = {'gini': 'sg_gini',
+    #       'population': 'sg_population',
+    #       'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
+    #       }
+    panic_list = ['sg_gini', 'sg_population', 'sg_gdp_p_cap_const_ppp2011_dollar']
+    panic = dict([[i, meta2['indicatorsDB'][i]] for i in panic_list])
     indb['indicatorsDB'].update(panic)
 
     # copy geo and time from old metadata.json
-    geomd = {'geo': meta2['indicatorsDB']['geo'],
-             'geo.name': meta2['indicatorsDB']['geo.name'],
-             'geo.latitude': meta2['indicatorsDB']['geo.latitude'],
-             'geo.longitude': meta2['indicatorsDB']['geo.longitude'],
-             'geo.world_4region': meta2['indicatorsDB']['geo.world_4region'],
-             'time': meta2['indicatorsDB']['time']
-             }
-    indb['indicatorsDB'].update(geomd)
+    geo_list = ['geo', 'geo.name', 'geo.latitude', 'geo.longitude',
+                'geo.world_4region', 'time']
+    for k in geo_list:
+        indb['indicatorsDB'][k] = meta2['indicatorsDB'][k]
 
     if not oneset:
-        res = {}
+        res = OrderedDict()
 
         for i in range(len(area)):
             key = to_concept_id(area[i]['n'])

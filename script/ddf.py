@@ -188,8 +188,8 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     cc2.concept = rm.values()
     cc2['name'] = cc2.concept
     cc2['concept_type'] = 'measure'
-    cc2['indicator_url'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x[3:]]['sourceLink'])
-    cc2['scales'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x[3:]]['scales'])
+    cc2['indicator_url'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['sourceLink'])
+    cc2['scales'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['scales'])
 
     # now build discrete concepts dataframe
     dc = pd.DataFrame([], columns=cc.columns)
