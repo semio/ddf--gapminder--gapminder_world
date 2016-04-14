@@ -105,7 +105,7 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     mdata['use'] = 'indicator'
 
     # use OrderedDict in order to keep the order of insertion.
-    indb = OrderedDict([['indicatorsDB', {}]])
+    indb = OrderedDict([['indicatorsDB', OrderedDict()]])
     mdata_dict = to_dict_dropna(mdata)
     for k in sorted(mdata_dict.keys()):
         indb['indicatorsDB'][k] = mdata_dict.get(k)
