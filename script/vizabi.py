@@ -29,9 +29,9 @@ def update_enjson(enj, c_all, concepts):
     trs2 = trs.drop('concept', axis=1).set_index('key_2')
     trs3 = trs.drop('concept', axis=1).set_index('key_3')
 
-    enj.update(trs1['name'].dropna().to_dict())
-    enj.update(trs2['unit'].dropna().to_dict())
-    enj.update(trs3['description'].dropna().to_dict())
+    enj.update(trs1['name'].to_dict())
+    enj.update(trs2['unit'].to_dict())
+    enj.update(trs3['description'].to_dict())
 
     # menu levels.
     c_all4 = concepts[['concept', 'menu_level1', 'menu_level_2']]
