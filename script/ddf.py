@@ -204,7 +204,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     # manually add more discrete concepts.
     manually = ['geo', 'country', 'name_short', 'name_long',
                 'world_4region', 'latitude', 'longitude', 'global', 'color', 'time']
-    manually_name = ['Geo', 'Country', 'Name Short', 'Name Long',
+    manually_name = ['Geographic location', 'Country', 'Name Short', 'Name Long',
                      w4r_name, 'Latitude', 'Longitude', 'World', 'Color', 'Time']
 
     dcl_ = np.r_[dcl, dsc_col, manually, ccs_id]
