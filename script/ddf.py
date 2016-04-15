@@ -259,6 +259,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     dc.loc['age', 'scales'] = ['linear', 'log']
 
     dc.loc['name', 'indicator_url'] = mdata['indicatorsDB']['geo.name']['sourceLink']
+    dc.loc['name', 'scales'] = mdata['indicatorsDB']['geo.name']['scales']
     dc.loc['latitude', 'indicator_url'] = mdata['indicatorsDB']['geo.latitude']['sourceLink']
     dc.loc['longitude', 'indicator_url'] = mdata['indicatorsDB']['geo.longitude']['sourceLink']
 
