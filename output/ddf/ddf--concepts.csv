@@ -1,10 +1,10 @@
 concept,name,concept_type,domain,indicator_url,color,scales,drill_up,unit,interpolation,description
-geographic_regions,Geographic regions,entity_set,geo,http://spreadsheets.google.com/pub?key=phT4mwjvEuGBtdf1ZeO7_PQ,"{'selectable': False, 'palette': {'east_asia_pacific': '#f03838', 'middle_east_north_africa': '#5be56b', 'europe_central_asia': '#f49d37', 'south_asia': '#35d1d1', 'sub_saharan_africa': '#4e7af0', 'america': '#ebcc21'}}",['ordinal'],,,,
-income_groups,Income groups,entity_set,geo,http://spreadsheets.google.com/pub?key=phT4mwjvEuGCSmAe5aq7HKw,"{'palette': {'lower_middle_income': '#4366f4', 'high_income': '#7bc135', 'upper_middle_income': '#a7cb7d', 'low_income': '#7ea1d1'}}",['ordinal'],,,,
+geographic_regions,Geographic regions,entity_set,geo,http://spreadsheets.google.com/pub?key=phT4mwjvEuGBtdf1ZeO7_PQ,"{'palette': {'east_asia_pacific': '#f03838', 'europe_central_asia': '#f49d37', 'south_asia': '#35d1d1', 'sub_saharan_africa': '#4e7af0', 'america': '#ebcc21', 'middle_east_north_africa': '#5be56b'}, 'selectable': False}",['ordinal'],,,,
+income_groups,Income groups,entity_set,geo,http://spreadsheets.google.com/pub?key=phT4mwjvEuGCSmAe5aq7HKw,"{'palette': {'low_income': '#7ea1d1', 'upper_middle_income': '#a7cb7d', 'lower_middle_income': '#4366f4', 'high_income': '#7bc135'}}",['ordinal'],,,,
 landlocked,Landlocked,entity_set,geo,http://spreadsheets.google.com/pub?key=rBwKBodk7Y08pGiA4OAfzUA,"{'palette': {'landlocked': '#f05656', 'coastline': '#7487ef'}}",['ordinal'],,,,
-g77_and_oecd_countries,G77 and OECD countries,entity_set,geo,http://spreadsheets.google.com/pub?key=tVI_UCwI1enCk4p61fWxUig,"{'palette': {'oecd': '#71c44c', 'others': '#f05656', 'g77': '#7487ef'}}",['ordinal'],,,,
-geographic_regions_in_4_colors,Geographic regions in 4 colors,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwCdHlocWJBM1Uyd1ZPeHduU3c4WGplMEE,"{'selectable': False, 'palette': {'africa': ['#00d5e9', '#00c8ec', '#00e1ec', '#0098df', '#77dff7', '#0586c6'], '_default': ['#ffb600', '#ffaa14', '#ffc500', '#fb6d19', '#ffb600', '#9b4838'], 'asia': ['#ff5872', '#ff5178', '#ff658a', '#da0025', '#fa4e73', '#b2043a'], 'europe': ['#ffe700', '#fbdd00', '#fff400', '#fbaf09', '#ffe700', '#b17f4a'], 'america': ['#7feb00', '#5de200', '#81f201', '#00b900', '#b5ea32', '#008d36']}}",['ordinal'],,,,
-main_religion_2008,Main religion 2008,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArtujvvFrPjVdHUzTGVicFJZQ1NjaFhqelV5SDNxMVE,"{'selectable': False, 'palette': {'christian': '#7487ef', 'muslim': '#71c44c', 'eastern_religions': '#f05656'}}",['ordinal'],,,,
+g77_and_oecd_countries,G77 and OECD countries,entity_set,geo,http://spreadsheets.google.com/pub?key=tVI_UCwI1enCk4p61fWxUig,"{'palette': {'g77': '#7487ef', 'oecd': '#71c44c', 'others': '#f05656'}}",['ordinal'],,,,
+geographic_regions_in_4_colors,Geographic regions in 4 colors,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwCdHlocWJBM1Uyd1ZPeHduU3c4WGplMEE,"{'palette': {'asia': ['#ff5872', '#ff5178', '#ff658a', '#da0025', '#fa4e73', '#b2043a'], 'america': ['#7feb00', '#5de200', '#81f201', '#00b900', '#b5ea32', '#008d36'], '_default': ['#ffb600', '#ffaa14', '#ffc500', '#fb6d19', '#ffb600', '#9b4838'], 'africa': ['#00d5e9', '#00c8ec', '#00e1ec', '#0098df', '#77dff7', '#0586c6'], 'europe': ['#ffe700', '#fbdd00', '#fff400', '#fbaf09', '#ffe700', '#b17f4a']}, 'selectable': False}",['ordinal'],,,,
+main_religion_2008,Main religion 2008,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArtujvvFrPjVdHUzTGVicFJZQ1NjaFhqelV5SDNxMVE,"{'palette': {'muslim': '#71c44c', 'christian': '#7487ef', 'eastern_religions': '#f05656'}, 'selectable': False}",['ordinal'],,,,
 description,Description,string,,,,,,,,
 indicator_url,Indicator url,string,,,,,,,,
 name,Name,string,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,,,,,
@@ -15,10 +15,10 @@ country,Country,entity_set,geo,https://github.com/open-numbers/ddf--gapminder--d
 name_short,Name Short,string,,,,,,,,
 name_long,Name Long,string,,,,,,,,
 age,Age,measure,,,,"['linear', 'log']",,years,,
-world_4region,World Regions,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwCdHlocWJBM1Uyd1ZPeHduU3c4WGplMEE,"{'selectable': False, 'shades': {'fill1': 0, 'print_fill': 4, 'shade': 3, 'print_stroke': 5, 'fill3': 2, 'fill2': 1}, 'palette': {'africa': ['#00d5e9', '#00c8ec', '#00e1ec', '#0098df', '#77dff7', '#0586c6'], '_default': ['#ffb600', '#ffaa14', '#ffc500', '#fb6d19', '#ffb600', '#9b4838'], 'asia': ['#ff5872', '#ff5178', '#ff658a', '#da0025', '#fa4e73', '#b2043a'], 'europe': ['#ffe700', '#fbdd00', '#fff400', '#fbaf09', '#ffe700', '#b17f4a'], 'americas': ['#7feb00', '#5de200', '#81f201', '#00b900', '#b5ea32', '#008d36']}}",['ordinal'],,,,
-latitude,Latitude,measure,,,,['linear'],,degrees,,
-longitude,Longitude,measure,,,,['linear'],,degrees,,
-global,World,entity_set,geo,,,,,,,
+world_4region,World Regions,entity_set,geo,http://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwCdHlocWJBM1Uyd1ZPeHduU3c4WGplMEE,"{'palette': {'americas': ['#7feb00', '#5de200', '#81f201', '#00b900', '#b5ea32', '#008d36'], 'asia': ['#ff5872', '#ff5178', '#ff658a', '#da0025', '#fa4e73', '#b2043a'], 'africa': ['#00d5e9', '#00c8ec', '#00e1ec', '#0098df', '#77dff7', '#0586c6'], '_default': ['#ffb600', '#ffaa14', '#ffc500', '#fb6d19', '#ffb600', '#9b4838'], 'europe': ['#ffe700', '#fbdd00', '#fff400', '#fbaf09', '#ffe700', '#b17f4a']}, 'shades': {'fill2': 1, 'shade': 3, 'print_fill': 4, 'fill3': 2, 'fill1': 0, 'print_stroke': 5}, 'selectable': False}",['ordinal'],,,,
+latitude,Latitude,measure,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,['linear'],,degrees,,
+longitude,Longitude,measure,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,,['linear'],,degrees,,
+global,World,entity_set,geo,,,['ordinal'],,,,
 color,Color,string,,,,,,,,
 time,Time,time,,,,['time'],,,,
 gapminder_list,Gapminder list,string,,,,,,,,
@@ -571,6 +571,6 @@ number_of_people_in_poverty,Number of people in poverty,measure,,https://docs.go
 income_per_person_long_series,Income per person (long series),measure,,https://docs.google.com/spreadsheet/pub?key=1SKMoV61HUNwWfYNCZs2M9zgMWqVrs9YrbJxs5HQbJSQ,,"['linear', 'log']",,,,"Income per person, version 15, including historical data & projections"
 newborn_mortality_rate_per_1000,Newborn mortality rate per 1000,measure,,https://docs.google.com/spreadsheet/pub?key=1S3Kcw96vp5-fZbaM7Lck_06IbJ8DagThGI5KHnzeSps,,"['linear', 'log']",,,,Neonatal mortality rate. Children dying within the first 28 days per 1000 live births.
 newborn_deaths,Newborn deaths,measure,,https://docs.google.com/spreadsheet/pub?key=1iTvolhgIMta3MmsoPkGnewJiaybev3MvR9e_7mxZ48o,,"['linear', 'log']",,,,Neonatal deaths Children dying within the first 28 days.
-sg_gdp_p_cap_const_ppp2011_dollar,sg_gdp_p_cap_const_ppp2011_dollar,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,"{'palette': {'0': '#62CCE3', '1': '#B4DE79', '2': '#E1CE00', '3': '#F77481'}}","['log', 'linear']",,,exp,
+sg_gdp_p_cap_const_ppp2011_dollar,sg_gdp_p_cap_const_ppp2011_dollar,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,"{'palette': {'1': '#B4DE79', '3': '#F77481', '2': '#E1CE00', '0': '#62CCE3'}}","['log', 'linear']",,,exp,
 sg_population,sg_population,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,"['linear', 'log']",,,,
 sg_gini,sg_gini,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,,['linear'],,,,
