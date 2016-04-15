@@ -97,42 +97,70 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     outdir: the output dir of datapoints.
     oneset: if oneset is true, only one entity set(world_4region) will be added.
     """
-    # all measure types.
-    mdata = c_all[c_all['concept_type'] == 'measure'][['concept', 'indicator_url', 'scales', 'interpolation']]
-    mdata = mdata.set_index('concept')
-    mdata = mdata.drop(['longitude', 'latitude'])
-    mdata.columns = ['sourceLink', 'scales', 'interpolation']
-    mdata['use'] = 'indicator'
-
     # use OrderedDict in order to keep the order of insertion.
     indb = OrderedDict([['indicatorsDB', OrderedDict()]])
+
+    # geo property
+    geo_list = ['geo', 'name', 'latitude', 'longitude',
+                'world_4region']
+    geo_cols = ['scales', 'indicator_url', 'color']
+
+    c_all = c_all.set_index('concept')
+    for k in geo_list:
+        values = c_all.loc[[k], geo_cols]
+        values.columns = ['scales', 'sourceLink', 'color']
+        value_dict = to_dict_dropna(values)
+        if k == 'geo':
+            key = k
+        else:
+            key = 'geo.'+k
+        indb['indicatorsDB'][key] = value_dict[k]
+        indb['indicatorsDB'][key]['use'] = 'property'
+        # when reading from file, color property becomes string.
+        # so we eval it to get the dict back.
+        # TODO: using eval() may cause security problem.
+        if 'color' in indb['indicatorsDB'][key].keys():
+            indb['indicatorsDB'][key]['color'] = eval(indb['indicatorsDB'][key]['color'])
+
+    # manually add a _default and time indicator
+    indb['indicatorsDB']['time'] = {
+        "use": "indicator",
+        "scales": ["time"],
+        "sourceLink": ""
+    }
+    indb['indicatorsDB']['_default'] = {
+        "use": "constant",
+        "scales": ["ordinal"],
+        "sourceLink": ""
+    }
+
+    if not oneset:
+        group_data = c_all[c_all['domain'] == 'geo'][geo_cols]
+        group_names = group_data.index
+        group_names = group_names.drop(['country', 'world_4region'])
+
+        for g in sorted(group_names):
+            value_dict = to_dict_dropna(group_data.ix[[g]])
+            key = 'geo.'+g
+            indb['indicatorsDB'][key] = value_dict[g]
+            indb['indicatorsDB'][key]['use'] = 'property'
+            # TODO: using eval() may cause security problem.
+            if 'color' in indb['indicatorsDB'][key].keys():
+                indb['indicatorsDB'][key]['color'] = eval(indb['indicatorsDB'][key]['color'])
+
+    c_all = c_all.reset_index()
+
+    # all measure types.
+    measure_cols = ['concept', 'indicator_url', 'scales', 'interpolation', 'color']
+    mdata = c_all[c_all['concept_type'] == 'measure'][measure_cols]
+    mdata = mdata.set_index('concept')
+    mdata = mdata.drop(['longitude', 'latitude'])
+    mdata.columns = ['sourceLink', 'scales', 'interpolation', 'color']
+    mdata['use'] = 'indicator'
+
     mdata_dict = to_dict_dropna(mdata)
     for k in sorted(mdata_dict.keys()):
         indb['indicatorsDB'][k] = mdata_dict.get(k)
-
-    # rm = {'gini': 'sg_gini',
-    #       'population': 'sg_population',
-    #       'gdp_p_cap_const_ppp2011_dollar': 'sg_gdp_p_cap_const_ppp2011_dollar'
-    #       }
-    panic_list = ['sg_gini', 'sg_population', 'sg_gdp_p_cap_const_ppp2011_dollar']
-    panic = dict([[i, meta2['indicatorsDB'][i]] for i in panic_list])
-    indb['indicatorsDB'].update(panic)
-
-    # copy geo and time from old metadata.json
-    geo_list = ['geo', 'geo.name', 'geo.latitude', 'geo.longitude',
-                'geo.world_4region', 'time']
-    for k in geo_list:
-        indb['indicatorsDB'][k] = meta2['indicatorsDB'][k]
-
-    if not oneset:
-        res = OrderedDict()
-
-        for i in range(len(area)):
-            key = to_concept_id(area[i]['n'])
-            source = area[i]['sourceName']
-
-            res['geo.'+key] = {'use': 'property', 'scales': ['ordinal'], 'sourceLink': source}
-        indb['indicatorsDB'].update(res)
 
     for i in indb['indicatorsDB'].keys():
         fname = os.path.join(outdir, 'ddf', 'ddf--datapoints--'+i+'--by--geo--time.csv')
@@ -187,6 +215,10 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
             if not oneset:
                 for i in range(len(area)):
                     key = 'geo.'+to_concept_id(area[i]['n'])
+                    # remove geo.geographic_regions_in_4_colors as requested
+                    # by Jasper
+                    if key == 'geo.geographic_regions_in_4_colors':
+                        continue
                     indb['indicatorsTree']['children'][-1]['children'].append({'id': key})
             indb['indicatorsTree']['children'][-1]['children'].append({'id': 'geo.world_4region'})
             continue

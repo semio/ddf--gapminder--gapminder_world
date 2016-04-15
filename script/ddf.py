@@ -155,7 +155,8 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     mdata: metadata.json
     """
     # columns needed
-    cols = ['concept', 'name', 'concept_type', 'description', 'indicator_url', 'scale', 'unit', 'interpolation']
+    cols = ['concept', 'name', 'concept_type', 'domain', 'indicator_url', 'color',
+            'scale', 'scales', 'drill_up', 'unit', 'interpolation', 'description']
 
     # build continuous concepts dataframe
     concepts = cs.rename(columns={'ddf_id': 'Concept', 'Name': 'Full Name',
@@ -185,11 +186,22 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     }
 
     cc2 = pd.DataFrame([], columns=cc.columns)
-    cc2.concept = rm.values()
+    cc2['concept'] = rm.values()
     cc2['name'] = cc2.concept
     cc2['concept_type'] = 'measure'
     cc2['indicator_url'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['sourceLink'])
     cc2['scales'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['scales'])
+
+    # copy color and interpolation information from metadata.json
+    cc2['color'] = np.nan
+    cc2 = cc2.set_index('concept')
+    for k in rm.values():
+        value_dict = mdata['indicatorsDB'][k]
+        if 'color' in value_dict.keys():
+            cc2.loc[k, 'color'] = str(value_dict['color'])
+        if 'interpolation' in value_dict.keys():
+            cc2.loc[k, 'interpolation'] = value_dict['interpolation']
+    cc2 = cc2.reset_index()
 
     # now build discrete concepts dataframe
     dc = pd.DataFrame([], columns=cc.columns)
@@ -202,9 +214,9 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     w4r_name = sgdc[sgdc['concept'] == 'world_4region']['name'].iloc[0]
 
     # manually add more discrete concepts.
-    manually = ['geo', 'country', 'name_short', 'name_long',
+    manually = ['geo', 'country', 'name_short', 'name_long', 'age',
                 'world_4region', 'latitude', 'longitude', 'global', 'color', 'time']
-    manually_name = ['Geographic location', 'Country', 'Name Short', 'Name Long',
+    manually_name = ['Geographic location', 'Country', 'Name Short', 'Name Long', 'Age',
                      w4r_name, 'Latitude', 'Longitude', 'World', 'Color', 'Time']
 
     dcl_ = np.r_[dcl, dsc_col, manually, ccs_id]
@@ -220,29 +232,55 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     dc.loc[dcl, 'domain'] = 'geo'
 
     dc.loc['geo', 'concept_type'] = 'entity_domain'  # geo
+    dc.loc['geo', 'indicator_url'] = mdata['indicatorsDB']['geo']['sourceLink']
+    dc.loc['geo', 'scales'] = mdata['indicatorsDB']['geo']['scales']
 
     dc.loc['country', 'concept_type'] = 'entity_set'  # country
     dc.loc['country', 'drill_up'] = dcl
     dc.loc['country', 'domain'] = 'geo'
 
-    dc.loc['time', 'concept_type'] = 'time' # time
+    dc.loc['time', 'concept_type'] = 'time'  # time
+    dc.loc['time', 'scales'] = mdata['indicatorsDB']['time']['scales']
 
     dc.loc['world_4region', 'concept_type'] = 'entity_set'  # world_4region
     dc.loc['world_4region', 'domain'] = 'geo'
 
     dc.loc[['latitude', 'longitude'], 'concept_type'] = 'measure'  # latitude and longitude
     dc.loc[['latitude', 'longitude'], 'unit'] = 'degrees'
-    dc.loc['latitude', 'scale'] = 'lat'
-    dc.loc['longitude', 'scale'] = 'long'
+    dc.loc['latitude', 'scales'] = mdata['indicatorsDB']['geo.latitude']['scales']
+    dc.loc['longitude', 'scales'] = mdata['indicatorsDB']['geo.longitude']['scales']
 
     dc.loc['global', 'domain'] = 'geo'  # global
     dc.loc['global', 'concept_type'] = 'entity_set'
+
+    dc.loc['age', 'concept_type'] = 'measure'
+    dc.loc['age', 'unit'] = 'years'
+    dc.loc['age', 'scales'] = ['linear', 'log']
+
+    dc.loc['name', 'indicator_url'] = mdata['indicatorsDB']['geo.name']['sourceLink']
+
+    # copy geo.* source link/color information from metadata.json
+    dc['color'] = np.nan
+    for g in dc[dc['domain'] == 'geo'].index:
+        if g == 'global':
+            continue
+        if g == 'country':
+            key = 'geo.name'
+        else:
+            key = 'geo.' + g
+        value_dict = mdata['indicatorsDB'][key]
+        if 'sourceLink' in value_dict.keys():
+            dc.loc[g, 'indicator_url'] = value_dict['sourceLink']
+        if 'color' in value_dict.keys():
+            dc.loc[g, 'color'] = str(value_dict['color'])
+        if 'scales' in value_dict.keys():
+            dc.loc[g, 'scales'] = value_dict['scales']
 
     dc = dc.reset_index()
 
     # combine them all.
     c_all = pd.concat([dc, cc, cc2])
-    c_all = c_all.drop('scale', axis=1)
+    c_all = c_all.loc[:, cols].drop('scale', axis=1)
 
     return c_all
 
