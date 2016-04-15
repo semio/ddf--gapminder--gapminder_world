@@ -100,10 +100,13 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     # use OrderedDict in order to keep the order of insertion.
     indb = OrderedDict([['indicatorsDB', OrderedDict()]])
 
+    # rename indicator_url to sourceLink
+    c_all = c_all.rename(columns={'indicator_url': 'sourceLink'})
+
     # geo property
     geo_list = ['geo', 'name', 'latitude', 'longitude',
                 'world_4region']
-    geo_cols = ['scales', 'indicator_url', 'color']
+    geo_cols = ['scales', 'sourceLink', 'color']
 
     c_all = c_all.set_index('concept')
     for k in geo_list:
@@ -151,7 +154,7 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
     c_all = c_all.reset_index()
 
     # all measure types.
-    measure_cols = ['concept', 'indicator_url', 'scales', 'interpolation', 'color']
+    measure_cols = ['concept', 'sourceLink', 'scales', 'interpolation', 'color']
     mdata = c_all[c_all['concept_type'] == 'measure'][measure_cols]
     mdata = mdata.set_index('concept')
     mdata = mdata.drop(['longitude', 'latitude'])
