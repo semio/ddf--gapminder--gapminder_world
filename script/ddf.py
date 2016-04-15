@@ -252,6 +252,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
     dc.loc['global', 'domain'] = 'geo'  # global
     dc.loc['global', 'concept_type'] = 'entity_set'
+    dc.loc['global', 'scales'] = ['ordinal']
 
     dc.loc['age', 'concept_type'] = 'measure'
     dc.loc['age', 'unit'] = 'years'
