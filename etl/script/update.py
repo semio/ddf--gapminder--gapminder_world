@@ -5,7 +5,6 @@ import os
 from io import BytesIO
 
 # github token. change to your token please.
-# token = 'token d6315f80892d004602d1f9fb234f3a399f05b5af'
 token = ''
 
 # files:
@@ -57,7 +56,7 @@ org = 'open-numbers'
 repo = 'ddf--gapminder--systema_globalis'
 path = 'ddf--entities--geo--global.csv'
 files['global'] = {'org': org, 'repo': repo,
-		   'branch': branch, 'path': path}
+                   'branch': branch, 'path': path}
 
 # quantities.json from waffle-server
 org = 'Gapminder'
@@ -128,10 +127,10 @@ def getGithubFile(org, repo, branch, path, token, outfile):
     try:
         blob_url = 'https://api.github.com/repos/{org}/{repo}/git/blobs/{sha}'.format(org=org, repo=repo, sha=sha)
     except UnboundLocalError:
-	print('files in repo:')
+        print('files in repo:')
         for i in r.json():
             print(i['name'])
-	print('file not found:', fn)
+        print('file not found:', fn)
         raise
 
     r2 = requests.get(blob_url, headers={'Authorization': token, 'Accept': 'application/vnd.github.v3.raw'})
