@@ -154,4 +154,13 @@ if __name__ == '__main__':
         make = 'all'
     r = main('../source/', '../output/', make)
     if r > 0:
-        print('Done.')
+        print('ddf created successfully. cleaning up...')
+
+    # move the outputs into root dir of repo
+    files = os.listdir('../output/ddf/')
+    for f in files:
+        src = os.path.join('../output/ddf/', f)
+        dst = os.path.join('../../', f)
+        os.replace(src, dst)
+
+    print('Done.')
