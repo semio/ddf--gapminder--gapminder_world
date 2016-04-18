@@ -56,8 +56,10 @@ def main(source_dir, out_dir, make='all'):
     geo_sg['name'] = geo_sg['name'].apply(lambda x: x.strip('\n'))
     mdata = json.load(open(os.path.join(source_dir, mdata_f)))
 
+    root_dir = '../../'
+
     if make == 'all':
-        make = ['entities', 'datapoints', 'concepts', 'metadata', 'enjson']
+        make = ['entities', 'datapoints', 'concepts', 'index', 'metadata', 'enjson']
 
     # build ddf
     if 'entities' in make:
@@ -114,13 +116,21 @@ def main(source_dir, out_dir, make='all'):
         print('updating metadata.json')
         concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
         cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
-        md = generate_metadata(cs, concepts_, mdata, area, out_dir)
-        with open(os.path.join(out_dir, 'vizabi', 'metadata.json'), 'w') as f:
+        if len(os.listdir(os.path.join(out_dir, 'ddf'))) < 1:
+            md = generate_metadata(cs, concepts_, mdata, area, root_dir)
+        else:
+            path = os.path.join(out_dir, 'ddf')
+            md = generate_metadata(cs, concepts_, mdata, area, path)
+        with open(os.path.join(out_dir, 'vizabi', 'metadata.json'),  'w') as f:
             json.dump(md, f, indent=1)
             f.close()
 
         print('updating metadata_one_set.json')
-        md_one = generate_metadata(cs, concepts_, mdata, area, out_dir, oneset=True)
+        if len(os.listdir(os.path.join(out_dir, 'ddf'))) < 1:
+            md_one = generate_metadata(cs, concepts_, mdata, area, root_dir, oneset=True)
+        else:
+            path = os.path.join(out_dir, 'ddf')
+            md_one = generate_metadata(cs, concepts_, mdata, area, path, oneset=True)
         with open(os.path.join(out_dir, 'vizabi', 'metadata_one_set.json'), 'w') as f:
             json.dump(md_one, f, indent=1)
             f.close()
@@ -129,7 +139,10 @@ def main(source_dir, out_dir, make='all'):
     if 'index' in make:
         make.remove('index')
         print('generating index file')
-        path = os.path.join(out_dir, 'ddf')
+        if len(os.listdir(os.path.join(out_dir, 'ddf'))) < 1:
+            path = root_dir
+        else:
+            path = os.path.join(out_dir, 'ddf')
         create_index_file(path, os.path.join(path, 'ddf--index.csv'))
 
     if len(make) > 0:

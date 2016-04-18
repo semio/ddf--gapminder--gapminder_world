@@ -166,7 +166,7 @@ def generate_metadata(c_all, concepts, meta2, area, outdir, oneset=False):
         indb['indicatorsDB'][k] = mdata_dict.get(k)
 
     for i in indb['indicatorsDB'].keys():
-        fname = os.path.join(outdir, 'ddf', 'ddf--datapoints--'+i+'--by--geo--time.csv')
+        fname = os.path.join(outdir, 'ddf--datapoints--'+i+'--by--geo--time.csv')
         try:
             df = pd.read_csv(fname, dtype={i: float, 'time': int})
         except (OSError, IOError):
