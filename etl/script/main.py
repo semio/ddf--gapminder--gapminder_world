@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
     # update source
     print('updating source files...')
-    # update_all_source(source_dir)
+    update_all_source(source_dir)
 
     # make ddf
     make = sys.argv[1:]
