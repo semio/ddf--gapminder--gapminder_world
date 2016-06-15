@@ -178,7 +178,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     cc = cc.drop(k)
     cc['drill_up'] = np.nan
     cc['domain'] = np.nan
-    cc['scales'] = cc['scale'].apply(lambda x: ['log', 'linear'] if x == 'log' else ['linear', 'log'])
+    cc['scales'] = cc['scale'].apply(lambda x: '["log", "linear"]' if x == 'log' else '["linear", "log"]')
 
     # here are concepts from dont-panic-poverty data set.
     rm = {'gini': 'sg_gini',
@@ -191,7 +191,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     cc2['name'] = cc2.concept
     cc2['concept_type'] = 'measure'
     cc2['indicator_url'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['sourceLink'])
-    cc2['scales'] = cc2['concept'].apply(lambda x: mdata['indicatorsDB'][x]['scales'])
+    cc2['scales'] = cc2['concept'].apply(lambda x: json.dumps(mdata['indicatorsDB'][x]['scales']))
 
     # copy color and interpolation information from metadata.json
     cc2['color'] = np.nan
@@ -234,33 +234,33 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
 
     dc.loc['geo', 'concept_type'] = 'entity_domain'  # geo
     dc.loc['geo', 'indicator_url'] = mdata['indicatorsDB']['geo']['sourceLink']
-    dc.loc['geo', 'scales'] = mdata['indicatorsDB']['geo']['scales']
+    dc.loc['geo', 'scales'] = json.dumps(mdata['indicatorsDB']['geo']['scales'])
 
     dc.loc['country', 'concept_type'] = 'entity_set'  # country
-    dc.loc['country', 'drill_up'] = dcl
+    dc.loc['country', 'drill_up'] = json.dumps(dcl)
     dc.loc['country', 'domain'] = 'geo'
 
     dc.loc['time', 'concept_type'] = 'time'  # time
-    dc.loc['time', 'scales'] = mdata['indicatorsDB']['time']['scales']
+    dc.loc['time', 'scales'] = json.dumps(mdata['indicatorsDB']['time']['scales'])
 
     dc.loc['world_4region', 'concept_type'] = 'entity_set'  # world_4region
     dc.loc['world_4region', 'domain'] = 'geo'
 
     dc.loc[['latitude', 'longitude'], 'concept_type'] = 'measure'  # latitude and longitude
     dc.loc[['latitude', 'longitude'], 'unit'] = 'degrees'
-    dc.loc['latitude', 'scales'] = mdata['indicatorsDB']['geo.latitude']['scales']
-    dc.loc['longitude', 'scales'] = mdata['indicatorsDB']['geo.longitude']['scales']
+    dc.loc['latitude', 'scales'] = json.dumps(mdata['indicatorsDB']['geo.latitude']['scales'])
+    dc.loc['longitude', 'scales'] = json.dumps(mdata['indicatorsDB']['geo.longitude']['scales'])
 
     dc.loc['global', 'domain'] = 'geo'  # global
     dc.loc['global', 'concept_type'] = 'entity_set'
-    dc.loc['global', 'scales'] = ['ordinal']
+    dc.loc['global', 'scales'] = json.dumps(['ordinal'])
 
     dc.loc['age', 'concept_type'] = 'measure'
     dc.loc['age', 'unit'] = 'years'
-    dc.loc['age', 'scales'] = ['linear', 'log']
+    dc.loc['age', 'scales'] = json.dumps(['linear', 'log'])
 
     dc.loc['name', 'indicator_url'] = mdata['indicatorsDB']['geo.name']['sourceLink']
-    dc.loc['name', 'scales'] = mdata['indicatorsDB']['geo.name']['scales']
+    dc.loc['name', 'scales'] = json.dumps(mdata['indicatorsDB']['geo.name']['scales'])
     dc.loc['latitude', 'indicator_url'] = mdata['indicatorsDB']['geo.latitude']['sourceLink']
     dc.loc['longitude', 'indicator_url'] = mdata['indicatorsDB']['geo.longitude']['sourceLink']
 
@@ -277,22 +277,15 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
         if 'sourceLink' in value_dict.keys():
             dc.loc[g, 'indicator_url'] = value_dict['sourceLink']
         if 'color' in value_dict.keys():
-            dc.loc[g, 'color'] = str(value_dict['color'])
+            dc.loc[g, 'color'] = json.dumps(value_dict['color'])
         if 'scales' in value_dict.keys():
-            dc.loc[g, 'scales'] = value_dict['scales']
+            dc.loc[g, 'scales'] = json.dumps(value_dict['scales'])
 
     dc = dc.reset_index()
 
     # combine them all.
     c_all = pd.concat([dc, cc, cc2])
     c_all = c_all.loc[:, cols].drop('scale', axis=1)
-
-    # fix json quoting. for json fileds, change
-    # single quote to double.
-    json_field = ['color', 'scales', 'drill_up']
-
-    for f in json_field:
-        c_all[f] = c_all[f].str.replace("'", '"')
 
     return c_all
 
