@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import os
 from common import to_concept_id
+import json
 
 
 # helper functions
@@ -285,6 +286,13 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     # combine them all.
     c_all = pd.concat([dc, cc, cc2])
     c_all = c_all.loc[:, cols].drop('scale', axis=1)
+
+    # fix json quoting. for json fileds, change
+    # single quote to double.
+    json_field = ['color', 'scales', 'drill_up']
+
+    for f in json_field:
+        c_all[f] = c_all[f].str.replace("'", '"')
 
     return c_all
 
