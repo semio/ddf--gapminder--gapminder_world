@@ -1,5 +1,63 @@
 {
 "indicatorsDB": {
+  "zaf_population": {
+    "use": "indicator",
+    "scales": [
+      "linear",
+      "log"
+    ],
+    "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+    "domain": [
+      0,
+      13000000
+    ],
+    "availability": [
+      1996,
+      2011
+    ]
+  },
+  
+  "black_population": {
+    "use": "indicator",
+    "scales": [
+      "linear",
+      "log"
+    ],
+    "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+    "domain": [
+      0,
+      10000000
+    ],
+    "availability": [
+      1996,
+      2011
+    ]
+  },
+  "black_population_percentage": {
+    "use": "indicator",
+    "scales": [
+      "linear",
+      "log"
+    ],
+    "sourceLink": "http://www.gapminder.org/news/data-sources-dont-panic-end-poverty",
+    "domain": [
+      0,
+      1
+    ],
+    "availability": [
+      1996,
+      2011
+    ]
+  },
+
+ "shape_w_subdiv_midres_topojson": {
+     "use": "property",
+     "name": "Geo shape with subdivisions in topojson format with medium resolution"
+ },
+ "shape_lores_svg": {
+     "use": "property",
+     "name": "Geo shape in svg format with low resolution"
+ },  
  "time": {
      "use": "indicator",
      "scales": ["time"],
@@ -4193,8 +4251,8 @@
    ],
    "use": "indicator",
    "domain": [
-    25,
-    83
+    1,
+    85
    ],
    "availability": [
     1800,
@@ -8653,6 +8711,15 @@
  "indicatorsTree": {
   "id": "_root",
   "children": [
+    {
+      "id": "zaf_population"
+    },
+    {
+      "id": "black_population"
+    },
+    {
+      "id": "black_population_percentage"
+    },
    {
     "id": "time"
    },
