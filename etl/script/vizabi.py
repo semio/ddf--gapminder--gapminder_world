@@ -177,7 +177,7 @@ def generate_metadata(ddf_concept, graphs, meta2, area, outdir, oneset=False):
         # 2) remove top and bottom 10% of values (os if 100 points, remove 10 from top and bottom)
         # 3) take first and last value of what's left as min and max in the property above.
         values_sorted = df[i].sort_values().values
-        q_10 = np.round(len(values_sorted) / 10)
+        q_10 = int(np.round(len(values_sorted) / 10))
         q_90 = -1 * q_10 - 1
 
         # values_sorted = values_sorted[q_10:q_90]
