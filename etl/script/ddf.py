@@ -6,7 +6,7 @@ json version files.
 import pandas as pd
 import numpy as np
 import os
-from common import to_concept_id
+from ddf_utils.str import to_concept_id
 import json
 
 
@@ -55,9 +55,9 @@ def extract_entities_groups(regs, gps):
         df = pd.DataFrame([], columns=[n, 'name', 'gwid', 'is--'+n])
         df['gwid'] = gps.iloc[i]['groupings'].keys()
         if i == 4:
-            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+', sep=''))
+            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x], sep=''))
         else:
-            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x], sub='[/ -\.\*";\[\]]+'))
+            df[n] = df['gwid'].apply(lambda x: to_concept_id(regd[x]))
 
             df['name'] = df['gwid'].apply(lambda x: regd[x])
         df['is--'+n] = 'TRUE'
@@ -93,7 +93,7 @@ def extract_entities_country(regs, geo, gps, geo_sg, geo_map=False):
         for k, v in gps.iloc[i]['groupings'].items():
             for gwid in v:
                 if gwid:
-                    res[gwid] = to_concept_id(regd[k], sub='[/ -\.\*";\[\]]+')
+                    res[gwid] = to_concept_id(regd[k])
 
         ser = pd.Series(res)
 

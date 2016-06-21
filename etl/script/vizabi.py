@@ -5,7 +5,8 @@
 import pandas as pd
 import numpy as np
 import os
-from common import to_concept_id, to_dict_dropna
+from common import to_dict_dropna
+from ddf_utils.str import to_concept_id
 from collections import OrderedDict
 
 
