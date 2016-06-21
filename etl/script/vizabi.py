@@ -5,6 +5,7 @@
 import pandas as pd
 import numpy as np
 import os
+import json
 from common import to_dict_dropna
 from ddf_utils.str import to_concept_id
 from collections import OrderedDict
@@ -99,6 +100,11 @@ def generate_metadata(ddf_concept, graphs, meta2, area, outdir, oneset=False):
     # rename indicator_url to sourceLink
     ddf_concept = ddf_concept.rename(columns={'indicator_url': 'sourceLink'})
 
+    # convert json fields to dict/list object.
+    to_json = lambda x: json.loads(x) if isinstance(x, str) else x
+    ddf_concept['scales'] = ddf_concept['scales'].map(to_json)
+    ddf_concept['color'] = ddf_concept['color'].map(to_json)
+
     # geo property
     geo_list = ['geo', 'name', 'latitude', 'longitude',
                 'world_4region']
@@ -115,11 +121,8 @@ def generate_metadata(ddf_concept, graphs, meta2, area, outdir, oneset=False):
             key = 'geo.'+k
         indb['indicatorsDB'][key] = value_dict[k]
         indb['indicatorsDB'][key]['use'] = 'property'
-        # when reading from file, color property becomes string.
-        # so we eval it to get the dict back.
-        # TODO: using eval() may cause security problem.
         if 'color' in indb['indicatorsDB'][key].keys():
-            indb['indicatorsDB'][key]['color'] = eval(indb['indicatorsDB'][key]['color'])
+            indb['indicatorsDB'][key]['color'] = indb['indicatorsDB'][key]['color']
 
     # manually add a _default and time indicator
     indb['indicatorsDB']['time'] = {
@@ -143,9 +146,8 @@ def generate_metadata(ddf_concept, graphs, meta2, area, outdir, oneset=False):
             key = 'geo.'+g
             indb['indicatorsDB'][key] = value_dict[g]
             indb['indicatorsDB'][key]['use'] = 'property'
-            # TODO: using eval() may cause security problem.
             if 'color' in indb['indicatorsDB'][key].keys():
-                indb['indicatorsDB'][key]['color'] = eval(indb['indicatorsDB'][key]['color'])
+                indb['indicatorsDB'][key]['color'] = indb['indicatorsDB'][key]['color']
 
     ddf_concept = ddf_concept.reset_index()
 
