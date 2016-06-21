@@ -199,7 +199,7 @@ def extract_concepts(cs, geo, gps, sgdc, mdata):
     for k in rm.values():
         value_dict = mdata['indicatorsDB'][k]
         if 'color' in value_dict.keys():
-            cc2.loc[k, 'color'] = str(value_dict['color'])
+            cc2.loc[k, 'color'] = json.dumps(value_dict['color'])
         if 'interpolation' in value_dict.keys():
             cc2.loc[k, 'interpolation'] = value_dict['interpolation']
     cc2 = cc2.reset_index()
