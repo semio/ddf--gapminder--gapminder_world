@@ -112,6 +112,11 @@ def main(source_dir, ddf_dir, vizabi_dir, make='all'):
     if 'metadata' in make:
         make.remove('metadata')
         print('updating metadata.json')
+
+        # fix the output number precesion.
+        from json import encoder
+        encoder.FLOAT_REPR = lambda o: format(o, '.15g')
+
         concepts_ = cleanup_concepts(concepts, drop_placeholder=True)
         cs = extract_concepts(concepts, geo, gps, sgdc, mdata)
         md = generate_metadata(cs, concepts_, mdata, area, ddf_dir)

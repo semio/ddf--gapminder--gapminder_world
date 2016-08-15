@@ -175,6 +175,12 @@ def generate_metadata(ddf_concept, graphs, meta2, area, outdir, oneset=False):
         dm = [float(df[i].min()), float(df[i].max())]
         av = [int(df['time'].min()), int(df['time'].max())]
 
+        # make it zero when the number is too small
+        if np.abs(dm[0]) < 1e-5:
+            dm[0] = 0
+        if np.abs(av[0]) < 1e-5:
+            av[0] = 0
+
         # domain_quantiles_10_90:
         # 1) sort by indicator value
         # 2) remove top and bottom 10% of values (os if 100 points, remove 10 from top and bottom)
