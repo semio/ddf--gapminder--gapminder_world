@@ -33,18 +33,18 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 18.9,abw,2008
 20.52,abw,2009
 14.86,aus,1998
-15.0,aus,1999
+15,aus,1999
 13.28,aus,2000
 15.27,aus,2001
 14.61,aus,2002
 14.56,aus,2003
-15.0,aus,2004
+15,aus,2004
 15.2,aus,2005
 14.64,aus,2006
 14.52,aus,2007
 14.41,aus,2008
 18.76,aus,2009
-30.0,aut,1999
+30,aut,1999
 27.83,aut,2000
 27.86,aut,2001
 27.77,aut,2002
@@ -55,7 +55,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 26.35,aut,2007
 27.37,aut,2008
 15.44,aze,1998
-17.0,aze,1999
+17,aze,1999
 16.24,bhr,2002
 11.52,bgd,1999
 10.6,bgd,2000
@@ -92,7 +92,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 23.22,blz,2008
 24.9,blz,2009
 24.04,ben,2000
-24.0,ben,2001
+24,ben,2001
 18.87,ben,2002
 21.06,ben,2003
 24.12,ben,2004
@@ -159,7 +159,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 14.51,caf,2010
 24.41,tcd,2004
 30.08,tcd,2005
-23.0,tcd,2009
+23,tcd,2009
 19.09,tcd,2010
 13.79,chl,1998
 14.85,chl,2000
@@ -207,7 +207,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 41.12,cub,2000
 40.5,cub,2001
 43.97,cub,2002
-43.0,cub,2003
+43,cub,2003
 44.17,cub,2004
 47.74,cub,2005
 42.72,cub,2006
@@ -417,7 +417,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 28.45,ita,2006
 25.2,ita,2007
 26.73,ita,2008
-21.0,jam,2001
+21,jam,2001
 20.96,jam,2002
 20.11,jam,2003
 17.6,jam,2004
@@ -438,7 +438,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 22.38,jpn,2007
 22.28,jpn,2008
 15.81,jor,1999
-17.0,jor,2002
+17,jor,2002
 18.75,jor,2003
 17.58,jor,2004
 19.06,jor,2005
@@ -589,7 +589,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 23.49,nld,2002
 23.85,nld,2003
 24.95,nld,2004
-25.0,nld,2005
+25,nld,2005
 24.91,nld,2006
 24.34,nld,2007
 24.97,nld,2008
@@ -813,7 +813,7 @@ expenditure_per_student_secondary_percent_of_gdp_per_person,geo,time
 9.648,tur,2003
 10.95,tur,2004
 31.87,uga,2004
-26.0,uga,2008
+26,uga,2008
 20.47,uga,2009
 7.169,are,1999
 6.279,are,2000

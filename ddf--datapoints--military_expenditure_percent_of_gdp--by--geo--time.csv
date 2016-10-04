@@ -768,7 +768,7 @@ military_expenditure_percent_of_gdp,geo,time
 2.106,cyp,2006
 1.858,cyp,2007
 1.793,cyp,2008
-2.0,cyp,2009
+2,cyp,2009
 2.067,cyp,2010
 2.168,cyp,2011
 2.099,cze,1993
@@ -911,7 +911,7 @@ military_expenditure_percent_of_gdp,geo,time
 5.479,slv,1989
 4.198,slv,1990
 3.522,slv,1991
-3.0,slv,1992
+3,slv,1992
 2.389,slv,1993
 1.972,slv,1994
 1.697,slv,1995
@@ -2533,7 +2533,7 @@ military_expenditure_percent_of_gdp,geo,time
 10.64,sau,1994
 9.278,sau,1995
 8.468,sau,1996
-11.0,sau,1997
+11,sau,1997
 14.31,sau,1998
 11.38,sau,1999
 10.59,sau,2000
@@ -2650,7 +2650,7 @@ military_expenditure_percent_of_gdp,geo,time
 4.923,sgp,2003
 4.475,sgp,2004
 4.356,sgp,2005
-4.0,sgp,2006
+4,sgp,2006
 3.671,sgp,2007
 4.196,sgp,2008
 4.405,sgp,2009

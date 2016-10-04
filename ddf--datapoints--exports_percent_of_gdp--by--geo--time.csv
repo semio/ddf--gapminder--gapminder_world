@@ -147,7 +147,7 @@ exports_percent_of_gdp,geo,time
 84.11,atg,1986
 79.6,atg,1987
 78.74,atg,1988
-81.0,atg,1989
+81,atg,1989
 88.95,atg,1990
 90.08,atg,1991
 96.11,atg,1992
@@ -162,7 +162,7 @@ exports_percent_of_gdp,geo,time
 60.32,atg,2001
 55.79,atg,2002
 57.59,atg,2003
-59.0,atg,2004
+59,atg,2004
 54.42,atg,2005
 48.03,atg,2006
 44.86,atg,2007
@@ -221,7 +221,7 @@ exports_percent_of_gdp,geo,time
 21.35,arg,2009
 21.71,arg,2010
 21.82,arg,2011
-35.0,arm,1990
+35,arm,1990
 40.75,arm,1991
 39.82,arm,1992
 47.22,arm,1993
@@ -229,7 +229,7 @@ exports_percent_of_gdp,geo,time
 23.93,arm,1995
 23.24,arm,1996
 20.27,arm,1997
-19.0,arm,1998
+19,arm,1998
 20.76,arm,1999
 23.38,arm,2000
 25.47,arm,2001
@@ -247,7 +247,7 @@ exports_percent_of_gdp,geo,time
 115.6,abw,1992
 111.6,abw,1993
 108.9,abw,1994
-102.0,abw,1995
+102,abw,1995
 125.6,abw,1996
 112.6,abw,1997
 69.94,abw,1998
@@ -394,7 +394,7 @@ exports_percent_of_gdp,geo,time
 51.02,bhs,1994
 49.55,bhs,1995
 48.04,bhs,1996
-43.0,bhs,1997
+43,bhs,1997
 40.4,bhs,1998
 42.5,bhs,1999
 44.36,bhs,2000
@@ -411,7 +411,7 @@ exports_percent_of_gdp,geo,time
 43.45,bhs,2011
 124.1,bhr,1980
 131.1,bhr,1981
-119.0,bhr,1982
+119,bhr,1982
 96.68,bhr,1983
 96.49,bhr,1984
 101.8,bhr,1985
@@ -420,7 +420,7 @@ exports_percent_of_gdp,geo,time
 95.34,bhr,1988
 98.64,bhr,1989
 115.6,bhr,1990
-85.0,bhr,1991
+85,bhr,1991
 84.38,bhr,1992
 83.87,bhr,1993
 81.19,bhr,1994
@@ -433,7 +433,7 @@ exports_percent_of_gdp,geo,time
 82.32,bhr,2001
 81.92,bhr,2002
 81.88,bhr,2003
-92.0,bhr,2004
+92,bhr,2004
 99.53,bhr,2005
 98.79,bhr,2006
 93.73,bhr,2007
@@ -594,7 +594,7 @@ exports_percent_of_gdp,geo,time
 66.99,bel,1990
 65.48,bel,1991
 63.94,bel,1992
-61.0,bel,1993
+61,bel,1993
 63.52,bel,1994
 65.36,bel,1995
 65.62,bel,1996
@@ -693,7 +693,7 @@ exports_percent_of_gdp,geo,time
 11.35,ben,2006
 16.23,ben,2007
 15.24,ben,2008
-14.0,ben,2009
+14,ben,2009
 14.28,ben,2010
 14.88,ben,2011
 24.94,bmu,2005
@@ -986,7 +986,7 @@ exports_percent_of_gdp,geo,time
 9.921,bfa,1985
 8.991,bfa,1986
 11.36,bfa,1987
-11.0,bfa,1988
+11,bfa,1988
 8.749,bfa,1989
 10.97,bfa,1990
 10.45,bfa,1991
@@ -1042,7 +1042,7 @@ exports_percent_of_gdp,geo,time
 12.93,bdi,1995
 5.82,bdi,1996
 9.836,bdi,1997
-8.0,bdi,1998
+8,bdi,1998
 7.576,bdi,1999
 6.585,bdi,2000
 5.523,bdi,2001
@@ -1111,7 +1111,7 @@ exports_percent_of_gdp,geo,time
 16.03,cmr,1988
 20.71,cmr,1989
 20.18,cmr,1990
-20.0,cmr,1991
+20,cmr,1991
 20.55,cmr,1992
 16.18,cmr,1993
 21.12,cmr,1994
@@ -1122,7 +1122,7 @@ exports_percent_of_gdp,geo,time
 21.5,cmr,1999
 29.17,cmr,2000
 27.5,cmr,2001
-25.0,cmr,2002
+25,cmr,2002
 23.96,cmr,2003
 22.71,cmr,2004
 24.47,cmr,2005
@@ -1165,7 +1165,7 @@ exports_percent_of_gdp,geo,time
 25.12,can,1991
 27.09,can,1992
 30.21,can,1993
-34.0,can,1994
+34,can,1994
 37.32,can,1995
 38.39,can,1996
 39.49,can,1997
@@ -1207,7 +1207,7 @@ exports_percent_of_gdp,geo,time
 29.81,cpv,2001
 32.54,cpv,2002
 31.36,cpv,2003
-32.0,cpv,2004
+32,cpv,2004
 37.78,cpv,2005
 45.13,cpv,2006
 42.83,cpv,2007
@@ -1310,12 +1310,12 @@ exports_percent_of_gdp,geo,time
 12.69,tcd,2002
 24.63,tcd,2003
 51.01,tcd,2004
-61.0,tcd,2005
+61,tcd,2005
 63.15,tcd,2006
 54.8,tcd,2007
 52.8,tcd,2008
 40.64,tcd,2009
-39.0,tcd,2010
+39,tcd,2010
 12.04,chl,1961
 11.92,chl,1962
 12.26,chl,1963
@@ -1383,7 +1383,7 @@ exports_percent_of_gdp,geo,time
 10.19,chn,1983
 10.41,chn,1984
 9.213,chn,1985
-10.0,chn,1986
+10,chn,1986
 14.49,chn,1987
 14.83,chn,1988
 13.9,chn,1989
@@ -1437,12 +1437,12 @@ exports_percent_of_gdp,geo,time
 18.84,col,1986
 16.95,col,1987
 16.29,col,1988
-18.0,col,1989
+18,col,1989
 20.57,col,1990
 21.34,col,1991
 17.71,col,1992
 16.43,col,1993
-15.0,col,1994
+15,col,1994
 14.53,col,1995
 15.2,col,1996
 14.84,col,1997
@@ -1465,7 +1465,7 @@ exports_percent_of_gdp,geo,time
 15.69,com,1982
 19.83,com,1983
 9.019,com,1984
-17.0,com,1985
+17,com,1985
 16.44,com,1986
 15.25,com,1987
 17.98,com,1988
@@ -1527,7 +1527,7 @@ exports_percent_of_gdp,geo,time
 11.33,cod,1993
 22.63,cod,1994
 28.48,cod,1995
-30.0,cod,1996
+30,cod,1996
 18.75,cod,1997
 29.79,cod,1998
 23.64,cod,1999
@@ -1576,7 +1576,7 @@ exports_percent_of_gdp,geo,time
 45.07,cog,1991
 42.87,cog,1992
 44.22,cog,1993
-63.0,cog,1994
+63,cog,1994
 64.7,cog,1995
 68.46,cog,1996
 75.6,cog,1997
@@ -1617,7 +1617,7 @@ exports_percent_of_gdp,geo,time
 43.27,cri,1981
 45.08,cri,1982
 29.92,cri,1983
-29.0,cri,1984
+29,cri,1984
 27.12,cri,1985
 27.03,cri,1986
 26.68,cri,1987
@@ -1664,7 +1664,7 @@ exports_percent_of_gdp,geo,time
 42.63,civ,1977
 36.52,civ,1978
 34.6,civ,1979
-35.0,civ,1980
+35,civ,1980
 35.18,civ,1981
 36.42,civ,1982
 36.96,civ,1983
@@ -1789,7 +1789,7 @@ exports_percent_of_gdp,geo,time
 46.97,cyp,2003
 47.78,cyp,2004
 48.32,cyp,2005
-48.0,cyp,2006
+48,cyp,2006
 47.94,cyp,2007
 45.44,cyp,2008
 40.27,cyp,2009
@@ -1816,7 +1816,7 @@ exports_percent_of_gdp,geo,time
 58.95,cze,2009
 66.46,cze,2010
 72.55,cze,2011
-30.0,dnk,1961
+30,dnk,1961
 28.62,dnk,1962
 30.4,dnk,1963
 29.85,dnk,1964
@@ -1888,7 +1888,7 @@ exports_percent_of_gdp,geo,time
 41.24,dma,1977
 42.72,dma,1978
 28.01,dma,1979
-22.0,dma,1980
+22,dma,1980
 34.57,dma,1981
 41.23,dma,1982
 41.15,dma,1983
@@ -2138,7 +2138,7 @@ exports_percent_of_gdp,geo,time
 38.34,gnq,1973
 42.34,gnq,1974
 42.98,gnq,1975
-47.0,gnq,1976
+47,gnq,1976
 47.01,gnq,1977
 30.09,gnq,1985
 35.46,gnq,1986
@@ -2221,7 +2221,7 @@ exports_percent_of_gdp,geo,time
 12.87,eth,1998
 11.73,eth,1999
 12.03,eth,2000
-12.0,eth,2001
+12,eth,2001
 12.6,eth,2002
 13.32,eth,2003
 14.9,eth,2004
@@ -2719,7 +2719,7 @@ exports_percent_of_gdp,geo,time
 17.09,gtm,1981
 14.79,gtm,1982
 12.99,gtm,1983
-13.0,gtm,1984
+13,gtm,1984
 11.95,gtm,1985
 16.05,gtm,1986
 15.85,gtm,1987
@@ -2734,7 +2734,7 @@ exports_percent_of_gdp,geo,time
 17.81,gtm,1996
 17.96,gtm,1997
 18.17,gtm,1998
-19.0,gtm,1999
+19,gtm,1999
 20.2,gtm,2000
 28.21,gtm,2001
 26.3,gtm,2002
@@ -2773,7 +2773,7 @@ exports_percent_of_gdp,geo,time
 26.54,gin,2009
 28.35,gin,2010
 30.29,gin,2011
-4.0,gnb,1970
+4,gnb,1970
 4.158,gnb,1971
 4.356,gnb,1972
 6.06,gnb,1973
@@ -2839,7 +2839,7 @@ exports_percent_of_gdp,geo,time
 105.9,guy,1991
 127.6,guy,1992
 117.4,guy,1993
-105.0,guy,1994
+105,guy,1994
 101.2,guy,1995
 102.6,guy,1996
 99.66,guy,1997
@@ -2900,7 +2900,7 @@ exports_percent_of_gdp,geo,time
 26.59,hnd,1986
 22.96,hnd,1987
 26.29,hnd,1988
-31.0,hnd,1989
+31,hnd,1989
 37.2,hnd,1990
 34.52,hnd,1991
 32.17,hnd,1992
@@ -2961,7 +2961,7 @@ exports_percent_of_gdp,geo,time
 136.4,hkg,1996
 129.3,hkg,1997
 124.3,hkg,1998
-127.0,hkg,1999
+127,hkg,1999
 141.8,hkg,2000
 137.1,hkg,2001
 147.4,hkg,2002
@@ -3334,7 +3334,7 @@ exports_percent_of_gdp,geo,time
 15.84,ita,1969
 15.8,ita,1970
 16.24,ita,1971
-17.0,ita,1972
+17,ita,1972
 16.79,ita,1973
 19.31,ita,1974
 19.52,ita,1975
@@ -3347,7 +3347,7 @@ exports_percent_of_gdp,geo,time
 22.01,ita,1982
 21.19,ita,1983
 21.89,ita,1984
-22.0,ita,1985
+22,ita,1985
 19.49,ita,1986
 18.74,ita,1987
 18.32,ita,1988
@@ -3508,7 +3508,7 @@ exports_percent_of_gdp,geo,time
 45.88,jor,2009
 47.79,jor,2010
 45.58,jor,2011
-74.0,kaz,1992
+74,kaz,1992
 37.9,kaz,1993
 37.06,kaz,1994
 38.97,kaz,1995
@@ -3792,7 +3792,7 @@ exports_percent_of_gdp,geo,time
 53.81,lva,2010
 59.32,lva,2011
 18.36,lbn,1989
-18.0,lbn,1990
+18,lbn,1990
 13.21,lbn,1991
 11.38,lbn,1992
 9.675,lbn,1993
@@ -3883,7 +3883,7 @@ exports_percent_of_gdp,geo,time
 78.28,lbr,1976
 68.2,lbr,1977
 69.71,lbr,1978
-68.0,lbr,1979
+68,lbr,1979
 71.78,lbr,1980
 69.46,lbr,1981
 62.39,lbr,1982
@@ -3951,7 +3951,7 @@ exports_percent_of_gdp,geo,time
 81.79,lux,1962
 79.51,lux,1963
 80.63,lux,1964
-83.0,lux,1965
+83,lux,1965
 79.46,lux,1966
 80.77,lux,1967
 82.83,lux,1968
@@ -3970,7 +3970,7 @@ exports_percent_of_gdp,geo,time
 89.14,lux,1981
 91.57,lux,1982
 92.83,lux,1983
-104.0,lux,1984
+104,lux,1984
 111.6,lux,1985
 102.1,lux,1986
 99.27,lux,1987
@@ -3980,16 +3980,16 @@ exports_percent_of_gdp,geo,time
 101.4,lux,1991
 100.4,lux,1992
 100.7,lux,1993
-104.0,lux,1994
+104,lux,1994
 106.4,lux,1995
 111.1,lux,1996
 120.9,lux,1997
 127.5,lux,1998
 134.3,lux,1999
-150.0,lux,2000
+150,lux,2000
 146.6,lux,2001
 140.7,lux,2002
-137.0,lux,2003
+137,lux,2003
 152.4,lux,2004
 155.8,lux,2005
 169.9,lux,2006
@@ -4005,9 +4005,9 @@ exports_percent_of_gdp,geo,time
 123.5,mac,1986
 123.6,mac,1987
 119.4,mac,1988
-117.0,mac,1989
-110.0,mac,1990
-103.0,mac,1991
+117,mac,1989
+110,mac,1990
+103,mac,1991
 91.33,mac,1992
 84.89,mac,1993
 82.24,mac,1994
@@ -4117,7 +4117,7 @@ exports_percent_of_gdp,geo,time
 28.02,mwi,1974
 29.13,mwi,1975
 30.44,mwi,1976
-30.0,mwi,1977
+30,mwi,1977
 23.19,mwi,1978
 23.19,mwi,1979
 24.84,mwi,1980
@@ -4323,9 +4323,9 @@ exports_percent_of_gdp,geo,time
 25.2,mrt,1963
 43.54,mrt,1964
 42.19,mrt,1965
-43.0,mrt,1966
+43,mrt,1966
 41.61,mrt,1967
-38.0,mrt,1968
+38,mrt,1968
 38.84,mrt,1969
 40.81,mrt,1970
 40.22,mrt,1971
@@ -4427,13 +4427,13 @@ exports_percent_of_gdp,geo,time
 10.71,mex,1980
 10.41,mex,1981
 15.33,mex,1982
-19.0,mex,1983
+19,mex,1983
 17.38,mex,1984
 15.41,mex,1985
 17.34,mex,1986
 19.5,mex,1987
 19.93,mex,1988
-19.0,mex,1989
+19,mex,1989
 18.6,mex,1990
 16.36,mex,1991
 15.24,mex,1992
@@ -4498,7 +4498,7 @@ exports_percent_of_gdp,geo,time
 52.67,mng,1997
 47.84,mng,1998
 50.16,mng,1999
-54.0,mng,2000
+54,mng,2000
 50.32,mng,2001
 50.73,mng,2002
 52.35,mng,2003
@@ -4571,7 +4571,7 @@ exports_percent_of_gdp,geo,time
 35.75,mar,2007
 37.48,mar,2008
 28.7,mar,2009
-33.0,mar,2010
+33,mar,2010
 34.59,mar,2011
 10.86,moz,1980
 9.95,moz,1981
@@ -4671,7 +4671,7 @@ exports_percent_of_gdp,geo,time
 46.16,nam,1999
 40.88,nam,2000
 41.17,nam,2001
-46.0,nam,2002
+46,nam,2002
 43.39,nam,2003
 39.81,nam,2004
 40.45,nam,2005
@@ -4770,7 +4770,7 @@ exports_percent_of_gdp,geo,time
 70.08,nld,2000
 67.28,nld,2001
 64.15,nld,2002
-63.0,nld,2003
+63,nld,2003
 66.39,nld,2004
 69.62,nld,2005
 72.84,nld,2006
@@ -4778,7 +4778,7 @@ exports_percent_of_gdp,geo,time
 76.28,nld,2008
 68.57,nld,2009
 78.22,nld,2010
-83.0,nld,2011
+83,nld,2011
 18.49,ncl,1990
 16.91,ncl,1991
 13.71,ncl,1992
@@ -4906,7 +4906,7 @@ exports_percent_of_gdp,geo,time
 20.83,ner,1983
 22.91,ner,1984
 20.69,ner,1985
-20.0,ner,1986
+20,ner,1986
 20.8,ner,1987
 18.3,ner,1988
 16.6,ner,1989
@@ -5054,7 +5054,7 @@ exports_percent_of_gdp,geo,time
 43.07,omn,1991
 44.72,omn,1992
 43.05,omn,1993
-43.0,omn,1994
+43,omn,1994
 44.04,omn,1995
 49.81,omn,1996
 50.04,omn,1997
@@ -5094,7 +5094,7 @@ exports_percent_of_gdp,geo,time
 13.59,pak,1988
 13.88,pak,1989
 15.54,pak,1990
-17.0,pak,1991
+17,pak,1991
 17.36,pak,1992
 16.31,pak,1993
 16.28,pak,1994
@@ -5148,7 +5148,7 @@ exports_percent_of_gdp,geo,time
 78.9,pan,1989
 86.78,pan,1990
 96.8,pan,1991
-100.0,pan,1992
+100,pan,1992
 97.04,pan,1993
 99.79,pan,1994
 100.7,pan,1995
@@ -5252,7 +5252,7 @@ exports_percent_of_gdp,geo,time
 30.17,pry,1991
 28.07,pry,1992
 36.93,pry,1993
-54.0,pry,1994
+54,pry,1994
 59.43,pry,1995
 50.34,pry,1996
 44.04,pry,1997
@@ -5309,7 +5309,7 @@ exports_percent_of_gdp,geo,time
 14.36,per,1997
 13.14,per,1998
 15.03,per,1999
-16.0,per,2000
+16,per,2000
 15.65,per,2001
 16.07,per,2002
 17.72,per,2003
@@ -5410,7 +5410,7 @@ exports_percent_of_gdp,geo,time
 16.22,prt,1975
 13.86,prt,1976
 14.65,prt,1977
-16.0,prt,1978
+16,prt,1978
 21.51,prt,1979
 21.77,prt,1980
 20.63,prt,1981
@@ -5556,7 +5556,7 @@ exports_percent_of_gdp,geo,time
 11.48,rwa,1961
 9.28,rwa,1962
 5.938,rwa,1963
-12.0,rwa,1964
+12,rwa,1964
 12.1,rwa,1965
 11.28,rwa,1966
 10.51,rwa,1967
@@ -5680,7 +5680,7 @@ exports_percent_of_gdp,geo,time
 58.92,vct,1982
 61.33,vct,1983
 69.05,vct,1984
-73.0,vct,1985
+73,vct,1985
 72.99,vct,1986
 64.26,vct,1987
 75.97,vct,1988
@@ -5688,7 +5688,7 @@ exports_percent_of_gdp,geo,time
 65.82,vct,1990
 52.84,vct,1991
 59.3,vct,1992
-50.0,vct,1993
+50,vct,1993
 46.27,vct,1994
 51.15,vct,1995
 52.89,vct,1996
@@ -5941,7 +5941,7 @@ exports_percent_of_gdp,geo,time
 149.6,sgp,1974
 137.2,sgp,1975
 149.6,sgp,1976
-163.0,sgp,1977
+163,sgp,1977
 165.8,sgp,1978
 185.1,sgp,1979
 202.6,sgp,1980
@@ -5957,12 +5957,12 @@ exports_percent_of_gdp,geo,time
 177.4,sgp,1990
 169.6,sgp,1991
 162.1,sgp,1992
-162.0,sgp,1993
+162,sgp,1993
 167.2,sgp,1994
-183.0,sgp,1995
+183,sgp,1995
 178.5,sgp,1996
 171.6,sgp,1997
-169.0,sgp,1998
+169,sgp,1998
 180.2,sgp,1999
 192.3,sgp,2000
 187.8,sgp,2001
@@ -5975,7 +5975,7 @@ exports_percent_of_gdp,geo,time
 241.4,sgp,2008
 224.8,sgp,2009
 207.2,sgp,2010
-209.0,sgp,2011
+209,sgp,2011
 32.34,svk,1987
 32.15,svk,1988
 28.84,svk,1989
@@ -6054,7 +6054,7 @@ exports_percent_of_gdp,geo,time
 36.64,slb,2009
 31.11,slb,2010
 25.83,slb,2011
-16.0,som,1961
+16,som,1961
 12.79,som,1962
 15.87,som,1963
 15.98,som,1964
@@ -6286,7 +6286,7 @@ exports_percent_of_gdp,geo,time
 22.1,sdn,2007
 24.5,sdn,2008
 16.12,sdn,2009
-20.0,sdn,2010
+20,sdn,2010
 18.47,sdn,2011
 50.25,sur,1961
 48.02,sur,1962
@@ -6296,7 +6296,7 @@ exports_percent_of_gdp,geo,time
 59.06,sur,1966
 59.01,sur,1967
 57.68,sur,1968
-62.0,sur,1969
+62,sur,1969
 60.27,sur,1970
 63.57,sur,1971
 60.94,sur,1972
@@ -6318,7 +6318,7 @@ exports_percent_of_gdp,geo,time
 29.31,sur,1988
 37.7,sur,1989
 42.05,sur,1990
-35.0,sur,1991
+35,sur,1991
 28.66,sur,1992
 20.41,sur,1993
 22.94,sur,1994
@@ -6371,7 +6371,7 @@ exports_percent_of_gdp,geo,time
 59.35,swz,1996
 61.35,swz,1997
 67.17,swz,1998
-65.0,swz,1999
+65,swz,1999
 74.33,swz,2000
 85.44,swz,2001
 95.71,swz,2002
@@ -6641,7 +6641,7 @@ exports_percent_of_gdp,geo,time
 47.3,tgo,1976
 41.47,tgo,1977
 63.98,tgo,1978
-50.0,tgo,1979
+50,tgo,1979
 51.06,tgo,1980
 46.23,tgo,1981
 50.15,tgo,1982
@@ -6749,7 +6749,7 @@ exports_percent_of_gdp,geo,time
 51.53,tto,1996
 53.85,tto,1997
 48.47,tto,1998
-50.0,tto,1999
+50,tto,1999
 59.22,tto,2000
 55.32,tto,2001
 50.27,tto,2002
@@ -6770,7 +6770,7 @@ exports_percent_of_gdp,geo,time
 21.21,tun,1967
 20.93,tun,1968
 22.14,tun,1969
-22.0,tun,1970
+22,tun,1970
 24.1,tun,1971
 25.35,tun,1972
 26.06,tun,1973
@@ -7062,7 +7062,7 @@ exports_percent_of_gdp,geo,time
 10.04,usa,2001
 9.471,usa,2002
 9.387,usa,2003
-10.0,usa,2004
+10,usa,2004
 10.39,usa,2005
 11.05,usa,2006
 11.9,usa,2007
@@ -7104,7 +7104,7 @@ exports_percent_of_gdp,geo,time
 20.45,ury,1992
 19.13,ury,1993
 19.77,ury,1994
-19.0,ury,1995
+19,ury,1995
 19.67,ury,1996
 17.46,ury,1997
 16.42,ury,1998
@@ -7156,7 +7156,7 @@ exports_percent_of_gdp,geo,time
 47.08,vut,1990
 42.65,vut,1991
 45.61,vut,1992
-46.0,vut,1993
+46,vut,1993
 45.32,vut,1994
 44.65,vut,1995
 45.96,vut,1996
@@ -7275,7 +7275,7 @@ exports_percent_of_gdp,geo,time
 34.84,yem,1999
 41.41,yem,2000
 35.9,yem,2001
-37.0,yem,2002
+37,yem,2002
 36.44,yem,2003
 36.38,yem,2004
 40.9,yem,2005
@@ -7317,7 +7317,7 @@ exports_percent_of_gdp,geo,time
 34.61,zmb,1991
 36.39,zmb,1992
 33.57,zmb,1993
-36.0,zmb,1994
+36,zmb,1994
 36.02,zmb,1995
 31.33,zmb,1996
 30.12,zmb,1997

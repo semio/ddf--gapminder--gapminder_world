@@ -8,7 +8,7 @@ gdppercapita_growth_percent_per_year,geo,time
 17.08,afg,2009
 5.221,afg,2010
 3.661,alb,1981
-1.0,alb,1982
+1,alb,1982
 -0.8263,alb,1983
 -3.278,alb,1984
 -0.5041,alb,1985
@@ -168,7 +168,7 @@ gdppercapita_growth_percent_per_year,geo,time
 3.07,atg,1993
 3.694,atg,1994
 -6.616,atg,1995
-4.0,atg,1996
+4,atg,1996
 2.171,atg,1997
 1.779,atg,1998
 1.662,atg,1999
@@ -283,7 +283,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.038,aus,1972
 1.067,aus,1973
 1.465,aus,1974
-0.006017,aus,1975
+0.00602,aus,1975
 1.609,aus,1976
 2.324,aus,1977
 -0.2583,aus,1978
@@ -495,7 +495,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.454,bgd,1986
 0.96,bgd,1987
 -0.529,bgd,1988
--0.005186,bgd,1989
+-0.00519,bgd,1989
 3.35,bgd,1990
 0.9299,bgd,1991
 2.698,bgd,1992
@@ -867,7 +867,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.495,bol,2010
 25.51,bih,1995
 90.47,bih,1996
-32.0,bih,1997
+32,bih,1997
 11.79,bih,1998
 5.913,bih,1999
 2.865,bih,2000
@@ -1121,7 +1121,7 @@ gdppercapita_growth_percent_per_year,geo,time
 0.3611,bdi,1983
 -3.1,bdi,1984
 8.199,bdi,1985
-0.0009815,bdi,1986
+0.00098,bdi,1986
 2.272,bdi,1987
 1.977,bdi,1988
 -1.363,bdi,1989
@@ -1174,7 +1174,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.301,cmr,1969
 0.4864,cmr,1970
 0.8219,cmr,1971
--0.005373,cmr,1972
+-0.00537,cmr,1972
 2.547,cmr,1973
 7.699,cmr,1974
 8.103,cmr,1975
@@ -1361,7 +1361,7 @@ gdppercapita_growth_percent_per_year,geo,time
 0.8487,tcd,1976
 0.215,tcd,1977
 -2.401,tcd,1978
--23.0,tcd,1979
+-23,tcd,1979
 -8.008,tcd,1980
 -1.171,tcd,1981
 2.936,tcd,1982
@@ -1522,7 +1522,7 @@ gdppercapita_growth_percent_per_year,geo,time
 5.989,col,1978
 2.992,col,1979
 1.761,col,1980
--0.009222,col,1981
+-0.00922,col,1981
 -1.273,col,1982
 -0.626,col,1983
 1.137,col,1984
@@ -2172,7 +2172,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -11.84,slv,1981
 -7.662,slv,1982
 0.1433,slv,1983
--0.004684,slv,1984
+-0.00468,slv,1984
 -0.6924,slv,1985
 -1.086,slv,1986
 1.235,slv,1987
@@ -2318,7 +2318,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -1.424,fji,1975
 0.8249,fji,1976
 4.004,fji,1977
-0.009797,fji,1978
+0.0098,fji,1978
 10.02,fji,1979
 -3.728,fji,1980
 3.764,fji,1981
@@ -2879,7 +2879,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.186,gtm,2000
 -0.1166,gtm,2001
 1.334,gtm,2002
-0.003494,gtm,2003
+0.00349,gtm,2003
 0.6059,gtm,2004
 0.7236,gtm,2005
 2.811,gtm,2006
@@ -3646,7 +3646,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -2.657,jor,1990
 -8.947,jor,1991
 12.69,jor,1992
--0.001501,jor,1993
+-0.0015,jor,1993
 0.9811,jor,1994
 2.791,jor,1995
 -0.9821,jor,1996
@@ -3736,7 +3736,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.814,ken,2010
 -3.953,kir,1971
 10.27,kir,1972
-19.0,kir,1973
+19,kir,1973
 42.97,kir,1974
 3.586,kir,1975
 -27.79,kir,1976
@@ -3867,7 +3867,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -6.735,kwt,1999
 0.1865,kwt,2000
 -2.72,kwt,2001
-0.002881,kwt,2002
+0.00288,kwt,2002
 14.18,kwt,2003
 7.044,kwt,2004
 6.959,kwt,2005
@@ -4031,7 +4031,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -1.356,lso,1999
 4.071,lso,2000
 2.85,lso,2001
--0.0001932,lso,2002
+-0.00019,lso,2002
 3.383,lso,2003
 1.354,lso,2004
 1.772,lso,2005
@@ -4277,7 +4277,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -5.336,mdg,1978
 6.894,mdg,1979
 -1.839,mdg,1980
--12.0,mdg,1981
+-12,mdg,1981
 -4.256,mdg,1982
 -1.6,mdg,1983
 -0.8599,mdg,1984
@@ -4527,7 +4527,7 @@ gdppercapita_growth_percent_per_year,geo,time
 5.392,mhl,2001
 2.744,mhl,2002
 0.3126,mhl,2003
--0.009256,mhl,2004
+-0.00926,mhl,2004
 2.486,mhl,2005
 1.545,mhl,2006
 2.506,mhl,2007
@@ -4776,7 +4776,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.37,mng,1994
 5.557,mng,1995
 1.389,mng,1996
-3.0,mng,1997
+3,mng,1997
 2.411,mng,1998
 2.123,mng,1999
 0.202,mng,2000
@@ -4965,7 +4965,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.921,nam,2010
 0.08721,npl,1961
 0.05038,npl,1962
--0.009498,npl,1963
+-0.0095,npl,1963
 5.468,npl,1964
 -3.153,npl,1965
 4.87,npl,1966
@@ -5279,7 +5279,7 @@ gdppercapita_growth_percent_per_year,geo,time
 3.833,nga,2007
 3.387,nga,2008
 4.353,nga,2009
-6.0,nga,2010
+6,nga,2010
 5.432,nor,1961
 1.991,nor,1962
 3.003,nor,1963
@@ -5588,7 +5588,7 @@ gdppercapita_growth_percent_per_year,geo,time
 -1.568,pry,1998
 -3.544,pry,1999
 -5.334,pry,2000
--0.001399,pry,2001
+-0.0014,pry,2001
 -2.039,pry,2002
 1.808,pry,2003
 2.136,pry,2004
@@ -5766,7 +5766,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.114,prt,2006
 2.134,prt,2007
 -0.1409,prt,2008
--3.0,prt,2009
+-3,prt,2009
 1.331,prt,2010
 7.635,pri,1961
 5.309,pri,1962
@@ -5827,7 +5827,7 @@ gdppercapita_growth_percent_per_year,geo,time
 5.249,qat,2007
 5.898,qat,2008
 -5.073,qat,2009
--0.009803,rou,1981
+-0.0098,rou,1981
 3.538,rou,1982
 5.755,rou,1983
 5.586,rou,1984
@@ -5867,7 +5867,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.699,rus,1997
 -5.039,rus,1998
 6.829,rus,1999
-10.0,rus,2000
+10,rus,2000
 5.346,rus,2001
 5.212,rus,2002
 7.815,rus,2003
@@ -5987,7 +5987,7 @@ gdppercapita_growth_percent_per_year,geo,time
 4.448,lca,2004
 3.134,lca,2005
 4.575,lca,2006
--0.002961,lca,2007
+-0.00296,lca,2007
 4.167,lca,2008
 -2.261,lca,2009
 2.134,lca,2010
@@ -6045,7 +6045,7 @@ gdppercapita_growth_percent_per_year,geo,time
 1.069,wsm,1984
 3.615,wsm,1985
 5.095,wsm,1986
-0.001277,wsm,1987
+0.00128,wsm,1987
 -1.998,wsm,1988
 3.053,wsm,1989
 -5.079,wsm,1990
@@ -6153,7 +6153,7 @@ gdppercapita_growth_percent_per_year,geo,time
 3.459,sau,2003
 1.279,sau,2004
 1.921,sau,2005
-0.003406,sau,2006
+0.00341,sau,2006
 -0.8018,sau,2007
 1.59,sau,2008
 -2.242,sau,2009
@@ -6199,7 +6199,7 @@ gdppercapita_growth_percent_per_year,geo,time
 3.71,sen,1999
 0.5856,sen,2000
 1.87,sen,2001
--2.0,sen,2002
+-2,sen,2002
 3.815,sen,2003
 3.065,sen,2004
 2.804,sen,2005
@@ -6619,7 +6619,7 @@ gdppercapita_growth_percent_per_year,geo,time
 2.811,lka,2002
 4.651,lka,2003
 4.151,lka,2004
-5.0,lka,2005
+5,lka,2005
 6.489,lka,2006
 5.69,lka,2007
 4.907,lka,2008
@@ -6842,7 +6842,7 @@ gdppercapita_growth_percent_per_year,geo,time
 6.231,syr,1971
 20.83,syr,1972
 -11.61,syr,1973
-20.0,syr,1974
+20,syr,1974
 15.58,syr,1975
 7.348,syr,1976
 -4.457,syr,1977
@@ -7076,7 +7076,7 @@ gdppercapita_growth_percent_per_year,geo,time
 3.37,tto,1968
 1.078,tto,1969
 2.155,tto,1970
-0.004691,tto,1971
+0.00469,tto,1971
 4.936,tto,1972
 0.9598,tto,1973
 3.049,tto,1974

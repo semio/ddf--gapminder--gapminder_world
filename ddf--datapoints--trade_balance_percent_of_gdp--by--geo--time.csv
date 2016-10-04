@@ -5,7 +5,7 @@ trade_balance_percent_of_gdp,geo,time
 -7.692,afg,1963
 -9.167,afg,1964
 -10.15,afg,1965
--10.0,afg,1966
+-10,afg,1966
 -7.437,afg,1967
 -6.311,afg,1968
 -4.89,afg,1969
@@ -78,7 +78,7 @@ trade_balance_percent_of_gdp,geo,time
 -11.15,dza,1977
 -14.63,dza,1978
 -1.717,dza,1979
-4.0,dza,1980
+4,dza,1980
 3.71,dza,1981
 1.927,dza,1982
 2.139,dza,1983
@@ -168,16 +168,16 @@ trade_balance_percent_of_gdp,geo,time
 -24.26,atg,2008
 -17.49,atg,2009
 -9.739,atg,2010
-2.125e-06,arg,1960
-1.675e-06,arg,1961
+0,arg,1960
+0,arg,1961
 -4.692,arg,1962
-2.205e-06,arg,1963
-1.554e-06,arg,1964
+0,arg,1963
+0,arg,1964
 2.075,arg,1965
 1.663,arg,1966
 2.499,arg,1967
 1.081,arg,1968
-0.0,arg,1969
+0,arg,1969
 0.8657,arg,1970
 -0.6007,arg,1971
 0.3599,arg,1972
@@ -226,7 +226,7 @@ trade_balance_percent_of_gdp,geo,time
 -33.77,arm,1994
 -38.26,arm,1995
 -32.75,arm,1996
--38.0,arm,1997
+-38,arm,1997
 -33.84,arm,1998
 -29.04,arm,1999
 -27.17,arm,2000
@@ -278,7 +278,7 @@ trade_balance_percent_of_gdp,geo,time
 -1.644,aus,1987
 -0.6996,aus,1988
 -1.896,aus,1989
--2.0,aus,1990
+-2,aus,1990
 -0.2033,aus,1991
 0.121,aus,1992
 -0.5121,aus,1993
@@ -357,7 +357,7 @@ trade_balance_percent_of_gdp,geo,time
 -5.907,aze,1994
 -13.61,aze,1995
 -26.03,aze,1996
--24.0,aze,1997
+-24,aze,1997
 -31.83,aze,1998
 -13.89,aze,1999
 0.6633,aze,2000
@@ -661,7 +661,7 @@ trade_balance_percent_of_gdp,geo,time
 -22.32,ben,1982
 -17.81,ben,1983
 -11.35,ben,1984
--13.0,ben,1985
+-13,ben,1985
 -15.94,ben,1986
 -15.68,ben,1987
 -18.28,ben,1988
@@ -836,7 +836,7 @@ trade_balance_percent_of_gdp,geo,time
 0.7078,bra,1964
 2.18,bra,1965
 0.8331,bra,1966
-0.0,bra,1967
+0,bra,1967
 -0.6099,bra,1968
 0.06669,bra,1969
 -0.4203,bra,1970
@@ -894,7 +894,7 @@ trade_balance_percent_of_gdp,geo,time
 24.54,brn,1990
 26.51,brn,1991
 9.963,brn,1992
-3.0,brn,1993
+3,brn,1993
 2.675,brn,1994
 3.89,brn,1995
 -0.7071,brn,1996
@@ -1041,7 +1041,7 @@ trade_balance_percent_of_gdp,geo,time
 -3.529,khm,1963
 -0.7299,khm,1964
 -0.9868,khm,1965
--5.0,khm,1966
+-5,khm,1966
 -1.187,khm,1967
 -2.145,khm,1968
 -3.597,khm,1969
@@ -1143,7 +1143,7 @@ trade_balance_percent_of_gdp,geo,time
 0.1308,can,1990
 -0.5737,can,1991
 -0.3725,can,1992
--0.001238,can,1993
+-0.00124,can,1993
 1.182,can,1994
 3.191,can,1995
 4.026,can,1996
@@ -1170,14 +1170,14 @@ trade_balance_percent_of_gdp,geo,time
 -37.98,cpv,1992
 -36.01,cpv,1993
 -40.51,cpv,1994
--40.0,cpv,1995
+-40,cpv,1995
 -32.15,cpv,1996
 -30.36,cpv,1997
 -35.11,cpv,1998
 -38.44,cpv,1999
 -33.51,cpv,2000
 -32.54,cpv,2001
--36.0,cpv,2002
+-36,cpv,2002
 -36.04,cpv,2003
 -37.56,cpv,2004
 -28.79,cpv,2005
@@ -1269,7 +1269,7 @@ trade_balance_percent_of_gdp,geo,time
 -14.43,tcd,1990
 -12.45,tcd,1991
 -13.72,tcd,1992
--16.0,tcd,1993
+-16,tcd,1993
 -18.78,tcd,1994
 -11.84,tcd,1995
 -11.52,tcd,1996
@@ -1278,14 +1278,14 @@ trade_balance_percent_of_gdp,geo,time
 -13.87,tcd,1999
 -17.79,tcd,2000
 -34.99,tcd,2001
--101.0,tcd,2002
+-101,tcd,2002
 -34.11,tcd,2003
 0.2491,tcd,2004
 17.16,tcd,2005
 22.01,tcd,2006
 2.5,tcd,2007
 2.6,tcd,2008
--28.0,tcd,2009
+-28,tcd,2009
 -24.8,tcd,2010
 -2.244,chl,1960
 -4.014,chl,1961
@@ -1334,7 +1334,7 @@ trade_balance_percent_of_gdp,geo,time
 9.174,chl,2004
 8.514,chl,2005
 15.06,chl,2006
-14.0,chl,2007
+14,chl,2007
 3.62,chl,2008
 7.755,chl,2009
 6.873,chl,2010
@@ -1381,7 +1381,7 @@ trade_balance_percent_of_gdp,geo,time
 3.916,chn,2010
 0.9349,col,1960
 -0.8361,col,1961
--0.003796,col,1962
+-0.0038,col,1962
 -0.3673,col,1963
 -0.6919,col,1964
 1.018,col,1965
@@ -1535,7 +1535,7 @@ trade_balance_percent_of_gdp,geo,time
 -18.07,cog,1981
 -13.24,cog,1982
 6.181,cog,1983
-16.0,cog,1984
+16,cog,1984
 0.7829,cog,1985
 -13.83,cog,1986
 3.113,cog,1987
@@ -2187,7 +2187,7 @@ trade_balance_percent_of_gdp,geo,time
 -12.31,eth,1999
 -11.94,eth,2000
 -11.73,eth,2001
--14.0,eth,2002
+-14,eth,2002
 -14.1,eth,2003
 -16.68,eth,2004
 -20.38,eth,2005
@@ -2283,7 +2283,7 @@ trade_balance_percent_of_gdp,geo,time
 4.552,fin,1993
 5.701,fin,1994
 7.481,fin,1995
-7.0,fin,1996
+7,fin,1996
 7.403,fin,1997
 8.08,fin,1998
 9.138,fin,1999
@@ -2366,7 +2366,7 @@ trade_balance_percent_of_gdp,geo,time
 5.94,gab,1964
 5.946,gab,1965
 0.1656,gab,1966
-0.0,gab,1967
+0,gab,1967
 -0.823,gab,1968
 0.6046,gab,1969
 11.73,gab,1970
@@ -2412,7 +2412,7 @@ trade_balance_percent_of_gdp,geo,time
 25.43,gab,2010
 -7.407,gmb,1966
 -6.668,gmb,1967
--11.0,gmb,1968
+-11,gmb,1968
 -10.7,gmb,1969
 -3.117,gmb,1970
 -4.814,gmb,1971
@@ -3066,7 +3066,7 @@ trade_balance_percent_of_gdp,geo,time
 -1.436,ind,1988
 -1.149,ind,1989
 -1.415,ind,1990
-0.0007637,ind,1991
+0.00076,ind,1991
 -0.7558,ind,1992
 0.01709,ind,1993
 -0.3055,ind,1994
@@ -3311,7 +3311,7 @@ trade_balance_percent_of_gdp,geo,time
 1.318,ita,1986
 0.444,ita,1987
 0.06811,ita,1988
-0.002287,ita,1989
+0.00229,ita,1989
 0.1954,ita,1990
 0.0979,ita,1991
 0.06777,ita,1992
@@ -3436,7 +3436,7 @@ trade_balance_percent_of_gdp,geo,time
 -54.13,jor,1981
 -52.05,jor,1982
 -44.49,jor,1983
--39.0,jor,1984
+-39,jor,1984
 -35.7,jor,1985
 -26.13,jor,1986
 -25.51,jor,1987
@@ -3453,7 +3453,7 @@ trade_balance_percent_of_gdp,geo,time
 -19.46,jor,1998
 -17.85,jor,1999
 -26.66,jor,2000
--25.0,jor,2001
+-25,jor,2001
 -19.19,jor,2002
 -20.96,jor,2003
 -30.24,jor,2004
@@ -3555,9 +3555,9 @@ trade_balance_percent_of_gdp,geo,time
 -77.86,kir,1991
 -69.16,kir,1992
 -48.97,kir,1993
--34.0,kir,1994
+-34,kir,1994
 -60.36,kir,1995
--52.0,kir,1996
+-52,kir,1996
 -41.96,kir,1997
 -27.43,kir,1998
 -40.39,kir,1999
@@ -3786,7 +3786,7 @@ trade_balance_percent_of_gdp,geo,time
 -101.5,lso,1979
 -89.08,lso,1980
 -97.72,lso,1981
--107.0,lso,1982
+-107,lso,1982
 -113.3,lso,1983
 -116.5,lso,1984
 -109.9,lso,1985
@@ -3796,7 +3796,7 @@ trade_balance_percent_of_gdp,geo,time
 -118.5,lso,1989
 -105.1,lso,1990
 -128.6,lso,1991
--116.0,lso,1992
+-116,lso,1992
 -104.8,lso,1993
 -99.59,lso,1994
 -104.2,lso,1995
@@ -3880,7 +3880,7 @@ trade_balance_percent_of_gdp,geo,time
 -6.02,ltu,1994
 -10.56,ltu,1995
 -9.201,ltu,1996
--10.0,ltu,1997
+-10,ltu,1997
 -11.35,ltu,1998
 -10.02,ltu,1999
 -6.275,ltu,2000
@@ -3953,7 +3953,7 @@ trade_balance_percent_of_gdp,geo,time
 23.18,mac,1987
 21.35,mac,1988
 22.58,mac,1989
-26.0,mac,1990
+26,mac,1990
 19.51,mac,1991
 21.62,mac,1992
 22.19,mac,1993
@@ -4044,7 +4044,7 @@ trade_balance_percent_of_gdp,geo,time
 -16.04,mdg,2006
 -21.74,mdg,2007
 -30.43,mdg,2008
--24.0,mdg,2009
+-24,mdg,2009
 -16.32,mwi,1960
 -15.56,mwi,1961
 -13.61,mwi,1962
@@ -4134,7 +4134,7 @@ trade_balance_percent_of_gdp,geo,time
 -3.935,mys,1995
 1.385,mys,1996
 0.9138,mys,1997
-22.0,mys,1998
+22,mys,1998
 25.05,mys,1999
 19.21,mys,2000
 17.44,mys,2001
@@ -4585,7 +4585,7 @@ trade_balance_percent_of_gdp,geo,time
 -0.09531,mmr,2000
 -0.05715,mmr,2001
 0.08968,mmr,2002
-0.009343,mmr,2003
+0.00934,mmr,2003
 0.05902,mmr,2004
 0.06746,mmr,2005
 0.07393,mmr,2006
@@ -4984,7 +4984,7 @@ trade_balance_percent_of_gdp,geo,time
 14.26,omn,1977
 9.593,omn,1978
 20.35,omn,1979
-25.0,omn,1980
+25,omn,1980
 26.6,omn,1981
 15.39,omn,1982
 15.58,omn,1983
@@ -5569,7 +5569,7 @@ trade_balance_percent_of_gdp,geo,time
 -10.97,kna,2004
 -11.51,kna,2005
 -15.3,kna,2006
--18.0,kna,2007
+-18,kna,2007
 -25.94,kna,2008
 -25.43,kna,2009
 -17.51,kna,2010
@@ -5618,7 +5618,7 @@ trade_balance_percent_of_gdp,geo,time
 -15.7,vct,1987
 -6.844,vct,1988
 -17.35,vct,1989
--11.0,vct,1990
+-11,vct,1990
 -27.01,vct,1991
 -9.056,vct,1992
 -17.85,vct,1993
@@ -5691,7 +5691,7 @@ trade_balance_percent_of_gdp,geo,time
 18.75,sau,2000
 15.8,sau,2001
 17.4,sau,2002
-22.0,sau,2003
+22,sau,2003
 26.75,sau,2004
 33.08,sau,2005
 31.41,sau,2006
@@ -5764,7 +5764,7 @@ trade_balance_percent_of_gdp,geo,time
 -26.55,srb,2008
 -17.66,srb,2009
 -16.5,srb,2010
--16.0,syc,1976
+-16,syc,1976
 -4.037,syc,1977
 -1.244,syc,1978
 -5.991,syc,1979
@@ -6110,7 +6110,7 @@ trade_balance_percent_of_gdp,geo,time
 -2.967,lka,1968
 -6.225,lka,1969
 -3.147,lka,1970
--2.0,lka,1971
+-2,lka,1971
 -1.574,lka,1972
 -1.212,lka,1973
 -7.467,lka,1974
@@ -6145,7 +6145,7 @@ trade_balance_percent_of_gdp,geo,time
 -6.029,lka,2003
 -8.821,lka,2004
 -8.93,lka,2005
--11.0,lka,2006
+-11,lka,2006
 -10.38,lka,2007
 -13.69,lka,2008
 -6.492,lka,2009
@@ -6273,7 +6273,7 @@ trade_balance_percent_of_gdp,geo,time
 -38.31,swz,1983
 -37.24,swz,1984
 -36.17,swz,1985
--11.0,swz,1986
+-11,swz,1986
 -0.2607,swz,1987
 -3.4,swz,1988
 -2.779,swz,1989
@@ -6396,7 +6396,7 @@ trade_balance_percent_of_gdp,geo,time
 -0.6296,syr,1962
 -1.743,syr,1963
 -2.5,syr,1964
-7.017e-05,syr,1965
+0.00007,syr,1965
 -5.332,syr,1966
 -3.402,syr,1967
 -3.154,syr,1968

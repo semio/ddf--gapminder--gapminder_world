@@ -157,7 +157,7 @@ residential_energy_use_percent,geo,time
 20.05,arg,2006
 21.4,arg,2007
 21.1,arg,2008
-22.0,arg,2009
+22,arg,2009
 22.8,arg,2010
 27.74,arm,1990
 25.65,arm,1991
@@ -191,7 +191,7 @@ residential_energy_use_percent,geo,time
 4.767,aus,1968
 5.036,aus,1969
 12.76,aus,1970
-13.0,aus,1971
+13,aus,1971
 13.88,aus,1972
 12.75,aus,1973
 13.33,aus,1974
@@ -224,7 +224,7 @@ residential_energy_use_percent,geo,time
 13.15,aus,2001
 13.68,aus,2002
 13.24,aus,2003
-13.0,aus,2004
+13,aus,2004
 12.84,aus,2005
 12.86,aus,2006
 13.03,aus,2007
@@ -345,7 +345,7 @@ residential_energy_use_percent,geo,time
 11.32,bhr,2010
 88.5,bgd,1971
 88.87,bgd,1972
-85.0,bgd,1973
+85,bgd,1973
 82.91,bgd,1974
 84.31,bgd,1975
 82.09,bgd,1976
@@ -485,7 +485,7 @@ residential_energy_use_percent,geo,time
 37.47,ben,1998
 52.4,ben,1999
 64.97,ben,2000
-66.0,ben,2001
+66,ben,2001
 64.9,ben,2002
 63.71,ben,2003
 64.26,ben,2004
@@ -518,7 +518,7 @@ residential_energy_use_percent,geo,time
 38.26,bol,1991
 38.36,bol,1992
 36.28,bol,1993
-35.0,bol,1994
+35,bol,1994
 32.94,bol,1995
 29.65,bol,1996
 29.92,bol,1997
@@ -823,7 +823,7 @@ residential_energy_use_percent,geo,time
 31.4,chl,1978
 30.81,chl,1979
 29.96,chl,1980
-30.0,chl,1981
+30,chl,1981
 32.45,chl,1982
 30.59,chl,1983
 30.03,chl,1984
@@ -834,7 +834,7 @@ residential_energy_use_percent,geo,time
 28.05,chl,1989
 28.14,chl,1990
 27.85,chl,1991
-27.0,chl,1992
+27,chl,1992
 27.65,chl,1993
 27.55,chl,1994
 26.99,chl,1995
@@ -894,7 +894,7 @@ residential_energy_use_percent,geo,time
 24.47,chn,2009
 23.47,chn,2010
 41.25,col,1971
-37.0,col,1972
+37,col,1972
 38.77,col,1973
 35.57,col,1974
 33.05,col,1975
@@ -1048,7 +1048,7 @@ residential_energy_use_percent,geo,time
 16.13,cri,2003
 17.82,cri,2004
 19.28,cri,2005
-20.0,cri,2006
+20,cri,2006
 19.35,cri,2007
 19.78,cri,2008
 17.56,cri,2009
@@ -1173,9 +1173,9 @@ residential_energy_use_percent,geo,time
 10.55,cyp,1987
 10.63,cyp,1988
 10.74,cyp,1989
-12.0,cyp,1990
+12,cyp,1990
 10.66,cyp,1991
-12.0,cyp,1992
+12,cyp,1992
 11.5,cyp,1993
 11.19,cyp,1994
 11.05,cyp,1995
@@ -1215,7 +1215,7 @@ residential_energy_use_percent,geo,time
 23.14,cze,1989
 25.5,cze,1990
 26.6,cze,1991
-22.0,cze,1992
+22,cze,1992
 21.03,cze,1993
 22.24,cze,1994
 22.7,cze,1995
@@ -1450,7 +1450,7 @@ residential_energy_use_percent,geo,time
 77.65,eri,1994
 76.53,eri,1995
 75.31,eri,1996
-75.0,eri,1997
+75,eri,1997
 71.54,eri,1998
 71.34,eri,1999
 72.55,eri,2000
@@ -1591,7 +1591,7 @@ residential_energy_use_percent,geo,time
 15.31,fra,1972
 15.05,fra,1973
 15.29,fra,1974
-16.0,fra,1975
+16,fra,1975
 15.72,fra,1976
 15.92,fra,1977
 15.82,fra,1978
@@ -1615,8 +1615,8 @@ residential_energy_use_percent,geo,time
 24.93,fra,1996
 23.72,fra,1997
 23.75,fra,1998
-24.0,fra,1999
-25.0,fra,2000
+24,fra,1999
+25,fra,2000
 25.28,fra,2001
 24.85,fra,2002
 25.29,fra,2003
@@ -1713,7 +1713,7 @@ residential_energy_use_percent,geo,time
 22.23,deu,1982
 21.41,deu,1983
 26.92,deu,1984
-28.0,deu,1985
+28,deu,1985
 27.92,deu,1986
 27.72,deu,1987
 25.67,deu,1988
@@ -1801,24 +1801,24 @@ residential_energy_use_percent,geo,time
 6.215,gib,1990
 4.637,gib,1991
 3.857,gib,1992
-0.0,gib,1993
-0.0,gib,1994
-0.0,gib,1995
-0.0,gib,1996
-0.0,gib,1997
-0.0,gib,1998
-0.0,gib,1999
-0.0,gib,2000
-0.0,gib,2001
-0.0,gib,2002
-0.0,gib,2003
-0.0,gib,2004
-0.0,gib,2005
-0.0,gib,2006
-0.0,gib,2007
-0.0,gib,2008
-0.0,gib,2009
-0.0,gib,2010
+0,gib,1993
+0,gib,1994
+0,gib,1995
+0,gib,1996
+0,gib,1997
+0,gib,1998
+0,gib,1999
+0,gib,2000
+0,gib,2001
+0,gib,2002
+0,gib,2003
+0,gib,2004
+0,gib,2005
+0,gib,2006
+0,gib,2007
+0,gib,2008
+0,gib,2009
+0,gib,2010
 25.64,grc,1960
 24.47,grc,1961
 25.24,grc,1962
@@ -1842,7 +1842,7 @@ residential_energy_use_percent,geo,time
 18.58,grc,1980
 18.93,grc,1981
 21.09,grc,1982
-19.0,grc,1983
+19,grc,1983
 18.7,grc,1984
 19.37,grc,1985
 19.13,grc,1986
@@ -1967,7 +1967,7 @@ residential_energy_use_percent,geo,time
 60.27,hnd,1985
 60.13,hnd,1986
 57.2,hnd,1987
-56.0,hnd,1988
+56,hnd,1988
 54.52,hnd,1989
 55.68,hnd,1990
 55.94,hnd,1991
@@ -1975,13 +1975,13 @@ residential_energy_use_percent,geo,time
 53.81,hnd,1993
 52.61,hnd,1994
 53.03,hnd,1995
-52.0,hnd,1996
+52,hnd,1996
 55.11,hnd,1997
 53.41,hnd,1998
 44.08,hnd,1999
 48.22,hnd,2000
 43.59,hnd,2001
-43.0,hnd,2002
+43,hnd,2002
 42.15,hnd,2003
 43.46,hnd,2004
 44.47,hnd,2005
@@ -1995,7 +1995,7 @@ residential_energy_use_percent,geo,time
 16.1,hkg,1973
 13.43,hkg,1974
 15.48,hkg,1975
-13.0,hkg,1976
+13,hkg,1976
 12.9,hkg,1977
 12.3,hkg,1978
 14.99,hkg,1979
@@ -2095,7 +2095,7 @@ residential_energy_use_percent,geo,time
 43.42,isl,1976
 42.9,isl,1977
 41.63,isl,1978
-43.0,isl,1979
+43,isl,1979
 41.68,isl,1980
 43.33,isl,1981
 42.53,isl,1982
@@ -2220,7 +2220,7 @@ residential_energy_use_percent,geo,time
 23.16,irn,1981
 24.47,irn,1982
 25.86,irn,1983
-26.0,irn,1984
+26,irn,1984
 25.98,irn,1985
 24.52,irn,1986
 23.79,irn,1987
@@ -2281,7 +2281,7 @@ residential_energy_use_percent,geo,time
 16.06,irq,2002
 19.66,irq,2003
 17.67,irq,2004
-27.0,irq,2005
+27,irq,2005
 27.37,irq,2006
 23.78,irq,2007
 26.66,irq,2008
@@ -2386,7 +2386,7 @@ residential_energy_use_percent,geo,time
 20.61,ita,1965
 21.98,ita,1966
 22.33,ita,1967
-23.0,ita,1968
+23,ita,1968
 24.65,ita,1969
 26.13,ita,1970
 27.53,ita,1971
@@ -2484,7 +2484,7 @@ residential_energy_use_percent,geo,time
 8.587,jpn,1972
 8.943,jpn,1973
 9.229,jpn,1974
-10.0,jpn,1975
+10,jpn,1975
 10.42,jpn,1976
 10.56,jpn,1977
 10.8,jpn,1978
@@ -2515,7 +2515,7 @@ residential_energy_use_percent,geo,time
 13.88,jpn,2003
 13.9,jpn,2004
 14.46,jpn,2005
-14.0,jpn,2006
+14,jpn,2006
 14.36,jpn,2007
 14.83,jpn,2008
 14.93,jpn,2009
@@ -2560,9 +2560,9 @@ residential_energy_use_percent,geo,time
 22.63,jor,2008
 22.76,jor,2009
 22.15,jor,2010
-0.0,kaz,1990
-0.0,kaz,1991
-0.0,kaz,1992
+0,kaz,1990
+0,kaz,1991
+0,kaz,1992
 1.246,kaz,1993
 1.733,kaz,1994
 1.446,kaz,1995
@@ -2692,7 +2692,7 @@ residential_energy_use_percent,geo,time
 11.15,kor,1999
 11.83,kor,2000
 12.29,kor,2001
-13.0,kor,2002
+13,kor,2002
 13.03,kor,2003
 12.48,kor,2004
 13.11,kor,2005
@@ -2701,7 +2701,7 @@ residential_energy_use_percent,geo,time
 12.79,kor,2008
 12.61,kor,2009
 12.61,kor,2010
-36.0,kos,2000
+36,kos,2000
 35.12,kos,2001
 35.11,kos,2002
 34.21,kos,2003
@@ -2796,7 +2796,7 @@ residential_energy_use_percent,geo,time
 35.87,lva,2010
 30.99,lbn,1971
 32.79,lbn,1972
-31.0,lbn,1973
+31,lbn,1973
 33.87,lbn,1974
 36.9,lbn,1975
 35.31,lbn,1976
@@ -2986,7 +2986,7 @@ residential_energy_use_percent,geo,time
 9.781,mys,2008
 9.886,mys,2009
 10.07,mys,2010
-27.0,mlt,1971
+27,mlt,1971
 21.57,mlt,1972
 27.17,mlt,1973
 26.99,mlt,1974
@@ -3244,7 +3244,7 @@ residential_energy_use_percent,geo,time
 18.26,nam,1993
 17.86,nam,1994
 17.65,nam,1995
-17.0,nam,1996
+17,nam,1996
 17.35,nam,1997
 17.01,nam,1998
 17.94,nam,1999
@@ -3752,7 +3752,7 @@ residential_energy_use_percent,geo,time
 42.98,per,1988
 44.54,per,1989
 42.48,per,1990
-43.0,per,1991
+43,per,1991
 42.47,per,1992
 39.63,per,1993
 37.39,per,1994
@@ -3867,7 +3867,7 @@ residential_energy_use_percent,geo,time
 25.48,prt,1961
 23.28,prt,1962
 22.49,prt,1963
-22.0,prt,1964
+22,prt,1964
 21.06,prt,1965
 20.87,prt,1966
 21.01,prt,1967
@@ -3911,7 +3911,7 @@ residential_energy_use_percent,geo,time
 15.66,prt,2005
 16.24,prt,2006
 15.81,prt,2007
-16.0,prt,2008
+16,prt,2008
 16.92,prt,2009
 15.12,prt,2010
 0.9164,qat,1971
@@ -4014,7 +4014,7 @@ residential_energy_use_percent,geo,time
 26.25,rus,2007
 26.2,rus,2008
 26.16,rus,2009
-25.0,rus,2010
+25,rus,2010
 9.53,sau,1971
 9.465,sau,1972
 8.161,sau,1973
@@ -4049,7 +4049,7 @@ residential_energy_use_percent,geo,time
 10.98,sau,2002
 11.36,sau,2003
 10.62,sau,2004
-11.0,sau,2005
+11,sau,2005
 10.94,sau,2006
 10.74,sau,2007
 10.47,sau,2008
@@ -4069,7 +4069,7 @@ residential_energy_use_percent,geo,time
 56.82,sen,1982
 57.92,sen,1983
 56.02,sen,1984
-57.0,sen,1985
+57,sen,1985
 58.62,sen,1986
 59.27,sen,1987
 62.39,sen,1988
@@ -4203,7 +4203,7 @@ residential_energy_use_percent,geo,time
 28.05,svn,1994
 27.81,svn,1995
 22.42,svn,1996
-23.0,svn,1997
+23,svn,1997
 22.55,svn,1998
 22.72,svn,1999
 24.2,svn,2000
@@ -4339,7 +4339,7 @@ residential_energy_use_percent,geo,time
 46.8,lka,1999
 44.72,lka,2000
 45.96,lka,2001
-44.0,lka,2002
+44,lka,2002
 43.52,lka,2003
 42.93,lka,2004
 41.76,lka,2005
@@ -4380,7 +4380,7 @@ residential_energy_use_percent,geo,time
 58.18,sdn,2000
 57.6,sdn,2001
 57.45,sdn,2002
-56.0,sdn,2003
+56,sdn,2003
 54.61,sdn,2004
 55.24,sdn,2005
 51.59,sdn,2006
@@ -4515,7 +4515,7 @@ residential_energy_use_percent,geo,time
 16.46,syr,1993
 17.34,syr,1994
 17.15,syr,1995
-18.0,syr,1996
+18,syr,1996
 17.8,syr,1997
 15.81,syr,1998
 17.45,syr,1999
@@ -4691,7 +4691,7 @@ residential_energy_use_percent,geo,time
 71.41,tgo,1988
 71.52,tgo,1989
 70.32,tgo,1990
-72.0,tgo,1991
+72,tgo,1991
 74.83,tgo,1992
 79.06,tgo,1993
 71.73,tgo,1994
@@ -4756,7 +4756,7 @@ residential_energy_use_percent,geo,time
 34.3,tun,1973
 33.52,tun,1974
 32.8,tun,1975
-33.0,tun,1976
+33,tun,1976
 31.47,tun,1977
 31.03,tun,1978
 29.05,tun,1979
@@ -4880,7 +4880,7 @@ residential_energy_use_percent,geo,time
 29.04,ukr,2004
 29.26,ukr,2005
 30.92,ukr,2006
-28.0,ukr,2007
+28,ukr,2007
 29.68,ukr,2008
 25.58,ukr,2009
 34.18,ukr,2010
@@ -4926,7 +4926,7 @@ residential_energy_use_percent,geo,time
 6.351,are,2010
 36.67,gbr,1960
 35.6,gbr,1961
-36.0,gbr,1962
+36,gbr,1962
 35.55,gbr,1963
 32.65,gbr,1964
 31.22,gbr,1965
@@ -4943,7 +4943,7 @@ residential_energy_use_percent,geo,time
 24.55,gbr,1976
 24.81,gbr,1977
 25.18,gbr,1978
-26.0,gbr,1979
+26,gbr,1979
 27.36,gbr,1980
 27.78,gbr,1981
 27.61,gbr,1982
@@ -5140,7 +5140,7 @@ residential_energy_use_percent,geo,time
 61.41,vnm,1981
 60.87,vnm,1982
 59.5,vnm,1983
-60.0,vnm,1984
+60,vnm,1984
 60.56,vnm,1985
 59.52,vnm,1986
 58.25,vnm,1987
@@ -5252,7 +5252,7 @@ residential_energy_use_percent,geo,time
 56.49,zwe,1973
 59.94,zwe,1974
 57.96,zwe,1975
-58.0,zwe,1976
+58,zwe,1976
 59.6,zwe,1977
 60.28,zwe,1978
 60.61,zwe,1979

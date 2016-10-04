@@ -9,7 +9,7 @@ falls_deaths_per_100000_people,geo,time
 2.126,and,2004
 7.729,ago,2002
 7.208,ago,2004
-0.0,atg,2002
+0,atg,2002
 0.9801,atg,2004
 0.9157,arg,2002
 0.765,arg,2004
@@ -177,8 +177,8 @@ falls_deaths_per_100000_people,geo,time
 3.476,kaz,2004
 3.964,ken,2002
 4.759,ken,2004
-0.0,kir,2002
-0.0,kir,2004
+0,kir,2002
+0,kir,2004
 2.133,kwt,2002
 2.048,kwt,2004
 4.447,kgz,2002
@@ -291,8 +291,8 @@ falls_deaths_per_100000_people,geo,time
 6.105,vct,2004
 0.04593,wsm,2002
 0.02246,wsm,2004
-0.0,smr,2002
-0.0,smr,2004
+0,smr,2002
+0,smr,2004
 3.594,stp,2002
 3.876,stp,2004
 6.549,sau,2002

@@ -29,7 +29,7 @@ life_expectancy_female,geo,time
 40.55,afg,1977
 41.02,afg,1978
 41.5,afg,1979
-42.0,afg,1980
+42,afg,1980
 42.55,afg,1981
 43.15,afg,1982
 43.8,afg,1983
@@ -49,7 +49,7 @@ life_expectancy_female,geo,time
 54.62,afg,1997
 55.12,afg,1998
 55.57,afg,1999
-56.0,afg,2000
+56,afg,2000
 56.42,afg,2001
 56.85,afg,2002
 57.3,afg,2003
@@ -208,7 +208,7 @@ life_expectancy_female,geo,time
 79.54,alb,2006
 79.7,alb,2007
 79.85,alb,2008
-80.0,alb,2009
+80,alb,2009
 80.15,alb,2010
 80.3,alb,2011
 80.46,alb,2012
@@ -399,7 +399,7 @@ life_expectancy_female,geo,time
 76.69,dza,2047
 76.79,dza,2048
 76.89,dza,2049
-77.0,dza,2050
+77,dza,2050
 77.1,dza,2051
 77.2,dza,2052
 77.3,dza,2053
@@ -440,7 +440,7 @@ life_expectancy_female,geo,time
 80.72,dza,2088
 80.81,dza,2089
 80.91,dza,2090
-81.0,dza,2091
+81,dza,2091
 81.1,dza,2092
 81.2,dza,2093
 81.29,dza,2094
@@ -575,7 +575,7 @@ life_expectancy_female,geo,time
 73.4,ago,2073
 73.6,ago,2074
 73.8,ago,2075
-74.0,ago,2076
+74,ago,2076
 74.19,ago,2077
 74.38,ago,2078
 74.56,ago,2079
@@ -602,7 +602,7 @@ life_expectancy_female,geo,time
 59.78,atg,1950
 60.02,atg,1951
 60.51,atg,1952
-61.0,atg,1953
+61,atg,1953
 61.47,atg,1954
 61.94,atg,1955
 62.4,atg,1956
@@ -616,7 +616,7 @@ life_expectancy_female,geo,time
 65.83,atg,1964
 66.23,atg,1965
 66.62,atg,1966
-67.0,atg,1967
+67,atg,1967
 67.38,atg,1968
 67.74,atg,1969
 68.1,atg,1970
@@ -769,7 +769,7 @@ life_expectancy_female,geo,time
 69.29,arg,1967
 69.5,arg,1968
 69.73,arg,1969
-70.0,arg,1970
+70,arg,1970
 70.29,arg,1971
 70.59,arg,1972
 70.9,arg,1973
@@ -916,7 +916,7 @@ life_expectancy_female,geo,time
 70.76,arm,1964
 71.18,arm,1965
 71.6,arm,1966
-72.0,arm,1967
+72,arm,1967
 72.39,arm,1968
 72.75,arm,1969
 73.06,arm,1970
@@ -971,7 +971,7 @@ life_expectancy_female,geo,time
 78.65,arm,2019
 78.77,arm,2020
 78.88,arm,2021
-79.0,arm,2022
+79,arm,2022
 79.11,arm,2023
 79.22,arm,2024
 79.34,arm,2025
@@ -989,7 +989,7 @@ life_expectancy_female,geo,time
 80.67,arm,2037
 80.78,arm,2038
 80.89,arm,2039
-81.0,arm,2040
+81,arm,2040
 81.11,arm,2041
 81.22,arm,2042
 81.32,arm,2043
@@ -1008,7 +1008,7 @@ life_expectancy_female,geo,time
 82.69,arm,2056
 82.8,arm,2057
 82.9,arm,2058
-83.0,arm,2059
+83,arm,2059
 83.11,arm,2060
 83.21,arm,2061
 83.31,arm,2062
@@ -1091,7 +1091,7 @@ life_expectancy_female,geo,time
 75.89,abw,1989
 75.93,abw,1990
 75.97,abw,1991
-76.0,abw,1992
+76,abw,1992
 76.03,abw,1993
 76.07,abw,1994
 76.1,abw,1995
@@ -1130,7 +1130,7 @@ life_expectancy_female,geo,time
 79.66,abw,2028
 79.77,abw,2029
 79.89,abw,2030
-80.0,abw,2031
+80,abw,2031
 80.11,abw,2032
 80.23,abw,2033
 80.34,abw,2034
@@ -1158,7 +1158,7 @@ life_expectancy_female,geo,time
 82.69,abw,2056
 82.8,abw,2057
 82.9,abw,2058
-83.0,abw,2059
+83,abw,2059
 83.11,abw,2060
 83.21,abw,2061
 83.31,abw,2062
@@ -1252,7 +1252,7 @@ life_expectancy_female,geo,time
 82.28,aus,2000
 82.52,aus,2001
 82.76,aus,2002
-83.0,aus,2003
+83,aus,2003
 83.23,aus,2004
 83.44,aus,2005
 83.65,aus,2006
@@ -1352,7 +1352,7 @@ life_expectancy_female,geo,time
 67.92,aut,1950
 68.13,aut,1951
 68.57,aut,1952
-69.0,aut,1953
+69,aut,1953
 69.42,aut,1954
 69.85,aut,1955
 70.27,aut,1956
@@ -1383,7 +1383,7 @@ life_expectancy_female,geo,time
 76.18,aut,1981
 76.44,aut,1982
 76.71,aut,1983
-77.0,aut,1984
+77,aut,1984
 77.29,aut,1985
 77.58,aut,1986
 77.86,aut,1987
@@ -1523,7 +1523,7 @@ life_expectancy_female,geo,time
 68.68,aze,1971
 68.86,aze,1972
 68.97,aze,1973
-69.0,aze,1974
+69,aze,1974
 68.97,aze,1975
 68.89,aze,1976
 68.79,aze,1977
@@ -1644,7 +1644,7 @@ life_expectancy_female,geo,time
 82.69,aze,2092
 82.79,aze,2093
 82.9,aze,2094
-83.0,aze,2095
+83,aze,2095
 83.11,aze,2096
 83.21,aze,2097
 83.31,aze,2098
@@ -1701,7 +1701,7 @@ life_expectancy_female,geo,time
 75.25,bhs,1999
 75.48,bhs,2000
 75.73,bhs,2001
-76.0,bhs,2002
+76,bhs,2002
 76.27,bhs,2003
 76.52,bhs,2004
 76.75,bhs,2005
@@ -1841,7 +1841,7 @@ life_expectancy_female,geo,time
 73.48,bhr,1989
 73.65,bhr,1990
 73.82,bhr,1991
-74.0,bhr,1992
+74,bhr,1992
 74.18,bhr,1993
 74.37,bhr,1994
 74.56,bhr,1995
@@ -2028,7 +2028,7 @@ life_expectancy_female,geo,time
 76.15,bgd,2026
 76.44,bgd,2027
 76.73,bgd,2028
-77.0,bgd,2029
+77,bgd,2029
 77.28,bgd,2030
 77.54,bgd,2031
 77.79,bgd,2032
@@ -2152,7 +2152,7 @@ life_expectancy_female,geo,time
 75.41,brb,2000
 75.61,brb,2001
 75.81,brb,2002
-76.0,brb,2003
+76,brb,2003
 76.18,brb,2004
 76.37,brb,2005
 76.55,brb,2006
@@ -2232,7 +2232,7 @@ life_expectancy_female,geo,time
 86.66,brb,2080
 86.77,brb,2081
 86.89,brb,2082
-87.0,brb,2083
+87,brb,2083
 87.11,brb,2084
 87.22,brb,2085
 87.34,brb,2086
@@ -2314,7 +2314,7 @@ life_expectancy_female,geo,time
 75.73,blr,2012
 75.82,blr,2013
 75.91,blr,2014
-76.0,blr,2015
+76,blr,2015
 76.1,blr,2016
 76.21,blr,2017
 76.31,blr,2018
@@ -2368,7 +2368,7 @@ life_expectancy_female,geo,time
 80.74,blr,2066
 80.82,blr,2067
 80.91,blr,2068
-81.0,blr,2069
+81,blr,2069
 81.08,blr,2070
 81.17,blr,2071
 81.25,blr,2072
@@ -2491,7 +2491,7 @@ life_expectancy_female,geo,time
 86.61,bel,2039
 86.74,bel,2040
 86.87,bel,2041
-87.0,bel,2042
+87,bel,2042
 87.12,bel,2043
 87.25,bel,2044
 87.37,bel,2045
@@ -2739,7 +2739,7 @@ life_expectancy_female,geo,time
 54.29,ben,1987
 54.9,ben,1988
 55.48,ben,1989
-56.0,ben,1990
+56,ben,1990
 56.43,ben,1991
 56.74,ben,1992
 56.95,ben,1993
@@ -2775,7 +2775,7 @@ life_expectancy_female,geo,time
 62.52,ben,2023
 62.68,ben,2024
 62.84,ben,2025
-63.0,ben,2026
+63,ben,2026
 63.16,ben,2027
 63.31,ben,2028
 63.46,ben,2029
@@ -2873,7 +2873,7 @@ life_expectancy_female,geo,time
 37.62,btn,1971
 38.39,btn,1972
 39.18,btn,1973
-40.0,btn,1974
+40,btn,1974
 40.82,btn,1975
 41.63,btn,1976
 42.44,btn,1977
@@ -2882,7 +2882,7 @@ life_expectancy_female,geo,time
 44.78,btn,1980
 45.53,btn,1981
 46.27,btn,1982
-47.0,btn,1983
+47,btn,1983
 47.73,btn,1984
 48.47,btn,1985
 49.22,btn,1986
@@ -2941,7 +2941,7 @@ life_expectancy_female,geo,time
 76.41,btn,2039
 76.61,btn,2040
 76.8,btn,2041
-77.0,btn,2042
+77,btn,2042
 77.19,btn,2043
 77.37,btn,2044
 77.55,btn,2045
@@ -2974,7 +2974,7 @@ life_expectancy_female,geo,time
 81.61,btn,2072
 81.74,btn,2073
 81.87,btn,2074
-82.0,btn,2075
+82,btn,2075
 82.13,btn,2076
 82.26,btn,2077
 82.38,btn,2078
@@ -2982,7 +2982,7 @@ life_expectancy_female,geo,time
 82.64,btn,2080
 82.76,btn,2081
 82.88,btn,2082
-83.0,btn,2083
+83,btn,2083
 83.12,btn,2084
 83.24,btn,2085
 83.36,btn,2086
@@ -3089,14 +3089,14 @@ life_expectancy_female,geo,time
 74.53,bol,2037
 74.69,bol,2038
 74.85,bol,2039
-75.0,bol,2040
+75,bol,2040
 75.15,bol,2041
 75.3,bol,2042
 75.44,bol,2043
 75.59,bol,2044
 75.73,bol,2045
 75.87,bol,2046
-76.0,bol,2047
+76,bol,2047
 76.14,bol,2048
 76.28,bol,2049
 76.41,bol,2050
@@ -3262,7 +3262,7 @@ life_expectancy_female,geo,time
 84.67,bih,2060
 84.78,bih,2061
 84.89,bih,2062
-85.0,bih,2063
+85,bih,2063
 85.1,bih,2064
 85.21,bih,2065
 85.32,bih,2066
@@ -3354,10 +3354,10 @@ life_expectancy_female,geo,time
 49.46,bwa,2002
 48.46,bwa,2003
 47.64,bwa,2004
-47.0,bwa,2005
+47,bwa,2005
 46.53,bwa,2006
 46.21,bwa,2007
-46.0,bwa,2008
+46,bwa,2008
 45.91,bwa,2009
 45.92,bwa,2010
 46.04,bwa,2011
@@ -3414,7 +3414,7 @@ life_expectancy_female,geo,time
 76.3,bwa,2062
 76.55,bwa,2063
 76.78,bwa,2064
-77.0,bwa,2065
+77,bwa,2065
 77.22,bwa,2066
 77.44,bwa,2067
 77.65,bwa,2068
@@ -3506,7 +3506,7 @@ life_expectancy_female,geo,time
 75.27,bra,2004
 75.52,bra,2005
 75.76,bra,2006
-76.0,bra,2007
+76,bra,2007
 76.26,bra,2008
 76.51,bra,2009
 76.78,bra,2010
@@ -3604,7 +3604,7 @@ life_expectancy_female,geo,time
 59.2,brn,1952
 59.8,brn,1953
 60.4,brn,1954
-61.0,brn,1955
+61,brn,1955
 61.6,brn,1956
 62.2,brn,1957
 62.8,brn,1958
@@ -3742,7 +3742,7 @@ life_expectancy_female,geo,time
 90.66,brn,2090
 90.77,brn,2091
 90.89,brn,2092
-91.0,brn,2093
+91,brn,2093
 91.11,brn,2094
 91.22,brn,2095
 91.33,brn,2096
@@ -3762,7 +3762,7 @@ life_expectancy_female,geo,time
 70.19,bgr,1960
 70.89,bgr,1961
 71.5,bgr,1962
-72.0,bgr,1963
+72,bgr,1963
 72.39,bgr,1964
 72.68,bgr,1965
 72.88,bgr,1966
@@ -3859,7 +3859,7 @@ life_expectancy_female,geo,time
 81.7,bgr,2057
 81.8,bgr,2058
 81.9,bgr,2059
-82.0,bgr,2060
+82,bgr,2060
 82.1,bgr,2061
 82.2,bgr,2062
 82.3,bgr,2063
@@ -3988,7 +3988,7 @@ life_expectancy_female,geo,time
 65.96,bfa,2036
 66.31,bfa,2037
 66.66,bfa,2038
-67.0,bfa,2039
+67,bfa,2039
 67.34,bfa,2040
 67.67,bfa,2041
 67.99,bfa,2042
@@ -4010,12 +4010,12 @@ life_expectancy_female,geo,time
 72.35,bfa,2058
 72.57,bfa,2059
 72.79,bfa,2060
-73.0,bfa,2061
+73,bfa,2061
 73.21,bfa,2062
 73.42,bfa,2063
 73.61,bfa,2064
 73.81,bfa,2065
-74.0,bfa,2066
+74,bfa,2066
 74.19,bfa,2067
 74.38,bfa,2068
 74.56,bfa,2069
@@ -4094,7 +4094,7 @@ life_expectancy_female,geo,time
 48.16,bdi,1992
 47.93,bdi,1993
 47.88,bdi,1994
-48.0,bdi,1995
+48,bdi,1995
 48.25,bdi,1996
 48.55,bdi,1997
 48.86,bdi,1998
@@ -4156,7 +4156,7 @@ life_expectancy_female,geo,time
 73.08,bdi,2054
 73.39,bdi,2055
 73.7,bdi,2056
-74.0,bdi,2057
+74,bdi,2057
 74.29,bdi,2058
 74.56,bdi,2059
 74.82,bdi,2060
@@ -4214,7 +4214,7 @@ life_expectancy_female,geo,time
 43.3,khm,1962
 43.53,khm,1963
 43.76,khm,1964
-44.0,khm,1965
+44,khm,1965
 44.3,khm,1966
 44.6,khm,1967
 44.81,khm,1968
@@ -4273,7 +4273,7 @@ life_expectancy_female,geo,time
 77.19,khm,2021
 77.47,khm,2022
 77.74,khm,2023
-78.0,khm,2024
+78,khm,2024
 78.25,khm,2025
 78.49,khm,2026
 78.72,khm,2027
@@ -4304,7 +4304,7 @@ life_expectancy_female,geo,time
 82.64,khm,2052
 82.76,khm,2053
 82.88,khm,2054
-83.0,khm,2055
+83,khm,2055
 83.11,khm,2056
 83.22,khm,2057
 83.34,khm,2058
@@ -4334,7 +4334,7 @@ life_expectancy_female,geo,time
 85.72,khm,2082
 85.81,khm,2083
 85.9,khm,2084
-86.0,khm,2085
+86,khm,2085
 86.09,khm,2086
 86.18,khm,2087
 86.27,khm,2088
@@ -4392,7 +4392,7 @@ life_expectancy_female,geo,time
 55.16,cmr,1990
 55.17,cmr,1991
 55.12,cmr,1992
-55.0,cmr,1993
+55,cmr,1993
 54.83,cmr,1994
 54.6,cmr,1995
 54.31,cmr,1996
@@ -4551,7 +4551,7 @@ life_expectancy_female,geo,time
 81.52,can,1999
 81.67,can,2000
 81.84,can,2001
-82.0,can,2002
+82,can,2002
 82.17,can,2003
 82.32,can,2004
 82.47,can,2005
@@ -4598,7 +4598,7 @@ life_expectancy_female,geo,time
 87.66,can,2046
 87.77,can,2047
 87.89,can,2048
-88.0,can,2049
+88,can,2049
 88.12,can,2050
 88.23,can,2051
 88.34,can,2052
@@ -4616,7 +4616,7 @@ life_expectancy_female,geo,time
 89.67,can,2064
 89.78,can,2065
 89.89,can,2066
-90.0,can,2067
+90,can,2067
 90.11,can,2068
 90.23,can,2069
 90.34,can,2070
@@ -4686,7 +4686,7 @@ life_expectancy_female,geo,time
 64.58,cpv,1984
 65.43,cpv,1985
 66.24,cpv,1986
-67.0,cpv,1987
+67,cpv,1987
 67.69,cpv,1988
 68.32,cpv,1989
 68.89,cpv,1990
@@ -4840,7 +4840,7 @@ life_expectancy_female,geo,time
 49.69,caf,1988
 49.12,caf,1989
 48.55,caf,1990
-48.0,caf,1991
+48,caf,1991
 47.48,caf,1992
 46.99,caf,1993
 46.57,caf,1994
@@ -4929,7 +4929,7 @@ life_expectancy_female,geo,time
 77.46,caf,2077
 77.64,caf,2078
 77.82,caf,2079
-78.0,caf,2080
+78,caf,2080
 78.18,caf,2081
 78.36,caf,2082
 78.53,caf,2083
@@ -4984,7 +4984,7 @@ life_expectancy_female,geo,time
 46.3,tcd,1982
 46.56,tcd,1983
 46.8,tcd,1984
-47.0,tcd,1985
+47,tcd,1985
 47.17,tcd,1986
 47.3,tcd,1987
 47.39,tcd,1988
@@ -5026,9 +5026,9 @@ life_expectancy_female,geo,time
 56.53,tcd,2024
 57.01,tcd,2025
 57.5,tcd,2026
-58.0,tcd,2027
+58,tcd,2027
 58.5,tcd,2028
-59.0,tcd,2029
+59,tcd,2029
 59.49,tcd,2030
 59.98,tcd,2031
 60.47,tcd,2032
@@ -5098,7 +5098,7 @@ life_expectancy_female,geo,time
 77.61,tcd,2096
 77.74,tcd,2097
 77.87,tcd,2098
-78.0,tcd,2099
+78,tcd,2099
 70.91,chanisl,1950
 71.14,chanisl,1951
 71.58,chanisl,1952
@@ -5267,7 +5267,7 @@ life_expectancy_female,geo,time
 62.29,chl,1965
 62.85,chl,1966
 63.42,chl,1967
-64.0,chl,1968
+64,chl,1968
 64.59,chl,1969
 65.2,chl,1970
 65.83,chl,1971
@@ -5277,7 +5277,7 @@ life_expectancy_female,geo,time
 68.65,chl,1975
 69.42,chl,1976
 70.21,chl,1977
-71.0,chl,1978
+71,chl,1978
 71.78,chl,1979
 72.52,chl,1980
 73.2,chl,1981
@@ -5444,7 +5444,7 @@ life_expectancy_female,geo,time
 71.47,chn,1992
 71.64,chn,1993
 71.81,chn,1994
-72.0,chn,1995
+72,chn,1995
 72.23,chn,1996
 72.51,chn,1997
 72.84,chn,1998
@@ -5471,7 +5471,7 @@ life_expectancy_female,geo,time
 77.57,chn,2019
 77.72,chn,2020
 77.86,chn,2021
-78.0,chn,2022
+78,chn,2022
 78.14,chn,2023
 78.28,chn,2024
 78.42,chn,2025
@@ -5503,7 +5503,7 @@ life_expectancy_female,geo,time
 81.66,chn,2051
 81.77,chn,2052
 81.89,chn,2053
-82.0,chn,2054
+82,chn,2054
 82.12,chn,2055
 82.24,chn,2056
 82.35,chn,2057
@@ -5560,7 +5560,7 @@ life_expectancy_female,geo,time
 57.24,col,1958
 57.88,col,1959
 58.47,col,1960
-59.0,col,1961
+59,col,1961
 59.49,col,1962
 59.95,col,1963
 60.39,col,1964
@@ -5619,13 +5619,13 @@ life_expectancy_female,geo,time
 78.47,col,2017
 78.65,col,2018
 78.83,col,2019
-79.0,col,2020
+79,col,2020
 79.17,col,2021
 79.34,col,2022
 79.51,col,2023
 79.67,col,2024
 79.84,col,2025
-80.0,col,2026
+80,col,2026
 80.16,col,2027
 80.32,col,2028
 80.48,col,2029
@@ -5709,7 +5709,7 @@ life_expectancy_female,geo,time
 43.8,com,1957
 44.2,com,1958
 44.6,com,1959
-45.0,com,1960
+45,com,1960
 45.39,com,1961
 45.77,com,1962
 46.15,com,1963
@@ -5876,7 +5876,7 @@ life_expectancy_female,geo,time
 46.45,cod,1974
 46.65,cod,1975
 46.83,cod,1976
-47.0,cod,1977
+47,cod,1977
 47.17,cod,1978
 47.35,cod,1979
 47.54,cod,1980
@@ -5919,7 +5919,7 @@ life_expectancy_female,geo,time
 53.05,cod,2017
 53.36,cod,2018
 53.68,cod,2019
-54.0,cod,2020
+54,cod,2020
 54.33,cod,2021
 54.66,cod,2022
 54.98,cod,2023
@@ -6112,7 +6112,7 @@ life_expectancy_female,geo,time
 74.54,cog,2060
 74.7,cog,2061
 74.85,cog,2062
-75.0,cog,2063
+75,cog,2063
 75.15,cog,2064
 75.3,cog,2065
 75.45,cog,2066
@@ -6378,7 +6378,7 @@ life_expectancy_female,geo,time
 56.77,civ,2026
 57.18,civ,2027
 57.59,civ,2028
-58.0,civ,2029
+58,civ,2029
 58.41,civ,2030
 58.82,civ,2031
 59.23,civ,2032
@@ -6393,7 +6393,7 @@ life_expectancy_female,geo,time
 62.84,civ,2041
 63.23,civ,2042
 63.62,civ,2043
-64.0,civ,2044
+64,civ,2044
 64.38,civ,2045
 64.75,civ,2046
 65.12,civ,2047
@@ -6411,7 +6411,7 @@ life_expectancy_female,geo,time
 69.13,civ,2059
 69.42,civ,2060
 69.71,civ,2061
-70.0,civ,2062
+70,civ,2062
 70.27,civ,2063
 70.54,civ,2064
 70.8,civ,2065
@@ -6447,7 +6447,7 @@ life_expectancy_female,geo,time
 76.58,civ,2095
 76.72,civ,2096
 76.86,civ,2097
-77.0,civ,2098
+77,civ,2098
 77.14,civ,2099
 61.89,hrv,1950
 62.19,hrv,1951
@@ -6476,7 +6476,7 @@ life_expectancy_female,geo,time
 73.3,hrv,1974
 73.57,hrv,1975
 73.81,hrv,1976
-74.0,hrv,1977
+74,hrv,1977
 74.16,hrv,1978
 74.28,hrv,1979
 74.38,hrv,1980
@@ -6484,7 +6484,7 @@ life_expectancy_female,geo,time
 74.58,hrv,1982
 74.7,hrv,1983
 74.84,hrv,1984
-75.0,hrv,1985
+75,hrv,1985
 75.18,hrv,1986
 75.37,hrv,1987
 75.56,hrv,1988
@@ -6655,7 +6655,7 @@ life_expectancy_female,geo,time
 79.27,cub,2003
 79.5,cub,2004
 79.75,cub,2005
-80.0,cub,2006
+80,cub,2006
 80.24,cub,2007
 80.46,cub,2008
 80.66,cub,2009
@@ -6690,7 +6690,7 @@ life_expectancy_female,geo,time
 84.64,cub,2038
 84.76,cub,2039
 84.88,cub,2040
-85.0,cub,2041
+85,cub,2041
 85.12,cub,2042
 85.24,cub,2043
 85.36,cub,2044
@@ -6707,7 +6707,7 @@ life_expectancy_female,geo,time
 86.66,cub,2055
 86.77,cub,2056
 86.88,cub,2057
-87.0,cub,2058
+87,cub,2058
 87.11,cub,2059
 87.22,cub,2060
 87.33,cub,2061
@@ -6716,7 +6716,7 @@ life_expectancy_female,geo,time
 87.67,cub,2064
 87.78,cub,2065
 87.89,cub,2066
-88.0,cub,2067
+88,cub,2067
 88.12,cub,2068
 88.23,cub,2069
 88.34,cub,2070
@@ -6725,7 +6725,7 @@ life_expectancy_female,geo,time
 88.67,cub,2073
 88.78,cub,2074
 88.89,cub,2075
-89.0,cub,2076
+89,cub,2076
 89.11,cub,2077
 89.22,cub,2078
 89.32,cub,2079
@@ -6863,7 +6863,7 @@ life_expectancy_female,geo,time
 87.66,cyp,2061
 87.78,cyp,2062
 87.89,cyp,2063
-88.0,cyp,2064
+88,cyp,2064
 88.11,cyp,2065
 88.22,cyp,2066
 88.33,cyp,2067
@@ -6872,7 +6872,7 @@ life_expectancy_female,geo,time
 88.67,cyp,2070
 88.78,cyp,2071
 88.89,cyp,2072
-89.0,cyp,2073
+89,cyp,2073
 89.11,cyp,2074
 89.22,cyp,2075
 89.33,cyp,2076
@@ -6972,7 +6972,7 @@ life_expectancy_female,geo,time
 81.62,cze,2020
 81.75,cze,2021
 81.88,cze,2022
-82.0,cze,2023
+82,cze,2023
 82.13,cze,2024
 82.26,cze,2025
 82.38,cze,2026
@@ -7023,7 +7023,7 @@ life_expectancy_female,geo,time
 87.66,cze,2071
 87.77,cze,2072
 87.88,cze,2073
-88.0,cze,2074
+88,cze,2074
 88.11,cze,2075
 88.22,cze,2076
 88.33,cze,2077
@@ -7032,7 +7032,7 @@ life_expectancy_female,geo,time
 88.67,cze,2080
 88.78,cze,2081
 88.89,cze,2082
-89.0,cze,2083
+89,cze,2083
 89.11,cze,2084
 89.23,cze,2085
 89.34,cze,2086
@@ -7041,7 +7041,7 @@ life_expectancy_female,geo,time
 89.67,cze,2089
 89.78,cze,2090
 89.89,cze,2091
-90.0,cze,2092
+90,cze,2092
 90.12,cze,2093
 90.23,cze,2094
 90.34,cze,2095
@@ -7108,7 +7108,7 @@ life_expectancy_female,geo,time
 80.44,dnk,2006
 80.65,dnk,2007
 80.84,dnk,2008
-81.0,dnk,2009
+81,dnk,2009
 81.15,dnk,2010
 81.28,dnk,2011
 81.39,dnk,2012
@@ -7364,7 +7364,7 @@ life_expectancy_female,geo,time
 54.86,dom,1962
 55.59,dom,1963
 56.3,dom,1964
-57.0,dom,1965
+57,dom,1965
 57.69,dom,1966
 58.37,dom,1967
 59.04,dom,1968
@@ -7372,7 +7372,7 @@ life_expectancy_female,geo,time
 60.32,dom,1970
 60.91,dom,1971
 61.48,dom,1972
-62.0,dom,1973
+62,dom,1973
 62.49,dom,1974
 62.94,dom,1975
 63.37,dom,1976
@@ -7481,7 +7481,7 @@ life_expectancy_female,geo,time
 86.64,dom,2079
 86.76,dom,2080
 86.88,dom,2081
-87.0,dom,2082
+87,dom,2082
 87.12,dom,2083
 87.24,dom,2084
 87.36,dom,2085
@@ -7581,7 +7581,7 @@ life_expectancy_female,geo,time
 82.52,ecu,2029
 82.69,ecu,2030
 82.85,ecu,2031
-83.0,ecu,2032
+83,ecu,2032
 83.16,ecu,2033
 83.31,ecu,2034
 83.46,ecu,2035
@@ -7630,7 +7630,7 @@ life_expectancy_female,geo,time
 88.68,ecu,2078
 88.79,ecu,2079
 88.89,ecu,2080
-89.0,ecu,2081
+89,ecu,2081
 89.1,ecu,2082
 89.2,ecu,2083
 89.3,ecu,2084
@@ -7842,7 +7842,7 @@ life_expectancy_female,geo,time
 71.26,slv,1990
 71.96,slv,1991
 72.54,slv,1992
-73.0,slv,1993
+73,slv,1993
 73.35,slv,1994
 73.61,slv,1995
 73.81,slv,1996
@@ -7938,7 +7938,7 @@ life_expectancy_female,geo,time
 87.65,slv,2086
 87.77,slv,2087
 87.89,slv,2088
-88.0,slv,2089
+88,slv,2089
 88.11,slv,2090
 88.22,slv,2091
 88.34,slv,2092
@@ -8036,7 +8036,7 @@ life_expectancy_female,geo,time
 64.52,gnq,2034
 65.02,gnq,2035
 65.51,gnq,2036
-66.0,gnq,2037
+66,gnq,2037
 66.48,gnq,2038
 66.95,gnq,2039
 67.41,gnq,2040
@@ -8083,7 +8083,7 @@ life_expectancy_female,geo,time
 78.47,gnq,2081
 78.65,gnq,2082
 78.83,gnq,2083
-79.0,gnq,2084
+79,gnq,2084
 79.16,gnq,2085
 79.31,gnq,2086
 79.47,gnq,2087
@@ -8137,7 +8137,7 @@ life_expectancy_female,geo,time
 47.12,eri,1985
 47.69,eri,1986
 48.32,eri,1987
-49.0,eri,1988
+49,eri,1988
 49.72,eri,1989
 50.48,eri,1990
 51.29,eri,1991
@@ -8363,7 +8363,7 @@ life_expectancy_female,geo,time
 84.7,est,2061
 84.8,est,2062
 84.9,est,2063
-85.0,est,2064
+85,est,2064
 85.11,est,2065
 85.21,est,2066
 85.31,est,2067
@@ -8392,7 +8392,7 @@ life_expectancy_female,geo,time
 87.69,est,2090
 87.79,est,2091
 87.9,est,2092
-88.0,est,2093
+88,est,2093
 88.11,est,2094
 88.21,est,2095
 88.31,est,2096
@@ -8443,7 +8443,7 @@ life_expectancy_female,geo,time
 48.75,eth,1991
 49.13,eth,1992
 49.54,eth,1993
-50.0,eth,1994
+50,eth,1994
 50.48,eth,1995
 50.99,eth,1996
 51.51,eth,1997
@@ -8607,7 +8607,7 @@ life_expectancy_female,geo,time
 71.34,fji,2005
 71.56,fji,2006
 71.79,fji,2007
-72.0,fji,2008
+72,fji,2008
 72.21,fji,2009
 72.41,fji,2010
 72.61,fji,2011
@@ -8636,7 +8636,7 @@ life_expectancy_female,geo,time
 76.54,fji,2034
 76.69,fji,2035
 76.85,fji,2036
-77.0,fji,2037
+77,fji,2037
 77.14,fji,2038
 77.29,fji,2039
 77.44,fji,2040
@@ -8771,7 +8771,7 @@ life_expectancy_female,geo,time
 84.57,fin,2019
 84.72,fin,2020
 84.86,fin,2021
-85.0,fin,2022
+85,fin,2022
 85.14,fin,2023
 85.28,fin,2024
 85.41,fin,2025
@@ -8786,7 +8786,7 @@ life_expectancy_female,geo,time
 86.61,fin,2034
 86.74,fin,2035
 86.87,fin,2036
-87.0,fin,2037
+87,fin,2037
 87.12,fin,2038
 87.25,fin,2039
 87.38,fin,2040
@@ -8794,7 +8794,7 @@ life_expectancy_female,geo,time
 87.63,fin,2042
 87.75,fin,2043
 87.88,fin,2044
-88.0,fin,2045
+88,fin,2045
 88.13,fin,2046
 88.25,fin,2047
 88.37,fin,2048
@@ -8866,7 +8866,7 @@ life_expectancy_female,geo,time
 74.43,fra,1964
 74.63,fra,1965
 74.82,fra,1966
-75.0,fra,1967
+75,fra,1967
 75.19,fra,1968
 75.38,fra,1969
 75.59,fra,1970
@@ -8962,7 +8962,7 @@ life_expectancy_female,geo,time
 91.64,fra,2060
 91.76,fra,2061
 91.88,fra,2062
-92.0,fra,2063
+92,fra,2063
 92.12,fra,2064
 92.24,fra,2065
 92.36,fra,2066
@@ -9152,7 +9152,7 @@ life_expectancy_female,geo,time
 46.4,pyf,1950
 47.4,pyf,1951
 49.29,pyf,1952
-51.0,pyf,1953
+51,pyf,1953
 52.51,pyf,1954
 53.83,pyf,1955
 54.96,pyf,1956
@@ -9224,7 +9224,7 @@ life_expectancy_female,geo,time
 80.45,pyf,2022
 80.64,pyf,2023
 80.82,pyf,2024
-81.0,pyf,2025
+81,pyf,2025
 81.18,pyf,2026
 81.36,pyf,2027
 81.54,pyf,2028
@@ -9445,7 +9445,7 @@ life_expectancy_female,geo,time
 80.64,gab,2093
 80.77,gab,2094
 80.89,gab,2095
-81.0,gab,2096
+81,gab,2096
 81.12,gab,2097
 81.23,gab,2098
 81.33,gab,2099
@@ -9470,7 +9470,7 @@ life_expectancy_female,geo,time
 37.46,gmb,1968
 38.28,gmb,1969
 39.13,gmb,1970
-40.0,gmb,1971
+40,gmb,1971
 40.88,gmb,1972
 41.77,gmb,1973
 42.64,gmb,1974
@@ -9643,7 +9643,7 @@ life_expectancy_female,geo,time
 73.89,geo,1991
 73.89,geo,1992
 73.92,geo,1993
-74.0,geo,1994
+74,geo,1994
 74.13,geo,1995
 74.32,geo,1996
 74.55,geo,1997
@@ -9696,7 +9696,7 @@ life_expectancy_female,geo,time
 81.65,geo,2044
 81.77,geo,2045
 81.88,geo,2046
-82.0,geo,2047
+82,geo,2047
 82.12,geo,2048
 82.24,geo,2049
 82.35,geo,2050
@@ -9759,7 +9759,7 @@ life_expectancy_female,geo,time
 71.17,deu,1957
 71.47,deu,1958
 71.75,deu,1959
-72.0,deu,1960
+72,deu,1960
 72.24,deu,1961
 72.46,deu,1962
 72.67,deu,1963
@@ -9779,7 +9779,7 @@ life_expectancy_female,geo,time
 75.17,deu,1977
 75.45,deu,1978
 75.72,deu,1979
-76.0,deu,1980
+76,deu,1980
 76.28,deu,1981
 76.55,deu,1982
 76.82,deu,1983
@@ -9811,7 +9811,7 @@ life_expectancy_female,geo,time
 82.57,deu,2009
 82.72,deu,2010
 82.86,deu,2011
-83.0,deu,2012
+83,deu,2012
 83.14,deu,2013
 83.28,deu,2014
 83.42,deu,2015
@@ -10151,7 +10151,7 @@ life_expectancy_female,geo,time
 87.65,grc,2049
 87.77,grc,2050
 87.88,grc,2051
-88.0,grc,2052
+88,grc,2052
 88.11,grc,2053
 88.23,grc,2054
 88.34,grc,2055
@@ -10260,7 +10260,7 @@ life_expectancy_female,geo,time
 74.48,grd,2008
 74.67,grd,2009
 74.84,grd,2010
-75.0,grd,2011
+75,grd,2011
 75.16,grd,2012
 75.31,grd,2013
 75.46,grd,2014
@@ -10320,7 +10320,7 @@ life_expectancy_female,geo,time
 82.64,grd,2068
 82.76,grd,2069
 82.88,grd,2070
-83.0,grd,2071
+83,grd,2071
 83.11,grd,2072
 83.23,grd,2073
 83.34,grd,2074
@@ -10371,7 +10371,7 @@ life_expectancy_female,geo,time
 67.27,glp,1969
 67.86,glp,1970
 68.44,glp,1971
-69.0,glp,1972
+69,glp,1972
 69.55,glp,1973
 70.08,glp,1974
 70.6,glp,1975
@@ -10394,10 +10394,10 @@ life_expectancy_female,geo,time
 77.94,glp,1992
 78.3,glp,1993
 78.66,glp,1994
-79.0,glp,1995
+79,glp,1995
 79.34,glp,1996
 79.67,glp,1997
-80.0,glp,1998
+80,glp,1998
 80.32,glp,1999
 80.64,glp,2000
 80.96,glp,2001
@@ -10433,7 +10433,7 @@ life_expectancy_female,geo,time
 87.5,glp,2031
 87.67,glp,2032
 87.83,glp,2033
-88.0,glp,2034
+88,glp,2034
 88.16,glp,2035
 88.32,glp,2036
 88.48,glp,2037
@@ -10666,7 +10666,7 @@ life_expectancy_female,geo,time
 48.85,gtm,1964
 49.53,gtm,1965
 50.25,gtm,1966
-51.0,gtm,1967
+51,gtm,1967
 51.79,gtm,1968
 52.6,gtm,1969
 53.41,gtm,1970
@@ -10707,7 +10707,7 @@ life_expectancy_female,geo,time
 73.2,gtm,2005
 73.46,gtm,2006
 73.72,gtm,2007
-74.0,gtm,2008
+74,gtm,2008
 74.29,gtm,2009
 74.61,gtm,2010
 74.94,gtm,2011
@@ -10790,7 +10790,7 @@ life_expectancy_female,geo,time
 88.64,gtm,2088
 88.76,gtm,2089
 88.88,gtm,2090
-89.0,gtm,2091
+89,gtm,2091
 89.12,gtm,2092
 89.24,gtm,2093
 89.36,gtm,2094
@@ -10878,7 +10878,7 @@ life_expectancy_female,geo,time
 60.31,gin,2026
 60.55,gin,2027
 60.78,gin,2028
-61.0,gin,2029
+61,gin,2029
 61.23,gin,2030
 61.44,gin,2031
 61.66,gin,2032
@@ -10958,7 +10958,7 @@ life_expectancy_female,geo,time
 42.3,gnb,1956
 42.53,gnb,1957
 42.76,gnb,1958
-43.0,gnb,1959
+43,gnb,1959
 43.24,gnb,1960
 43.48,gnb,1961
 43.72,gnb,1962
@@ -11182,7 +11182,7 @@ life_expectancy_female,geo,time
 71.6,guy,2030
 71.73,guy,2031
 71.86,guy,2032
-72.0,guy,2033
+72,guy,2033
 72.13,guy,2034
 72.26,guy,2035
 72.39,guy,2036
@@ -11216,7 +11216,7 @@ life_expectancy_female,geo,time
 75.68,guy,2064
 75.79,guy,2065
 75.9,guy,2066
-76.0,guy,2067
+76,guy,2067
 76.11,guy,2068
 76.22,guy,2069
 76.33,guy,2070
@@ -11235,7 +11235,7 @@ life_expectancy_female,geo,time
 77.69,guy,2083
 77.8,guy,2084
 77.9,guy,2085
-78.0,guy,2086
+78,guy,2086
 78.11,guy,2087
 78.21,guy,2088
 78.31,guy,2089
@@ -11312,7 +11312,7 @@ life_expectancy_female,geo,time
 63.7,hti,2010
 64.18,hti,2011
 64.61,hti,2012
-65.0,hti,2013
+65,hti,2013
 65.35,hti,2014
 65.66,hti,2015
 65.93,hti,2016
@@ -11338,7 +11338,7 @@ life_expectancy_female,geo,time
 71.28,hti,2036
 71.52,hti,2037
 71.77,hti,2038
-72.0,hti,2039
+72,hti,2039
 72.24,hti,2040
 72.46,hti,2041
 72.68,hti,2042
@@ -11485,7 +11485,7 @@ life_expectancy_female,geo,time
 81.31,hnd,2033
 81.55,hnd,2034
 81.78,hnd,2035
-82.0,hnd,2036
+82,hnd,2036
 82.22,hnd,2037
 82.44,hnd,2038
 82.66,hnd,2039
@@ -11566,7 +11566,7 @@ life_expectancy_female,geo,time
 72.84,hkg,1964
 73.26,hkg,1965
 73.64,hkg,1966
-74.0,hkg,1967
+74,hkg,1967
 74.34,hkg,1968
 74.69,hkg,1969
 75.03,hkg,1970
@@ -11656,7 +11656,7 @@ life_expectancy_female,geo,time
 92.61,hkg,2054
 92.74,hkg,2055
 92.87,hkg,2056
-93.0,hkg,2057
+93,hkg,2057
 93.14,hkg,2058
 93.27,hkg,2059
 93.4,hkg,2060
@@ -11900,7 +11900,7 @@ life_expectancy_female,geo,time
 81.33,isl,1998
 81.52,isl,1999
 81.75,isl,2000
-82.0,isl,2001
+82,isl,2001
 82.25,isl,2002
 82.48,isl,2003
 82.68,isl,2004
@@ -11913,7 +11913,7 @@ life_expectancy_female,geo,time
 83.61,isl,2011
 83.74,isl,2012
 83.87,isl,2013
-84.0,isl,2014
+84,isl,2014
 84.13,isl,2015
 84.26,isl,2016
 84.39,isl,2017
@@ -12061,7 +12061,7 @@ life_expectancy_female,geo,time
 67.17,ind,2009
 67.47,ind,2010
 67.74,ind,2011
-68.0,ind,2012
+68,ind,2012
 68.25,ind,2013
 68.5,ind,2014
 68.74,ind,2015
@@ -12132,7 +12132,7 @@ life_expectancy_female,geo,time
 79.63,ind,2080
 79.75,ind,2081
 79.88,ind,2082
-80.0,ind,2083
+80,ind,2083
 80.13,ind,2084
 80.26,ind,2085
 80.39,ind,2086
@@ -12324,7 +12324,7 @@ life_expectancy_female,geo,time
 52.48,irn,1972
 53.3,irn,1973
 54.14,irn,1974
-55.0,irn,1975
+55,irn,1975
 55.89,irn,1976
 56.77,irn,1977
 57.66,irn,1978
@@ -12373,7 +12373,7 @@ life_expectancy_female,geo,time
 78.27,irn,2021
 78.52,irn,2022
 78.77,irn,2023
-79.0,irn,2024
+79,irn,2024
 79.24,irn,2025
 79.47,irn,2026
 79.69,irn,2027
@@ -12524,7 +12524,7 @@ life_expectancy_female,geo,time
 74.58,irq,2022
 74.72,irq,2023
 74.86,irq,2024
-75.0,irq,2025
+75,irq,2025
 75.13,irq,2026
 75.27,irq,2027
 75.4,irq,2028
@@ -12663,7 +12663,7 @@ life_expectancy_female,geo,time
 82.55,irl,2011
 82.7,irl,2012
 82.85,irl,2013
-83.0,irl,2014
+83,irl,2014
 83.15,irl,2015
 83.31,irl,2016
 83.46,irl,2017
@@ -12743,7 +12743,7 @@ life_expectancy_female,geo,time
 92.67,irl,2091
 92.78,irl,2092
 92.89,irl,2093
-93.0,irl,2094
+93,irl,2094
 93.11,irl,2095
 93.22,irl,2096
 93.33,irl,2097
@@ -12784,7 +12784,7 @@ life_expectancy_female,geo,time
 76.25,isr,1982
 76.5,isr,1983
 76.75,isr,1984
-77.0,isr,1985
+77,isr,1985
 77.25,isr,1986
 77.51,isr,1987
 77.77,isr,1988
@@ -12887,7 +12887,7 @@ life_expectancy_female,geo,time
 92.65,isr,2085
 92.77,isr,2086
 92.88,isr,2087
-93.0,isr,2088
+93,isr,2088
 93.12,isr,2089
 93.24,isr,2090
 93.36,isr,2091
@@ -12997,7 +12997,7 @@ life_expectancy_female,geo,time
 89.61,ita,2045
 89.74,ita,2046
 89.87,ita,2047
-90.0,ita,2048
+90,ita,2048
 90.13,ita,2049
 90.26,ita,2050
 90.39,ita,2051
@@ -13147,7 +13147,7 @@ life_expectancy_female,geo,time
 79.62,jam,2045
 79.75,jam,2046
 79.88,jam,2047
-80.0,jam,2048
+80,jam,2048
 80.13,jam,2049
 80.26,jam,2050
 80.39,jam,2051
@@ -13290,7 +13290,7 @@ life_expectancy_female,geo,time
 90.61,jpn,2038
 90.74,jpn,2039
 90.87,jpn,2040
-91.0,jpn,2041
+91,jpn,2041
 91.13,jpn,2042
 91.25,jpn,2043
 91.38,jpn,2044
@@ -13323,7 +13323,7 @@ life_expectancy_female,geo,time
 94.65,jpn,2071
 94.76,jpn,2072
 94.88,jpn,2073
-95.0,jpn,2074
+95,jpn,2074
 95.11,jpn,2075
 95.23,jpn,2076
 95.34,jpn,2077
@@ -13768,7 +13768,7 @@ life_expectancy_female,geo,time
 77.48,ken,2066
 77.66,ken,2067
 77.83,ken,2068
-78.0,ken,2069
+78,ken,2069
 78.17,ken,2070
 78.34,ken,2071
 78.51,ken,2072
@@ -13866,7 +13866,7 @@ life_expectancy_female,geo,time
 72.09,kir,2014
 72.4,kir,2015
 72.7,kir,2016
-73.0,kir,2017
+73,kir,2017
 73.29,kir,2018
 73.58,kir,2019
 73.86,kir,2020
@@ -13985,7 +13985,7 @@ life_expectancy_female,geo,time
 69.99,prk,1983
 70.29,prk,1984
 70.61,prk,1985
-71.0,prk,1986
+71,prk,1986
 71.46,prk,1987
 71.97,prk,1988
 72.48,prk,1989
@@ -14039,7 +14039,7 @@ life_expectancy_female,geo,time
 78.5,prk,2037
 78.67,prk,2038
 78.83,prk,2039
-79.0,prk,2040
+79,prk,2040
 79.16,prk,2041
 79.32,prk,2042
 79.48,prk,2043
@@ -14232,7 +14232,7 @@ life_expectancy_female,geo,time
 96.6,kor,2080
 96.73,kor,2081
 96.86,kor,2082
-97.0,kor,2083
+97,kor,2083
 97.13,kor,2084
 97.26,kor,2085
 97.39,kor,2086
@@ -14257,7 +14257,7 @@ life_expectancy_female,geo,time
 57.26,kwt,1955
 58.21,kwt,1956
 59.12,kwt,1957
-60.0,kwt,1958
+60,kwt,1958
 60.83,kwt,1959
 61.63,kwt,1960
 62.39,kwt,1961
@@ -14279,7 +14279,7 @@ life_expectancy_female,geo,time
 70.11,kwt,1977
 70.41,kwt,1978
 70.71,kwt,1979
-71.0,kwt,1980
+71,kwt,1980
 71.29,kwt,1981
 71.57,kwt,1982
 71.84,kwt,1983
@@ -14378,7 +14378,7 @@ life_expectancy_female,geo,time
 82.69,kwt,2076
 82.8,kwt,2077
 82.9,kwt,2078
-83.0,kwt,2079
+83,kwt,2079
 83.1,kwt,2080
 83.2,kwt,2081
 83.3,kwt,2082
@@ -14388,7 +14388,7 @@ life_expectancy_female,geo,time
 83.7,kwt,2086
 83.8,kwt,2087
 83.9,kwt,2088
-84.0,kwt,2089
+84,kwt,2089
 84.1,kwt,2090
 84.2,kwt,2091
 84.3,kwt,2092
@@ -14668,7 +14668,7 @@ life_expectancy_female,geo,time
 82.63,lao,2066
 82.76,lao,2067
 82.88,lao,2068
-83.0,lao,2069
+83,lao,2069
 83.13,lao,2070
 83.25,lao,2071
 83.36,lao,2072
@@ -14915,7 +14915,7 @@ life_expectancy_female,geo,time
 82.25,lbn,2013
 82.5,lbn,2014
 82.74,lbn,2015
-83.0,lbn,2016
+83,lbn,2016
 83.25,lbn,2017
 83.5,lbn,2018
 83.74,lbn,2019
@@ -14936,7 +14936,7 @@ life_expectancy_female,geo,time
 86.57,lbn,2034
 86.72,lbn,2035
 86.86,lbn,2036
-87.0,lbn,2037
+87,lbn,2037
 87.13,lbn,2038
 87.26,lbn,2039
 87.38,lbn,2040
@@ -14965,7 +14965,7 @@ life_expectancy_female,geo,time
 89.74,lbn,2063
 89.82,lbn,2064
 89.91,lbn,2065
-90.0,lbn,2066
+90,lbn,2066
 90.09,lbn,2067
 90.17,lbn,2068
 90.26,lbn,2069
@@ -14977,7 +14977,7 @@ life_expectancy_female,geo,time
 90.76,lbn,2075
 90.84,lbn,2076
 90.92,lbn,2077
-91.0,lbn,2078
+91,lbn,2078
 91.08,lbn,2079
 91.16,lbn,2080
 91.23,lbn,2081
@@ -15111,7 +15111,7 @@ life_expectancy_female,geo,time
 69.35,lso,2059
 69.56,lso,2060
 69.78,lso,2061
-70.0,lso,2062
+70,lso,2062
 70.23,lso,2063
 70.47,lso,2064
 70.71,lso,2065
@@ -15341,7 +15341,7 @@ life_expectancy_female,geo,time
 69.97,lby,1989
 70.31,lby,1990
 70.66,lby,1991
-71.0,lby,1992
+71,lby,1992
 71.33,lby,1993
 71.65,lby,1994
 71.98,lby,1995
@@ -15496,7 +15496,7 @@ life_expectancy_female,geo,time
 75.45,ltu,1994
 75.57,ltu,1995
 75.75,ltu,1996
-76.0,ltu,1997
+76,ltu,1997
 76.28,ltu,1998
 76.58,ltu,1999
 76.87,ltu,2000
@@ -15610,7 +15610,7 @@ life_expectancy_female,geo,time
 70.98,lux,1958
 71.34,lux,1959
 71.69,lux,1960
-72.0,lux,1961
+72,lux,1961
 72.29,lux,1962
 72.54,lux,1963
 72.75,lux,1964
@@ -15622,7 +15622,7 @@ life_expectancy_female,geo,time
 73.49,lux,1970
 73.63,lux,1971
 73.8,lux,1972
-74.0,lux,1973
+74,lux,1973
 74.23,lux,1974
 74.49,lux,1975
 74.76,lux,1976
@@ -15740,7 +15740,7 @@ life_expectancy_female,geo,time
 92.66,lux,2088
 92.77,lux,2089
 92.89,lux,2090
-93.0,lux,2091
+93,lux,2091
 93.11,lux,2092
 93.23,lux,2093
 93.34,lux,2094
@@ -15995,7 +15995,7 @@ life_expectancy_female,geo,time
 81.64,mkd,2043
 81.76,mkd,2044
 81.88,mkd,2045
-82.0,mkd,2046
+82,mkd,2046
 82.13,mkd,2047
 82.25,mkd,2048
 82.37,mkd,2049
@@ -16012,7 +16012,7 @@ life_expectancy_female,geo,time
 83.65,mkd,2060
 83.77,mkd,2061
 83.88,mkd,2062
-84.0,mkd,2063
+84,mkd,2063
 84.11,mkd,2064
 84.22,mkd,2065
 84.33,mkd,2066
@@ -16021,7 +16021,7 @@ life_expectancy_female,geo,time
 84.67,mkd,2069
 84.78,mkd,2070
 84.89,mkd,2071
-85.0,mkd,2072
+85,mkd,2072
 85.1,mkd,2073
 85.21,mkd,2074
 85.31,mkd,2075
@@ -16098,7 +16098,7 @@ life_expectancy_female,geo,time
 56.71,mdg,1996
 57.49,mdg,1997
 58.26,mdg,1998
-59.0,mdg,1999
+59,mdg,1999
 59.7,mdg,2000
 60.35,mdg,2001
 60.95,mdg,2002
@@ -16306,7 +16306,7 @@ life_expectancy_female,geo,time
 69.27,mwi,2054
 69.51,mwi,2055
 69.76,mwi,2056
-70.0,mwi,2057
+70,mwi,2057
 70.24,mwi,2058
 70.48,mwi,2059
 70.72,mwi,2060
@@ -16450,7 +16450,7 @@ life_expectancy_female,geo,time
 82.61,mys,2048
 82.74,mys,2049
 82.87,mys,2050
-83.0,mys,2051
+83,mys,2051
 83.13,mys,2052
 83.25,mys,2053
 83.38,mys,2054
@@ -16458,7 +16458,7 @@ life_expectancy_female,geo,time
 83.63,mys,2056
 83.75,mys,2057
 83.87,mys,2058
-84.0,mys,2059
+84,mys,2059
 84.12,mys,2060
 84.24,mys,2061
 84.36,mys,2062
@@ -16475,7 +16475,7 @@ life_expectancy_female,geo,time
 85.66,mys,2073
 85.77,mys,2074
 85.89,mys,2075
-86.0,mys,2076
+86,mys,2076
 86.11,mys,2077
 86.23,mys,2078
 86.34,mys,2079
@@ -16557,7 +16557,7 @@ life_expectancy_female,geo,time
 75.36,mdv,2005
 75.98,mdv,2006
 76.52,mdv,2007
-77.0,mdv,2008
+77,mdv,2008
 77.44,mdv,2009
 77.86,mdv,2010
 78.27,mdv,2011
@@ -16565,7 +16565,7 @@ life_expectancy_female,geo,time
 79.01,mdv,2013
 79.35,mdv,2014
 79.68,mdv,2015
-80.0,mdv,2016
+80,mdv,2016
 80.3,mdv,2017
 80.59,mdv,2018
 80.86,mdv,2019
@@ -16595,7 +16595,7 @@ life_expectancy_female,geo,time
 85.57,mdv,2043
 85.71,mdv,2044
 85.86,mdv,2045
-86.0,mdv,2046
+86,mdv,2046
 86.14,mdv,2047
 86.28,mdv,2048
 86.42,mdv,2049
@@ -16619,7 +16619,7 @@ life_expectancy_female,geo,time
 88.66,mdv,2067
 88.78,mdv,2068
 88.89,mdv,2069
-89.0,mdv,2070
+89,mdv,2070
 89.11,mdv,2071
 89.22,mdv,2072
 89.33,mdv,2073
@@ -16734,7 +16734,7 @@ life_expectancy_female,geo,time
 62.08,mli,2032
 62.39,mli,2033
 62.7,mli,2034
-63.0,mli,2035
+63,mli,2035
 63.3,mli,2036
 63.58,mli,2037
 63.87,mli,2038
@@ -16800,7 +16800,7 @@ life_expectancy_female,geo,time
 74.47,mli,2098
 74.6,mli,2099
 66.82,mlt,1950
-67.0,mlt,1951
+67,mlt,1951
 67.35,mlt,1952
 67.7,mlt,1953
 68.04,mlt,1954
@@ -16816,7 +16816,7 @@ life_expectancy_female,geo,time
 71.15,mlt,1964
 71.44,mlt,1965
 71.72,mlt,1966
-72.0,mlt,1967
+72,mlt,1967
 72.28,mlt,1968
 72.55,mlt,1969
 72.82,mlt,1970
@@ -16891,7 +16891,7 @@ life_expectancy_female,geo,time
 85.62,mlt,2039
 85.75,mlt,2040
 85.88,mlt,2041
-86.0,mlt,2042
+86,mlt,2042
 86.13,mlt,2043
 86.26,mlt,2044
 86.38,mlt,2045
@@ -16899,7 +16899,7 @@ life_expectancy_female,geo,time
 86.63,mlt,2047
 86.75,mlt,2048
 86.88,mlt,2049
-87.0,mlt,2050
+87,mlt,2050
 87.12,mlt,2051
 87.25,mlt,2052
 87.37,mlt,2053
@@ -17001,7 +17001,7 @@ life_expectancy_female,geo,time
 81.01,mtq,1999
 81.37,mtq,2000
 81.7,mtq,2001
-82.0,mtq,2002
+82,mtq,2002
 82.27,mtq,2003
 82.52,mtq,2004
 82.74,mtq,2005
@@ -17233,7 +17233,7 @@ life_expectancy_female,geo,time
 71.67,mrt,2081
 71.78,mrt,2082
 71.89,mrt,2083
-72.0,mrt,2084
+72,mrt,2084
 72.11,mrt,2085
 72.21,mrt,2086
 72.32,mrt,2087
@@ -17492,14 +17492,14 @@ life_expectancy_female,geo,time
 87.57,myt,2040
 87.72,myt,2041
 87.86,myt,2042
-88.0,myt,2043
+88,myt,2043
 88.15,myt,2044
 88.29,myt,2045
 88.44,myt,2046
 88.58,myt,2047
 88.72,myt,2048
 88.86,myt,2049
-89.0,myt,2050
+89,myt,2050
 89.14,myt,2051
 89.27,myt,2052
 89.41,myt,2053
@@ -17514,7 +17514,7 @@ life_expectancy_female,geo,time
 90.61,myt,2062
 90.74,myt,2063
 90.87,myt,2064
-91.0,myt,2065
+91,myt,2065
 91.13,myt,2066
 91.25,myt,2067
 91.38,myt,2068
@@ -17522,7 +17522,7 @@ life_expectancy_female,geo,time
 91.63,myt,2070
 91.76,myt,2071
 91.88,myt,2072
-92.0,myt,2073
+92,myt,2073
 92.13,myt,2074
 92.25,myt,2075
 92.38,myt,2076
@@ -17604,7 +17604,7 @@ life_expectancy_female,geo,time
 77.25,mex,2002
 77.5,mex,2003
 77.75,mex,2004
-78.0,mex,2005
+78,mex,2005
 78.25,mex,2006
 78.49,mex,2007
 78.72,mex,2008
@@ -17750,13 +17750,13 @@ life_expectancy_female,geo,time
 67.64,fsm,1998
 67.75,fsm,1999
 67.87,fsm,2000
-68.0,fsm,2001
+68,fsm,2001
 68.14,fsm,2002
 68.3,fsm,2003
 68.47,fsm,2004
 68.64,fsm,2005
 68.82,fsm,2006
-69.0,fsm,2007
+69,fsm,2007
 69.17,fsm,2008
 69.34,fsm,2009
 69.49,fsm,2010
@@ -17929,7 +17929,7 @@ life_expectancy_female,geo,time
 74.63,mda,2027
 74.75,mda,2028
 74.87,mda,2029
-75.0,mda,2030
+75,mda,2030
 75.12,mda,2031
 75.24,mda,2032
 75.36,mda,2033
@@ -17963,7 +17963,7 @@ life_expectancy_female,geo,time
 78.66,mda,2061
 78.77,mda,2062
 78.89,mda,2063
-79.0,mda,2064
+79,mda,2064
 79.12,mda,2065
 79.23,mda,2066
 79.34,mda,2067
@@ -18000,7 +18000,7 @@ life_expectancy_female,geo,time
 82.78,mda,2098
 82.9,mda,2099
 43.73,mng,1950
-44.0,mng,1951
+44,mng,1951
 44.56,mng,1952
 45.18,mng,1953
 45.85,mng,1954
@@ -18032,7 +18032,7 @@ life_expectancy_female,geo,time
 59.36,mng,1980
 59.5,mng,1981
 59.71,mng,1982
-60.0,mng,1983
+60,mng,1983
 60.36,mng,1984
 60.78,mng,1985
 61.23,mng,1986
@@ -18200,7 +18200,7 @@ life_expectancy_female,geo,time
 78.25,mne,1998
 77.89,mne,1999
 77.45,mne,2000
-77.0,mne,2001
+77,mne,2001
 76.61,mne,2002
 76.31,mne,2003
 76.14,mne,2004
@@ -18230,7 +18230,7 @@ life_expectancy_female,geo,time
 78.73,mne,2028
 78.82,mne,2029
 78.91,mne,2030
-79.0,mne,2031
+79,mne,2031
 79.09,mne,2032
 79.17,mne,2033
 79.26,mne,2034
@@ -18639,7 +18639,7 @@ life_expectancy_female,geo,time
 59.95,mmr,1987
 60.3,mmr,1988
 60.65,mmr,1989
-61.0,mmr,1990
+61,mmr,1990
 61.34,mmr,1991
 61.67,mmr,1992
 62.01,mmr,1993
@@ -18708,7 +18708,7 @@ life_expectancy_female,geo,time
 73.61,mmr,2056
 73.74,mmr,2057
 73.88,mmr,2058
-74.0,mmr,2059
+74,mmr,2059
 74.13,mmr,2060
 74.26,mmr,2061
 74.39,mmr,2062
@@ -18716,7 +18716,7 @@ life_expectancy_female,geo,time
 74.64,mmr,2064
 74.76,mmr,2065
 74.88,mmr,2066
-75.0,mmr,2067
+75,mmr,2067
 75.12,mmr,2068
 75.24,mmr,2069
 75.36,mmr,2070
@@ -18766,7 +18766,7 @@ life_expectancy_female,geo,time
 51.41,nam,1964
 51.95,nam,1965
 52.47,nam,1966
-53.0,nam,1967
+53,nam,1967
 53.53,nam,1968
 54.05,nam,1969
 54.58,nam,1970
@@ -18778,7 +18778,7 @@ life_expectancy_female,geo,time
 57.39,nam,1976
 57.89,nam,1977
 58.42,nam,1978
-59.0,nam,1979
+59,nam,1979
 59.6,nam,1980
 60.21,nam,1981
 60.81,nam,1982
@@ -18819,7 +18819,7 @@ life_expectancy_female,geo,time
 67.67,nam,2017
 67.75,nam,2018
 67.86,nam,2019
-68.0,nam,2020
+68,nam,2020
 68.18,nam,2021
 68.39,nam,2022
 68.6,nam,2023
@@ -19054,7 +19054,7 @@ life_expectancy_female,geo,time
 73.09,nld,1952
 73.4,nld,1953
 73.7,nld,1954
-74.0,nld,1955
+74,nld,1955
 74.28,nld,1956
 74.56,nld,1957
 74.83,nld,1958
@@ -19063,7 +19063,7 @@ life_expectancy_female,geo,time
 75.52,nld,1961
 75.7,nld,1962
 75.86,nld,1963
-76.0,nld,1964
+76,nld,1964
 76.11,nld,1965
 76.22,nld,1966
 76.32,nld,1967
@@ -19079,7 +19079,7 @@ life_expectancy_female,geo,time
 78.28,nld,1977
 78.54,nld,1978
 78.78,nld,1979
-79.0,nld,1980
+79,nld,1980
 79.2,nld,1981
 79.37,nld,1982
 79.51,nld,1983
@@ -19138,7 +19138,7 @@ life_expectancy_female,geo,time
 85.66,nld,2036
 85.77,nld,2037
 85.89,nld,2038
-86.0,nld,2039
+86,nld,2039
 86.12,nld,2040
 86.23,nld,2041
 86.34,nld,2042
@@ -19221,7 +19221,7 @@ life_expectancy_female,geo,time
 64.25,ncl,1969
 64.85,ncl,1970
 65.43,ncl,1971
-66.0,ncl,1972
+66,ncl,1972
 66.55,ncl,1973
 67.08,ncl,1974
 67.6,ncl,1975
@@ -19339,7 +19339,7 @@ life_expectancy_female,geo,time
 89.66,ncl,2087
 89.78,ncl,2088
 89.89,ncl,2089
-90.0,ncl,2090
+90,ncl,2090
 90.11,ncl,2091
 90.22,ncl,2092
 90.34,ncl,2093
@@ -19361,7 +19361,7 @@ life_expectancy_female,geo,time
 73.54,nzl,1959
 73.71,nzl,1960
 73.87,nzl,1961
-74.0,nzl,1962
+74,nzl,1962
 74.11,nzl,1963
 74.21,nzl,1964
 74.3,nzl,1965
@@ -19396,7 +19396,7 @@ life_expectancy_female,geo,time
 79.39,nzl,1994
 79.6,nzl,1995
 79.8,nzl,1996
-80.0,nzl,1997
+80,nzl,1997
 80.2,nzl,1998
 80.42,nzl,1999
 80.65,nzl,2000
@@ -19478,7 +19478,7 @@ life_expectancy_female,geo,time
 90.65,nzl,2076
 90.76,nzl,2077
 90.88,nzl,2078
-91.0,nzl,2079
+91,nzl,2079
 91.11,nzl,2080
 91.23,nzl,2081
 91.35,nzl,2082
@@ -19510,7 +19510,7 @@ life_expectancy_female,geo,time
 47.07,nic,1958
 47.7,nic,1959
 48.35,nic,1960
-49.0,nic,1961
+49,nic,1961
 49.67,nic,1962
 50.34,nic,1963
 51.01,nic,1964
@@ -19550,11 +19550,11 @@ life_expectancy_female,geo,time
 71.39,nic,1998
 71.92,nic,1999
 72.46,nic,2000
-73.0,nic,2001
+73,nic,2001
 73.53,nic,2002
 74.05,nic,2003
 74.54,nic,2004
-75.0,nic,2005
+75,nic,2005
 75.43,nic,2006
 75.84,nic,2007
 76.22,nic,2008
@@ -19574,7 +19574,7 @@ life_expectancy_female,geo,time
 80.32,nic,2022
 80.55,nic,2023
 80.78,nic,2024
-81.0,nic,2025
+81,nic,2025
 81.21,nic,2026
 81.42,nic,2027
 81.63,nic,2028
@@ -19597,7 +19597,7 @@ life_expectancy_female,geo,time
 84.56,nic,2045
 84.71,nic,2046
 84.86,nic,2047
-85.0,nic,2048
+85,nic,2048
 85.15,nic,2049
 85.29,nic,2050
 85.43,nic,2051
@@ -19612,7 +19612,7 @@ life_expectancy_female,geo,time
 86.62,nic,2060
 86.75,nic,2061
 86.88,nic,2062
-87.0,nic,2063
+87,nic,2063
 87.13,nic,2064
 87.25,nic,2065
 87.37,nic,2066
@@ -19682,7 +19682,7 @@ life_expectancy_female,geo,time
 39.56,ner,1980
 40.05,ner,1981
 40.54,ner,1982
-41.0,ner,1983
+41,ner,1983
 41.44,ner,1984
 41.87,ner,1985
 42.29,ner,1986
@@ -19692,7 +19692,7 @@ life_expectancy_female,geo,time
 44.22,ner,1990
 44.78,ner,1991
 45.38,ner,1992
-46.0,ner,1993
+46,ner,1993
 46.64,ner,1994
 47.3,ner,1995
 47.96,ner,1996
@@ -19847,7 +19847,7 @@ life_expectancy_female,geo,time
 47.01,nga,1995
 46.99,nga,1996
 46.98,nga,1997
-47.0,nga,1998
+47,nga,1998
 47.06,nga,1999
 47.19,nga,2000
 47.4,nga,2001
@@ -19979,7 +19979,7 @@ life_expectancy_female,geo,time
 78.42,nor,1977
 78.62,nor,1978
 78.81,nor,1979
-79.0,nor,1980
+79,nor,1980
 79.15,nor,1981
 79.27,nor,1982
 79.35,nor,1983
@@ -20058,7 +20058,7 @@ life_expectancy_female,geo,time
 88.66,nor,2056
 88.77,nor,2057
 88.89,nor,2058
-89.0,nor,2059
+89,nor,2059
 89.11,nor,2060
 89.22,nor,2061
 89.33,nor,2062
@@ -20102,7 +20102,7 @@ life_expectancy_female,geo,time
 34.52,omn,1950
 35.02,omn,1951
 36.02,omn,1952
-37.0,omn,1953
+37,omn,1953
 37.97,omn,1954
 38.93,omn,1955
 39.88,omn,1956
@@ -20263,7 +20263,7 @@ life_expectancy_female,geo,time
 47.56,pak,1961
 48.43,pak,1962
 49.24,pak,1963
-50.0,pak,1964
+50,pak,1964
 50.71,pak,1965
 51.37,pak,1966
 51.97,pak,1967
@@ -20321,7 +20321,7 @@ life_expectancy_female,geo,time
 68.52,pak,2019
 68.68,pak,2020
 68.84,pak,2021
-69.0,pak,2022
+69,pak,2022
 69.16,pak,2023
 69.31,pak,2024
 69.47,pak,2025
@@ -20391,7 +20391,7 @@ life_expectancy_female,geo,time
 77.66,pak,2089
 77.78,pak,2090
 77.89,pak,2091
-78.0,pak,2092
+78,pak,2092
 78.12,pak,2093
 78.23,pak,2094
 78.34,pak,2095
@@ -20413,7 +20413,7 @@ life_expectancy_female,geo,time
 62.48,pan,1961
 63.01,pan,1962
 63.51,pan,1963
-64.0,pan,1964
+64,pan,1964
 64.47,pan,1965
 64.94,pan,1966
 65.43,pan,1967
@@ -20594,7 +20594,7 @@ life_expectancy_female,geo,time
 59.23,png,1992
 59.53,png,1993
 59.79,png,1994
-60.0,png,1995
+60,png,1995
 60.18,png,1996
 60.35,png,1997
 60.54,png,1998
@@ -20629,7 +20629,7 @@ life_expectancy_female,geo,time
 66.61,png,2027
 66.74,png,2028
 66.87,png,2029
-67.0,png,2030
+67,png,2030
 67.14,png,2031
 67.27,png,2032
 67.39,png,2033
@@ -20943,7 +20943,7 @@ life_expectancy_female,geo,time
 83.53,per,2041
 83.69,per,2042
 83.85,per,2043
-84.0,per,2044
+84,per,2044
 84.15,per,2045
 84.3,per,2046
 84.45,per,2047
@@ -20957,7 +20957,7 @@ life_expectancy_female,geo,time
 85.6,per,2055
 85.73,per,2056
 85.87,per,2057
-86.0,per,2058
+86,per,2058
 86.13,per,2059
 86.26,per,2060
 86.39,per,2061
@@ -21049,7 +21049,7 @@ life_expectancy_female,geo,time
 69.44,phl,1997
 69.63,phl,1998
 69.82,phl,1999
-70.0,phl,2000
+70,phl,2000
 70.18,phl,2001
 70.36,phl,2002
 70.53,phl,2003
@@ -21094,7 +21094,7 @@ life_expectancy_female,geo,time
 76.6,phl,2042
 76.74,phl,2043
 76.87,phl,2044
-77.0,phl,2045
+77,phl,2045
 77.14,phl,2046
 77.27,phl,2047
 77.4,phl,2048
@@ -21208,7 +21208,7 @@ life_expectancy_female,geo,time
 79.52,pol,2006
 79.7,pol,2007
 79.86,pol,2008
-80.0,pol,2009
+80,pol,2009
 80.14,pol,2010
 80.28,pol,2011
 80.41,pol,2012
@@ -21284,7 +21284,7 @@ life_expectancy_female,geo,time
 88.67,pol,2082
 88.78,pol,2083
 88.89,pol,2084
-89.0,pol,2085
+89,pol,2085
 89.11,pol,2086
 89.22,pol,2087
 89.33,pol,2088
@@ -21332,7 +21332,7 @@ life_expectancy_female,geo,time
 74.79,prt,1980
 75.22,prt,1981
 75.62,prt,1982
-76.0,prt,1983
+76,prt,1983
 76.36,prt,1984
 76.67,prt,1985
 76.96,prt,1986
@@ -21375,7 +21375,7 @@ life_expectancy_female,geo,time
 84.53,prt,2023
 84.69,prt,2024
 84.84,prt,2025
-85.0,prt,2026
+85,prt,2026
 85.15,prt,2027
 85.3,prt,2028
 85.45,prt,2029
@@ -21634,7 +21634,7 @@ life_expectancy_female,geo,time
 74.25,qat,1982
 74.51,qat,1983
 74.76,qat,1984
-75.0,qat,1985
+75,qat,1985
 75.23,qat,1986
 75.44,qat,1987
 75.65,qat,1988
@@ -21734,7 +21734,7 @@ life_expectancy_female,geo,time
 87.69,qat,2082
 87.79,qat,2083
 87.9,qat,2084
-88.0,qat,2085
+88,qat,2085
 88.1,qat,2086
 88.21,qat,2087
 88.31,qat,2088
@@ -21842,14 +21842,14 @@ life_expectancy_female,geo,time
 87.57,reu,2040
 87.72,reu,2041
 87.86,reu,2042
-88.0,reu,2043
+88,reu,2043
 88.15,reu,2044
 88.29,reu,2045
 88.44,reu,2046
 88.58,reu,2047
 88.72,reu,2048
 88.86,reu,2049
-89.0,reu,2050
+89,reu,2050
 89.14,reu,2051
 89.27,reu,2052
 89.41,reu,2053
@@ -21864,7 +21864,7 @@ life_expectancy_female,geo,time
 90.61,reu,2062
 90.74,reu,2063
 90.87,reu,2064
-91.0,reu,2065
+91,reu,2065
 91.13,reu,2066
 91.25,reu,2067
 91.38,reu,2068
@@ -21872,7 +21872,7 @@ life_expectancy_female,geo,time
 91.63,reu,2070
 91.76,reu,2071
 91.88,reu,2072
-92.0,reu,2073
+92,reu,2073
 92.13,reu,2074
 92.25,reu,2075
 92.38,reu,2076
@@ -21903,7 +21903,7 @@ life_expectancy_female,geo,time
 62.69,rou,1951
 62.62,rou,1952
 62.72,rou,1953
-63.0,rou,1954
+63,rou,1954
 63.46,rou,1955
 64.07,rou,1956
 64.83,rou,1957
@@ -21911,7 +21911,7 @@ life_expectancy_female,geo,time
 66.61,rou,1959
 67.51,rou,1960
 68.33,rou,1961
-69.0,rou,1962
+69,rou,1962
 69.47,rou,1963
 69.75,rou,1964
 69.87,rou,1965
@@ -22155,7 +22155,7 @@ life_expectancy_female,geo,time
 78.71,rus,2053
 78.81,rus,2054
 78.91,rus,2055
-79.0,rus,2056
+79,rus,2056
 79.1,rus,2057
 79.2,rus,2058
 79.3,rus,2059
@@ -22176,7 +22176,7 @@ life_expectancy_female,geo,time
 80.72,rus,2074
 80.81,rus,2075
 80.9,rus,2076
-81.0,rus,2077
+81,rus,2077
 81.09,rus,2078
 81.18,rus,2079
 81.28,rus,2080
@@ -22199,7 +22199,7 @@ life_expectancy_female,geo,time
 82.85,rus,2097
 82.95,rus,2098
 83.04,rus,2099
-41.0,rwa,1950
+41,rwa,1950
 41.15,rwa,1951
 41.44,rwa,1952
 41.74,rwa,1953
@@ -22231,7 +22231,7 @@ life_expectancy_female,geo,time
 48.75,rwa,1979
 49.52,rwa,1980
 50.3,rwa,1981
-51.0,rwa,1982
+51,rwa,1982
 51.48,rwa,1983
 51.62,rwa,1984
 51.07,rwa,1985
@@ -22316,7 +22316,7 @@ life_expectancy_female,geo,time
 79.57,rwa,2064
 79.72,rwa,2065
 79.86,rwa,2066
-80.0,rwa,2067
+80,rwa,2067
 80.14,rwa,2068
 80.27,rwa,2069
 80.4,rwa,2070
@@ -22324,7 +22324,7 @@ life_expectancy_female,geo,time
 80.64,rwa,2072
 80.76,rwa,2073
 80.89,rwa,2074
-81.0,rwa,2075
+81,rwa,2075
 81.12,rwa,2076
 81.24,rwa,2077
 81.36,rwa,2078
@@ -22913,7 +22913,7 @@ life_expectancy_female,geo,time
 74.65,stp,2061
 74.77,stp,2062
 74.88,stp,2063
-75.0,stp,2064
+75,stp,2064
 75.11,stp,2065
 75.22,stp,2066
 75.34,stp,2067
@@ -23001,7 +23001,7 @@ life_expectancy_female,geo,time
 74.17,sau,1999
 74.45,sau,2000
 74.73,sau,2001
-75.0,sau,2002
+75,sau,2002
 75.27,sau,2003
 75.53,sau,2004
 75.78,sau,2005
@@ -23256,7 +23256,7 @@ life_expectancy_female,geo,time
 61.35,srb,1954
 61.91,srb,1955
 62.46,srb,1956
-63.0,srb,1957
+63,srb,1957
 63.53,srb,1958
 64.06,srb,1959
 64.6,srb,1960
@@ -23673,7 +23673,7 @@ life_expectancy_female,geo,time
 64.15,sle,2071
 64.44,sle,2072
 64.72,sle,2073
-65.0,sle,2074
+65,sle,2074
 65.28,sle,2075
 65.55,sle,2076
 65.82,sle,2077
@@ -23758,7 +23758,7 @@ life_expectancy_female,geo,time
 83.13,sgp,2006
 83.46,sgp,2007
 83.75,sgp,2008
-84.0,sgp,2009
+84,sgp,2009
 84.22,sgp,2010
 84.4,sgp,2011
 84.58,sgp,2012
@@ -23810,7 +23810,7 @@ life_expectancy_female,geo,time
 91.6,sgp,2058
 91.73,sgp,2059
 91.87,sgp,2060
-92.0,sgp,2061
+92,sgp,2061
 92.13,sgp,2062
 92.27,sgp,2063
 92.4,sgp,2064
@@ -23875,7 +23875,7 @@ life_expectancy_female,geo,time
 73.61,svk,1973
 73.73,svk,1974
 73.87,svk,1975
-74.0,svk,1976
+74,svk,1976
 74.14,svk,1977
 74.26,svk,1978
 74.37,svk,1979
@@ -23885,14 +23885,14 @@ life_expectancy_female,geo,time
 74.72,svk,1983
 74.81,svk,1984
 74.9,svk,1985
-75.0,svk,1986
+75,svk,1986
 75.11,svk,1987
 75.22,svk,1988
 75.36,svk,1989
 75.5,svk,1990
 75.66,svk,1991
 75.82,svk,1992
-76.0,svk,1993
+76,svk,1993
 76.18,svk,1994
 76.36,svk,1995
 76.56,svk,1996
@@ -23975,7 +23975,7 @@ life_expectancy_female,geo,time
 85.69,svk,2073
 85.8,svk,2074
 85.9,svk,2075
-86.0,svk,2076
+86,svk,2076
 86.11,svk,2077
 86.21,svk,2078
 86.31,svk,2079
@@ -24019,7 +24019,7 @@ life_expectancy_female,geo,time
 72.58,svn,1967
 72.7,svn,1968
 72.84,svn,1969
-73.0,svn,1970
+73,svn,1970
 73.2,svn,1971
 73.42,svn,1972
 73.67,svn,1973
@@ -24029,7 +24029,7 @@ life_expectancy_female,geo,time
 74.61,svn,1977
 74.77,svn,1978
 74.89,svn,1979
-75.0,svn,1980
+75,svn,1980
 75.1,svn,1981
 75.24,svn,1982
 75.41,svn,1983
@@ -24331,7 +24331,7 @@ life_expectancy_female,geo,time
 45.96,som,1979
 46.32,som,1980
 46.66,som,1981
-47.0,som,1982
+47,som,1982
 47.3,som,1983
 47.56,som,1984
 47.75,som,1985
@@ -24360,7 +24360,7 @@ life_expectancy_female,geo,time
 54.97,som,2008
 55.31,som,2009
 55.66,som,2010
-56.0,som,2011
+56,som,2011
 56.34,som,2012
 56.68,som,2013
 57.02,som,2014
@@ -24541,7 +24541,7 @@ life_expectancy_female,geo,time
 66.81,zaf,2039
 67.2,zaf,2040
 67.6,zaf,2041
-68.0,zaf,2042
+68,zaf,2042
 68.4,zaf,2043
 68.8,zaf,2044
 69.18,zaf,2045
@@ -24578,7 +24578,7 @@ life_expectancy_female,geo,time
 76.47,zaf,2076
 76.65,zaf,2077
 76.82,zaf,2078
-77.0,zaf,2079
+77,zaf,2079
 77.17,zaf,2080
 77.34,zaf,2081
 77.52,zaf,2082
@@ -24590,7 +24590,7 @@ life_expectancy_female,geo,time
 78.52,zaf,2088
 78.68,zaf,2089
 78.84,zaf,2090
-79.0,zaf,2091
+79,zaf,2091
 79.16,zaf,2092
 79.31,zaf,2093
 79.46,zaf,2094
@@ -24689,7 +24689,7 @@ life_expectancy_female,geo,time
 66.83,ssd,2037
 67.24,ssd,2038
 67.62,ssd,2039
-68.0,ssd,2040
+68,ssd,2040
 68.36,ssd,2041
 68.71,ssd,2042
 69.04,ssd,2043
@@ -24889,7 +24889,7 @@ life_expectancy_female,geo,time
 94.66,esp,2087
 94.77,esp,2088
 94.89,esp,2089
-95.0,esp,2090
+95,esp,2090
 95.11,esp,2091
 95.22,esp,2092
 95.33,esp,2093
@@ -24898,7 +24898,7 @@ life_expectancy_female,geo,time
 95.66,esp,2096
 95.77,esp,2097
 95.89,esp,2098
-96.0,esp,2099
+96,esp,2099
 54.53,lka,1950
 55.16,lka,1951
 56.35,lka,1952
@@ -24949,7 +24949,7 @@ life_expectancy_female,geo,time
 73.19,lka,1997
 73.62,lka,1998
 74.25,lka,1999
-75.0,lka,2000
+75,lka,2000
 75.75,lka,2001
 76.39,lka,2002
 76.84,lka,2003
@@ -25128,7 +25128,7 @@ life_expectancy_female,geo,time
 66.45,sdn,2026
 66.63,sdn,2027
 66.81,sdn,2028
-67.0,sdn,2029
+67,sdn,2029
 67.17,sdn,2030
 67.35,sdn,2031
 67.52,sdn,2032
@@ -25418,7 +25418,7 @@ life_expectancy_female,geo,time
 47.94,swz,2016
 47.86,swz,2017
 47.87,swz,2018
-48.0,swz,2019
+48,swz,2019
 48.25,swz,2020
 48.62,swz,2021
 49.06,swz,2022
@@ -25471,11 +25471,11 @@ life_expectancy_female,geo,time
 70.23,swz,2069
 70.49,swz,2070
 70.75,swz,2071
-71.0,swz,2072
+71,swz,2072
 71.25,swz,2073
 71.51,swz,2074
 71.75,swz,2075
-72.0,swz,2076
+72,swz,2076
 72.25,swz,2077
 72.49,swz,2078
 72.74,swz,2079
@@ -25556,14 +25556,14 @@ life_expectancy_female,geo,time
 82.53,swe,2004
 82.69,swe,2005
 82.84,swe,2006
-83.0,swe,2007
+83,swe,2007
 83.16,swe,2008
 83.31,swe,2009
 83.45,swe,2010
 83.59,swe,2011
 83.73,swe,2012
 83.86,swe,2013
-84.0,swe,2014
+84,swe,2014
 84.13,swe,2015
 84.27,swe,2016
 84.4,swe,2017
@@ -25595,7 +25595,7 @@ life_expectancy_female,geo,time
 87.65,swe,2043
 87.77,swe,2044
 87.89,swe,2045
-88.0,swe,2046
+88,swe,2046
 88.12,swe,2047
 88.24,swe,2048
 88.36,swe,2049
@@ -25684,7 +25684,7 @@ life_expectancy_female,geo,time
 79.36,che,1982
 79.57,che,1983
 79.78,che,1984
-80.0,che,1985
+80,che,1985
 80.22,che,1986
 80.42,che,1987
 80.61,che,1988
@@ -25701,7 +25701,7 @@ life_expectancy_female,geo,time
 82.43,che,1999
 82.61,che,2000
 82.8,che,2001
-83.0,che,2002
+83,che,2002
 83.19,che,2003
 83.4,che,2004
 83.6,che,2005
@@ -25908,7 +25908,7 @@ life_expectancy_female,geo,time
 84.62,syr,2056
 84.75,syr,2057
 84.87,syr,2058
-85.0,syr,2059
+85,syr,2059
 85.12,syr,2060
 85.25,syr,2061
 85.37,syr,2062
@@ -25971,7 +25971,7 @@ life_expectancy_female,geo,time
 62.14,tjk,1969
 62.46,tjk,1970
 62.74,tjk,1971
-63.0,tjk,1972
+63,tjk,1972
 63.23,tjk,1973
 63.45,tjk,1974
 63.66,tjk,1975
@@ -26059,7 +26059,7 @@ life_expectancy_female,geo,time
 76.64,tjk,2057
 76.76,tjk,2058
 76.88,tjk,2059
-77.0,tjk,2060
+77,tjk,2060
 77.12,tjk,2061
 77.23,tjk,2062
 77.35,tjk,2063
@@ -26225,7 +26225,7 @@ life_expectancy_female,geo,time
 79.56,tza,2073
 79.7,tza,2074
 79.85,tza,2075
-80.0,tza,2076
+80,tza,2076
 80.14,tza,2077
 80.28,tza,2078
 80.43,tza,2079
@@ -26319,7 +26319,7 @@ life_expectancy_female,geo,time
 78.48,tha,2017
 78.66,tha,2018
 78.83,tha,2019
-79.0,tha,2020
+79,tha,2020
 79.16,tha,2021
 79.32,tha,2022
 79.48,tha,2023
@@ -26586,7 +26586,7 @@ life_expectancy_female,geo,time
 56.13,tgo,1984
 56.49,tgo,1985
 56.79,tgo,1986
-57.0,tgo,1987
+57,tgo,1987
 57.13,tgo,1988
 57.18,tgo,1989
 57.13,tgo,1990
@@ -26738,7 +26738,7 @@ life_expectancy_female,geo,time
 70.48,ton,1986
 70.69,ton,1987
 70.86,ton,1988
-71.0,ton,1989
+71,ton,1989
 71.12,ton,1990
 71.22,ton,1991
 71.32,ton,1992
@@ -26880,7 +26880,7 @@ life_expectancy_female,geo,time
 69.4,tto,1978
 69.63,tto,1979
 69.83,tto,1980
-70.0,tto,1981
+70,tto,1981
 70.15,tto,1982
 70.28,tto,1983
 70.39,tto,1984
@@ -26915,7 +26915,7 @@ life_expectancy_female,geo,time
 73.63,tto,2013
 73.76,tto,2014
 73.88,tto,2015
-74.0,tto,2016
+74,tto,2016
 74.11,tto,2017
 74.23,tto,2018
 74.35,tto,2019
@@ -27027,7 +27027,7 @@ life_expectancy_female,geo,time
 57.76,tun,1975
 58.81,tun,1976
 59.89,tun,1977
-61.0,tun,1978
+61,tun,1978
 62.13,tun,1979
 63.24,tun,1980
 64.31,tun,1981
@@ -27050,7 +27050,7 @@ life_expectancy_female,geo,time
 75.22,tun,1998
 75.52,tun,1999
 75.78,tun,2000
-76.0,tun,2001
+76,tun,2001
 76.19,tun,2002
 76.36,tun,2003
 76.52,tun,2004
@@ -27135,7 +27135,7 @@ life_expectancy_female,geo,time
 87.68,tun,2083
 87.79,tun,2084
 87.9,tun,2085
-88.0,tun,2086
+88,tun,2086
 88.11,tun,2087
 88.21,tun,2088
 88.32,tun,2089
@@ -27226,7 +27226,7 @@ life_expectancy_female,geo,time
 81.39,tur,2024
 81.59,tur,2025
 81.8,tur,2026
-82.0,tur,2027
+82,tur,2027
 82.19,tur,2028
 82.39,tur,2029
 82.58,tur,2030
@@ -27251,7 +27251,7 @@ life_expectancy_female,geo,time
 85.6,tur,2049
 85.74,tur,2050
 85.87,tur,2051
-86.0,tur,2052
+86,tur,2052
 86.14,tur,2053
 86.27,tur,2054
 86.4,tur,2055
@@ -27275,7 +27275,7 @@ life_expectancy_female,geo,time
 88.65,tur,2073
 88.77,tur,2074
 88.88,tur,2075
-89.0,tur,2076
+89,tur,2076
 89.11,tur,2077
 89.23,tur,2078
 89.34,tur,2079
@@ -27293,7 +27293,7 @@ life_expectancy_female,geo,time
 90.68,tur,2091
 90.78,tur,2092
 90.89,tur,2093
-91.0,tur,2094
+91,tur,2094
 91.11,tur,2095
 91.22,tur,2096
 91.33,tur,2097
@@ -27411,7 +27411,7 @@ life_expectancy_female,geo,time
 75.66,tkm,2059
 75.78,tkm,2060
 75.89,tkm,2061
-76.0,tkm,2062
+76,tkm,2062
 76.12,tkm,2063
 76.23,tkm,2064
 76.35,tkm,2065
@@ -27483,7 +27483,7 @@ life_expectancy_female,geo,time
 51.04,uga,1981
 51.06,uga,1982
 51.05,uga,1983
-51.0,uga,1984
+51,uga,1984
 50.88,uga,1985
 50.68,uga,1986
 50.38,uga,1987
@@ -27598,7 +27598,7 @@ life_expectancy_female,geo,time
 81.56,uga,2096
 81.71,uga,2097
 81.85,uga,2098
-82.0,uga,2099
+82,uga,2099
 61.55,ukr,1950
 62.3,ukr,1951
 63.72,ukr,1952
@@ -27757,7 +27757,7 @@ life_expectancy_female,geo,time
 49.83,are,1955
 50.91,are,1956
 51.97,are,1957
-53.0,are,1958
+53,are,1958
 54.01,are,1959
 55.01,are,1960
 55.99,are,1961
@@ -27789,7 +27789,7 @@ life_expectancy_female,geo,time
 72.14,are,1987
 72.44,are,1988
 72.72,are,1989
-73.0,are,1990
+73,are,1990
 73.26,are,1991
 73.52,are,1992
 73.78,are,1993
@@ -27817,7 +27817,7 @@ life_expectancy_female,geo,time
 78.51,are,2015
 78.68,are,2016
 78.84,are,2017
-79.0,are,2018
+79,are,2018
 79.17,are,2019
 79.33,are,2020
 79.49,are,2021
@@ -27919,7 +27919,7 @@ life_expectancy_female,geo,time
 74.65,gbr,1967
 74.78,gbr,1968
 74.89,gbr,1969
-75.0,gbr,1970
+75,gbr,1970
 75.1,gbr,1971
 75.2,gbr,1972
 75.31,gbr,1973
@@ -28008,7 +28008,7 @@ life_expectancy_female,geo,time
 87.66,gbr,2056
 87.77,gbr,2057
 87.88,gbr,2058
-88.0,gbr,2059
+88,gbr,2059
 88.11,gbr,2060
 88.22,gbr,2061
 88.33,gbr,2062
@@ -28017,7 +28017,7 @@ life_expectancy_female,geo,time
 88.67,gbr,2065
 88.78,gbr,2066
 88.89,gbr,2067
-89.0,gbr,2068
+89,gbr,2068
 89.11,gbr,2069
 89.22,gbr,2070
 89.33,gbr,2071
@@ -28082,7 +28082,7 @@ life_expectancy_female,geo,time
 77.6,usa,1980
 77.76,usa,1981
 77.89,usa,1982
-78.0,usa,1983
+78,usa,1983
 78.09,usa,1984
 78.17,usa,1985
 78.26,usa,1986
@@ -28143,7 +28143,7 @@ life_expectancy_female,geo,time
 84.67,usa,2041
 84.78,usa,2042
 84.89,usa,2043
-85.0,usa,2044
+85,usa,2044
 85.11,usa,2045
 85.22,usa,2046
 85.33,usa,2047
@@ -28226,7 +28226,7 @@ life_expectancy_female,geo,time
 72.41,ury,1974
 72.57,ury,1975
 72.77,ury,1976
-73.0,ury,1977
+73,ury,1977
 73.25,ury,1978
 73.52,ury,1979
 73.8,ury,1980
@@ -28282,7 +28282,7 @@ life_expectancy_female,geo,time
 82.64,ury,2030
 82.76,ury,2031
 82.88,ury,2032
-83.0,ury,2033
+83,ury,2033
 83.11,ury,2034
 83.23,ury,2035
 83.35,ury,2036
@@ -28467,7 +28467,7 @@ life_expectancy_female,geo,time
 77.69,uzb,2065
 77.79,uzb,2066
 77.9,uzb,2067
-78.0,uzb,2068
+78,uzb,2068
 78.11,uzb,2069
 78.21,uzb,2070
 78.31,uzb,2071
@@ -28744,7 +28744,7 @@ life_expectancy_female,geo,time
 81.64,ven,2042
 81.76,ven,2043
 81.88,ven,2044
-82.0,ven,2045
+82,ven,2045
 82.12,ven,2046
 82.24,ven,2047
 82.36,ven,2048
@@ -28818,7 +28818,7 @@ life_expectancy_female,geo,time
 55.01,pse,1966
 55.67,pse,1967
 56.34,pse,1968
-57.0,pse,1969
+57,pse,1969
 57.66,pse,1970
 58.32,pse,1971
 58.99,pse,1972
@@ -28835,7 +28835,7 @@ life_expectancy_female,geo,time
 66.37,pse,1983
 66.95,pse,1984
 67.5,pse,1985
-68.0,pse,1986
+68,pse,1986
 68.47,pse,1987
 68.89,pse,1988
 69.28,pse,1989
@@ -28852,7 +28852,7 @@ life_expectancy_female,geo,time
 72.46,pse,2000
 72.65,pse,2001
 72.83,pse,2002
-73.0,pse,2003
+73,pse,2003
 73.17,pse,2004
 73.35,pse,2005
 73.53,pse,2006
@@ -29102,7 +29102,7 @@ life_expectancy_female,geo,time
 54.66,vnm,1950
 55.14,vnm,1951
 56.09,vnm,1952
-57.0,vnm,1953
+57,vnm,1953
 57.88,vnm,1954
 58.73,vnm,1955
 59.56,vnm,1956
@@ -29125,7 +29125,7 @@ life_expectancy_female,geo,time
 64.75,vnm,1973
 65.53,vnm,1974
 66.67,vnm,1975
-68.0,vnm,1976
+68,vnm,1976
 69.33,vnm,1977
 70.47,vnm,1978
 71.35,vnm,1979
@@ -29312,7 +29312,7 @@ life_expectancy_female,geo,time
 82.46,vir,2010
 82.64,vir,2011
 82.82,vir,2012
-83.0,vir,2013
+83,vir,2013
 83.18,vir,2014
 83.36,vir,2015
 83.53,vir,2016
@@ -29331,7 +29331,7 @@ life_expectancy_female,geo,time
 85.56,vir,2029
 85.71,vir,2030
 85.86,vir,2031
-86.0,vir,2032
+86,vir,2032
 86.14,vir,2033
 86.28,vir,2034
 86.42,vir,2035
@@ -29492,7 +29492,7 @@ life_expectancy_female,geo,time
 68.61,yem,2040
 68.75,yem,2041
 68.88,yem,2042
-69.0,yem,2043
+69,yem,2043
 69.13,yem,2044
 69.26,yem,2045
 69.38,yem,2046
@@ -29648,7 +29648,7 @@ life_expectancy_female,geo,time
 72.31,zmb,2046
 72.55,zmb,2047
 72.78,zmb,2048
-73.0,zmb,2049
+73,zmb,2049
 73.23,zmb,2050
 73.44,zmb,2051
 73.66,zmb,2052

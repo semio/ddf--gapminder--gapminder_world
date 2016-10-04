@@ -84,7 +84,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 17.48,blz,1999
 16.53,blz,2000
 12.65,blz,2004
-14.0,blz,2005
+14,blz,2005
 14.51,blz,2006
 16.3,blz,2008
 17.02,blz,2009
@@ -213,7 +213,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 20.63,hrv,2006
 20.86,hrv,2007
 21.75,hrv,2008
-24.0,cub,1998
+24,cub,1998
 24.99,cub,1999
 28.23,cub,2000
 28.81,cub,2001
@@ -226,7 +226,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 44.91,cub,2008
 44.17,cub,2009
 17.11,cyp,1999
-16.0,cyp,2000
+16,cyp,2000
 18.88,cyp,2001
 19.95,cyp,2002
 23.41,cyp,2003
@@ -281,7 +281,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 8.043,slv,2007
 8.768,slv,2008
 1.066,gnq,2001
-15.0,eri,2001
+15,eri,2001
 11.91,eri,2002
 9.763,eri,2003
 8.365,eri,2004
@@ -487,10 +487,10 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 16.97,kwt,2001
 16.62,kwt,2002
 16.35,kwt,2003
-14.0,kwt,2004
+14,kwt,2004
 10.14,kwt,2005
 8.543,kwt,2006
-10.0,kwt,2008
+10,kwt,2008
 2.237,lao,1999
 7.88,lao,2002
 9.812,lao,2005
@@ -517,7 +517,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 9.228,lie,2007
 10.8,lie,2008
 14.37,ltu,2003
-15.0,ltu,2004
+15,ltu,2004
 15.8,ltu,2005
 16.43,ltu,2006
 15.82,ltu,2007
@@ -674,7 +674,7 @@ expenditure_per_student_primary_percent_of_gdp_per_person,geo,time
 12.79,omn,2009
 45.03,plw,2001
 13.71,pan,1999
-14.0,pan,2000
+14,pan,2000
 10.72,pan,2001
 10.41,pan,2002
 9.683,pan,2004

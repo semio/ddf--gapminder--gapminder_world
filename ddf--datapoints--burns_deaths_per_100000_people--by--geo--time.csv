@@ -23,8 +23,8 @@ burns_deaths_per_100000_people,geo,time
 4.466,aze,2004
 2.632,bhs,2002
 3.2,bhs,2004
-0.0,bhr,2002
-0.0,bhr,2004
+0,bhr,2002
+0,bhr,2004
 12.55,bgd,2002
 12.5,bgd,2004
 0.2787,brb,2002
@@ -33,7 +33,7 @@ burns_deaths_per_100000_people,geo,time
 6.4,blr,2004
 0.7818,bel,2002
 0.7461,bel,2004
-0.0,blz,2002
+0,blz,2002
 2.359,blz,2004
 6.435,ben,2002
 4.761,ben,2004
@@ -177,8 +177,8 @@ burns_deaths_per_100000_people,geo,time
 3.734,kaz,2004
 4.647,ken,2002
 5.247,ken,2004
-0.0,kir,2002
-0.0,kir,2004
+0,kir,2002
+0,kir,2004
 1.473,kwt,2002
 1.394,kwt,2004
 1.532,kgz,2002
@@ -221,8 +221,8 @@ burns_deaths_per_100000_people,geo,time
 0.8339,mex,2004
 4.618,fsm,2002
 3.757,fsm,2004
-0.0,mco,2002
-0.0,mco,2004
+0,mco,2002
+0,mco,2004
 2.587,mng,2002
 2.253,mng,2004
 2.633,mar,2002
@@ -271,8 +271,8 @@ burns_deaths_per_100000_people,geo,time
 1.061,pol,2004
 0.8669,prt,2002
 0.7015,prt,2004
-0.0,qat,2002
-0.0,qat,2004
+0,qat,2002
+0,qat,2004
 1.516,kor,2002
 0.8741,kor,2004
 2.582,mda,2002
@@ -291,8 +291,8 @@ burns_deaths_per_100000_people,geo,time
 3.376,vct,2004
 4.465,wsm,2002
 4.33,wsm,2004
-0.0,smr,2002
-0.0,smr,2004
+0,smr,2002
+0,smr,2004
 4.213,stp,2002
 5.356,stp,2004
 0.6874,sau,2002

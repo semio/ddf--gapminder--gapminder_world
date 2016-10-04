@@ -18,8 +18,8 @@ tax_revenue_percent_of_gdp,geo,time
 9.819,arg,2002
 12.52,arg,2003
 14.2,arg,2004
-14.0,arm,2003
-14.0,arm,2004
+14,arm,2003
+14,arm,2004
 14.34,arm,2005
 14.4,arm,2006
 15.96,arm,2007
@@ -34,12 +34,12 @@ tax_revenue_percent_of_gdp,geo,time
 24.22,aus,2004
 24.73,aus,2005
 24.49,aus,2006
-24.0,aus,2007
+24,aus,2007
 24.09,aus,2008
 22.15,aus,2009
 17.81,aut,1995
 18.89,aut,1996
-20.0,aut,1997
+20,aut,1997
 20.19,aut,1998
 20.09,aut,1999
 19.79,aut,2000
@@ -204,7 +204,7 @@ tax_revenue_percent_of_gdp,geo,time
 10.34,bra,1997
 12.23,bra,1998
 13.45,bra,1999
-14.0,bra,2000
+14,bra,2000
 14.71,bra,2001
 15.84,bra,2002
 15.41,bra,2003
@@ -271,7 +271,7 @@ tax_revenue_percent_of_gdp,geo,time
 11.2,cmr,1999
 14.71,can,1991
 14.65,can,1992
-14.0,can,1993
+14,can,1993
 13.39,can,1994
 13.62,can,1995
 14.24,can,1996
@@ -398,7 +398,7 @@ tax_revenue_percent_of_gdp,geo,time
 20.09,hrv,2006
 20.18,hrv,2007
 20.17,hrv,2008
-19.0,hrv,2009
+19,hrv,2009
 18.79,hrv,2010
 33.83,cyp,1995
 32.66,cyp,1996
@@ -710,7 +710,7 @@ tax_revenue_percent_of_gdp,geo,time
 15.56,idn,1994
 14.02,idn,1995
 14.05,idn,1996
-16.0,idn,1997
+16,idn,1997
 14.97,idn,1998
 15.48,idn,1999
 11.58,idn,2001
@@ -790,7 +790,7 @@ tax_revenue_percent_of_gdp,geo,time
 26.01,jam,2006
 26.89,jam,2007
 26.23,jam,2008
-21.0,jam,2009
+21,jam,2009
 10.92,jpn,2006
 10.42,jpn,2007
 9.226,jpn,2008
@@ -809,7 +809,7 @@ tax_revenue_percent_of_gdp,geo,time
 18.67,jor,2001
 17.48,jor,2002
 18.21,jor,2003
-21.0,jor,2004
+21,jor,2004
 24.42,jor,2005
 23.63,jor,2006
 23.78,jor,2007
@@ -858,7 +858,7 @@ tax_revenue_percent_of_gdp,geo,time
 14.23,kor,1995
 14.48,kor,1996
 14.24,kor,1997
-14.0,kor,1998
+14,kor,1998
 14.29,kor,1999
 15.41,kor,2000
 14.71,kor,2001
@@ -1008,7 +1008,7 @@ tax_revenue_percent_of_gdp,geo,time
 10.11,mdg,2005
 10.67,mdg,2006
 11.43,mdg,2007
-13.0,mdg,2008
+13,mdg,2008
 19.38,mys,1996
 19.75,mys,1997
 16.73,mys,1998
@@ -1028,7 +1028,7 @@ tax_revenue_percent_of_gdp,geo,time
 14.61,mdv,1991
 14.96,mdv,1992
 13.73,mdv,1993
-13.0,mdv,1994
+13,mdv,1994
 13.6,mdv,1995
 13.45,mdv,1996
 14.45,mdv,1997
@@ -1046,7 +1046,7 @@ tax_revenue_percent_of_gdp,geo,time
 11.9,mdv,2009
 13.15,mli,2000
 13.95,mli,2001
-13.0,mli,2002
+13,mli,2002
 13.77,mli,2003
 15.29,mli,2004
 15.66,mli,2005
@@ -1271,7 +1271,7 @@ tax_revenue_percent_of_gdp,geo,time
 13.06,pan,1992
 12.45,pan,1993
 12.43,pan,1994
-13.0,pan,1995
+13,pan,1995
 11.2,pan,1996
 11.52,pan,1997
 10.76,pan,1998
@@ -1535,7 +1535,7 @@ tax_revenue_percent_of_gdp,geo,time
 20.74,svn,2003
 20.49,svn,2004
 20.54,svn,2005
-21.0,svn,2006
+21,svn,2006
 19.65,svn,2007
 19.93,svn,2008
 18.07,svn,2009
@@ -1543,7 +1543,7 @@ tax_revenue_percent_of_gdp,geo,time
 23.96,zaf,2000
 24.81,zaf,2001
 24.2,zaf,2002
-24.0,zaf,2003
+24,zaf,2003
 25.33,zaf,2004
 26.86,zaf,2005
 28.38,zaf,2006
@@ -1624,7 +1624,7 @@ tax_revenue_percent_of_gdp,geo,time
 9.979,che,2004
 10.31,che,2005
 10.43,che,2006
-10.0,che,2007
+10,che,2007
 10.88,che,2008
 16.71,syr,1990
 18.09,syr,1991
@@ -1664,7 +1664,7 @@ tax_revenue_percent_of_gdp,geo,time
 22.7,tto,2004
 26.38,tto,2005
 30.26,tto,2006
-26.0,tto,2007
+26,tto,2007
 30.24,tto,2008
 26.21,tto,2009
 19.95,tun,1990
@@ -1802,7 +1802,7 @@ tax_revenue_percent_of_gdp,geo,time
 8.562,yem,1995
 10.74,yem,1996
 10.94,yem,1997
-13.0,yem,1998
+13,yem,1998
 9.207,yem,1999
 19.48,zmb,1990
 17.49,zmb,1991

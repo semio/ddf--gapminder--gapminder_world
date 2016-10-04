@@ -739,8 +739,8 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 1.276,cri,2001
 1.469,cri,2002
 0.9408,cri,2003
-0.0,cri,2004
-0.0,cri,2005
+0,cri,2004
+0,cri,2005
 0.505,cri,2006
 0.4864,cri,2007
 0.4737,cri,2008
@@ -989,7 +989,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 11.09,eri,2002
 12.23,eri,2003
 11.51,eri,2004
-11.0,eri,2005
+11,eri,2005
 10.15,eri,2007
 9.82,eri,2008
 0.3768,est,1992
@@ -1216,7 +1216,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 1.357,gtm,1991
 1.357,gtm,1992
 1.325,gtm,1993
-1.0,gtm,1994
+1,gtm,1994
 1.623,gtm,1995
 1.582,gtm,1996
 1.378,gtm,1997
@@ -1308,11 +1308,11 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 0.2281,hti,2001
 0.1416,hti,2002
 0.1378,hti,2003
-0.0,hti,2004
-0.0,hti,2005
+0,hti,2004
+0,hti,2005
 0.1298,hti,2006
-0.0,hti,2007
-0.0,hti,2008
+0,hti,2007
+0,hti,2008
 1.142,hnd,1985
 1.141,hnd,1989
 1.048,hnd,1990
@@ -1364,8 +1364,8 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 0.0569,isl,2001
 0.05691,isl,2002
 0.056,isl,2003
-0.0,isl,2004
-0.0,isl,2005
+0,isl,2004
+0,isl,2005
 0.0696,isl,2006
 0.0672,isl,2007
 0.0661,isl,2008
@@ -1632,7 +1632,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 11.18,prk,2002
 11.05,prk,2003
 11.11,prk,2004
-11.0,prk,2005
+11,prk,2005
 10.86,prk,2006
 10.76,prk,2007
 10.64,prk,2008
@@ -1786,7 +1786,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 1.275,lbr,2001
 1.229,lbr,2002
 1.196,lbr,2003
-0.0,lbr,2004
+0,lbr,2004
 1.119,lbr,2005
 0.143,lbr,2006
 0.1364,lbr,2007
@@ -2011,7 +2011,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 0.298,mus,2001
 0.372,mus,2002
 0.3708,mus,2003
-0.0,mus,2004
+0,mus,2004
 0.3634,mus,2005
 0.3574,mus,2007
 0.3495,mus,2008
@@ -2360,7 +2360,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 0.9,pan,2001
 0.8796,pan,2002
 0.8572,pan,2003
-0.0,pan,2004
+0,pan,2004
 0.8241,pan,2005
 0.8183,pan,2006
 0.7953,pan,2007
@@ -2787,7 +2787,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 1.009,sdn,2003
 1.038,sdn,2004
 1.025,sdn,2005
-1.0,sdn,2007
+1,sdn,2007
 0.9695,sdn,2008
 1.634,sur,1985
 2.88,sur,1989
@@ -2943,7 +2943,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 1.102,tha,2007
 1.094,tha,2008
 0.282,tls,2004
-0.0,tls,2005
+0,tls,2005
 0.2526,tls,2006
 0.2428,tls,2007
 0.2343,tls,2008
@@ -3205,7 +3205,7 @@ armed_forces_personnel_percent_of_labor_force,geo,time
 0.689,ven,2005
 0.9265,ven,2007
 0.904,ven,2008
-0.0,pse,2004
+0,pse,2004
 7.074,pse,2005
 6.723,pse,2006
 6.299,pse,2007

@@ -196,7 +196,7 @@ subsistence_incomes_per_person,geo,time
 13.61,dza,2009
 1.479,asm,1800
 1.479,asm,1820
-2.0,asm,1913
+2,asm,1913
 9.792,asm,1950
 13.78,asm,1973
 14.25,asm,1990
@@ -270,9 +270,9 @@ subsistence_incomes_per_person,geo,time
 11.86,ago,1969
 12.39,ago,1970
 12.12,ago,1971
-12.0,ago,1972
+12,ago,1972
 12.55,ago,1973
-12.0,ago,1974
+12,ago,1974
 7.524,ago,1975
 6.689,ago,1976
 6.598,ago,1977
@@ -573,7 +573,7 @@ subsistence_incomes_per_person,geo,time
 23.85,abw,1982
 25.6,abw,1983
 27.61,abw,1984
-30.0,abw,1985
+30,abw,1985
 32.93,abw,1986
 38.76,abw,1987
 46.61,abw,1988
@@ -697,7 +697,7 @@ subsistence_incomes_per_person,geo,time
 14.48,aus,1916
 14.22,aus,1917
 13.66,aus,1918
-14.0,aus,1919
+14,aus,1919
 14.14,aus,1920
 14.58,aus,1921
 15.03,aus,1922
@@ -728,7 +728,7 @@ subsistence_incomes_per_person,geo,time
 19.78,aus,1947
 20.68,aus,1948
 21.48,aus,1949
-22.0,aus,1950
+22,aus,1950
 22.28,aus,1951
 22.02,aus,1952
 22.28,aus,1953
@@ -765,7 +765,7 @@ subsistence_incomes_per_person,geo,time
 44.51,aus,1984
 46.14,aus,1985
 46.42,aus,1986
-48.0,aus,1987
+48,aus,1987
 49.36,aus,1988
 50.73,aus,1989
 50.77,aus,1990
@@ -929,7 +929,7 @@ subsistence_incomes_per_person,geo,time
 11.89,aut,1912
 11.76,aut,1913
 9.755,aut,1914
-9.0,aut,1915
+9,aut,1915
 8.914,aut,1916
 8.774,aut,1917
 8.667,aut,1918
@@ -1151,7 +1151,7 @@ subsistence_incomes_per_person,geo,time
 39.17,bhr,1990
 39.8,bhr,1991
 41.74,bhr,1992
-44.0,bhr,1993
+44,bhr,1993
 42.76,bhr,1994
 43.33,bhr,1995
 44.08,bhr,1996
@@ -1545,7 +1545,7 @@ subsistence_incomes_per_person,geo,time
 3.835,bel,1836
 3.889,bel,1837
 3.944,bel,1838
-4.0,bel,1839
+4,bel,1839
 4.056,bel,1840
 4.113,bel,1841
 4.171,bel,1842
@@ -1768,7 +1768,7 @@ subsistence_incomes_per_person,geo,time
 15.99,blz,2005
 16.21,blz,2006
 15.9,blz,2007
-16.0,blz,2008
+16,blz,2008
 15.35,blz,2009
 1.214,ben,1800
 1.214,ben,1820
@@ -1864,7 +1864,7 @@ subsistence_incomes_per_person,geo,time
 100.1,bmu,1984
 106.1,bmu,1985
 109.3,bmu,1986
-113.0,bmu,1987
+113,bmu,1987
 112.7,bmu,1988
 111.9,bmu,1989
 107.3,bmu,1990
@@ -2377,7 +2377,7 @@ subsistence_incomes_per_person,geo,time
 118.5,brn,1986
 117.5,brn,1987
 115.5,brn,1988
-111.0,brn,1989
+111,brn,1989
 110.9,brn,1990
 112.2,brn,1991
 107.8,brn,1992
@@ -2392,7 +2392,7 @@ subsistence_incomes_per_person,geo,time
 105.7,brn,2001
 107.3,brn,2002
 107.9,brn,2003
-106.0,brn,2004
+106,brn,2004
 104.1,brn,2005
 106.5,brn,2006
 104.6,brn,2007
@@ -2527,7 +2527,7 @@ subsistence_incomes_per_person,geo,time
 1.69,bfa,1984
 1.861,bfa,1985
 2.095,bfa,1986
-2.0,bfa,1987
+2,bfa,1987
 2.101,bfa,1988
 2.012,bfa,1989
 1.93,bfa,1990
@@ -3108,12 +3108,12 @@ subsistence_incomes_per_person,geo,time
 110.5,cym,1999
 107.8,cym,2000
 105.1,cym,2001
-104.0,cym,2002
+104,cym,2002
 103.5,cym,2003
 102.2,cym,2004
 106.6,cym,2005
 108.6,cym,2006
-109.0,cym,2007
+109,cym,2007
 111.3,cym,2008
 0.7584,caf,1800
 0.7584,caf,1820
@@ -4063,7 +4063,7 @@ subsistence_incomes_per_person,geo,time
 12.07,cri,1974
 11.98,cri,1975
 12.28,cri,1976
-13.0,cri,1977
+13,cri,1977
 13.27,cri,1978
 13.52,cri,1979
 13.38,cri,1980
@@ -4221,7 +4221,7 @@ subsistence_incomes_per_person,geo,time
 27.48,hrv,1979
 28.64,hrv,1980
 28.97,hrv,1981
-29.0,hrv,1982
+29,hrv,1982
 29.08,hrv,1983
 29.65,hrv,1984
 29.74,hrv,1985
@@ -4359,7 +4359,7 @@ subsistence_incomes_per_person,geo,time
 37.8,cyp,1991
 40.27,cyp,1992
 39.57,cyp,1993
-41.0,cyp,1994
+41,cyp,1994
 44.25,cyp,1995
 44.36,cyp,1996
 44.76,cyp,1997
@@ -4420,7 +4420,7 @@ subsistence_incomes_per_person,geo,time
 22.52,cze,1964
 23.19,cze,1965
 24.06,cze,1966
-25.0,cze,1967
+25,cze,1967
 26.08,cze,1968
 26.63,cze,1969
 27.1,cze,1970
@@ -4451,7 +4451,7 @@ subsistence_incomes_per_person,geo,time
 33.98,cze,1995
 35.39,cze,1996
 35.19,cze,1997
-35.0,cze,1998
+35,cze,1998
 35.54,cze,1999
 36.89,cze,2000
 37.84,cze,2001
@@ -4498,7 +4498,7 @@ subsistence_incomes_per_person,geo,time
 2.985,dnk,1808
 2.99,dnk,1809
 2.995,dnk,1810
-3.0,dnk,1811
+3,dnk,1811
 3.006,dnk,1812
 3.011,dnk,1813
 3.016,dnk,1814
@@ -4784,7 +4784,7 @@ subsistence_incomes_per_person,geo,time
 12.87,dma,1987
 14.12,dma,1988
 14.17,dma,1989
-15.0,dma,1990
+15,dma,1990
 15.06,dma,1991
 15.68,dma,1992
 15.63,dma,1993
@@ -5680,7 +5680,7 @@ subsistence_incomes_per_person,geo,time
 4.037,fra,1850
 3.97,fra,1851
 4.494,fra,1852
-5.0,fra,1853
+5,fra,1853
 5.611,fra,1854
 5.92,fra,1855
 6.15,fra,1856
@@ -5922,11 +5922,11 @@ subsistence_incomes_per_person,geo,time
 19.87,gab,1969
 21.25,gab,1970
 22.98,gab,1971
-25.0,gab,1972
+25,gab,1972
 26.87,gab,1973
 36.51,gab,1974
 42.39,gab,1975
-56.0,gab,1976
+56,gab,1976
 47.69,gab,1977
 35.27,gab,1978
 34.5,gab,1979
@@ -6556,7 +6556,7 @@ subsistence_incomes_per_person,geo,time
 10.44,grc,1958
 10.72,grc,1959
 11.11,grc,1960
-12.0,grc,1961
+12,grc,1961
 12.4,grc,1962
 13.63,grc,1963
 14.71,grc,1964
@@ -6583,7 +6583,7 @@ subsistence_incomes_per_person,geo,time
 34.12,grc,1985
 34.63,grc,1986
 34.44,grc,1987
-36.0,grc,1988
+36,grc,1988
 37.26,grc,1989
 36.96,grc,1990
 37.7,grc,1991
@@ -6645,7 +6645,7 @@ subsistence_incomes_per_person,geo,time
 73.48,grl,2004
 74.55,grl,2005
 77.76,grl,2006
-82.0,grl,2007
+82,grl,2007
 82.29,grl,2008
 1.701,grd,1800
 1.701,grd,1820
@@ -7275,7 +7275,7 @@ subsistence_incomes_per_person,geo,time
 27.27,hun,1983
 28.04,hun,1984
 27.4,hun,1985
-28.0,hun,1986
+28,hun,1986
 28.48,hun,1987
 29.38,hun,1988
 28.85,hun,1989
@@ -7292,7 +7292,7 @@ subsistence_incomes_per_person,geo,time
 29.81,hun,2000
 31.11,hun,2001
 32.55,hun,2002
-34.0,hun,2003
+34,hun,2003
 35.73,hun,2004
 37.31,hun,2005
 38.87,hun,2006
@@ -7381,7 +7381,7 @@ subsistence_incomes_per_person,geo,time
 18.49,isl,1947
 18.51,isl,1948
 17.8,isl,1949
-17.0,isl,1950
+17,isl,1950
 16.38,isl,1951
 15.94,isl,1952
 18.01,isl,1953
@@ -7941,7 +7941,7 @@ subsistence_incomes_per_person,geo,time
 3.805,irn,1920
 3.869,irn,1921
 3.934,irn,1922
-4.0,irn,1923
+4,irn,1923
 4.068,irn,1924
 4.136,irn,1925
 4.206,irn,1926
@@ -8504,7 +8504,7 @@ subsistence_incomes_per_person,geo,time
 9.621,gbm,1929
 9.512,gbm,1930
 8.983,gbm,1931
-9.0,gbm,1932
+9,gbm,1932
 9.226,gbm,1933
 9.803,gbm,1934
 10.14,gbm,1935
@@ -8932,7 +8932,7 @@ subsistence_incomes_per_person,geo,time
 13.93,jam,1987
 14.31,jam,1988
 15.24,jam,1989
-16.0,jam,1990
+16,jam,1990
 15.98,jam,1991
 16.24,jam,1992
 16.33,jam,1993
@@ -9154,7 +9154,7 @@ subsistence_incomes_per_person,geo,time
 34.25,jpn,1975
 35.23,jpn,1976
 36.43,jpn,1977
-38.0,jpn,1978
+38,jpn,1978
 39.75,jpn,1979
 40.54,jpn,1980
 41.53,jpn,1981
@@ -9186,7 +9186,7 @@ subsistence_incomes_per_person,geo,time
 69.38,jpn,2007
 68.59,jpn,2008
 65.09,jpn,2009
-136.0,jey,2005
+136,jey,2005
 1.159,jor,1800
 1.159,jor,1820
 1.411,jor,1870
@@ -9793,7 +9793,7 @@ subsistence_incomes_per_person,geo,time
 31.49,kor,1998
 34.41,kor,1999
 37.27,kor,2000
-39.0,kor,2001
+39,kor,2001
 41.38,kor,2002
 42.73,kor,2003
 44.83,kor,2004
@@ -9814,7 +9814,7 @@ subsistence_incomes_per_person,geo,time
 262.8,kwt,1954
 255.4,kwt,1955
 260.3,kwt,1956
-249.0,kwt,1957
+249,kwt,1957
 236.8,kwt,1958
 234.1,kwt,1959
 228.1,kwt,1960
@@ -9826,15 +9826,15 @@ subsistence_incomes_per_person,geo,time
 190.4,kwt,1966
 177.4,kwt,1967
 176.5,kwt,1968
-166.0,kwt,1969
-243.0,kwt,1970
+166,kwt,1969
+243,kwt,1970
 244.9,kwt,1971
 239.8,kwt,1972
 211.3,kwt,1973
 173.6,kwt,1974
 143.8,kwt,1975
 143.8,kwt,1976
-130.0,kwt,1977
+130,kwt,1977
 130.9,kwt,1978
 139.9,kwt,1979
 105.1,kwt,1980
@@ -9859,12 +9859,12 @@ subsistence_incomes_per_person,geo,time
 78.97,kwt,1999
 79.82,kwt,2000
 77.3,kwt,2001
-77.0,kwt,2002
+77,kwt,2002
 86.76,kwt,2003
 92.71,kwt,2004
 98.57,kwt,2005
 97.39,kwt,2006
-96.0,kwt,2007
+96,kwt,2007
 98.21,kwt,2008
 93.08,kwt,2009
 0.8331,kgz,1800
@@ -9953,7 +9953,7 @@ subsistence_incomes_per_person,geo,time
 4.23,lao,2006
 4.477,lao,2007
 4.735,lao,2008
-5.0,lao,2009
+5,lao,2009
 1.897,lva,1800
 1.937,lva,1820
 4.318,lva,1913
@@ -9962,7 +9962,7 @@ subsistence_incomes_per_person,geo,time
 9.746,lva,1967
 10.08,lva,1968
 10.2,lva,1969
-12.0,lva,1970
+12,lva,1970
 12.82,lva,1971
 13.37,lva,1972
 14.02,lva,1973
@@ -10065,7 +10065,7 @@ subsistence_incomes_per_person,geo,time
 22.49,lbn,2006
 24.18,lbn,2007
 26.02,lbn,2008
-28.0,lbn,2009
+28,lbn,2009
 0.7982,lso,1800
 0.7982,lso,1820
 0.6666,lso,1913
@@ -10269,7 +10269,7 @@ subsistence_incomes_per_person,geo,time
 100.4,lie,1979
 90.96,lie,1980
 93.89,lie,1981
-91.0,lie,1982
+91,lie,1982
 90.15,lie,1983
 92.64,lie,1984
 97.77,lie,1985
@@ -10284,7 +10284,7 @@ subsistence_incomes_per_person,geo,time
 130.9,lie,1994
 136.9,lie,1995
 144.5,lie,1996
-153.0,lie,1997
+153,lie,1997
 162.9,lie,1998
 177.8,lie,1999
 181.5,lie,2000
@@ -10426,7 +10426,7 @@ subsistence_incomes_per_person,geo,time
 81.7,mac,2005
 93.25,mac,2006
 114.1,mac,2007
-126.0,mac,2008
+126,mac,2008
 1.756,mkd,1800
 1.793,mkd,1820
 1.729,mkd,1870
@@ -10721,8 +10721,8 @@ subsistence_incomes_per_person,geo,time
 11.51,mys,1987
 12.23,mys,1988
 13.07,mys,1989
-14.0,mys,1990
-15.0,mys,1991
+14,mys,1990
+15,mys,1991
 15.96,mys,1992
 17.14,mys,1993
 18.3,mys,1994
@@ -11301,7 +11301,7 @@ subsistence_incomes_per_person,geo,time
 82.26,mco,2002
 82.61,mco,2003
 84.09,mco,2004
-85.0,mco,2005
+85,mco,2005
 89.08,mco,2006
 101.8,mco,2007
 111.6,mco,2008
@@ -12100,7 +12100,7 @@ subsistence_incomes_per_person,geo,time
 6.978,nld,1865
 7.229,nld,1866
 6.969,nld,1867
-7.0,nld,1868
+7,nld,1868
 7.217,nld,1869
 7.434,nld,1870
 7.364,nld,1871
@@ -12219,7 +12219,7 @@ subsistence_incomes_per_person,geo,time
 45.75,nld,1984
 46.92,nld,1985
 48.26,nld,1986
-49.0,nld,1987
+49,nld,1987
 50.51,nld,1988
 52.59,nld,1989
 54.61,nld,1990
@@ -12268,7 +12268,7 @@ subsistence_incomes_per_person,geo,time
 41.3,ant,1990
 41.85,ant,1991
 43.05,ant,1992
-45.0,ant,1993
+45,ant,1993
 47.57,ant,1994
 48.6,ant,1995
 49.74,ant,1996
@@ -12368,7 +12368,7 @@ subsistence_incomes_per_person,geo,time
 11.84,nzl,1896
 11.73,nzl,1897
 11.83,nzl,1898
-12.0,nzl,1899
+12,nzl,1899
 12.76,nzl,1900
 12.54,nzl,1901
 13.18,nzl,1902
@@ -13254,7 +13254,7 @@ subsistence_incomes_per_person,geo,time
 70.81,plw,1979
 38.03,plw,1980
 33.57,plw,1981
-34.0,plw,1982
+34,plw,1982
 32.81,plw,1983
 32.75,plw,1984
 29.05,plw,1985
@@ -13331,7 +13331,7 @@ subsistence_incomes_per_person,geo,time
 12.79,pan,1990
 13.68,pan,1991
 14.51,pan,1992
-15.0,pan,1993
+15,pan,1993
 15.18,pan,1994
 15.18,pan,1995
 15.24,pan,1996
@@ -13577,7 +13577,7 @@ subsistence_incomes_per_person,geo,time
 10.1,per,1993
 11.24,per,1994
 11.96,per,1995
-12.0,per,1996
+12,per,1996
 12.8,per,1997
 12.6,per,1998
 12.51,per,1999
@@ -14150,7 +14150,7 @@ subsistence_incomes_per_person,geo,time
 38.69,prt,1997
 40.28,prt,1998
 41.58,prt,1999
-43.0,prt,2000
+43,prt,2000
 43.65,prt,2001
 43.8,prt,2002
 43.26,prt,2003
@@ -14226,16 +14226,16 @@ subsistence_incomes_per_person,geo,time
 1.296,qat,1820
 2.224,qat,1913
 2.587,qat,1939
-176.0,qat,1970
+176,qat,1970
 176.1,qat,1971
 177.8,qat,1972
-180.0,qat,1973
+180,qat,1973
 175.9,qat,1974
 173.8,qat,1975
 177.9,qat,1976
 157.1,qat,1977
 162.7,qat,1978
-161.0,qat,1979
+161,qat,1979
 147.7,qat,1980
 144.6,qat,1981
 126.5,qat,1982
@@ -14257,7 +14257,7 @@ subsistence_incomes_per_person,geo,time
 125.9,qat,1998
 126.8,qat,1999
 132.4,qat,2000
-130.0,qat,2001
+130,qat,2001
 131.6,qat,2002
 128.7,qat,2003
 147.9,qat,2004
@@ -14543,7 +14543,7 @@ subsistence_incomes_per_person,geo,time
 27.57,kna,2001
 27.51,kna,2002
 27.29,kna,2003
-29.0,kna,2004
+29,kna,2004
 29.99,kna,2005
 31.02,kna,2006
 31.03,kna,2007
@@ -14811,7 +14811,7 @@ subsistence_incomes_per_person,geo,time
 27.05,sau,1963
 28.7,sau,1964
 31.37,sau,1965
-35.0,sau,1966
+35,sau,1966
 37.07,sau,1967
 39.28,sau,1968
 41.12,sau,1969
@@ -14900,7 +14900,7 @@ subsistence_incomes_per_person,geo,time
 3.076,sen,1989
 3.121,sen,1990
 3.019,sen,1991
-3.0,sen,1992
+3,sen,1992
 2.854,sen,1993
 2.857,sen,1994
 2.923,sen,1995
@@ -15225,11 +15225,11 @@ subsistence_incomes_per_person,geo,time
 67.53,sgp,1995
 70.03,sgp,1996
 73.51,sgp,1997
-70.0,sgp,1998
+70,sgp,1998
 74.52,sgp,1999
 80.78,sgp,2000
 76.56,sgp,2001
-79.0,sgp,2002
+79,sgp,2002
 81.19,sgp,2003
 87.27,sgp,2004
 90.96,sgp,2005
@@ -15285,7 +15285,7 @@ subsistence_incomes_per_person,geo,time
 18.45,svk,1967
 19.25,svk,1968
 19.65,svk,1969
-20.0,svk,1970
+20,svk,1970
 20.6,svk,1971
 21.22,svk,1972
 21.78,svk,1973
@@ -16356,7 +16356,7 @@ subsistence_incomes_per_person,geo,time
 22.24,swe,1955
 22.82,swe,1956
 23.33,swe,1957
-24.0,swe,1958
+24,swe,1958
 24.97,swe,1959
 26.21,swe,1960
 27.36,swe,1961
@@ -16521,7 +16521,7 @@ subsistence_incomes_per_person,geo,time
 9.918,che,1886
 9.836,che,1887
 10.03,che,1888
-10.0,che,1889
+10,che,1889
 10.68,che,1890
 10.02,che,1891
 10.76,che,1892
@@ -16595,7 +16595,7 @@ subsistence_incomes_per_person,geo,time
 41.8,che,1960
 43.95,che,1961
 44.81,che,1962
-46.0,che,1963
+46,che,1963
 47.61,che,1964
 48.66,che,1965
 49.41,che,1966
@@ -17058,7 +17058,7 @@ subsistence_incomes_per_person,geo,time
 52.75,twn,2003
 55.55,twn,2004
 57.17,twn,2005
-60.0,twn,2006
+60,twn,2006
 63.36,twn,2007
 63.61,twn,2008
 62.19,twn,2009
@@ -17383,7 +17383,7 @@ subsistence_incomes_per_person,geo,time
 19.6,tto,1979
 20.83,tto,1980
 21.52,tto,1981
-20.0,tto,1982
+20,tto,1982
 18.16,tto,1983
 18.96,tto,1984
 17.94,tto,1985
@@ -17919,11 +17919,11 @@ subsistence_incomes_per_person,geo,time
 104.4,are,1974
 117.3,are,1975
 115.4,are,1976
-117.0,are,1977
+117,are,1977
 99.97,are,1978
 111.2,are,1979
 127.6,are,1980
-121.0,are,1981
+121,are,1981
 103.5,are,1982
 92.44,are,1983
 90.96,are,1984
@@ -17944,7 +17944,7 @@ subsistence_incomes_per_person,geo,time
 61.96,are,1999
 65.82,are,2000
 64.58,are,2001
-63.0,are,2002
+63,are,2002
 67.21,are,2003
 70.57,are,2004
 73.44,are,2005
@@ -18294,7 +18294,7 @@ subsistence_incomes_per_person,geo,time
 11.76,usa,1884
 11.57,usa,1885
 11.69,usa,1886
-12.0,usa,1887
+12,usa,1887
 11.69,usa,1888
 12.17,usa,1889
 12.12,usa,1890
@@ -18363,7 +18363,7 @@ subsistence_incomes_per_person,geo,time
 38.31,usa,1953
 37.24,usa,1954
 39.08,usa,1955
-39.0,usa,1956
+39,usa,1956
 38.92,usa,1957
 37.76,usa,1958
 39.66,usa,1959
@@ -18385,7 +18385,7 @@ subsistence_incomes_per_person,geo,time
 54.58,usa,1975
 56.76,usa,1976
 58.59,usa,1977
-61.0,usa,1978
+61,usa,1978
 62.02,usa,1979
 61.05,usa,1980
 61.75,usa,1981
@@ -18414,7 +18414,7 @@ subsistence_incomes_per_person,geo,time
 89.82,usa,2004
 91.39,usa,2005
 92.95,usa,2006
-94.0,usa,2007
+94,usa,2007
 93.54,usa,2008
 90.47,usa,2009
 1.72,ury,1800
@@ -18502,7 +18502,7 @@ subsistence_incomes_per_person,geo,time
 11.79,ury,1950
 12.53,ury,1951
 12.54,ury,1952
-13.0,ury,1953
+13,ury,1953
 13.64,ury,1954
 13.54,ury,1955
 13.56,ury,1956
@@ -18757,7 +18757,7 @@ subsistence_incomes_per_person,geo,time
 21.06,ven,2001
 18.87,ven,2002
 17.13,ven,2003
-20.0,ven,2004
+20,ven,2004
 21.66,ven,2005
 23.33,ven,2006
 24.73,ven,2007

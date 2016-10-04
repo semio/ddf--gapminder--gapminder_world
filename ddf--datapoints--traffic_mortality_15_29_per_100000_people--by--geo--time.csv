@@ -234,8 +234,8 @@ traffic_mortality_15_29_per_100000_people,geo,time
 29.94,bel,1993
 32.05,bel,1994
 26.95,bel,1995
-26.0,bel,1996
-25.0,bel,1997
+26,bel,1996
+25,bel,1997
 26.55,bel,1998
 25.84,bel,1999
 20.68,bel,2004
@@ -331,7 +331,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 39.44,can,1970
 42.61,can,1971
 48.01,can,1972
-50.0,can,1973
+50,can,1973
 48.08,can,1974
 43.17,can,1975
 38.26,can,1976
@@ -535,7 +535,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 12.11,cub,1972
 12.26,cub,1973
 12.79,cub,1974
-14.0,cub,1975
+14,cub,1975
 14.41,cub,1976
 18.06,cub,1977
 21.91,cub,1992
@@ -569,13 +569,13 @@ traffic_mortality_15_29_per_100000_people,geo,time
 20.51,cze,1992
 20.29,cze,1993
 17.99,cze,1994
-18.0,cze,1995
+18,cze,1995
 15.47,cze,1996
 18.08,cze,1997
 16.26,cze,1998
 12.38,cze,1999
 14.48,cze,2000
-13.0,cze,2001
+13,cze,2001
 14.77,cze,2002
 12.94,cze,2003
 12.56,cze,2004
@@ -596,7 +596,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 19.37,dnk,1961
 17.48,dnk,1962
 17.27,dnk,1963
-21.0,dnk,1964
+21,dnk,1964
 23.59,dnk,1965
 22.72,dnk,1966
 23.55,dnk,1967
@@ -617,7 +617,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 17.22,dnk,1982
 16.71,dnk,1983
 20.37,dnk,1984
-21.0,dnk,1985
+21,dnk,1985
 20.69,dnk,1986
 18.76,dnk,1987
 19.59,dnk,1988
@@ -871,7 +871,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 30.39,grc,1999
 27.67,grc,2000
 27.94,grc,2001
-23.0,grc,2002
+23,grc,2002
 25.42,grc,2003
 27.23,grc,2004
 27.77,grc,2005
@@ -940,7 +940,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 19.05,hun,1978
 17.07,hun,1979
 18.16,hun,1980
-18.0,hun,1981
+18,hun,1981
 16.35,hun,1982
 17.84,hun,1983
 18.65,hun,1984
@@ -1302,7 +1302,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 20.47,lva,2008
 30.84,ltu,1981
 34.31,ltu,1982
-26.0,ltu,1985
+26,ltu,1985
 22.39,ltu,1986
 23.73,ltu,1987
 35.38,ltu,1988
@@ -1361,7 +1361,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 5.047,mus,1980
 3.99,mus,1981
 0.9273,mus,1982
-0.0,mus,1983
+0,mus,1983
 1.663,mus,1984
 1.614,mus,1985
 0.9796,mus,1986
@@ -1526,7 +1526,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 7.33,nld,2007
 6.129,nld,2008
 20.09,nzl,1950
-28.0,nzl,1951
+28,nzl,1951
 24.9,nzl,1952
 30.04,nzl,1953
 26.61,nzl,1954
@@ -1545,7 +1545,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 38.04,nzl,1967
 32.4,nzl,1968
 35.59,nzl,1969
-39.0,nzl,1970
+39,nzl,1970
 38.92,nzl,1971
 44.13,nzl,1972
 51.65,nzl,1973
@@ -1575,7 +1575,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 26.67,nzl,1997
 25.07,nzl,1998
 23.86,nzl,1999
-19.0,nzl,2000
+19,nzl,2000
 20.87,nzl,2001
 17.88,nzl,2002
 20.47,nzl,2003
@@ -1599,7 +1599,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 12.83,nor,1965
 14.23,nor,1966
 13.71,nor,1967
-17.0,nor,1968
+17,nor,1968
 15.77,nor,1969
 20.33,nor,1970
 18.52,nor,1971
@@ -1764,7 +1764,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 27.13,prt,2002
 23.83,prt,2003
 7.78,rou,1989
-18.0,rou,1990
+18,rou,1990
 13.42,rou,1991
 13.29,rou,1992
 12.56,rou,1993
@@ -1772,7 +1772,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 15.46,rou,1995
 15.9,rou,1996
 15.67,rou,1997
-15.0,rou,1998
+15,rou,1998
 10.1,rou,1999
 9.788,rou,2000
 10.43,rou,2001
@@ -1781,7 +1781,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 10.43,rou,2004
 11.63,rou,2005
 11.91,rou,2006
-14.0,rou,2007
+14,rou,2007
 14.9,rou,2008
 22.35,rus,1980
 23.44,rus,1981
@@ -1889,7 +1889,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 34.09,svn,1993
 42.18,svn,1994
 27.98,svn,1995
-33.0,svn,1996
+33,svn,1996
 25.22,svn,1997
 21.51,svn,1998
 20.98,svn,1999
@@ -1966,7 +1966,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 2.114,lka,1956
 2.503,lka,1957
 1.906,lka,1958
-2.0,lka,1959
+2,lka,1959
 1.651,lka,1960
 1.436,lka,1961
 2.092,lka,1962
@@ -2046,14 +2046,14 @@ traffic_mortality_15_29_per_100000_people,geo,time
 20.41,che,1954
 21.88,che,1955
 22.03,che,1956
-24.0,che,1957
+24,che,1957
 23.2,che,1958
 21.79,che,1959
 23.96,che,1960
 26.76,che,1961
 24.08,che,1962
 20.72,che,1963
-23.0,che,1964
+23,che,1964
 20.06,che,1965
 22.41,che,1966
 25.77,che,1967
@@ -2470,7 +2470,7 @@ traffic_mortality_15_29_per_100000_people,geo,time
 29.13,deu_west,1953
 30.3,deu_west,1954
 34.15,deu_west,1955
-35.0,deu_west,1956
+35,deu_west,1956
 35.08,deu_west,1957
 31.63,deu_west,1958
 36.31,deu_west,1959

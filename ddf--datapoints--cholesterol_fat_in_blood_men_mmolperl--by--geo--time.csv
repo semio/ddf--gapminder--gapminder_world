@@ -346,7 +346,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 5.044,bhs,2005
 5.028,bhs,2006
 5.014,bhs,2007
-5.0,bhs,2008
+5,bhs,2008
 5.256,bhr,1980
 5.249,bhr,1981
 5.239,bhr,1982
@@ -819,7 +819,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 4.046,bfa,1985
 4.029,bfa,1986
 4.014,bfa,1987
-4.0,bfa,1988
+4,bfa,1988
 3.985,bfa,1989
 3.968,bfa,1990
 3.954,bfa,1991
@@ -1053,7 +1053,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 4.987,chl,1987
 4.989,chl,1988
 4.995,chl,1989
-5.0,chl,1990
+5,chl,1990
 5.004,chl,1991
 5.011,chl,1992
 5.018,chl,1993
@@ -2900,7 +2900,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 5.142,lva,2007
 5.145,lva,2008
 4.999,lbn,1980
-5.0,lbn,1981
+5,lbn,1981
 4.989,lbn,1982
 4.981,lbn,1983
 4.976,lbn,1984
@@ -3669,7 +3669,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 5.089,nru,1993
 5.062,nru,1994
 5.032,nru,1995
-5.0,nru,1996
+5,nru,1996
 4.968,nru,1997
 4.938,nru,1998
 4.911,nru,1999
@@ -5341,7 +5341,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 5.056,tkm,1983
 5.038,tkm,1984
 5.018,tkm,1985
-5.0,tkm,1986
+5,tkm,1986
 4.981,tkm,1987
 4.961,tkm,1988
 4.938,tkm,1989
@@ -5380,7 +5380,7 @@ cholesterol_fat_in_blood_men_mmolperl,geo,time
 3.989,uga,1993
 3.991,uga,1994
 3.993,uga,1995
-4.0,uga,1996
+4,uga,1996
 4.007,uga,1997
 4.01,uga,1998
 4.017,uga,1999

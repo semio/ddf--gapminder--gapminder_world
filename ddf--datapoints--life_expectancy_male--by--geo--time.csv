@@ -151,7 +151,7 @@ life_expectancy_male,geo,time
 73.81,afg,2099
 53.19,alb,1950
 53.44,alb,1951
-54.0,alb,1952
+54,alb,1952
 54.66,alb,1953
 55.4,alb,1954
 56.24,alb,1955
@@ -171,7 +171,7 @@ life_expectancy_male,geo,time
 65.35,alb,1969
 65.5,alb,1970
 65.71,alb,1971
-66.0,alb,1972
+66,alb,1972
 66.36,alb,1973
 66.76,alb,1974
 67.19,alb,1975
@@ -308,7 +308,7 @@ life_expectancy_male,geo,time
 43.71,dza,1956
 44.13,dza,1957
 44.56,dza,1958
-45.0,dza,1959
+45,dza,1959
 45.44,dza,1960
 45.88,dza,1961
 46.33,dza,1962
@@ -738,7 +738,7 @@ life_expectancy_male,geo,time
 84.66,atg,2086
 84.78,atg,2087
 84.89,atg,2088
-85.0,atg,2089
+85,atg,2089
 85.11,atg,2090
 85.23,atg,2091
 85.34,atg,2092
@@ -907,7 +907,7 @@ life_expectancy_male,geo,time
 60.77,arm,1955
 61.18,arm,1956
 61.59,arm,1957
-62.0,arm,1958
+62,arm,1958
 62.41,arm,1959
 62.82,arm,1960
 63.24,arm,1961
@@ -949,7 +949,7 @@ life_expectancy_male,geo,time
 66.39,arm,1997
 66.95,arm,1998
 67.49,arm,1999
-68.0,arm,2000
+68,arm,2000
 68.46,arm,2001
 68.89,arm,2002
 69.29,arm,2003
@@ -1032,7 +1032,7 @@ life_expectancy_male,geo,time
 80.68,arm,2080
 80.79,arm,2081
 80.89,arm,2082
-81.0,arm,2083
+81,arm,2083
 81.1,arm,2084
 81.21,arm,2085
 81.31,arm,2086
@@ -1120,14 +1120,14 @@ life_expectancy_male,geo,time
 73.6,abw,2018
 73.74,abw,2019
 73.87,abw,2020
-74.0,abw,2021
+74,abw,2021
 74.14,abw,2022
 74.28,abw,2023
 74.42,abw,2024
 74.57,abw,2025
 74.71,abw,2026
 74.85,abw,2027
-75.0,abw,2028
+75,abw,2028
 75.14,abw,2029
 75.29,abw,2030
 75.43,abw,2031
@@ -1153,7 +1153,7 @@ life_expectancy_male,geo,time
 78.55,abw,2051
 78.7,abw,2052
 78.86,abw,2053
-79.0,abw,2054
+79,abw,2054
 79.15,abw,2055
 79.29,abw,2056
 79.43,abw,2057
@@ -1282,7 +1282,7 @@ life_expectancy_male,geo,time
 82.6,aus,2030
 82.73,aus,2031
 82.86,aus,2032
-83.0,aus,2033
+83,aus,2033
 83.13,aus,2034
 83.27,aus,2035
 83.4,aus,2036
@@ -1357,7 +1357,7 @@ life_expectancy_male,geo,time
 64.14,aut,1955
 64.41,aut,1956
 64.7,aut,1957
-65.0,aut,1958
+65,aut,1958
 65.3,aut,1959
 65.59,aut,1960
 65.86,aut,1961
@@ -1459,7 +1459,7 @@ life_expectancy_male,geo,time
 84.63,aut,2057
 84.75,aut,2058
 84.87,aut,2059
-85.0,aut,2060
+85,aut,2060
 85.12,aut,2061
 85.24,aut,2062
 85.36,aut,2063
@@ -1617,7 +1617,7 @@ life_expectancy_male,geo,time
 73.54,aze,2065
 73.69,aze,2066
 73.84,aze,2067
-74.0,aze,2068
+74,aze,2068
 74.15,aze,2069
 74.31,aze,2070
 74.47,aze,2071
@@ -1694,7 +1694,7 @@ life_expectancy_male,geo,time
 67.59,bhs,1992
 67.73,bhs,1993
 67.87,bhs,1994
-68.0,bhs,1995
+68,bhs,1995
 68.17,bhs,1996
 68.36,bhs,1997
 68.6,bhs,1998
@@ -2018,7 +2018,7 @@ life_expectancy_male,geo,time
 71.01,bgd,2016
 71.35,bgd,2017
 71.68,bgd,2018
-72.0,bgd,2019
+72,bgd,2019
 72.32,bgd,2020
 72.62,bgd,2021
 72.92,bgd,2022
@@ -2037,7 +2037,7 @@ life_expectancy_male,geo,time
 76.28,bgd,2035
 76.52,bgd,2036
 76.76,bgd,2037
-77.0,bgd,2038
+77,bgd,2038
 77.24,bgd,2039
 77.48,bgd,2040
 77.71,bgd,2041
@@ -2050,7 +2050,7 @@ life_expectancy_male,geo,time
 79.32,bgd,2048
 79.55,bgd,2049
 79.78,bgd,2050
-80.0,bgd,2051
+80,bgd,2051
 80.23,bgd,2052
 80.45,bgd,2053
 80.66,bgd,2054
@@ -2276,7 +2276,7 @@ life_expectancy_male,geo,time
 66.33,blr,1974
 66.24,blr,1975
 66.13,blr,1976
-66.0,blr,1977
+66,blr,1977
 65.86,blr,1978
 65.71,blr,1979
 65.58,blr,1980
@@ -2310,7 +2310,7 @@ life_expectancy_male,geo,time
 63.58,blr,2008
 63.75,blr,2009
 63.89,blr,2010
-64.0,blr,2011
+64,blr,2011
 64.11,blr,2012
 64.21,blr,2013
 64.32,blr,2014
@@ -2354,7 +2354,7 @@ life_expectancy_male,geo,time
 69.53,blr,2052
 69.69,blr,2053
 69.84,blr,2054
-70.0,blr,2055
+70,blr,2055
 70.16,blr,2056
 70.32,blr,2057
 70.48,blr,2058
@@ -2420,7 +2420,7 @@ life_expectancy_male,geo,time
 67.66,bel,1968
 67.75,bel,1969
 67.86,bel,1970
-68.0,bel,1971
+68,bel,1971
 68.14,bel,1972
 68.32,bel,1973
 68.5,bel,1974
@@ -2523,7 +2523,7 @@ life_expectancy_male,geo,time
 85.66,bel,2071
 85.77,bel,2072
 85.89,bel,2073
-86.0,bel,2074
+86,bel,2074
 86.12,bel,2075
 86.23,bel,2076
 86.34,bel,2077
@@ -2707,7 +2707,7 @@ life_expectancy_male,geo,time
 34.72,ben,1955
 35.16,ben,1956
 35.58,ben,1957
-36.0,ben,1958
+36,ben,1958
 36.42,ben,1959
 36.83,ben,1960
 37.24,ben,1961
@@ -2731,7 +2731,7 @@ life_expectancy_male,geo,time
 43.7,ben,1979
 44.08,ben,1980
 44.51,ben,1981
-45.0,ben,1982
+45,ben,1982
 45.58,ben,1983
 46.23,ben,1984
 46.96,ben,1985
@@ -2896,7 +2896,7 @@ life_expectancy_male,geo,time
 55.71,btn,1994
 56.48,btn,1995
 57.25,btn,1996
-58.0,btn,1997
+58,btn,1997
 58.75,btn,1998
 59.49,btn,1999
 60.22,btn,2000
@@ -2971,7 +2971,7 @@ life_expectancy_male,geo,time
 80.43,btn,2069
 80.62,btn,2070
 80.81,btn,2071
-81.0,btn,2072
+81,btn,2072
 81.19,btn,2073
 81.37,btn,2074
 81.56,btn,2075
@@ -3167,7 +3167,7 @@ life_expectancy_male,geo,time
 61.47,bih,1965
 61.98,bih,1966
 62.49,bih,1967
-63.0,bih,1968
+63,bih,1968
 63.52,bih,1969
 64.05,bih,1970
 64.57,bih,1971
@@ -3422,7 +3422,7 @@ life_expectancy_male,geo,time
 74.47,bwa,2070
 74.66,bwa,2071
 74.83,bwa,2072
-75.0,bwa,2073
+75,bwa,2073
 75.17,bwa,2074
 75.33,bwa,2075
 75.48,bwa,2076
@@ -3436,7 +3436,7 @@ life_expectancy_male,geo,time
 76.6,bwa,2084
 76.74,bwa,2085
 76.87,bwa,2086
-77.0,bwa,2087
+77,bwa,2087
 77.13,bwa,2088
 77.25,bwa,2089
 77.37,bwa,2090
@@ -3590,7 +3590,7 @@ life_expectancy_male,geo,time
 84.64,bra,2088
 84.76,bra,2089
 84.88,bra,2090
-85.0,bra,2091
+85,bra,2091
 85.11,bra,2092
 85.23,bra,2093
 85.35,bra,2094
@@ -3601,7 +3601,7 @@ life_expectancy_male,geo,time
 85.97,bra,2099
 55.06,brn,1950
 55.37,brn,1951
-56.0,brn,1952
+56,brn,1952
 56.63,brn,1953
 57.27,brn,1954
 57.9,brn,1955
@@ -3609,7 +3609,7 @@ life_expectancy_male,geo,time
 59.16,brn,1957
 59.78,brn,1958
 60.4,brn,1959
-61.0,brn,1960
+61,brn,1960
 61.58,brn,1961
 62.13,brn,1962
 62.66,brn,1963
@@ -3812,7 +3812,7 @@ life_expectancy_male,geo,time
 69.7,bgr,2010
 69.8,bgr,2011
 69.9,bgr,2012
-70.0,bgr,2013
+70,bgr,2013
 70.11,bgr,2014
 70.22,bgr,2015
 70.33,bgr,2016
@@ -3849,7 +3849,7 @@ life_expectancy_male,geo,time
 74.53,bgr,2047
 74.69,bgr,2048
 74.84,bgr,2049
-75.0,bgr,2050
+75,bgr,2050
 75.15,bgr,2051
 75.31,bgr,2052
 75.47,bgr,2053
@@ -4060,7 +4060,7 @@ life_expectancy_male,geo,time
 39.1,bdi,1958
 39.4,bdi,1959
 39.7,bdi,1960
-40.0,bdi,1961
+40,bdi,1961
 40.32,bdi,1962
 40.63,bdi,1963
 40.94,bdi,1964
@@ -4574,7 +4574,7 @@ life_expectancy_male,geo,time
 80.61,can,2022
 80.74,can,2023
 80.87,can,2024
-81.0,can,2025
+81,can,2025
 81.12,can,2026
 81.25,can,2027
 81.37,can,2028
@@ -4721,7 +4721,7 @@ life_expectancy_male,geo,time
 73.07,cpv,2019
 73.38,cpv,2020
 73.69,cpv,2021
-74.0,cpv,2022
+74,cpv,2022
 74.3,cpv,2023
 74.6,cpv,2024
 74.89,cpv,2025
@@ -4751,7 +4751,7 @@ life_expectancy_male,geo,time
 79.61,cpv,2049
 79.75,cpv,2050
 79.87,cpv,2051
-80.0,cpv,2052
+80,cpv,2052
 80.12,cpv,2053
 80.25,cpv,2054
 80.37,cpv,2055
@@ -4847,7 +4847,7 @@ life_expectancy_male,geo,time
 42.18,caf,1995
 42.07,caf,1996
 42.01,caf,1997
-42.0,caf,1998
+42,caf,1998
 42.03,caf,1999
 42.1,caf,2000
 42.24,caf,2001
@@ -4867,7 +4867,7 @@ life_expectancy_male,geo,time
 49.42,caf,2015
 49.96,caf,2016
 50.48,caf,2017
-51.0,caf,2018
+51,caf,2018
 51.51,caf,2019
 52.03,caf,2020
 52.54,caf,2021
@@ -5024,7 +5024,7 @@ life_expectancy_male,geo,time
 53.78,tcd,2022
 54.17,tcd,2023
 54.58,tcd,2024
-55.0,tcd,2025
+55,tcd,2025
 55.44,tcd,2026
 55.88,tcd,2027
 56.33,tcd,2028
@@ -5122,7 +5122,7 @@ life_expectancy_male,geo,time
 68.68,chanisl,1970
 68.78,chanisl,1971
 68.88,chanisl,1972
-69.0,chanisl,1973
+69,chanisl,1973
 69.13,chanisl,1974
 69.29,chanisl,1975
 69.47,chanisl,1976
@@ -5166,7 +5166,7 @@ life_expectancy_male,geo,time
 78.47,chanisl,2014
 78.65,chanisl,2015
 78.83,chanisl,2016
-79.0,chanisl,2017
+79,chanisl,2017
 79.17,chanisl,2018
 79.34,chanisl,2019
 79.51,chanisl,2020
@@ -5242,7 +5242,7 @@ life_expectancy_male,geo,time
 87.67,chanisl,2090
 87.78,chanisl,2091
 87.89,chanisl,2092
-88.0,chanisl,2093
+88,chanisl,2093
 88.11,chanisl,2094
 88.22,chanisl,2095
 88.33,chanisl,2096
@@ -5378,7 +5378,7 @@ life_expectancy_male,geo,time
 86.65,chl,2076
 86.77,chl,2077
 86.89,chl,2078
-87.0,chl,2079
+87,chl,2079
 87.12,chl,2080
 87.23,chl,2081
 87.34,chl,2082
@@ -5508,7 +5508,7 @@ life_expectancy_male,geo,time
 79.66,chn,2056
 79.77,chn,2057
 79.89,chn,2058
-80.0,chn,2059
+80,chn,2059
 80.12,chn,2060
 80.23,chn,2061
 80.34,chn,2062
@@ -5598,7 +5598,7 @@ life_expectancy_male,geo,time
 65.82,col,1996
 66.23,col,1997
 66.63,col,1998
-67.0,col,1999
+67,col,1999
 67.34,col,2000
 67.63,col,2001
 67.91,col,2002
@@ -5714,22 +5714,22 @@ life_expectancy_male,geo,time
 42.77,com,1962
 43.18,com,1963
 43.59,com,1964
-44.0,com,1965
+44,com,1965
 44.4,com,1966
 44.8,com,1967
 45.2,com,1968
 45.6,com,1969
-46.0,com,1970
+46,com,1970
 46.4,com,1971
 46.8,com,1972
 47.2,com,1973
 47.6,com,1974
-48.0,com,1975
+48,com,1975
 48.4,com,1976
 48.8,com,1977
 49.2,com,1978
 49.6,com,1979
-50.0,com,1980
+50,com,1980
 50.41,com,1981
 50.82,com,1982
 51.24,com,1983
@@ -5744,7 +5744,7 @@ life_expectancy_male,geo,time
 54.23,com,1992
 54.49,com,1993
 54.74,com,1994
-55.0,com,1995
+55,com,1995
 55.27,com,1996
 55.53,com,1997
 55.8,com,1998
@@ -5888,7 +5888,7 @@ life_expectancy_male,geo,time
 45.66,cod,1986
 45.78,cod,1987
 45.9,cod,1988
-46.0,cod,1989
+46,cod,1989
 46.05,cod,1990
 46.02,cod,1991
 45.88,cod,1992
@@ -5947,7 +5947,7 @@ life_expectancy_male,geo,time
 57.21,cod,2045
 57.48,cod,2046
 57.74,cod,2047
-58.0,cod,2048
+58,cod,2048
 58.26,cod,2049
 58.52,cod,2050
 58.78,cod,2051
@@ -5973,7 +5973,7 @@ life_expectancy_male,geo,time
 63.4,cod,2071
 63.6,cod,2072
 63.8,cod,2073
-64.0,cod,2074
+64,cod,2074
 64.2,cod,2075
 64.39,cod,2076
 64.59,cod,2077
@@ -6052,7 +6052,7 @@ life_expectancy_male,geo,time
 51.26,cog,2000
 51.41,cog,2001
 51.66,cog,2002
-52.0,cog,2003
+52,cog,2003
 52.43,cog,2004
 52.92,cog,2005
 53.48,cog,2006
@@ -6085,7 +6085,7 @@ life_expectancy_male,geo,time
 64.11,cog,2033
 64.41,cog,2034
 64.71,cog,2035
-65.0,cog,2036
+65,cog,2036
 65.28,cog,2037
 65.57,cog,2038
 65.85,cog,2039
@@ -6133,7 +6133,7 @@ life_expectancy_male,geo,time
 73.56,cog,2081
 73.71,cog,2082
 73.86,cog,2083
-74.0,cog,2084
+74,cog,2084
 74.14,cog,2085
 74.27,cog,2086
 74.4,cog,2087
@@ -6141,7 +6141,7 @@ life_expectancy_male,geo,time
 74.65,cog,2089
 74.77,cog,2090
 74.89,cog,2091
-75.0,cog,2092
+75,cog,2092
 75.11,cog,2093
 75.22,cog,2094
 75.33,cog,2095
@@ -6548,7 +6548,7 @@ life_expectancy_male,geo,time
 79.62,hrv,2046
 79.75,hrv,2047
 79.87,hrv,2048
-80.0,hrv,2049
+80,hrv,2049
 80.12,hrv,2050
 80.24,hrv,2051
 80.36,hrv,2052
@@ -6565,7 +6565,7 @@ life_expectancy_male,geo,time
 81.66,hrv,2063
 81.77,hrv,2064
 81.88,hrv,2065
-82.0,hrv,2066
+82,hrv,2066
 82.11,hrv,2067
 82.22,hrv,2068
 82.33,hrv,2069
@@ -6715,7 +6715,7 @@ life_expectancy_male,geo,time
 84.67,cub,2063
 84.78,cub,2064
 84.89,cub,2065
-85.0,cub,2066
+85,cub,2066
 85.11,cub,2067
 85.22,cub,2068
 85.34,cub,2069
@@ -6724,7 +6724,7 @@ life_expectancy_male,geo,time
 85.67,cub,2072
 85.78,cub,2073
 85.89,cub,2074
-86.0,cub,2075
+86,cub,2075
 86.11,cub,2076
 86.22,cub,2077
 86.32,cub,2078
@@ -6818,7 +6818,7 @@ life_expectancy_male,geo,time
 78.44,cyp,2016
 78.63,cyp,2017
 78.82,cyp,2018
-79.0,cyp,2019
+79,cyp,2019
 79.19,cyp,2020
 79.37,cyp,2021
 79.54,cyp,2022
@@ -6874,7 +6874,7 @@ life_expectancy_male,geo,time
 85.67,cyp,2072
 85.78,cyp,2073
 85.89,cyp,2074
-86.0,cyp,2075
+86,cyp,2075
 86.11,cyp,2076
 86.22,cyp,2077
 86.33,cyp,2078
@@ -7020,7 +7020,7 @@ life_expectancy_male,geo,time
 82.66,cze,2068
 82.77,cze,2069
 82.89,cze,2070
-83.0,cze,2071
+83,cze,2071
 83.11,cze,2072
 83.22,cze,2073
 83.33,cze,2074
@@ -7029,7 +7029,7 @@ life_expectancy_male,geo,time
 83.67,cze,2077
 83.78,cze,2078
 83.89,cze,2079
-84.0,cze,2080
+84,cze,2080
 84.12,cze,2081
 84.23,cze,2082
 84.35,cze,2083
@@ -7136,7 +7136,7 @@ life_expectancy_male,geo,time
 80.62,dnk,2034
 80.75,dnk,2035
 80.87,dnk,2036
-81.0,dnk,2037
+81,dnk,2037
 81.12,dnk,2038
 81.25,dnk,2039
 81.37,dnk,2040
@@ -7181,7 +7181,7 @@ life_expectancy_male,geo,time
 85.68,dnk,2079
 85.79,dnk,2080
 85.89,dnk,2081
-86.0,dnk,2082
+86,dnk,2082
 86.1,dnk,2083
 86.21,dnk,2084
 86.31,dnk,2085
@@ -7433,7 +7433,7 @@ life_expectancy_male,geo,time
 74.32,dom,2031
 74.55,dom,2032
 74.77,dom,2033
-75.0,dom,2034
+75,dom,2034
 75.23,dom,2035
 75.46,dom,2036
 75.69,dom,2037
@@ -7523,7 +7523,7 @@ life_expectancy_male,geo,time
 56.73,ecu,1971
 57.14,ecu,1972
 57.57,ecu,1973
-58.0,ecu,1974
+58,ecu,1974
 58.46,ecu,1975
 58.94,ecu,1976
 59.43,ecu,1977
@@ -7871,7 +7871,7 @@ life_expectancy_male,geo,time
 69.27,slv,2019
 69.51,slv,2020
 69.75,slv,2021
-70.0,slv,2022
+70,slv,2022
 70.24,slv,2023
 70.48,slv,2024
 70.73,slv,2025
@@ -7901,7 +7901,7 @@ life_expectancy_male,geo,time
 76.44,slv,2049
 76.64,slv,2050
 76.83,slv,2051
-77.0,slv,2052
+77,slv,2052
 77.18,slv,2053
 77.35,slv,2054
 77.52,slv,2055
@@ -7914,7 +7914,7 @@ life_expectancy_male,geo,time
 78.58,slv,2062
 78.72,slv,2063
 78.86,slv,2064
-79.0,slv,2065
+79,slv,2065
 79.13,slv,2066
 79.27,slv,2067
 79.4,slv,2068
@@ -8015,7 +8015,7 @@ life_expectancy_male,geo,time
 51.68,gnq,2013
 52.14,gnq,2014
 52.58,gnq,2015
-53.0,gnq,2016
+53,gnq,2016
 53.41,gnq,2017
 53.82,gnq,2018
 54.24,gnq,2019
@@ -8081,7 +8081,7 @@ life_expectancy_male,geo,time
 73.48,gnq,2079
 73.66,gnq,2080
 73.83,gnq,2081
-74.0,gnq,2082
+74,gnq,2082
 74.17,gnq,2083
 74.33,gnq,2084
 74.49,gnq,2085
@@ -8107,7 +8107,7 @@ life_expectancy_male,geo,time
 34.43,eri,1955
 34.62,eri,1956
 34.81,eri,1957
-35.0,eri,1958
+35,eri,1958
 35.19,eri,1959
 35.38,eri,1960
 35.57,eri,1961
@@ -8134,7 +8134,7 @@ life_expectancy_male,geo,time
 41.89,eri,1982
 42.2,eri,1983
 42.57,eri,1984
-43.0,eri,1985
+43,eri,1985
 43.51,eri,1986
 44.09,eri,1987
 44.71,eri,1988
@@ -8273,7 +8273,7 @@ life_expectancy_male,geo,time
 65.58,est,1971
 65.43,est,1972
 65.23,est,1973
-65.0,est,1974
+65,est,1974
 64.75,est,1975
 64.51,est,1976
 64.29,est,1977
@@ -8284,7 +8284,7 @@ life_expectancy_male,geo,time
 64.15,est,1982
 64.41,est,1983
 64.72,est,1984
-65.0,est,1985
+65,est,1985
 65.18,est,1986
 65.2,est,1987
 65.04,est,1988
@@ -8333,7 +8333,7 @@ life_expectancy_male,geo,time
 72.4,est,2031
 72.6,est,2032
 72.8,est,2033
-73.0,est,2034
+73,est,2034
 73.19,est,2035
 73.38,est,2036
 73.57,est,2037
@@ -8387,7 +8387,7 @@ life_expectancy_male,geo,time
 79.69,est,2085
 79.79,est,2086
 79.9,est,2087
-80.0,est,2088
+80,est,2088
 80.11,est,2089
 80.22,est,2090
 80.32,est,2091
@@ -8447,7 +8447,7 @@ life_expectancy_male,geo,time
 48.09,eth,1995
 48.72,eth,1996
 49.35,eth,1997
-50.0,eth,1998
+50,eth,1998
 50.66,eth,1999
 51.35,eth,2000
 52.09,eth,2001
@@ -8612,7 +8612,7 @@ life_expectancy_male,geo,time
 66.5,fji,2010
 66.66,fji,2011
 66.83,fji,2012
-67.0,fji,2013
+67,fji,2013
 67.17,fji,2014
 67.33,fji,2015
 67.49,fji,2016
@@ -8883,7 +8883,7 @@ life_expectancy_male,geo,time
 70.28,fra,1981
 70.51,fra,1982
 70.75,fra,1983
-71.0,fra,1984
+71,fra,1984
 71.25,fra,1985
 71.5,fra,1986
 71.76,fra,1987
@@ -8891,7 +8891,7 @@ life_expectancy_male,geo,time
 72.26,fra,1989
 72.51,fra,1990
 72.75,fra,1991
-73.0,fra,1992
+73,fra,1992
 73.25,fra,1993
 73.5,fra,1994
 73.75,fra,1995
@@ -9030,7 +9030,7 @@ life_expectancy_male,geo,time
 63.43,guf,1978
 63.88,guf,1979
 64.41,guf,1980
-65.0,guf,1981
+65,guf,1981
 65.59,guf,1982
 66.16,guf,1983
 66.69,guf,1984
@@ -9100,7 +9100,7 @@ life_expectancy_male,geo,time
 80.61,guf,2048
 80.74,guf,2049
 80.87,guf,2050
-81.0,guf,2051
+81,guf,2051
 81.14,guf,2052
 81.27,guf,2053
 81.39,guf,2054
@@ -9331,7 +9331,7 @@ life_expectancy_male,geo,time
 52.45,gab,1979
 53.29,gab,1980
 54.15,gab,1981
-55.0,gab,1982
+55,gab,1982
 55.85,gab,1983
 56.67,gab,1984
 57.43,gab,1985
@@ -9347,7 +9347,7 @@ life_expectancy_male,geo,time
 59.68,gab,1995
 59.5,gab,1996
 59.26,gab,1997
-59.0,gab,1998
+59,gab,1998
 58.73,gab,1999
 58.51,gab,2000
 58.37,gab,2001
@@ -9367,11 +9367,11 @@ life_expectancy_male,geo,time
 63.13,gab,2015
 63.44,gab,2016
 63.73,gab,2017
-64.0,gab,2018
+64,gab,2018
 64.27,gab,2019
 64.51,gab,2020
 64.76,gab,2021
-65.0,gab,2022
+65,gab,2022
 65.23,gab,2023
 65.47,gab,2024
 65.71,gab,2025
@@ -9402,7 +9402,7 @@ life_expectancy_male,geo,time
 70.47,gab,2050
 70.65,gab,2051
 70.82,gab,2052
-71.0,gab,2053
+71,gab,2053
 71.17,gab,2054
 71.33,gab,2055
 71.5,gab,2056
@@ -9435,7 +9435,7 @@ life_expectancy_male,geo,time
 75.59,gab,2083
 75.73,gab,2084
 75.87,gab,2085
-76.0,gab,2086
+76,gab,2086
 76.13,gab,2087
 76.26,gab,2088
 76.38,gab,2089
@@ -9595,7 +9595,7 @@ life_expectancy_male,geo,time
 67.7,gmb,2093
 67.8,gmb,2094
 67.9,gmb,2095
-68.0,gmb,2096
+68,gmb,2096
 68.1,gmb,2097
 68.2,gmb,2098
 68.3,gmb,2099
@@ -9777,7 +9777,7 @@ life_expectancy_male,geo,time
 68.31,deu,1975
 68.52,deu,1976
 68.75,deu,1977
-69.0,deu,1978
+69,deu,1978
 69.25,deu,1979
 69.51,deu,1980
 69.79,deu,1981
@@ -9888,7 +9888,7 @@ life_expectancy_male,geo,time
 87.66,deu,2086
 87.77,deu,2087
 87.89,deu,2088
-88.0,deu,2089
+88,deu,2089
 88.12,deu,2090
 88.23,deu,2091
 88.34,deu,2092
@@ -10021,7 +10021,7 @@ life_expectancy_male,geo,time
 66.72,gha,2069
 66.82,gha,2070
 66.91,gha,2071
-67.0,gha,2072
+67,gha,2072
 67.09,gha,2073
 67.19,gha,2074
 67.28,gha,2075
@@ -10295,7 +10295,7 @@ life_expectancy_male,geo,time
 74.51,grd,2043
 74.67,grd,2044
 74.83,grd,2045
-75.0,grd,2046
+75,grd,2046
 75.17,grd,2047
 75.33,grd,2048
 75.5,grd,2049
@@ -10355,7 +10355,7 @@ life_expectancy_male,geo,time
 51.91,glp,1953
 52.62,glp,1954
 53.32,glp,1955
-54.0,glp,1956
+54,glp,1956
 54.66,glp,1957
 55.31,glp,1958
 55.95,glp,1959
@@ -10496,7 +10496,7 @@ life_expectancy_male,geo,time
 89.63,glp,2094
 89.75,glp,2095
 89.88,glp,2096
-90.0,glp,2097
+90,glp,2097
 90.12,glp,2098
 90.25,glp,2099
 54.36,gum,1950
@@ -10532,7 +10532,7 @@ life_expectancy_male,geo,time
 67.13,gum,1980
 67.43,gum,1981
 67.72,gum,1982
-68.0,gum,1983
+68,gum,1983
 68.28,gum,1984
 68.55,gum,1985
 68.81,gum,1986
@@ -10588,7 +10588,7 @@ life_expectancy_male,geo,time
 81.5,gum,2036
 81.67,gum,2037
 81.83,gum,2038
-82.0,gum,2039
+82,gum,2039
 82.16,gum,2040
 82.32,gum,2041
 82.48,gum,2042
@@ -10601,14 +10601,14 @@ life_expectancy_male,geo,time
 83.56,gum,2049
 83.71,gum,2050
 83.86,gum,2051
-84.0,gum,2052
+84,gum,2052
 84.14,gum,2053
 84.28,gum,2054
 84.43,gum,2055
 84.57,gum,2056
 84.71,gum,2057
 84.85,gum,2058
-85.0,gum,2059
+85,gum,2059
 85.14,gum,2060
 85.28,gum,2061
 85.42,gum,2062
@@ -10853,7 +10853,7 @@ life_expectancy_male,geo,time
 51.27,gin,2001
 51.41,gin,2002
 51.65,gin,2003
-52.0,gin,2004
+52,gin,2004
 52.43,gin,2005
 52.91,gin,2006
 53.39,gin,2007
@@ -11610,7 +11610,7 @@ life_expectancy_male,geo,time
 79.49,hkg,2008
 79.65,hkg,2009
 79.82,hkg,2010
-80.0,hkg,2011
+80,hkg,2011
 80.19,hkg,2012
 80.37,hkg,2013
 80.55,hkg,2014
@@ -11628,7 +11628,7 @@ life_expectancy_male,geo,time
 82.54,hkg,2026
 82.69,hkg,2027
 82.85,hkg,2028
-83.0,hkg,2029
+83,hkg,2029
 83.15,hkg,2030
 83.31,hkg,2031
 83.46,hkg,2032
@@ -11867,9 +11867,9 @@ life_expectancy_male,geo,time
 71.11,isl,1965
 71.08,isl,1966
 71.04,isl,1967
-71.0,isl,1968
+71,isl,1968
 70.98,isl,1969
-71.0,isl,1970
+71,isl,1970
 71.09,isl,1971
 71.27,isl,1972
 71.54,isl,1973
@@ -11925,7 +11925,7 @@ life_expectancy_male,geo,time
 81.62,isl,2023
 81.74,isl,2024
 81.87,isl,2025
-82.0,isl,2026
+82,isl,2026
 82.13,isl,2027
 82.25,isl,2028
 82.38,isl,2029
@@ -11933,7 +11933,7 @@ life_expectancy_male,geo,time
 82.63,isl,2031
 82.75,isl,2032
 82.87,isl,2033
-83.0,isl,2034
+83,isl,2034
 83.12,isl,2035
 83.24,isl,2036
 83.36,isl,2037
@@ -11967,7 +11967,7 @@ life_expectancy_male,geo,time
 86.66,isl,2065
 86.77,isl,2066
 86.88,isl,2067
-87.0,isl,2068
+87,isl,2068
 87.11,isl,2069
 87.22,isl,2070
 87.34,isl,2071
@@ -12059,7 +12059,7 @@ life_expectancy_male,geo,time
 63.19,ind,2007
 63.47,ind,2008
 63.74,ind,2009
-64.0,ind,2010
+64,ind,2010
 64.26,ind,2011
 64.5,ind,2012
 64.75,ind,2013
@@ -12084,7 +12084,7 @@ life_expectancy_male,geo,time
 68.51,ind,2032
 68.67,ind,2033
 68.84,ind,2034
-69.0,ind,2035
+69,ind,2035
 69.16,ind,2036
 69.31,ind,2037
 69.47,ind,2038
@@ -12162,7 +12162,7 @@ life_expectancy_male,geo,time
 43.63,idn,1960
 44.43,idn,1961
 45.22,idn,1962
-46.0,idn,1963
+46,idn,1963
 46.75,idn,1964
 47.49,idn,1965
 48.22,idn,1966
@@ -12230,7 +12230,7 @@ life_expectancy_male,geo,time
 71.5,idn,2028
 71.67,idn,2029
 71.84,idn,2030
-72.0,idn,2031
+72,idn,2031
 72.17,idn,2032
 72.34,idn,2033
 72.51,idn,2034
@@ -12247,7 +12247,7 @@ life_expectancy_male,geo,time
 74.46,idn,2045
 74.64,idn,2046
 74.82,idn,2047
-75.0,idn,2048
+75,idn,2048
 75.19,idn,2049
 75.38,idn,2050
 75.57,idn,2051
@@ -12489,7 +12489,7 @@ life_expectancy_male,geo,time
 59.46,irq,1987
 61.45,irq,1988
 63.34,irq,1989
-65.0,irq,1990
+65,irq,1990
 66.35,irq,1991
 67.4,irq,1992
 68.18,irq,1993
@@ -12497,7 +12497,7 @@ life_expectancy_male,geo,time
 68.97,irq,1995
 69.06,irq,1996
 69.05,irq,1997
-69.0,irq,1998
+69,irq,1998
 68.92,irq,1999
 68.81,irq,2000
 68.6,irq,2001
@@ -12525,7 +12525,7 @@ life_expectancy_male,geo,time
 67.58,irq,2023
 67.72,irq,2024
 67.86,irq,2025
-68.0,irq,2026
+68,irq,2026
 68.13,irq,2027
 68.27,irq,2028
 68.41,irq,2029
@@ -12624,7 +12624,7 @@ life_expectancy_male,geo,time
 68.76,irl,1972
 68.82,irl,1973
 68.89,irl,1974
-69.0,irl,1975
+69,irl,1975
 69.13,irl,1976
 69.28,irl,1977
 69.45,irl,1978
@@ -12645,7 +12645,7 @@ life_expectancy_male,geo,time
 72.55,irl,1993
 72.7,irl,1994
 72.84,irl,1995
-73.0,irl,1996
+73,irl,1996
 73.19,irl,1997
 73.42,irl,1998
 73.7,irl,1999
@@ -12676,7 +12676,7 @@ life_expectancy_male,geo,time
 80.55,irl,2024
 80.7,irl,2025
 80.85,irl,2026
-81.0,irl,2027
+81,irl,2027
 81.14,irl,2028
 81.29,irl,2029
 81.43,irl,2030
@@ -12733,7 +12733,7 @@ life_expectancy_male,geo,time
 87.66,irl,2081
 87.77,irl,2082
 87.89,irl,2083
-88.0,irl,2084
+88,irl,2084
 88.11,irl,2085
 88.22,irl,2086
 88.33,irl,2087
@@ -12749,7 +12749,7 @@ life_expectancy_male,geo,time
 89.42,irl,2097
 89.52,irl,2098
 89.63,irl,2099
-67.0,isr,1950
+67,isr,1950
 67.14,isr,1951
 67.4,isr,1952
 67.65,isr,1953
@@ -12819,7 +12819,7 @@ life_expectancy_male,geo,time
 80.57,isr,2017
 80.71,isr,2018
 80.86,isr,2019
-81.0,isr,2020
+81,isr,2020
 81.14,isr,2021
 81.28,isr,2022
 81.42,isr,2023
@@ -12958,7 +12958,7 @@ life_expectancy_male,geo,time
 78.31,ita,2006
 78.57,ita,2007
 78.8,ita,2008
-79.0,ita,2009
+79,ita,2009
 79.18,ita,2010
 79.34,ita,2011
 79.49,ita,2012
@@ -13071,7 +13071,7 @@ life_expectancy_male,geo,time
 66.18,jam,1969
 66.47,jam,1970
 66.75,jam,1971
-67.0,jam,1972
+67,jam,1972
 67.22,jam,1973
 67.43,jam,1974
 67.63,jam,1975
@@ -13119,7 +13119,7 @@ life_expectancy_male,geo,time
 71.61,jam,2017
 71.74,jam,2018
 71.86,jam,2019
-72.0,jam,2020
+72,jam,2020
 72.14,jam,2021
 72.28,jam,2022
 72.43,jam,2023
@@ -13225,7 +13225,7 @@ life_expectancy_male,geo,time
 70.74,jpn,1973
 71.16,jpn,1974
 71.58,jpn,1975
-72.0,jpn,1976
+72,jpn,1976
 72.4,jpn,1977
 72.78,jpn,1978
 73.12,jpn,1979
@@ -13387,11 +13387,11 @@ life_expectancy_male,geo,time
 66.95,jor,1985
 67.33,jor,1986
 67.68,jor,1987
-68.0,jor,1988
+68,jor,1988
 68.29,jor,1989
 68.56,jor,1990
 68.79,jor,1991
-69.0,jor,1992
+69,jor,1992
 69.2,jor,1993
 69.38,jor,1994
 69.56,jor,1995
@@ -13403,7 +13403,7 @@ life_expectancy_male,geo,time
 70.53,jor,2001
 70.69,jor,2002
 70.85,jor,2003
-71.0,jor,2004
+71,jor,2004
 71.16,jor,2005
 71.3,jor,2006
 71.45,jor,2007
@@ -13449,7 +13449,7 @@ life_expectancy_male,geo,time
 77.47,jor,2047
 77.65,jor,2048
 77.82,jor,2049
-78.0,jor,2050
+78,jor,2050
 78.17,jor,2051
 78.35,jor,2052
 78.53,jor,2053
@@ -13535,7 +13535,7 @@ life_expectancy_male,geo,time
 60.83,kaz,1983
 61.28,kaz,1984
 61.69,kaz,1985
-62.0,kaz,1986
+62,kaz,1986
 62.2,kaz,1987
 62.24,kaz,1988
 62.12,kaz,1989
@@ -13696,7 +13696,7 @@ life_expectancy_male,geo,time
 55.12,ken,1994
 54.39,ken,1995
 53.67,ken,1996
-53.0,ken,1997
+53,ken,1997
 52.44,ken,1998
 52.03,ken,1999
 51.83,ken,2000
@@ -13741,7 +13741,7 @@ life_expectancy_male,geo,time
 67.18,ken,2039
 67.46,ken,2040
 67.73,ken,2041
-68.0,ken,2042
+68,ken,2042
 68.26,ken,2043
 68.52,ken,2044
 68.77,ken,2045
@@ -13899,7 +13899,7 @@ life_expectancy_male,geo,time
 74.31,kir,2047
 74.55,kir,2048
 74.78,kir,2049
-75.0,kir,2050
+75,kir,2050
 75.23,kir,2051
 75.47,kir,2052
 75.7,kir,2053
@@ -13929,7 +13929,7 @@ life_expectancy_male,geo,time
 80.54,kir,2077
 80.7,kir,2078
 80.85,kir,2079
-81.0,kir,2080
+81,kir,2080
 81.15,kir,2081
 81.29,kir,2082
 81.43,kir,2083
@@ -13961,7 +13961,7 @@ life_expectancy_male,geo,time
 47.99,prk,1959
 48.42,prk,1960
 48.71,prk,1961
-49.0,prk,1962
+49,prk,1962
 49.43,prk,1963
 50.07,prk,1964
 50.95,prk,1965
@@ -13989,7 +13989,7 @@ life_expectancy_male,geo,time
 65.13,prk,1987
 65.5,prk,1988
 65.83,prk,1989
-66.0,prk,1990
+66,prk,1990
 65.86,prk,1991
 65.36,prk,1992
 64.52,prk,1993
@@ -14275,7 +14275,7 @@ life_expectancy_male,geo,time
 65.93,kwt,1973
 66.29,kwt,1974
 66.65,kwt,1975
-67.0,kwt,1976
+67,kwt,1976
 67.36,kwt,1977
 67.72,kwt,1978
 68.08,kwt,1979
@@ -14402,7 +14402,7 @@ life_expectancy_male,geo,time
 47.92,kgz,1950
 48.13,kgz,1951
 48.56,kgz,1952
-49.0,kgz,1953
+49,kgz,1953
 49.43,kgz,1954
 49.86,kgz,1955
 50.28,kgz,1956
@@ -14434,7 +14434,7 @@ life_expectancy_male,geo,time
 59.57,kgz,1982
 60.04,kgz,1983
 60.52,kgz,1984
-61.0,kgz,1985
+61,kgz,1985
 61.42,kgz,1986
 61.78,kgz,1987
 62.04,kgz,1988
@@ -14444,7 +14444,7 @@ life_expectancy_male,geo,time
 62.21,kgz,1992
 62.13,kgz,1993
 62.05,kgz,1994
-62.0,kgz,1995
+62,kgz,1995
 61.99,kgz,1996
 62.02,kgz,1997
 62.09,kgz,1998
@@ -14634,7 +14634,7 @@ life_expectancy_male,geo,time
 73.27,lao,2032
 73.52,lao,2033
 73.76,lao,2034
-74.0,lao,2035
+74,lao,2035
 74.24,lao,2036
 74.48,lao,2037
 74.71,lao,2038
@@ -14725,7 +14725,7 @@ life_expectancy_male,geo,time
 64.89,lva,1973
 64.59,lva,1974
 64.28,lva,1975
-64.0,lva,1976
+64,lva,1976
 63.74,lva,1977
 63.54,lva,1978
 63.4,lva,1979
@@ -14772,7 +14772,7 @@ life_expectancy_male,geo,time
 67.58,lva,2020
 67.72,lva,2021
 67.86,lva,2022
-68.0,lva,2023
+68,lva,2023
 68.14,lva,2024
 68.29,lva,2025
 68.43,lva,2026
@@ -14816,7 +14816,7 @@ life_expectancy_male,geo,time
 74.55,lva,2064
 74.7,lva,2065
 74.85,lva,2066
-75.0,lva,2067
+75,lva,2067
 75.14,lva,2068
 75.29,lva,2069
 75.43,lva,2070
@@ -14883,7 +14883,7 @@ life_expectancy_male,geo,time
 66.41,lbn,1981
 66.59,lbn,1982
 66.79,lbn,1983
-67.0,lbn,1984
+67,lbn,1984
 67.24,lbn,1985
 67.49,lbn,1986
 67.77,lbn,1987
@@ -14906,7 +14906,7 @@ life_expectancy_male,geo,time
 74.65,lbn,2004
 75.11,lbn,2005
 75.57,lbn,2006
-76.0,lbn,2007
+76,lbn,2007
 76.4,lbn,2008
 76.77,lbn,2009
 77.12,lbn,2010
@@ -14998,7 +14998,7 @@ life_expectancy_male,geo,time
 88.76,lbn,2096
 88.84,lbn,2097
 88.92,lbn,2098
-89.0,lbn,2099
+89,lbn,2099
 39.6,lso,1950
 39.89,lso,1951
 40.47,lso,1952
@@ -15030,7 +15030,7 @@ life_expectancy_male,geo,time
 51.22,lso,1978
 51.82,lso,1979
 52.42,lso,1980
-53.0,lso,1981
+53,lso,1981
 53.55,lso,1982
 54.07,lso,1983
 54.54,lso,1984
@@ -15704,7 +15704,7 @@ life_expectancy_male,geo,time
 83.62,lux,2052
 83.75,lux,2053
 83.87,lux,2054
-84.0,lux,2055
+84,lux,2055
 84.12,lux,2056
 84.25,lux,2057
 84.37,lux,2058
@@ -15759,7 +15759,7 @@ life_expectancy_male,geo,time
 61.6,mac,1957
 62.08,mac,1958
 62.54,mac,1959
-63.0,mac,1960
+63,mac,1960
 63.45,mac,1961
 63.89,mac,1962
 64.32,mac,1963
@@ -15793,7 +15793,7 @@ life_expectancy_male,geo,time
 73.28,mac,1991
 73.52,mac,1992
 73.76,mac,1993
-74.0,mac,1994
+74,mac,1994
 74.22,mac,1995
 74.45,mac,1996
 74.67,mac,1997
@@ -15914,9 +15914,9 @@ life_expectancy_male,geo,time
 61.36,mkd,1962
 61.92,mkd,1963
 62.47,mkd,1964
-63.0,mkd,1965
+63,mkd,1965
 63.51,mkd,1966
-64.0,mkd,1967
+64,mkd,1967
 64.46,mkd,1968
 64.88,mkd,1969
 65.26,mkd,1970
@@ -16027,7 +16027,7 @@ life_expectancy_male,geo,time
 82.65,mkd,2075
 82.77,mkd,2076
 82.88,mkd,2077
-83.0,mkd,2078
+83,mkd,2078
 83.11,mkd,2079
 83.22,mkd,2080
 83.33,mkd,2081
@@ -16122,14 +16122,14 @@ life_expectancy_male,geo,time
 65.98,mdg,2020
 66.33,mdg,2021
 66.67,mdg,2022
-67.0,mdg,2023
+67,mdg,2023
 67.32,mdg,2024
 67.63,mdg,2025
 67.92,mdg,2026
 68.21,mdg,2027
 68.48,mdg,2028
 68.75,mdg,2029
-69.0,mdg,2030
+69,mdg,2030
 69.25,mdg,2031
 69.48,mdg,2032
 69.7,mdg,2033
@@ -16176,13 +16176,13 @@ life_expectancy_male,geo,time
 76.5,mdg,2074
 76.67,mdg,2075
 76.83,mdg,2076
-77.0,mdg,2077
+77,mdg,2077
 77.16,mdg,2078
 77.33,mdg,2079
 77.5,mdg,2080
 77.67,mdg,2081
 77.83,mdg,2082
-78.0,mdg,2083
+78,mdg,2083
 78.17,mdg,2084
 78.33,mdg,2085
 78.5,mdg,2086
@@ -16242,7 +16242,7 @@ life_expectancy_male,geo,time
 45.99,mwi,1990
 46.06,mwi,1991
 46.06,mwi,1992
-46.0,mwi,1993
+46,mwi,1993
 45.9,mwi,1994
 45.77,mwi,1995
 45.63,mwi,1996
@@ -16299,7 +16299,7 @@ life_expectancy_male,geo,time
 64.28,mwi,2047
 64.52,mwi,2048
 64.76,mwi,2049
-65.0,mwi,2050
+65,mwi,2050
 65.24,mwi,2051
 65.48,mwi,2052
 65.72,mwi,2053
@@ -16377,7 +16377,7 @@ life_expectancy_male,geo,time
 65.08,mys,1975
 65.39,mys,1976
 65.7,mys,1977
-66.0,mys,1978
+66,mys,1978
 66.28,mys,1979
 66.56,mys,1980
 66.83,mys,1981
@@ -16519,12 +16519,12 @@ life_expectancy_male,geo,time
 42.39,mdv,1967
 43.28,mdv,1968
 44.16,mdv,1969
-45.0,mdv,1970
+45,mdv,1970
 45.81,mdv,1971
 46.61,mdv,1972
 47.4,mdv,1973
 48.19,mdv,1974
-49.0,mdv,1975
+49,mdv,1975
 49.84,mdv,1976
 50.71,mdv,1977
 51.61,mdv,1978
@@ -16647,7 +16647,7 @@ life_expectancy_male,geo,time
 90.7,mdv,2095
 90.8,mdv,2096
 90.9,mdv,2097
-91.0,mdv,2098
+91,mdv,2098
 91.1,mdv,2099
 25.69,mli,1950
 25.87,mli,1951
@@ -16882,7 +16882,7 @@ life_expectancy_male,geo,time
 80.59,mlt,2030
 80.73,mlt,2031
 80.86,mlt,2032
-81.0,mlt,2033
+81,mlt,2033
 81.14,mlt,2034
 81.28,mlt,2035
 81.41,mlt,2036
@@ -16931,7 +16931,7 @@ life_expectancy_male,geo,time
 86.66,mlt,2079
 86.78,mlt,2080
 86.89,mlt,2081
-87.0,mlt,2082
+87,mlt,2082
 87.12,mlt,2083
 87.23,mlt,2084
 87.34,mlt,2085
@@ -17135,7 +17135,7 @@ life_expectancy_male,geo,time
 54.65,mrt,1983
 55.16,mrt,1984
 55.61,mrt,1985
-56.0,mrt,1986
+56,mrt,1986
 56.34,mrt,1987
 56.64,mrt,1988
 56.89,mrt,1989
@@ -17162,7 +17162,7 @@ life_expectancy_male,geo,time
 59.55,mrt,2010
 59.7,mrt,2011
 59.85,mrt,2012
-60.0,mrt,2013
+60,mrt,2013
 60.15,mrt,2014
 60.29,mrt,2015
 60.43,mrt,2016
@@ -17339,7 +17339,7 @@ life_expectancy_male,geo,time
 74.43,mus,2037
 74.62,mus,2038
 74.81,mus,2039
-75.0,mus,2040
+75,mus,2040
 75.19,mus,2041
 75.38,mus,2042
 75.57,mus,2043
@@ -17465,7 +17465,7 @@ life_expectancy_male,geo,time
 76.19,myt,2013
 76.47,myt,2014
 76.74,myt,2015
-77.0,myt,2016
+77,myt,2016
 77.23,myt,2017
 77.46,myt,2018
 77.67,myt,2019
@@ -17502,7 +17502,7 @@ life_expectancy_male,geo,time
 82.59,myt,2050
 82.73,myt,2051
 82.86,myt,2052
-83.0,myt,2053
+83,myt,2053
 83.14,myt,2054
 83.27,myt,2055
 83.41,myt,2056
@@ -17733,7 +17733,7 @@ life_expectancy_male,geo,time
 64.75,fsm,1981
 64.84,fsm,1982
 64.92,fsm,1983
-65.0,fsm,1984
+65,fsm,1984
 65.1,fsm,1985
 65.21,fsm,1986
 65.32,fsm,1987
@@ -17742,7 +17742,7 @@ life_expectancy_male,geo,time
 65.66,fsm,1990
 65.78,fsm,1991
 65.89,fsm,1992
-66.0,fsm,1993
+66,fsm,1993
 66.12,fsm,1994
 66.23,fsm,1995
 66.34,fsm,1996
@@ -17752,7 +17752,7 @@ life_expectancy_male,geo,time
 66.7,fsm,2000
 66.8,fsm,2001
 66.89,fsm,2002
-67.0,fsm,2003
+67,fsm,2003
 67.12,fsm,2004
 67.24,fsm,2005
 67.36,fsm,2006
@@ -17774,7 +17774,7 @@ life_expectancy_male,geo,time
 68.77,fsm,2022
 68.85,fsm,2023
 68.93,fsm,2024
-69.0,fsm,2025
+69,fsm,2025
 69.08,fsm,2026
 69.15,fsm,2027
 69.23,fsm,2028
@@ -17848,7 +17848,7 @@ life_expectancy_male,geo,time
 75.6,fsm,2096
 75.73,fsm,2097
 75.87,fsm,2098
-76.0,fsm,2099
+76,fsm,2099
 54.18,mda,1950
 54.39,mda,1951
 54.8,mda,1952
@@ -17887,14 +17887,14 @@ life_expectancy_male,geo,time
 62.98,mda,1985
 63.4,mda,1986
 63.76,mda,1987
-64.0,mda,1988
+64,mda,1988
 64.11,mda,1989
 64.09,mda,1990
 63.95,mda,1991
 63.72,mda,1992
 63.47,mda,1993
 63.22,mda,1994
-63.0,mda,1995
+63,mda,1995
 62.85,mda,1996
 62.78,mda,1997
 62.78,mda,1998
@@ -18059,7 +18059,7 @@ life_expectancy_male,geo,time
 62.2,mng,2007
 62.48,mng,2008
 62.75,mng,2009
-63.0,mng,2010
+63,mng,2010
 63.23,mng,2011
 63.46,mng,2012
 63.68,mng,2013
@@ -18121,7 +18121,7 @@ life_expectancy_male,geo,time
 74.37,mng,2069
 74.58,mng,2070
 74.79,mng,2071
-75.0,mng,2072
+75,mng,2072
 75.21,mng,2073
 75.42,mng,2074
 75.63,mng,2075
@@ -18197,7 +18197,7 @@ life_expectancy_male,geo,time
 71.34,mne,1995
 71.25,mne,1996
 71.13,mne,1997
-71.0,mne,1998
+71,mne,1998
 70.86,mne,1999
 70.76,mne,2000
 70.7,mne,2001
@@ -18236,7 +18236,7 @@ life_expectancy_male,geo,time
 74.67,mne,2034
 74.78,mne,2035
 74.89,mne,2036
-75.0,mne,2037
+75,mne,2037
 75.11,mne,2038
 75.23,mne,2039
 75.34,mne,2040
@@ -18386,7 +18386,7 @@ life_expectancy_male,geo,time
 72.55,mar,2034
 72.7,mar,2035
 72.85,mar,2036
-73.0,mar,2037
+73,mar,2037
 73.15,mar,2038
 73.3,mar,2039
 73.46,mar,2040
@@ -18894,7 +18894,7 @@ life_expectancy_male,geo,time
 76.65,nam,2092
 76.77,nam,2093
 76.89,nam,2094
-77.0,nam,2095
+77,nam,2095
 77.12,nam,2096
 77.23,nam,2097
 77.35,nam,2098
@@ -18947,7 +18947,7 @@ life_expectancy_male,geo,time
 58.1,npl,1995
 58.75,npl,1996
 59.38,npl,1997
-60.0,npl,1998
+60,npl,1998
 60.59,npl,1999
 61.17,npl,2000
 61.73,npl,2001
@@ -19067,7 +19067,7 @@ life_expectancy_male,geo,time
 71.08,nld,1965
 71.05,nld,1966
 71.02,nld,1967
-71.0,nld,1968
+71,nld,1968
 71.01,nld,1969
 71.03,nld,1970
 71.08,nld,1971
@@ -19134,7 +19134,7 @@ life_expectancy_male,geo,time
 81.64,nld,2032
 81.76,nld,2033
 81.88,nld,2034
-82.0,nld,2035
+82,nld,2035
 82.11,nld,2036
 82.23,nld,2037
 82.35,nld,2038
@@ -19246,7 +19246,7 @@ life_expectancy_male,geo,time
 69.2,ncl,1994
 69.47,ncl,1995
 69.74,ncl,1996
-70.0,ncl,1997
+70,ncl,1997
 70.25,ncl,1998
 70.5,ncl,1999
 70.75,ncl,2000
@@ -19305,7 +19305,7 @@ life_expectancy_male,geo,time
 81.6,ncl,2053
 81.73,ncl,2054
 81.87,ncl,2055
-82.0,ncl,2056
+82,ncl,2056
 82.14,ncl,2057
 82.27,ncl,2058
 82.39,ncl,2059
@@ -19347,7 +19347,7 @@ life_expectancy_male,geo,time
 86.65,ncl,2095
 86.77,ncl,2096
 86.88,ncl,2097
-87.0,ncl,2098
+87,ncl,2098
 87.11,ncl,2099
 67.27,nzl,1950
 67.35,nzl,1951
@@ -19456,7 +19456,7 @@ life_expectancy_male,geo,time
 84.64,nzl,2054
 84.76,nzl,2055
 84.88,nzl,2056
-85.0,nzl,2057
+85,nzl,2057
 85.12,nzl,2058
 85.24,nzl,2059
 85.36,nzl,2060
@@ -19473,7 +19473,7 @@ life_expectancy_male,geo,time
 86.65,nzl,2071
 86.76,nzl,2072
 86.88,nzl,2073
-87.0,nzl,2074
+87,nzl,2074
 87.11,nzl,2075
 87.23,nzl,2076
 87.35,nzl,2077
@@ -19579,7 +19579,7 @@ life_expectancy_male,geo,time
 76.13,nic,2027
 76.42,nic,2028
 76.71,nic,2029
-77.0,nic,2030
+77,nic,2030
 77.28,nic,2031
 77.56,nic,2032
 77.83,nic,2033
@@ -19639,7 +19639,7 @@ life_expectancy_male,geo,time
 85.68,nic,2087
 85.79,nic,2088
 85.89,nic,2089
-86.0,nic,2090
+86,nic,2090
 86.11,nic,2091
 86.22,nic,2092
 86.32,nic,2093
@@ -19735,7 +19735,7 @@ life_expectancy_male,geo,time
 65.37,ner,2033
 65.59,ner,2034
 65.8,ner,2035
-66.0,ner,2036
+66,ner,2036
 66.19,ner,2037
 66.37,ner,2038
 66.54,ner,2039
@@ -19749,7 +19749,7 @@ life_expectancy_male,geo,time
 67.67,ner,2047
 67.78,ner,2048
 67.89,ner,2049
-68.0,ner,2050
+68,ner,2050
 68.1,ner,2051
 68.2,ner,2052
 68.3,ner,2053
@@ -20059,7 +20059,7 @@ life_expectancy_male,geo,time
 84.67,nor,2057
 84.78,nor,2058
 84.89,nor,2059
-85.0,nor,2060
+85,nor,2060
 85.11,nor,2061
 85.22,nor,2062
 85.33,nor,2063
@@ -20206,7 +20206,7 @@ life_expectancy_male,geo,time
 83.6,omn,2054
 83.74,omn,2055
 83.87,omn,2056
-84.0,omn,2057
+84,omn,2057
 84.12,omn,2058
 84.25,omn,2059
 84.37,omn,2060
@@ -20331,7 +20331,7 @@ life_expectancy_male,geo,time
 67.67,pak,2029
 67.78,pak,2030
 67.89,pak,2031
-68.0,pak,2032
+68,pak,2032
 68.11,pak,2033
 68.22,pak,2034
 68.33,pak,2035
@@ -20518,7 +20518,7 @@ life_expectancy_male,geo,time
 83.64,pan,2066
 83.76,pan,2067
 83.88,pan,2068
-84.0,pan,2069
+84,pan,2069
 84.11,pan,2070
 84.23,pan,2071
 84.34,pan,2072
@@ -20633,7 +20633,7 @@ life_expectancy_male,geo,time
 62.66,png,2031
 62.77,png,2032
 62.89,png,2033
-63.0,png,2034
+63,png,2034
 63.11,png,2035
 63.23,png,2036
 63.34,png,2037
@@ -20775,7 +20775,7 @@ life_expectancy_male,geo,time
 70.76,pry,2023
 70.83,pry,2024
 70.91,pry,2025
-71.0,pry,2026
+71,pry,2026
 71.08,pry,2027
 71.16,pry,2028
 71.25,pry,2029
@@ -20810,7 +20810,7 @@ life_expectancy_male,geo,time
 74.57,pry,2058
 74.71,pry,2059
 74.85,pry,2060
-75.0,pry,2061
+75,pry,2061
 75.14,pry,2062
 75.29,pry,2063
 75.44,pry,2064
@@ -20877,7 +20877,7 @@ life_expectancy_male,geo,time
 55.35,per,1975
 55.91,per,1976
 56.46,per,1977
-57.0,per,1978
+57,per,1978
 57.54,per,1979
 58.09,per,1980
 58.64,per,1981
@@ -20961,7 +20961,7 @@ life_expectancy_male,geo,time
 82.6,per,2059
 82.74,per,2060
 82.87,per,2061
-83.0,per,2062
+83,per,2062
 83.14,per,2063
 83.27,per,2064
 83.4,per,2065
@@ -20995,7 +20995,7 @@ life_expectancy_male,geo,time
 86.67,per,2093
 86.78,per,2094
 86.89,per,2095
-87.0,per,2096
+87,per,2096
 87.11,per,2097
 87.22,per,2098
 87.33,per,2099
@@ -21230,7 +21230,7 @@ life_expectancy_male,geo,time
 75.43,pol,2028
 75.63,pol,2029
 75.82,pol,2030
-76.0,pol,2031
+76,pol,2031
 76.18,pol,2032
 76.36,pol,2033
 76.53,pol,2034
@@ -21341,7 +21341,7 @@ life_expectancy_male,geo,time
 70.54,prt,1989
 70.7,prt,1990
 70.85,prt,1991
-71.0,prt,1992
+71,prt,1992
 71.17,prt,1993
 71.35,prt,1994
 71.57,prt,1995
@@ -21408,7 +21408,7 @@ life_expectancy_male,geo,time
 83.62,prt,2056
 83.75,prt,2057
 83.88,prt,2058
-84.0,prt,2059
+84,prt,2059
 84.13,prt,2060
 84.26,prt,2061
 84.39,prt,2062
@@ -21441,7 +21441,7 @@ life_expectancy_male,geo,time
 87.65,prt,2089
 87.77,prt,2090
 87.88,prt,2091
-88.0,prt,2092
+88,prt,2092
 88.12,prt,2093
 88.23,prt,2094
 88.35,prt,2095
@@ -21530,7 +21530,7 @@ life_expectancy_male,geo,time
 77.62,pri,2028
 77.75,pri,2029
 77.87,pri,2030
-78.0,pri,2031
+78,pri,2031
 78.12,pri,2032
 78.24,pri,2033
 78.36,pri,2034
@@ -21599,7 +21599,7 @@ life_expectancy_male,geo,time
 85.18,pri,2097
 85.28,pri,2098
 85.39,pri,2099
-51.0,qat,1950
+51,qat,1950
 51.46,qat,1951
 52.37,qat,1952
 53.27,qat,1953
@@ -21727,7 +21727,7 @@ life_expectancy_male,geo,time
 85.69,qat,2075
 85.79,qat,2076
 85.9,qat,2077
-86.0,qat,2078
+86,qat,2078
 86.11,qat,2079
 86.21,qat,2080
 86.31,qat,2081
@@ -21815,7 +21815,7 @@ life_expectancy_male,geo,time
 76.19,reu,2013
 76.47,reu,2014
 76.74,reu,2015
-77.0,reu,2016
+77,reu,2016
 77.23,reu,2017
 77.46,reu,2018
 77.67,reu,2019
@@ -21852,7 +21852,7 @@ life_expectancy_male,geo,time
 82.59,reu,2050
 82.73,reu,2051
 82.86,reu,2052
-83.0,reu,2053
+83,reu,2053
 83.14,reu,2054
 83.27,reu,2055
 83.41,reu,2056
@@ -21942,7 +21942,7 @@ life_expectancy_male,geo,time
 66.28,rou,1990
 66.18,rou,1991
 66.09,rou,1992
-66.0,rou,1993
+66,rou,1993
 65.93,rou,1994
 65.9,rou,1995
 65.94,rou,1996
@@ -22003,7 +22003,7 @@ life_expectancy_male,geo,time
 76.48,rou,2051
 76.65,rou,2052
 76.83,rou,2053
-77.0,rou,2054
+77,rou,2054
 77.17,rou,2055
 77.33,rou,2056
 77.49,rou,2057
@@ -22042,7 +22042,7 @@ life_expectancy_male,geo,time
 81.66,rou,2090
 81.77,rou,2091
 81.88,rou,2092
-82.0,rou,2093
+82,rou,2093
 82.11,rou,2094
 82.22,rou,2095
 82.33,rou,2096
@@ -22161,7 +22161,7 @@ life_expectancy_male,geo,time
 68.51,rus,2059
 68.67,rus,2060
 68.84,rus,2061
-69.0,rus,2062
+69,rus,2062
 69.17,rus,2063
 69.34,rus,2064
 69.51,rus,2065
@@ -22197,7 +22197,7 @@ life_expectancy_male,geo,time
 74.58,rus,2095
 74.72,rus,2096
 74.86,rus,2097
-75.0,rus,2098
+75,rus,2098
 75.14,rus,2099
 37.9,rwa,1950
 38.03,rwa,1951
@@ -22210,7 +22210,7 @@ life_expectancy_male,geo,time
 40.09,rwa,1958
 40.4,rwa,1959
 40.7,rwa,1960
-41.0,rwa,1961
+41,rwa,1961
 41.29,rwa,1962
 41.56,rwa,1963
 41.81,rwa,1964
@@ -22245,7 +22245,7 @@ life_expectancy_male,geo,time
 25.23,rwa,1993
 26.85,rwa,1994
 29.97,rwa,1995
-34.0,rwa,1996
+34,rwa,1996
 38.16,rwa,1997
 41.81,rwa,1998
 44.7,rwa,1999
@@ -22424,7 +22424,7 @@ life_expectancy_male,geo,time
 73.53,lca,2022
 73.69,lca,2023
 73.84,lca,2024
-74.0,lca,2025
+74,lca,2025
 74.16,lca,2026
 74.32,lca,2027
 74.48,lca,2028
@@ -22442,7 +22442,7 @@ life_expectancy_male,geo,time
 76.48,lca,2040
 76.65,lca,2041
 76.82,lca,2042
-77.0,lca,2043
+77,lca,2043
 77.17,lca,2044
 77.35,lca,2045
 77.53,lca,2046
@@ -22496,7 +22496,7 @@ life_expectancy_male,geo,time
 83.69,lca,2094
 83.8,lca,2095
 83.9,lca,2096
-84.0,lca,2097
+84,lca,2097
 84.1,lca,2098
 84.2,lca,2099
 48.99,vct,1950
@@ -22579,7 +22579,7 @@ life_expectancy_male,geo,time
 71.69,vct,2027
 71.79,vct,2028
 71.89,vct,2029
-72.0,vct,2030
+72,vct,2030
 72.11,vct,2031
 72.22,vct,2032
 72.33,vct,2033
@@ -22649,7 +22649,7 @@ life_expectancy_male,geo,time
 81.26,vct,2097
 81.38,vct,2098
 81.49,vct,2099
-42.0,wsm,1950
+42,wsm,1950
 42.25,wsm,1951
 42.75,wsm,1952
 43.25,wsm,1953
@@ -22701,7 +22701,7 @@ life_expectancy_male,geo,time
 65.98,wsm,1999
 66.34,wsm,2000
 66.68,wsm,2001
-67.0,wsm,2002
+67,wsm,2002
 67.32,wsm,2003
 67.62,wsm,2004
 67.91,wsm,2005
@@ -22758,7 +22758,7 @@ life_expectancy_male,geo,time
 80.53,wsm,2056
 80.69,wsm,2057
 80.84,wsm,2058
-81.0,wsm,2059
+81,wsm,2059
 81.15,wsm,2060
 81.3,wsm,2061
 81.45,wsm,2062
@@ -22780,7 +22780,7 @@ life_expectancy_male,geo,time
 83.61,wsm,2078
 83.75,wsm,2079
 83.87,wsm,2080
-84.0,wsm,2081
+84,wsm,2081
 84.13,wsm,2082
 84.25,wsm,2083
 84.38,wsm,2084
@@ -22788,7 +22788,7 @@ life_expectancy_male,geo,time
 84.63,wsm,2086
 84.75,wsm,2087
 84.87,wsm,2088
-85.0,wsm,2089
+85,wsm,2089
 85.12,wsm,2090
 85.24,wsm,2091
 85.36,wsm,2092
@@ -22907,7 +22907,7 @@ life_expectancy_male,geo,time
 68.72,stp,2055
 68.81,stp,2056
 68.91,stp,2057
-69.0,stp,2058
+69,stp,2058
 69.1,stp,2059
 69.2,stp,2060
 69.3,stp,2061
@@ -22935,7 +22935,7 @@ life_expectancy_male,geo,time
 71.65,stp,2083
 71.76,stp,2084
 71.88,stp,2085
-72.0,stp,2086
+72,stp,2086
 72.13,stp,2087
 72.26,stp,2088
 72.39,stp,2089
@@ -23203,7 +23203,7 @@ life_expectancy_male,geo,time
 66.71,sen,2051
 66.81,sen,2052
 66.91,sen,2053
-67.0,sen,2054
+67,sen,2054
 67.1,sen,2055
 67.19,sen,2056
 67.29,sen,2057
@@ -23244,7 +23244,7 @@ life_expectancy_male,geo,time
 70.69,sen,2092
 70.79,sen,2093
 70.89,sen,2094
-71.0,sen,2095
+71,sen,2095
 71.1,sen,2096
 71.21,sen,2097
 71.31,sen,2098
@@ -23398,7 +23398,7 @@ life_expectancy_male,geo,time
 82.7,srb,2096
 82.8,srb,2097
 82.9,srb,2098
-83.0,srb,2099
+83,srb,2099
 55.62,syc,1950
 55.59,syc,1951
 55.58,syc,1952
@@ -23462,7 +23462,7 @@ life_expectancy_male,geo,time
 68.44,syc,2010
 68.61,syc,2011
 68.81,syc,2012
-69.0,syc,2013
+69,syc,2013
 69.19,syc,2014
 69.38,syc,2015
 69.56,syc,2016
@@ -23478,7 +23478,7 @@ life_expectancy_male,geo,time
 71.42,syc,2026
 71.61,syc,2027
 71.81,syc,2028
-72.0,syc,2029
+72,syc,2029
 72.19,syc,2030
 72.39,syc,2031
 72.58,syc,2032
@@ -23642,7 +23642,7 @@ life_expectancy_male,geo,time
 53.09,sle,2040
 53.39,sle,2041
 53.7,sle,2042
-54.0,sle,2043
+54,sle,2043
 54.31,sle,2044
 54.61,sle,2045
 54.91,sle,2046
@@ -23788,7 +23788,7 @@ life_expectancy_male,geo,time
 83.56,sgp,2036
 83.71,sgp,2037
 83.85,sgp,2038
-84.0,sgp,2039
+84,sgp,2039
 84.15,sgp,2040
 84.29,sgp,2041
 84.44,sgp,2042
@@ -23915,7 +23915,7 @@ life_expectancy_male,geo,time
 71.54,svk,2013
 71.69,svk,2014
 71.84,svk,2015
-72.0,svk,2016
+72,svk,2016
 72.16,svk,2017
 72.32,svk,2018
 72.48,svk,2019
@@ -24103,7 +24103,7 @@ life_expectancy_male,geo,time
 81.65,svn,2051
 81.77,svn,2052
 81.89,svn,2053
-82.0,svn,2054
+82,svn,2054
 82.12,svn,2055
 82.24,svn,2056
 82.35,svn,2057
@@ -24129,7 +24129,7 @@ life_expectancy_male,geo,time
 84.65,svn,2077
 84.77,svn,2078
 84.88,svn,2079
-85.0,svn,2080
+85,svn,2080
 85.11,svn,2081
 85.22,svn,2082
 85.33,svn,2083
@@ -24138,7 +24138,7 @@ life_expectancy_male,geo,time
 85.67,svn,2086
 85.78,svn,2087
 85.89,svn,2088
-86.0,svn,2089
+86,svn,2089
 86.11,svn,2090
 86.23,svn,2091
 86.34,svn,2092
@@ -24147,7 +24147,7 @@ life_expectancy_male,geo,time
 86.68,svn,2095
 86.79,svn,2096
 86.9,svn,2097
-87.0,svn,2098
+87,svn,2098
 87.11,svn,2099
 43.9,slb,1950
 44.15,slb,1951
@@ -24280,7 +24280,7 @@ life_expectancy_male,geo,time
 76.46,slb,2078
 76.64,slb,2079
 76.82,slb,2080
-77.0,slb,2081
+77,slb,2081
 77.18,slb,2082
 77.36,slb,2083
 77.54,slb,2084
@@ -24297,7 +24297,7 @@ life_expectancy_male,geo,time
 79.48,slb,2095
 79.66,slb,2096
 79.83,slb,2097
-80.0,slb,2098
+80,slb,2098
 80.16,slb,2099
 31.74,som,1950
 31.94,som,1951
@@ -24411,7 +24411,7 @@ life_expectancy_male,geo,time
 65.45,som,2059
 65.64,som,2060
 65.82,som,2061
-66.0,som,2062
+66,som,2062
 66.18,som,2063
 66.35,som,2064
 66.52,som,2065
@@ -24423,7 +24423,7 @@ life_expectancy_male,geo,time
 67.52,som,2071
 67.68,som,2072
 67.84,som,2073
-68.0,som,2074
+68,som,2074
 68.15,som,2075
 68.3,som,2076
 68.45,som,2077
@@ -24437,7 +24437,7 @@ life_expectancy_male,geo,time
 69.57,som,2085
 69.71,som,2086
 69.86,som,2087
-70.0,som,2088
+70,som,2088
 70.13,som,2089
 70.27,som,2090
 70.4,som,2091
@@ -24546,11 +24546,11 @@ life_expectancy_male,geo,time
 65.1,zaf,2044
 65.41,zaf,2045
 65.72,zaf,2046
-66.0,zaf,2047
+66,zaf,2047
 66.27,zaf,2048
 66.53,zaf,2049
 66.78,zaf,2050
-67.0,zaf,2051
+67,zaf,2051
 67.22,zaf,2052
 67.43,zaf,2053
 67.62,zaf,2054
@@ -24623,7 +24623,7 @@ life_expectancy_male,geo,time
 34.82,ssd,1971
 35.21,ssd,1972
 35.6,ssd,1973
-36.0,ssd,1974
+36,ssd,1974
 36.38,ssd,1975
 36.72,ssd,1976
 37.02,ssd,1977
@@ -24813,7 +24813,7 @@ life_expectancy_male,geo,time
 78.58,esp,2011
 78.73,esp,2012
 78.87,esp,2013
-79.0,esp,2014
+79,esp,2014
 79.15,esp,2015
 79.3,esp,2016
 79.45,esp,2017
@@ -24842,7 +24842,7 @@ life_expectancy_male,geo,time
 82.62,esp,2040
 82.75,esp,2041
 82.88,esp,2042
-83.0,esp,2043
+83,esp,2043
 83.13,esp,2044
 83.26,esp,2045
 83.38,esp,2046
@@ -25081,7 +25081,7 @@ life_expectancy_male,geo,time
 52.71,sdn,1979
 52.81,sdn,1980
 52.9,sdn,1981
-53.0,sdn,1982
+53,sdn,1982
 53.1,sdn,1983
 53.21,sdn,1984
 53.34,sdn,1985
@@ -25168,7 +25168,7 @@ life_expectancy_male,geo,time
 67.66,sdn,2066
 67.77,sdn,2067
 67.89,sdn,2068
-68.0,sdn,2069
+68,sdn,2069
 68.11,sdn,2070
 68.22,sdn,2071
 68.33,sdn,2072
@@ -25177,7 +25177,7 @@ life_expectancy_male,geo,time
 68.67,sdn,2075
 68.78,sdn,2076
 68.89,sdn,2077
-69.0,sdn,2078
+69,sdn,2078
 69.11,sdn,2079
 69.22,sdn,2080
 69.33,sdn,2081
@@ -25186,7 +25186,7 @@ life_expectancy_male,geo,time
 69.67,sdn,2084
 69.78,sdn,2085
 69.89,sdn,2086
-70.0,sdn,2087
+70,sdn,2087
 70.12,sdn,2088
 70.23,sdn,2089
 70.35,sdn,2090
@@ -25338,7 +25338,7 @@ life_expectancy_male,geo,time
 78.68,sur,2086
 78.79,sur,2087
 78.9,sur,2088
-79.0,sur,2089
+79,sur,2089
 79.11,sur,2090
 79.22,sur,2091
 79.32,sur,2092
@@ -25348,7 +25348,7 @@ life_expectancy_male,geo,time
 79.72,sur,2096
 79.81,sur,2097
 79.91,sur,2098
-80.0,sur,2099
+80,sur,2099
 38.5,swz,1950
 38.75,swz,1951
 39.23,swz,1952
@@ -25530,7 +25530,7 @@ life_expectancy_male,geo,time
 72.46,swe,1978
 72.62,swe,1979
 72.8,swe,1980
-73.0,swe,1981
+73,swe,1981
 73.19,swe,1982
 73.39,swe,1983
 73.57,swe,1984
@@ -25613,7 +25613,7 @@ life_expectancy_male,geo,time
 85.66,swe,2061
 85.77,swe,2062
 85.89,swe,2063
-86.0,swe,2064
+86,swe,2064
 86.12,swe,2065
 86.23,swe,2066
 86.34,swe,2067
@@ -25640,7 +25640,7 @@ life_expectancy_male,geo,time
 88.67,swe,2088
 88.78,swe,2089
 88.89,swe,2090
-89.0,swe,2091
+89,swe,2091
 89.11,swe,2092
 89.22,swe,2093
 89.33,swe,2094
@@ -25656,7 +25656,7 @@ life_expectancy_male,geo,time
 67.4,che,1954
 67.63,che,1955
 67.83,che,1956
-68.0,che,1957
+68,che,1957
 68.15,che,1958
 68.28,che,1959
 68.4,che,1960
@@ -25718,7 +25718,7 @@ life_expectancy_male,geo,time
 80.56,che,2016
 80.71,che,2017
 80.85,che,2018
-81.0,che,2019
+81,che,2019
 81.14,che,2020
 81.28,che,2021
 81.42,che,2022
@@ -25841,7 +25841,7 @@ life_expectancy_male,geo,time
 68.97,syr,1989
 69.34,syr,1990
 69.68,syr,1991
-70.0,syr,1992
+70,syr,1992
 70.29,syr,1993
 70.56,syr,1994
 70.8,syr,1995
@@ -25907,7 +25907,7 @@ life_expectancy_male,geo,time
 80.58,syr,2055
 80.72,syr,2056
 80.86,syr,2057
-81.0,syr,2058
+81,syr,2058
 81.14,syr,2059
 81.27,syr,2060
 81.41,syr,2061
@@ -25991,7 +25991,7 @@ life_expectancy_male,geo,time
 60.21,tjk,1989
 59.8,tjk,1990
 59.37,tjk,1991
-59.0,tjk,1992
+59,tjk,1992
 58.74,tjk,1993
 58.62,tjk,1994
 58.65,tjk,1995
@@ -26011,7 +26011,7 @@ life_expectancy_male,geo,time
 63.59,tjk,2009
 63.78,tjk,2010
 63.9,tjk,2011
-64.0,tjk,2012
+64,tjk,2012
 64.1,tjk,2013
 64.2,tjk,2014
 64.31,tjk,2015
@@ -26028,7 +26028,7 @@ life_expectancy_male,geo,time
 65.66,tjk,2026
 65.77,tjk,2027
 65.89,tjk,2028
-66.0,tjk,2029
+66,tjk,2029
 66.11,tjk,2030
 66.22,tjk,2031
 66.33,tjk,2032
@@ -26037,7 +26037,7 @@ life_expectancy_male,geo,time
 66.67,tjk,2035
 66.78,tjk,2036
 66.89,tjk,2037
-67.0,tjk,2038
+67,tjk,2038
 67.11,tjk,2039
 67.22,tjk,2040
 67.33,tjk,2041
@@ -26204,7 +26204,7 @@ life_expectancy_male,geo,time
 71.41,tza,2052
 71.61,tza,2053
 71.81,tza,2054
-72.0,tza,2055
+72,tza,2055
 72.2,tza,2056
 72.39,tza,2057
 72.58,tza,2058
@@ -26293,7 +26293,7 @@ life_expectancy_male,geo,time
 67.36,tha,1991
 67.26,tha,1992
 67.13,tha,1993
-67.0,tha,1994
+67,tha,1994
 66.91,tha,1995
 66.87,tha,1996
 66.88,tha,1997
@@ -26384,7 +26384,7 @@ life_expectancy_male,geo,time
 82.67,tha,2082
 82.78,tha,2083
 82.89,tha,2084
-83.0,tha,2085
+83,tha,2085
 83.1,tha,2086
 83.21,tha,2087
 83.32,tha,2088
@@ -26460,7 +26460,7 @@ life_expectancy_male,geo,time
 63.34,tls,2008
 63.91,tls,2009
 64.46,tls,2010
-65.0,tls,2011
+65,tls,2011
 65.52,tls,2012
 66.02,tls,2013
 66.48,tls,2014
@@ -26582,7 +26582,7 @@ life_expectancy_male,geo,time
 50.56,tgo,1980
 51.06,tgo,1981
 51.54,tgo,1982
-52.0,tgo,1983
+52,tgo,1983
 52.44,tgo,1984
 52.86,tgo,1985
 53.27,tgo,1986
@@ -26643,7 +26643,7 @@ life_expectancy_male,geo,time
 64.16,tgo,2041
 64.44,tgo,2042
 64.73,tgo,2043
-65.0,tgo,2044
+65,tgo,2044
 65.27,tgo,2045
 65.54,tgo,2046
 65.81,tgo,2047
@@ -26706,7 +26706,7 @@ life_expectancy_male,geo,time
 58.97,ton,1954
 59.31,ton,1955
 59.65,ton,1956
-60.0,ton,1957
+60,ton,1957
 60.34,ton,1958
 60.69,ton,1959
 61.03,ton,1960
@@ -26899,7 +26899,7 @@ life_expectancy_male,geo,time
 65.08,tto,1997
 65.02,tto,1998
 64.99,tto,1999
-65.0,tto,2000
+65,tto,2000
 65.03,tto,2001
 65.11,tto,2002
 65.2,tto,2003
@@ -26908,7 +26908,7 @@ life_expectancy_male,geo,time
 65.6,tto,2006
 65.75,tto,2007
 65.88,tto,2008
-66.0,tto,2009
+66,tto,2009
 66.11,tto,2010
 66.21,tto,2011
 66.3,tto,2012
@@ -26988,7 +26988,7 @@ life_expectancy_male,geo,time
 75.53,tto,2086
 75.68,tto,2087
 75.84,tto,2088
-76.0,tto,2089
+76,tto,2089
 76.16,tto,2090
 76.32,tto,2091
 76.48,tto,2092
@@ -27068,7 +27068,7 @@ life_expectancy_male,geo,time
 74.32,tun,2016
 74.55,tun,2017
 74.77,tun,2018
-75.0,tun,2019
+75,tun,2019
 75.23,tun,2020
 75.45,tun,2021
 75.68,tun,2022
@@ -27331,7 +27331,7 @@ life_expectancy_male,geo,time
 57.07,tkm,1979
 57.36,tkm,1980
 57.68,tkm,1981
-58.0,tkm,1982
+58,tkm,1982
 58.31,tkm,1983
 58.61,tkm,1984
 58.85,tkm,1985
@@ -27621,7 +27621,7 @@ life_expectancy_male,geo,time
 66.59,ukr,1969
 66.42,ukr,1970
 66.23,ukr,1971
-66.0,ukr,1972
+66,ukr,1972
 65.76,ukr,1973
 65.5,ukr,1974
 65.24,ukr,1975
@@ -27654,7 +27654,7 @@ life_expectancy_male,geo,time
 61.77,ukr,2002
 61.83,ukr,2003
 61.91,ukr,2004
-62.0,ukr,2005
+62,ukr,2005
 62.09,ukr,2006
 62.19,ukr,2007
 62.29,ukr,2008
@@ -27754,7 +27754,7 @@ life_expectancy_male,geo,time
 40.41,are,1952
 41.63,are,1953
 42.82,are,1954
-44.0,are,1955
+44,are,1955
 45.15,are,1956
 46.29,are,1957
 47.41,are,1958
@@ -27763,7 +27763,7 @@ life_expectancy_male,geo,time
 50.71,are,1961
 51.81,are,1962
 52.9,are,1963
-54.0,are,1964
+54,are,1964
 55.07,are,1965
 56.13,are,1966
 57.14,are,1967
@@ -27817,7 +27817,7 @@ life_expectancy_male,geo,time
 76.48,are,2015
 76.65,are,2016
 76.83,are,2017
-77.0,are,2018
+77,are,2018
 77.17,are,2019
 77.34,are,2020
 77.52,are,2021
@@ -27858,7 +27858,7 @@ life_expectancy_male,geo,time
 83.61,are,2056
 83.75,are,2057
 83.88,are,2058
-84.0,are,2059
+84,are,2059
 84.13,are,2060
 84.26,are,2061
 84.38,are,2062
@@ -27893,7 +27893,7 @@ life_expectancy_male,geo,time
 87.68,are,2091
 87.79,are,2092
 87.89,are,2093
-88.0,are,2094
+88,are,2094
 88.11,are,2095
 88.22,are,2096
 88.33,are,2097
@@ -27994,7 +27994,7 @@ life_expectancy_male,geo,time
 82.65,gbr,2042
 82.77,gbr,2043
 82.89,gbr,2044
-83.0,gbr,2045
+83,gbr,2045
 83.12,gbr,2046
 83.23,gbr,2047
 83.35,gbr,2048
@@ -28039,7 +28039,7 @@ life_expectancy_male,geo,time
 87.68,gbr,2087
 87.78,gbr,2088
 87.89,gbr,2089
-88.0,gbr,2090
+88,gbr,2090
 88.11,gbr,2091
 88.22,gbr,2092
 88.32,gbr,2093
@@ -28109,7 +28109,7 @@ life_expectancy_male,geo,time
 75.46,usa,2007
 75.65,usa,2008
 75.83,usa,2009
-76.0,usa,2010
+76,usa,2010
 76.17,usa,2011
 76.34,usa,2012
 76.51,usa,2013
@@ -28178,7 +28178,7 @@ life_expectancy_male,geo,time
 84.69,usa,2076
 84.79,usa,2077
 84.89,usa,2078
-85.0,usa,2079
+85,usa,2079
 85.1,usa,2080
 85.2,usa,2081
 85.31,usa,2082
@@ -28286,7 +28286,7 @@ life_expectancy_male,geo,time
 77.54,ury,2034
 77.7,ury,2035
 77.85,ury,2036
-78.0,ury,2037
+78,ury,2037
 78.14,ury,2038
 78.29,ury,2039
 78.42,ury,2040
@@ -28433,7 +28433,7 @@ life_expectancy_male,geo,time
 66.72,uzb,2031
 66.81,uzb,2032
 66.91,uzb,2033
-67.0,uzb,2034
+67,uzb,2034
 67.1,uzb,2035
 67.19,uzb,2036
 67.28,uzb,2037
@@ -28599,7 +28599,7 @@ life_expectancy_male,geo,time
 77.33,vut,2047
 77.55,vut,2048
 77.78,vut,2049
-78.0,vut,2050
+78,vut,2050
 78.23,vut,2051
 78.45,vut,2052
 78.67,vut,2053
@@ -28650,7 +28650,7 @@ life_expectancy_male,geo,time
 85.55,vut,2098
 85.67,vut,2099
 52.72,ven,1950
-53.0,ven,1951
+53,ven,1951
 53.55,ven,1952
 54.11,ven,1953
 54.66,ven,1954
@@ -28661,7 +28661,7 @@ life_expectancy_male,geo,time
 57.42,ven,1959
 57.96,ven,1960
 58.48,ven,1961
-59.0,ven,1962
+59,ven,1962
 59.49,ven,1963
 59.97,ven,1964
 60.43,ven,1965
@@ -28753,7 +28753,7 @@ life_expectancy_male,geo,time
 78.52,ven,2051
 78.68,ven,2052
 78.84,ven,2053
-79.0,ven,2054
+79,ven,2054
 79.16,ven,2055
 79.31,ven,2056
 79.46,ven,2057
@@ -28795,7 +28795,7 @@ life_expectancy_male,geo,time
 83.68,ven,2093
 83.79,ven,2094
 83.89,ven,2095
-84.0,ven,2096
+84,ven,2096
 84.11,ven,2097
 84.21,ven,2098
 84.32,ven,2099
@@ -28810,7 +28810,7 @@ life_expectancy_male,geo,time
 46.48,pse,1958
 46.95,pse,1959
 47.46,pse,1960
-48.0,pse,1961
+48,pse,1961
 48.59,pse,1962
 49.21,pse,1963
 49.85,pse,1964
@@ -29051,7 +29051,7 @@ life_expectancy_male,geo,time
 71.63,esh,2049
 71.75,esh,2050
 71.88,esh,2051
-72.0,esh,2052
+72,esh,2052
 72.13,esh,2053
 72.25,esh,2054
 72.38,esh,2055
@@ -29132,7 +29132,7 @@ life_expectancy_male,geo,time
 63.12,vnm,1980
 63.52,vnm,1981
 63.78,vnm,1982
-64.0,vnm,1983
+64,vnm,1983
 64.25,vnm,1984
 64.53,vnm,1985
 64.85,vnm,1986
@@ -29239,7 +29239,7 @@ life_expectancy_male,geo,time
 81.68,vnm,2087
 81.78,vnm,2088
 81.89,vnm,2089
-82.0,vnm,2090
+82,vnm,2090
 82.11,vnm,2091
 82.22,vnm,2092
 82.32,vnm,2093
@@ -29257,7 +29257,7 @@ life_expectancy_male,geo,time
 59.56,vir,1955
 60.12,vir,1956
 60.59,vir,1957
-61.0,vir,1958
+61,vir,1958
 61.35,vir,1959
 61.66,vir,1960
 61.94,vir,1961
@@ -29320,7 +29320,7 @@ life_expectancy_male,geo,time
 78.47,vir,2018
 78.66,vir,2019
 78.83,vir,2020
-79.0,vir,2021
+79,vir,2021
 79.17,vir,2022
 79.33,vir,2023
 79.48,vir,2024
@@ -29348,7 +29348,7 @@ life_expectancy_male,geo,time
 82.62,vir,2046
 82.75,vir,2047
 82.87,vir,2048
-83.0,vir,2049
+83,vir,2049
 83.13,vir,2050
 83.25,vir,2051
 83.38,vir,2052
@@ -29431,7 +29431,7 @@ life_expectancy_male,geo,time
 48.09,yem,1979
 49.08,yem,1980
 50.05,yem,1981
-51.0,yem,1982
+51,yem,1982
 51.91,yem,1983
 52.76,yem,1984
 53.54,yem,1985
@@ -29521,7 +29521,7 @@ life_expectancy_male,geo,time
 68.69,yem,2069
 68.8,yem,2070
 68.9,yem,2071
-69.0,yem,2072
+69,yem,2072
 69.1,yem,2073
 69.2,yem,2074
 69.31,yem,2075
@@ -29555,7 +29555,7 @@ life_expectancy_male,geo,time
 40.79,zmb,1953
 41.19,zmb,1954
 41.59,zmb,1955
-42.0,zmb,1956
+42,zmb,1956
 42.41,zmb,1957
 42.82,zmb,1958
 43.22,zmb,1959
@@ -29585,7 +29585,7 @@ life_expectancy_male,geo,time
 48.13,zmb,1983
 47.49,zmb,1984
 46.77,zmb,1985
-46.0,zmb,1986
+46,zmb,1986
 45.19,zmb,1987
 44.39,zmb,1988
 43.62,zmb,1989
@@ -29669,7 +29669,7 @@ life_expectancy_male,geo,time
 71.54,zmb,2067
 71.69,zmb,2068
 71.84,zmb,2069
-72.0,zmb,2070
+72,zmb,2070
 72.15,zmb,2071
 72.3,zmb,2072
 72.45,zmb,2073

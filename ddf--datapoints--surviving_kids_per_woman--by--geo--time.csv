@@ -214,7 +214,7 @@ surviving_kids_per_woman,geo,time
 3.561,alb,1947
 3.705,alb,1948
 3.852,alb,1949
-4.0,alb,1950
+4,alb,1950
 4.068,alb,1951
 4.256,alb,1952
 4.356,alb,1953
@@ -633,7 +633,7 @@ surviving_kids_per_woman,geo,time
 3.036,arg,1871
 3.003,arg,1872
 3.002,arg,1873
-3.0,arg,1874
+3,arg,1874
 2.999,arg,1875
 2.998,arg,1876
 2.997,arg,1877
@@ -3971,7 +3971,7 @@ surviving_kids_per_woman,geo,time
 1.99,bgr,1959
 2.01,bgr,1960
 2.009,bgr,1961
-2.0,bgr,1962
+2,bgr,1962
 1.99,bgr,1963
 1.997,bgr,1964
 1.997,bgr,1965
@@ -4357,15 +4357,15 @@ surviving_kids_per_woman,geo,time
 2.999,bdi,1915
 2.999,bdi,1916
 2.999,bdi,1917
-3.0,bdi,1918
-3.0,bdi,1919
-3.0,bdi,1920
-3.0,bdi,1921
-3.0,bdi,1922
-3.0,bdi,1923
-3.0,bdi,1924
-3.0,bdi,1925
-3.0,bdi,1926
+3,bdi,1918
+3,bdi,1919
+3,bdi,1920
+3,bdi,1921
+3,bdi,1922
+3,bdi,1923
+3,bdi,1924
+3,bdi,1925
+3,bdi,1926
 2.999,bdi,1927
 2.999,bdi,1928
 2.999,bdi,1929
@@ -4996,7 +4996,7 @@ surviving_kids_per_woman,geo,time
 2.952,can,1909
 2.954,can,1910
 3.007,can,1911
-3.0,can,1912
+3,can,1912
 2.993,can,1913
 3.035,can,1914
 3.028,can,1915
@@ -6215,7 +6215,7 @@ surviving_kids_per_woman,geo,time
 2.28,chn,1988
 2.199,chn,1989
 2.109,chn,1990
-2.0,chn,1991
+2,chn,1991
 1.919,chn,1992
 1.828,chn,1993
 1.755,chn,1994
@@ -7862,7 +7862,7 @@ surviving_kids_per_woman,geo,time
 2.916,cub,1915
 3.003,cub,1916
 3.002,cub,1917
-3.0,cub,1918
+3,cub,1918
 2.998,cub,1919
 2.943,cub,1920
 2.972,cub,1921
@@ -8337,7 +8337,7 @@ surviving_kids_per_woman,geo,time
 2.11,cze,1960
 2.099,cze,1961
 2.036,cze,1962
-2.0,cze,1963
+2,cze,1963
 1.96,cze,1964
 1.899,cze,1965
 1.862,cze,1966
@@ -8354,7 +8354,7 @@ surviving_kids_per_woman,geo,time
 2.126,cze,1977
 2.108,cze,1978
 2.062,cze,1979
-2.0,cze,1980
+2,cze,1980
 1.96,cze,1981
 1.914,cze,1982
 1.868,cze,1983
@@ -8667,7 +8667,7 @@ surviving_kids_per_woman,geo,time
 3.007,dji,2010
 2.653,dji,2020
 2.37,dji,2030
-2.0,dji,2050
+2,dji,2050
 1.779,dji,2099
 2.515,dom,1800
 2.515,dom,1801
@@ -11750,7 +11750,7 @@ surviving_kids_per_woman,geo,time
 2.944,deu,1888
 3.014,deu,1889
 3.007,deu,1890
-3.0,deu,1891
+3,deu,1891
 2.993,deu,1892
 3.062,deu,1893
 3.048,deu,1894
@@ -11814,7 +11814,7 @@ surviving_kids_per_woman,geo,time
 1.919,deu,1952
 1.955,deu,1953
 1.973,deu,1954
-2.0,deu,1955
+2,deu,1955
 2.055,deu,1956
 2.091,deu,1957
 2.128,deu,1958
@@ -12422,7 +12422,7 @@ surviving_kids_per_woman,geo,time
 1.982,glp,2000
 1.982,glp,2001
 1.99,glp,2002
-2.0,glp,2003
+2,glp,2003
 2.009,glp,2004
 2.026,glp,2005
 2.045,glp,2006
@@ -13854,7 +13854,7 @@ surviving_kids_per_woman,geo,time
 2.223,isl,1887
 2.554,isl,1888
 2.811,isl,1889
-2.0,isl,1890
+2,isl,1890
 2.575,isl,1891
 2.896,isl,1892
 2.912,isl,1893
@@ -13970,7 +13970,7 @@ surviving_kids_per_woman,geo,time
 1.951,isl,2003
 1.961,isl,2004
 1.981,isl,2005
-2.0,isl,2006
+2,isl,2006
 2.019,isl,2007
 2.035,isl,2008
 2.045,isl,2009
@@ -14781,7 +14781,7 @@ surviving_kids_per_woman,geo,time
 1.974,irl,1889
 1.943,irl,1890
 2.024,irl,1891
-2.0,irl,1892
+2,irl,1892
 2.049,irl,1893
 2.043,irl,1894
 2.112,irl,1895
@@ -16073,7 +16073,7 @@ surviving_kids_per_woman,geo,time
 1.896,prk,1911
 1.999,prk,1912
 1.999,prk,1913
-2.0,prk,1914
+2,prk,1914
 2.103,prk,1915
 2.103,prk,1916
 2.205,prk,1917
@@ -16305,7 +16305,7 @@ surviving_kids_per_woman,geo,time
 2.772,kor,1928
 2.786,kor,1929
 2.893,kor,1930
-3.0,kor,1931
+3,kor,1931
 3.107,kor,1932
 3.123,kor,1933
 3.232,kor,1934
@@ -17354,7 +17354,7 @@ surviving_kids_per_woman,geo,time
 4.146,lso,1987
 4.081,lso,1988
 4.065,lso,1989
-4.0,lso,1990
+4,lso,1990
 3.988,lso,1991
 3.922,lso,1992
 3.813,lso,1993
@@ -19683,7 +19683,7 @@ surviving_kids_per_woman,geo,time
 2.091,mus,1991
 2.064,mus,1992
 2.036,mus,1993
-2.0,mus,1994
+2,mus,1994
 1.963,mus,1995
 1.926,mus,1996
 1.899,mus,1997
@@ -19742,7 +19742,7 @@ surviving_kids_per_woman,geo,time
 6.531,myt,1985
 6.384,myt,1986
 6.241,myt,1987
-6.0,myt,1988
+6,myt,1988
 5.723,myt,1989
 5.477,myt,1990
 5.198,myt,1991
@@ -19899,7 +19899,7 @@ surviving_kids_per_woman,geo,time
 3.348,mex,1927
 2.9,mex,1928
 2.904,mex,1929
-3.0,mex,1930
+3,mex,1930
 3.187,mex,1931
 3.191,mex,1932
 3.085,mex,1933
@@ -21183,8 +21183,8 @@ surviving_kids_per_woman,geo,time
 2.72,nam,1941
 2.814,nam,1942
 2.907,nam,1943
-3.0,nam,1944
-3.0,nam,1945
+3,nam,1944
+3,nam,1945
 3.092,nam,1946
 3.182,nam,1947
 3.272,nam,1948
@@ -21222,7 +21222,7 @@ surviving_kids_per_woman,geo,time
 5.172,nam,1980
 5.1,nam,1981
 5.089,nam,1982
-5.0,nam,1983
+5,nam,1983
 4.96,nam,1984
 4.853,nam,1985
 4.746,nam,1986
@@ -21435,7 +21435,7 @@ surviving_kids_per_woman,geo,time
 3.924,npl,1978
 3.977,npl,1979
 3.95,npl,1980
-4.0,npl,1981
+4,npl,1981
 3.966,npl,1982
 4.006,npl,1983
 3.971,npl,1984
@@ -21592,7 +21592,7 @@ surviving_kids_per_woman,geo,time
 3.119,nld,1920
 3.09,nld,1921
 2.917,nld,1922
-3.0,nld,1923
+3,nld,1923
 2.899,nld,1924
 2.788,nld,1925
 2.719,nld,1926
@@ -21894,7 +21894,7 @@ surviving_kids_per_woman,geo,time
 2.869,nzl,1877
 3.002,nzl,1878
 2.885,nzl,1879
-3.0,nzl,1880
+3,nzl,1880
 2.792,nzl,1881
 2.746,nzl,1882
 2.742,nzl,1883
@@ -22631,7 +22631,7 @@ surviving_kids_per_woman,geo,time
 3.815,nga,1969
 3.839,nga,1970
 3.963,nga,1971
-4.0,nga,1972
+4,nga,1972
 4.125,nga,1973
 4.15,nga,1974
 4.174,nga,1975
@@ -24868,7 +24868,7 @@ surviving_kids_per_woman,geo,time
 2.076,pri,1991
 2.057,pri,1992
 2.028,pri,1993
-2.0,pri,1994
+2,pri,1994
 1.972,pri,1995
 1.945,pri,1996
 1.907,pri,1997
@@ -26165,7 +26165,7 @@ surviving_kids_per_woman,geo,time
 4.87,sen,1978
 4.953,sen,1979
 4.933,sen,1980
-5.0,sen,1981
+5,sen,1981
 5.057,sen,1982
 5.111,sen,1983
 5.062,sen,1984
@@ -28468,7 +28468,7 @@ surviving_kids_per_woman,geo,time
 3.808,sur,1934
 3.904,sur,1935
 3.904,sur,1936
-4.0,sur,1937
+4,sur,1937
 4.094,sur,1938
 4.186,sur,1939
 4.278,sur,1940
@@ -28910,7 +28910,7 @@ surviving_kids_per_woman,geo,time
 3.015,swe,1906
 2.979,swe,1907
 2.935,swe,1908
-3.0,swe,1909
+3,swe,1909
 2.886,swe,1910
 2.795,swe,1911
 2.757,swe,1912
@@ -32010,7 +32010,7 @@ surviving_kids_per_woman,geo,time
 3.074,usa,1853
 3.049,usa,1854
 3.025,usa,1855
-3.0,usa,1856
+3,usa,1856
 2.975,usa,1857
 2.951,usa,1858
 2.926,usa,1859
@@ -32162,9 +32162,9 @@ surviving_kids_per_woman,geo,time
 1.973,usa,2005
 1.99,usa,2006
 1.99,usa,2007
-2.0,usa,2008
-2.0,usa,2009
-2.0,usa,2010
+2,usa,2008
+2,usa,2009
+2,usa,2010
 2.013,usa,2020
 2.029,usa,2030
 2.04,usa,2050
@@ -32669,7 +32669,7 @@ surviving_kids_per_woman,geo,time
 4.876,ven,1952
 4.931,ven,1953
 4.916,ven,1954
-5.0,ven,1955
+5,ven,1955
 5.015,ven,1956
 5.122,ven,1957
 5.161,ven,1958
@@ -33366,7 +33366,7 @@ surviving_kids_per_woman,geo,time
 4.807,zmb,1964
 4.84,zmb,1965
 4.873,zmb,1966
-5.0,zmb,1967
+5,zmb,1967
 5.02,zmb,1968
 5.133,zmb,1969
 5.14,zmb,1970

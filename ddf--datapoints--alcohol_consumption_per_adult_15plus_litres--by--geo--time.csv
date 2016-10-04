@@ -11,7 +11,7 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 5.57,ago,2008
 7.22,atg,2005
 8.17,atg,2008
-10.0,arg,2005
+10,arg,2005
 9.35,arg,2008
 11.35,arm,2005
 13.66,arm,2008
@@ -87,7 +87,7 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 6.48,civ,2005
 6.47,civ,2008
 15.11,hrv,2005
-15.0,hrv,2008
+15,hrv,2008
 5.51,cub,2005
 5.12,cub,2008
 9.26,cyp,2005
@@ -173,7 +173,7 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 2.52,isr,2008
 10.68,ita,2005
 9.72,ita,2008
-5.0,jam,2005
+5,jam,2005
 5.17,jam,2008
 8.03,jpn,2005
 7.79,jpn,2008
@@ -330,7 +330,7 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 1.37,slb,2008
 0.5,som,2005
 0.5,som,2008
-10.0,zaf,1995
+10,zaf,1995
 9.46,zaf,2005
 10.16,zaf,2008
 19.15,kor,2008
@@ -344,7 +344,7 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 6.56,sur,2008
 5.7,swz,2005
 5.05,swz,2008
-8.0,swe,1996
+8,swe,1996
 8.2,swe,1998
 8.4,swe,2000
 9.1,swe,2001
@@ -378,12 +378,12 @@ alcohol_consumption_per_adult_15plus_litres,geo,time
 2.87,tur,2005
 3.02,tur,2008
 4.63,tkm,2005
-5.0,tkm,2008
+5,tkm,2008
 2.44,tuv,2005
 2.14,tuv,2008
 11.93,uga,2005
 16.4,uga,2008
-13.0,ukr,1993
+13,ukr,1993
 15.6,ukr,2005
 17.47,ukr,2008
 0.54,are,2005

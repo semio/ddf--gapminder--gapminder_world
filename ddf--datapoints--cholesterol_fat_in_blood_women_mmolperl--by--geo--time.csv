@@ -146,7 +146,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 4.528,ago,2008
 5.014,atg,1980
 5.007,atg,1981
-5.0,atg,1982
+5,atg,1982
 4.997,atg,1983
 4.997,atg,1984
 4.998,atg,1985
@@ -422,7 +422,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 5.04,brb,1994
 5.025,brb,1995
 5.011,brb,1996
-5.0,brb,1997
+5,brb,1997
 4.987,brb,1998
 4.982,brb,1999
 4.973,brb,2000
@@ -1873,7 +1873,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 5.033,gab,1995
 5.019,gab,1996
 5.008,gab,1997
-5.0,gab,1998
+5,gab,1998
 4.988,gab,1999
 4.974,gab,2000
 4.961,gab,2001
@@ -2911,12 +2911,12 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 5.041,lbn,1989
 5.019,lbn,1990
 5.006,lbn,1991
-5.0,lbn,1992
+5,lbn,1992
 4.998,lbn,1993
 4.997,lbn,1994
 4.998,lbn,1995
 4.998,lbn,1996
-5.0,lbn,1997
+5,lbn,1997
 5.001,lbn,1998
 5.003,lbn,1999
 5.002,lbn,2000
@@ -3328,7 +3328,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 4.982,mhl,2000
 4.988,mhl,2001
 4.994,mhl,2002
-5.0,mhl,2003
+5,mhl,2003
 5.006,mhl,2004
 5.012,mhl,2005
 5.016,mhl,2006
@@ -3536,7 +3536,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 5.036,mne,2005
 5.023,mne,2006
 5.011,mne,2007
-5.0,mne,2008
+5,mne,2008
 4.8,mar,1980
 4.799,mar,1981
 4.799,mar,1982
@@ -5252,7 +5252,7 @@ cholesterol_fat_in_blood_women_mmolperl,geo,time
 5.03,tto,1981
 5.023,tto,1982
 5.012,tto,1983
-5.0,tto,1984
+5,tto,1984
 4.984,tto,1985
 4.961,tto,1986
 4.936,tto,1987

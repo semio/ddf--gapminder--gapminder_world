@@ -42,7 +42,7 @@ investments_percent_of_gdp,geo,time
 5.2,alb,1992
 13.2,alb,1993
 17.9,alb,1994
-21.0,alb,1995
+21,alb,1995
 20.7,alb,1996
 16.79,alb,1997
 16.3,alb,1998
@@ -157,7 +157,7 @@ investments_percent_of_gdp,geo,time
 39.26,atg,1997
 43.05,atg,1998
 45.1,atg,1999
-35.0,atg,2000
+35,atg,2000
 27.18,atg,2001
 33.83,atg,2002
 34.38,atg,2003
@@ -197,7 +197,7 @@ investments_percent_of_gdp,geo,time
 19.55,arg,1987
 18.64,arg,1988
 15.51,arg,1989
-14.0,arg,1990
+14,arg,1990
 14.64,arg,1991
 16.7,arg,1992
 19.06,arg,1993
@@ -217,7 +217,7 @@ investments_percent_of_gdp,geo,time
 24.2,arg,2007
 23.29,arg,2008
 20.92,arg,2009
-22.0,arg,2010
+22,arg,2010
 47.15,arm,1990
 39.78,arm,1991
 1.631,arm,1992
@@ -302,7 +302,7 @@ investments_percent_of_gdp,geo,time
 27.81,aut,1979
 27.55,aut,1980
 25.14,aut,1981
-23.0,aut,1982
+23,aut,1982
 21.74,aut,1983
 22.54,aut,1984
 23.04,aut,1985
@@ -337,7 +337,7 @@ investments_percent_of_gdp,geo,time
 21.79,aze,1993
 15.31,aze,1994
 23.78,aze,1995
-29.0,aze,1996
+29,aze,1996
 34.24,aze,1997
 33.37,aze,1998
 26.5,aze,1999
@@ -645,7 +645,7 @@ investments_percent_of_gdp,geo,time
 19.6,ben,1995
 17.12,ben,1996
 18.39,ben,1997
-17.0,ben,1998
+17,ben,1998
 17.51,ben,1999
 18.93,ben,2000
 19.18,ben,2001
@@ -675,11 +675,11 @@ investments_percent_of_gdp,geo,time
 47.97,btn,1992
 44.99,btn,1993
 54.85,btn,1994
-48.0,btn,1995
+48,btn,1995
 44.45,btn,1996
 34.95,btn,1997
 36.85,btn,1998
-41.0,btn,1999
+41,btn,1999
 48.21,btn,2000
 53.64,btn,2001
 59.2,btn,2002
@@ -733,19 +733,19 @@ investments_percent_of_gdp,geo,time
 17.01,bol,2010
 19.98,bih,1995
 41.21,bih,1996
-42.0,bih,1997
-38.0,bih,1998
-28.0,bih,1999
+42,bih,1997
+38,bih,1998
+28,bih,1999
 20.55,bih,2000
 19.08,bih,2001
 18.56,bih,2002
 18.84,bih,2003
 19.4,bih,2004
-22.0,bih,2005
+22,bih,2005
 23.89,bih,2006
 31.06,bih,2007
 28.2,bih,2008
-21.0,bih,2009
+21,bih,2009
 19.5,bih,2010
 6.016,bwa,1960
 7.399,bwa,1961
@@ -790,7 +790,7 @@ investments_percent_of_gdp,geo,time
 31.76,bwa,2000
 25.77,bwa,2001
 26.96,bwa,2002
-30.0,bwa,2003
+30,bwa,2003
 33.15,bwa,2004
 26.29,bwa,2005
 24.02,bwa,2006
@@ -869,7 +869,7 @@ investments_percent_of_gdp,geo,time
 10.44,brn,2006
 12.98,brn,2007
 13.67,brn,2008
-34.0,bgr,1980
+34,bgr,1980
 35.49,bgr,1981
 34.13,bgr,1982
 32.89,bgr,1983
@@ -1123,7 +1123,7 @@ investments_percent_of_gdp,geo,time
 43.35,cpv,1994
 42.43,cpv,1995
 24.11,cpv,1996
-22.0,cpv,1997
+22,cpv,1997
 19.8,cpv,1998
 20.9,cpv,1999
 30.71,cpv,2000
@@ -1231,7 +1231,7 @@ investments_percent_of_gdp,geo,time
 24.28,tcd,2004
 17.95,tcd,2005
 14.35,tcd,2006
-18.0,tcd,2007
+18,tcd,2007
 24.8,tcd,2008
 33.9,tcd,2009
 36.8,tcd,2010
@@ -1313,7 +1313,7 @@ investments_percent_of_gdp,geo,time
 34.89,chn,1984
 38.35,chn,1985
 38.36,chn,1986
-37.0,chn,1987
+37,chn,1987
 37.89,chn,1988
 37.27,chn,1989
 36.14,chn,1990
@@ -1363,7 +1363,7 @@ investments_percent_of_gdp,geo,time
 19.91,col,1983
 18.95,col,1984
 19.03,col,1985
-18.0,col,1986
+18,col,1986
 19.06,col,1987
 20.65,col,1988
 18.49,col,1989
@@ -1484,7 +1484,7 @@ investments_percent_of_gdp,geo,time
 31.95,cog,1973
 35.06,cog,1974
 39.11,cog,1975
-31.0,cog,1976
+31,cog,1976
 26.6,cog,1977
 27.33,cog,1978
 25.96,cog,1979
@@ -1663,7 +1663,7 @@ investments_percent_of_gdp,geo,time
 24.02,cub,1988
 26.33,cub,1989
 24.8,cub,1990
-14.0,cub,1991
+14,cub,1991
 6.545,cub,1992
 6.394,cub,1993
 5.242,cub,1994
@@ -1911,7 +1911,7 @@ investments_percent_of_gdp,geo,time
 22.23,ecu,1980
 20.43,ecu,1981
 21.61,ecu,1982
-17.0,ecu,1983
+17,ecu,1983
 16.34,ecu,1984
 15.77,ecu,1985
 18.7,ecu,1986
@@ -2078,7 +2078,7 @@ investments_percent_of_gdp,geo,time
 46.65,gnq,2009
 29.21,gnq,2010
 7.811,eri,1992
-17.0,eri,1993
+17,eri,1993
 25.14,eri,1994
 22.54,eri,1995
 27.59,eri,1996
@@ -2208,7 +2208,7 @@ investments_percent_of_gdp,geo,time
 35.73,fin,1974
 34.9,fin,1975
 28.2,fin,1976
-27.0,fin,1977
+27,fin,1977
 23.54,fin,1978
 26.8,fin,1979
 30.15,fin,1980
@@ -2351,7 +2351,7 @@ investments_percent_of_gdp,geo,time
 22.34,gmb,1990
 21.89,gmb,1991
 22.17,gmb,1992
-21.0,gmb,1993
+21,gmb,1993
 18.12,gmb,1994
 20.18,gmb,1995
 21.57,gmb,1996
@@ -2382,7 +2382,7 @@ investments_percent_of_gdp,geo,time
 30.73,geo,1990
 28.2,geo,1991
 23.39,geo,1992
-6.0,geo,1993
+6,geo,1993
 2.647,geo,1994
 4.033,geo,1995
 19.6,geo,1996
@@ -2480,13 +2480,13 @@ investments_percent_of_gdp,geo,time
 21.2,gha,1996
 24.81,gha,1997
 23.11,gha,1998
-21.0,gha,1999
-24.0,gha,2000
+21,gha,1999
+24,gha,2000
 26.6,gha,2001
 19.7,gha,2002
 22.94,gha,2003
 28.38,gha,2004
-29.0,gha,2005
+29,gha,2005
 21.64,gha,2006
 20.11,gha,2007
 21.45,gha,2008
@@ -2648,7 +2648,7 @@ investments_percent_of_gdp,geo,time
 21.27,gin,2009
 20.1,gin,2010
 29.57,gnb,1970
-28.0,gnb,1971
+28,gnb,1971
 22.75,gnb,1972
 20.89,gnb,1973
 16.82,gnb,1974
@@ -2674,11 +2674,11 @@ investments_percent_of_gdp,geo,time
 21.77,gnb,1994
 22.3,gnb,1995
 23.05,gnb,1996
-24.0,gnb,1997
+24,gnb,1997
 11.34,gnb,1998
 16.8,gnb,1999
 11.3,gnb,2000
-15.0,gnb,2001
+15,gnb,2001
 9.646,gnb,2002
 28.27,guy,1960
 23.98,guy,1961
@@ -2719,7 +2719,7 @@ investments_percent_of_gdp,geo,time
 31.86,guy,1996
 31.89,guy,1997
 28.92,guy,1998
-25.0,guy,1999
+25,guy,1999
 23.78,guy,2000
 22.06,guy,2001
 20.97,guy,2002
@@ -2738,7 +2738,7 @@ investments_percent_of_gdp,geo,time
 26.09,hti,1995
 28.13,hti,1996
 24.53,hti,1997
-26.0,hti,1998
+26,hti,1998
 27.7,hti,1999
 27.34,hti,2000
 25.86,hti,2001
@@ -2750,7 +2750,7 @@ investments_percent_of_gdp,geo,time
 30.48,hti,2007
 28.84,hti,2008
 27.41,hti,2009
-25.0,hti,2010
+25,hti,2010
 13.9,hnd,1960
 12.18,hnd,1961
 14.89,hnd,1962
@@ -2792,7 +2792,7 @@ investments_percent_of_gdp,geo,time
 30.93,hnd,1998
 34.67,hnd,1999
 28.29,hnd,2000
-26.0,hnd,2001
+26,hnd,2001
 24.26,hnd,2002
 25.28,hnd,2003
 29.67,hnd,2004
@@ -2823,8 +2823,8 @@ investments_percent_of_gdp,geo,time
 28.76,hkg,1978
 32.68,hkg,1979
 34.85,hkg,1980
-35.0,hkg,1981
-31.0,hkg,1982
+35,hkg,1981
+31,hkg,1982
 26.7,hkg,1983
 24.45,hkg,1984
 21.51,hkg,1985
@@ -2878,7 +2878,7 @@ investments_percent_of_gdp,geo,time
 28.52,hun,1982
 26.46,hun,1983
 25.73,hun,1984
-25.0,hun,1985
+25,hun,1985
 26.89,hun,1986
 26.7,hun,1987
 25.32,hun,1988
@@ -2977,7 +2977,7 @@ investments_percent_of_gdp,geo,time
 21.35,ind,1984
 23.47,ind,1985
 23.03,ind,1986
-22.0,ind,1987
+22,ind,1987
 23.64,ind,1988
 23.72,ind,1989
 24.16,ind,1990
@@ -3050,7 +3050,7 @@ investments_percent_of_gdp,geo,time
 25.4,idn,2006
 24.92,idn,2007
 27.82,idn,2008
-31.0,idn,2009
+31,idn,2009
 32.49,idn,2010
 27.24,irn,1965
 27.34,irn,1966
@@ -3226,7 +3226,7 @@ investments_percent_of_gdp,geo,time
 20.72,ita,2001
 21.32,ita,2002
 20.88,ita,2003
-21.0,ita,2004
+21,ita,2004
 20.89,ita,2005
 21.81,ita,2006
 22.12,ita,2007
@@ -3408,7 +3408,7 @@ investments_percent_of_gdp,geo,time
 17.61,ken,1993
 19.29,ken,1994
 21.82,ken,1995
-15.0,ken,1996
+15,ken,1996
 15.14,ken,1997
 16.69,ken,1998
 15.52,ken,1999
@@ -3423,7 +3423,7 @@ investments_percent_of_gdp,geo,time
 19.21,ken,2008
 19.4,ken,2009
 19.3,ken,2010
-11.0,kir,1972
+11,kir,1972
 9.399,kir,1973
 6.002,kir,1974
 4.801,kir,1975
@@ -3482,7 +3482,7 @@ investments_percent_of_gdp,geo,time
 37.67,kor,1995
 38.87,kor,1996
 35.97,kor,1997
-25.0,kor,1998
+25,kor,1998
 29.12,kor,1999
 30.56,kor,2000
 29.16,kor,2001
@@ -3562,7 +3562,7 @@ investments_percent_of_gdp,geo,time
 15.44,kgz,1998
 18.03,kgz,1999
 20.01,kgz,2000
-18.0,kgz,2001
+18,kgz,2001
 17.61,kgz,2002
 11.83,kgz,2003
 14.49,kgz,2004
@@ -3621,7 +3621,7 @@ investments_percent_of_gdp,geo,time
 20.67,lva,2010
 17.77,lbn,1990
 19.29,lbn,1991
-25.0,lbn,1992
+25,lbn,1992
 29.1,lbn,1993
 36.65,lbn,1994
 36.46,lbn,1995
@@ -3696,9 +3696,9 @@ investments_percent_of_gdp,geo,time
 9.375,lbr,2003
 13.2,lbr,2004
 16.44,lbr,2005
-20.0,lbr,2006
-20.0,lbr,2007
-20.0,lbr,2008
+20,lbr,2006
+20,lbr,2007
+20,lbr,2008
 18.62,lby,1990
 13.11,lby,1991
 12.15,lby,1992
@@ -3715,7 +3715,7 @@ investments_percent_of_gdp,geo,time
 21.13,lby,2003
 11.55,lby,2004
 9.922,lby,2005
-21.0,lby,2006
+21,lby,2006
 25.4,lby,2007
 27.9,lby,2008
 32.61,ltu,1990
@@ -4199,7 +4199,7 @@ investments_percent_of_gdp,geo,time
 23.14,mex,1990
 23.33,mex,1991
 23.29,mex,1992
-21.0,mex,1993
+21,mex,1993
 21.89,mex,1994
 19.97,mex,1995
 23.24,mex,1996
@@ -4229,7 +4229,7 @@ investments_percent_of_gdp,geo,time
 26.8,mda,1998
 22.88,mda,1999
 23.95,mda,2000
-20.0,mda,2001
+20,mda,2001
 21.66,mda,2002
 23.18,mda,2003
 26.36,mda,2004
@@ -4318,7 +4318,7 @@ investments_percent_of_gdp,geo,time
 20.73,mar,1995
 19.58,mar,1996
 20.7,mar,1997
-26.0,mar,1998
+26,mar,1998
 24.8,mar,1999
 25.53,mar,2000
 26.15,mar,2001
@@ -4567,7 +4567,7 @@ investments_percent_of_gdp,geo,time
 22.52,nzl,1996
 21.6,nzl,1997
 20.06,nzl,1998
-22.0,nzl,1999
+22,nzl,1999
 21.32,nzl,2000
 22.1,nzl,2001
 21.93,nzl,2002
@@ -4614,7 +4614,7 @@ investments_percent_of_gdp,geo,time
 20.92,nic,1992
 19.47,nic,1993
 20.37,nic,1994
-22.0,nic,1995
+22,nic,1995
 25.77,nic,1996
 31.16,nic,1997
 31.03,nic,1998
@@ -4712,7 +4712,7 @@ investments_percent_of_gdp,geo,time
 26.66,nor,1998
 22.93,nor,1999
 20.37,nor,2000
-19.0,nor,2001
+19,nor,2001
 18.92,nor,2002
 18.09,nor,2003
 20.31,nor,2004
@@ -4800,12 +4800,12 @@ investments_percent_of_gdp,geo,time
 20.82,pak,1993
 19.55,pak,1994
 18.55,pak,1995
-19.0,pak,1996
+19,pak,1996
 17.92,pak,1997
 17.71,pak,1998
 15.56,pak,1999
 17.23,pak,2000
-17.0,pak,2001
+17,pak,2001
 16.58,pak,2002
 16.76,pak,2003
 16.58,pak,2004
@@ -4838,7 +4838,7 @@ investments_percent_of_gdp,geo,time
 24.14,pan,2000
 17.64,pan,2001
 15.75,pan,2002
-19.0,pan,2003
+19,pan,2003
 18.7,pan,2004
 18.36,pan,2005
 19.46,pan,2006
@@ -4870,7 +4870,7 @@ investments_percent_of_gdp,geo,time
 27.25,png,1981
 32.16,png,1982
 29.44,png,1983
-27.0,png,1984
+27,png,1984
 19.83,png,1985
 19.74,png,1986
 20.51,png,1987
@@ -4890,7 +4890,7 @@ investments_percent_of_gdp,geo,time
 22.95,png,2001
 21.19,png,2002
 19.92,png,2003
-20.0,png,2004
+20,png,2004
 19.83,png,2005
 19.8,png,2006
 19.58,png,2007
@@ -5101,7 +5101,7 @@ investments_percent_of_gdp,geo,time
 24.74,prt,1992
 21.96,prt,1993
 22.76,prt,1994
-24.0,prt,1995
+24,prt,1995
 24.21,prt,1996
 26.24,prt,1997
 28.11,prt,1998
@@ -5170,7 +5170,7 @@ investments_percent_of_gdp,geo,time
 32.65,qat,2002
 34.87,qat,2003
 33.45,qat,2004
-35.0,qat,2005
+35,qat,2005
 33.33,qat,2006
 37.57,qat,2007
 40.25,qat,2008
@@ -5222,7 +5222,7 @@ investments_percent_of_gdp,geo,time
 22.84,rus,2010
 6.05,rwa,1960
 6.557,rwa,1961
-8.0,rwa,1962
+8,rwa,1962
 7.812,rwa,1963
 8.308,rwa,1964
 9.812,rwa,1965
@@ -5266,7 +5266,7 @@ investments_percent_of_gdp,geo,time
 17.94,rwa,2003
 15.03,rwa,2004
 15.78,rwa,2005
-16.0,rwa,2006
+16,rwa,2006
 18.04,rwa,2007
 22.7,rwa,2008
 21.56,rwa,2009
@@ -5330,7 +5330,7 @@ investments_percent_of_gdp,geo,time
 26.36,lca,2004
 30.62,lca,2005
 39.36,lca,2006
-30.0,lca,2007
+30,lca,2007
 32.32,lca,2008
 29.8,lca,2009
 33.5,lca,2010
@@ -5353,7 +5353,7 @@ investments_percent_of_gdp,geo,time
 25.64,vct,1993
 28.23,vct,1994
 29.94,vct,1995
-28.0,vct,1996
+28,vct,1996
 30.81,vct,1997
 35.68,vct,1998
 34.41,vct,1999
@@ -5409,7 +5409,7 @@ investments_percent_of_gdp,geo,time
 21.45,sau,2007
 22.17,sau,2008
 27.27,sau,2009
-22.0,sau,2010
+22,sau,2010
 3.941,sen,1960
 4.448,sen,1961
 3.647,sen,1962
@@ -5460,7 +5460,7 @@ investments_percent_of_gdp,geo,time
 30.9,sen,2007
 30.2,sen,2008
 27.9,sen,2009
-29.0,sen,2010
+29,sen,2010
 12.13,srb,1997
 9.56,srb,1998
 10.52,srb,1999
@@ -5728,7 +5728,7 @@ investments_percent_of_gdp,geo,time
 18.17,zaf,1995
 17.29,zaf,1996
 16.64,zaf,1997
-17.0,zaf,1998
+17,zaf,1998
 16.38,zaf,1999
 15.91,zaf,2000
 15.29,zaf,2001
@@ -5818,7 +5818,7 @@ investments_percent_of_gdp,geo,time
 25.14,lka,1998
 27.29,lka,1999
 28.04,lka,2000
-22.0,lka,2001
+22,lka,2001
 22.03,lka,2002
 21.62,lka,2003
 24.73,lka,2004
@@ -6003,11 +6003,11 @@ investments_percent_of_gdp,geo,time
 33.76,che,1965
 32.49,che,1966
 32.05,che,1967
-31.0,che,1968
+31,che,1968
 31.21,che,1969
 35.14,che,1970
 30.23,che,1980
-28.0,che,1981
+28,che,1981
 25.82,che,1982
 25.29,che,1983
 26.89,che,1984
@@ -6048,7 +6048,7 @@ investments_percent_of_gdp,geo,time
 13.91,syr,1968
 15.97,syr,1969
 14.79,syr,1970
-16.0,syr,1971
+16,syr,1971
 21.73,syr,1972
 13.38,syr,1973
 26.85,syr,1974
@@ -6065,7 +6065,7 @@ investments_percent_of_gdp,geo,time
 25.52,syr,1985
 23.86,syr,1986
 19.52,syr,1987
-15.0,syr,1988
+15,syr,1988
 17.12,syr,1989
 16.55,syr,1990
 17.97,syr,1991
@@ -6232,7 +6232,7 @@ investments_percent_of_gdp,geo,time
 20.37,tgo,2001
 18.53,tgo,2002
 18.9,tgo,2003
-18.0,tgo,2004
+18,tgo,2004
 18.33,tgo,2005
 27.59,ton,1975
 19.67,ton,1976
@@ -6451,7 +6451,7 @@ investments_percent_of_gdp,geo,time
 13.46,uga,1967
 13.09,uga,1968
 14.02,uga,1969
-14.0,uga,1970
+14,uga,1970
 16.1,uga,1971
 11.64,uga,1972
 8.72,uga,1973
@@ -6535,7 +6535,7 @@ investments_percent_of_gdp,geo,time
 22.5,gbr,1973
 22.75,gbr,1974
 19.26,gbr,1975
-21.0,gbr,1976
+21,gbr,1976
 20.52,gbr,1977
 20.17,gbr,1978
 20.41,gbr,1979
@@ -6546,7 +6546,7 @@ investments_percent_of_gdp,geo,time
 18.36,gbr,1984
 18.24,gbr,1985
 18.05,gbr,1986
-19.0,gbr,1987
+19,gbr,1987
 21.39,gbr,1988
 22.11,gbr,1989
 20.18,gbr,1990
@@ -6723,7 +6723,7 @@ investments_percent_of_gdp,geo,time
 25.79,ven,1964
 24.82,ven,1965
 23.97,ven,1966
-24.0,ven,1967
+24,ven,1967
 28.72,ven,1968
 29.63,ven,1969
 32.89,ven,1970
@@ -6761,7 +6761,7 @@ investments_percent_of_gdp,geo,time
 21.16,ven,2002
 15.22,ven,2003
 21.8,ven,2004
-23.0,ven,2005
+23,ven,2005
 26.92,ven,2006
 29.2,ven,2007
 25.89,ven,2008
@@ -6918,8 +6918,8 @@ investments_percent_of_gdp,geo,time
 14.4,zwe,1999
 13.57,zwe,2000
 10.27,zwe,2001
-5.0,zwe,2002
-8.0,zwe,2003
+5,zwe,2002
+8,zwe,2003
 4.509,zwe,2004
 1.525,zwe,2005
 1.571,zwe,2006

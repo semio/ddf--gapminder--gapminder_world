@@ -591,11 +591,11 @@ population_growth_annual_percent,geo,time
 0.03839,aut,1977
 -0.08096,aut,1978
 -0.1705,aut,1979
-0.000106,aut,1980
+0.00011,aut,1980
 0.255,aut,1981
 0.07172,aut,1982
 -0.1616,aut,1983
--0.006295,aut,1984
+-0.0063,aut,1984
 0.04695,aut,1985
 0.06355,aut,1986
 0.06328,aut,1987
@@ -956,10 +956,10 @@ population_growth_annual_percent,geo,time
 0.0933,bel,1978
 0.08988,bel,1979
 0.1102,bel,1980
--0.002637,bel,1981
+-0.00264,bel,1981
 -0.02718,bel,1982
--0.007944,bel,1983
--0.001502,bel,1984
+-0.00794,bel,1983
+-0.0015,bel,1984
 0.02979,bel,1985
 0.03565,bel,1986
 0.08525,bel,1987
@@ -1123,8 +1123,8 @@ population_growth_annual_percent,geo,time
 1.522,bmu,1989
 1.499,bmu,1990
 0.823,bmu,1991
-0.0,bmu,1992
-0.0,bmu,1993
+0,bmu,1992
+0,bmu,1993
 0.4906,bmu,1994
 0.6504,bmu,1995
 0.1393,bmu,1996
@@ -1292,7 +1292,7 @@ population_growth_annual_percent,geo,time
 0.7313,bih,2002
 0.1808,bih,2003
 -0.03593,bih,2004
--0.009441,bih,2005
+-0.00944,bih,2005
 0.01552,bih,2006
 -0.06756,bih,2007
 -0.129,bih,2008
@@ -1480,7 +1480,7 @@ population_growth_annual_percent,geo,time
 0.2958,bgr,1982
 0.2495,bgr,1983
 0.234,bgr,1984
--0.001473,bgr,1985
+-0.00147,bgr,1985
 -0.02652,bgr,1986
 0.1471,bgr,1987
 0.1124,bgr,1988
@@ -1631,7 +1631,7 @@ population_growth_annual_percent,geo,time
 -2.559,khm,1977
 -2.649,khm,1978
 -1.714,khm,1979
--0.007916,khm,1980
+-0.00792,khm,1980
 1.996,khm,1981
 3.649,khm,1982
 4.659,khm,1983
@@ -2485,8 +2485,8 @@ population_growth_annual_percent,geo,time
 1.171,hrv,1999
 -2.851,hrv,2000
 0.3158,hrv,2001
-0.0,hrv,2002
-0.0,hrv,2003
+0,hrv,2002
+0,hrv,2003
 -0.02253,hrv,2004
 0.06756,hrv,2005
 -0.04503,hrv,2006
@@ -3129,7 +3129,7 @@ population_growth_annual_percent,geo,time
 1.12,est,1967
 1.108,est,1968
 1.095,est,1969
-1.0,est,1970
+1,est,1970
 1.07,est,1971
 1.124,est,1972
 0.96,est,1973
@@ -3169,7 +3169,7 @@ population_growth_annual_percent,geo,time
 -0.1397,est,2007
 -0.07434,est,2008
 -0.03014,est,2009
--0.008208,est,2010
+-0.00821,est,2010
 -0.01201,est,2011
 2.246,eth,1960
 2.327,eth,1961
@@ -3835,7 +3835,7 @@ population_growth_annual_percent,geo,time
 0.1791,grl,1996
 0.1787,grl,1997
 0.1784,grl,1998
-0.0,grl,1999
+0,grl,1999
 0.1781,grl,2000
 0.2665,grl,2001
 0.4586,grl,2002
@@ -3845,7 +3845,7 @@ population_growth_annual_percent,geo,time
 -0.2832,grl,2006
 -0.3865,grl,2007
 -0.4022,grl,2008
--0.008877,grl,2009
+-0.00888,grl,2009
 0.3722,grl,2010
 0.3725,grl,2011
 1.804,grd,1960
@@ -4073,7 +4073,7 @@ population_growth_annual_percent,geo,time
 3.333,gnb,1974
 3.587,gnb,1975
 3.831,gnb,1976
-4.0,gnb,1977
+4,gnb,1977
 3.927,gnb,1978
 3.585,gnb,1979
 3.089,gnb,1980
@@ -4164,7 +4164,7 @@ population_growth_annual_percent,geo,time
 1.979,hti,1961
 1.991,hti,1962
 1.998,hti,1963
-2.0,hti,1964
+2,hti,1964
 1.997,hti,1965
 1.999,hti,1966
 1.997,hti,1967
@@ -4337,7 +4337,7 @@ population_growth_annual_percent,geo,time
 0.3449,hun,1978
 0.1807,hun,1979
 0.06509,hun,1980
-0.006778,hun,1981
+0.00678,hun,1981
 -0.05895,hun,1982
 -0.1502,hun,1983
 -0.2001,hun,1984
@@ -4347,7 +4347,7 @@ population_growth_annual_percent,geo,time
 -0.1533,hun,1988
 -1.089,hun,1989
 -1.033,hun,1990
--0.005668,hun,1991
+-0.00567,hun,1991
 -0.03914,hun,1992
 -0.114,hun,1993
 -0.1369,hun,1994
@@ -4810,7 +4810,7 @@ population_growth_annual_percent,geo,time
 0.03629,ita,1983
 0.02235,ita,1984
 0.0289,ita,1985
-0.005449,ita,1986
+0.00545,ita,1986
 0.01021,ita,1987
 0.04832,ita,1988
 0.07501,ita,1989
@@ -4819,7 +4819,7 @@ population_growth_annual_percent,geo,time
 0.06792,ita,1992
 0.06114,ita,1993
 0.02037,ita,1994
-0.001589,ita,1995
+0.00159,ita,1995
 0.0281,ita,1996
 0.05291,ita,1997
 0.02877,ita,1998
@@ -4933,7 +4933,7 @@ population_growth_annual_percent,geo,time
 0.2325,jpn,2002
 0.214,jpn,2003
 0.03366,jpn,2004
-0.009392,jpn,2005
+0.00939,jpn,2005
 -0.01331,jpn,2006
 0.01154,jpn,2007
 -0.05222,jpn,2008
@@ -5034,7 +5034,7 @@ population_growth_annual_percent,geo,time
 -0.9525,kaz,1999
 -0.3005,kaz,2000
 -0.1701,kaz,2001
-0.004126,kaz,2002
+0.00413,kaz,2002
 0.3364,kaz,2003
 0.6949,kaz,2004
 0.8889,kaz,2005
@@ -5536,7 +5536,7 @@ population_growth_annual_percent,geo,time
 0.4612,lbn,1985
 0.103,lbn,1986
 -0.1274,lbn,1987
-0.002149,lbn,1988
+0.00215,lbn,1988
 0.6238,lbn,1989
 1.555,lbn,1990
 2.601,lbn,1991
@@ -7887,7 +7887,7 @@ population_growth_annual_percent,geo,time
 0.07607,pol,1996
 0.06546,pol,1997
 0.03575,pol,1998
--0.008303,pol,1999
+-0.0083,pol,1999
 -0.5356,pol,2000
 -0.5363,pol,2001
 -0.04632,pol,2002
@@ -7951,7 +7951,7 @@ population_growth_annual_percent,geo,time
 0.1326,prt,2008
 0.09475,prt,2009
 0.04574,prt,2010
--0.003253,prt,2011
+-0.00325,prt,2011
 0.9377,pri,1960
 1.754,pri,1961
 2.087,pri,1962
@@ -8148,7 +8148,7 @@ population_growth_annual_percent,geo,time
 -0.2949,rus,1997
 -0.2753,rus,1998
 -0.4024,rus,1999
--0.004101,rus,2000
+-0.0041,rus,2000
 -0.2419,rus,2001
 -0.4463,rus,2002
 -0.4831,rus,2003
@@ -8158,8 +8158,8 @@ population_growth_annual_percent,geo,time
 -0.2811,rus,2007
 -0.1056,rus,2008
 -0.02818,rus,2009
-0.007046,rus,2010
-0.007046,rus,2011
+0.00705,rus,2010
+0.00705,rus,2011
 3.01,rwa,1960
 3.01,rwa,1961
 3.008,rwa,1962
@@ -8254,7 +8254,7 @@ population_growth_annual_percent,geo,time
 4.683,kna,2000
 4.038,kna,2001
 1.291,kna,2002
-0.0,kna,2003
+0,kna,2003
 3.849,kna,2004
 1.289,kna,2005
 1.289,kna,2006
@@ -8324,7 +8324,7 @@ population_growth_annual_percent,geo,time
 1.049,vct,1965
 1.03,vct,1966
 1.006,vct,1967
-1.0,vct,1968
+1,vct,1968
 1.015,vct,1969
 1.042,vct,1970
 1.077,vct,1971
@@ -8767,7 +8767,7 @@ population_growth_annual_percent,geo,time
 -0.8256,sle,1993
 -0.8082,sle,1994
 -0.4275,sle,1995
--0.004771,sle,1996
+-0.00477,sle,1996
 0.3969,sle,1997
 1.017,sle,1998
 1.868,sle,1999
@@ -8877,7 +8877,7 @@ population_growth_annual_percent,geo,time
 0.1021,svk,1999
 -0.1354,svk,2000
 -0.183,svk,2001
-0.003514,svk,2002
+0.00351,svk,2002
 0.01024,svk,2003
 0.05261,svk,2004
 0.08474,svk,2005
@@ -8946,7 +8946,7 @@ population_growth_annual_percent,geo,time
 2.993,slb,1964
 2.999,slb,1965
 2.992,slb,1966
-3.0,slb,1967
+3,slb,1967
 3.068,slb,1968
 3.207,slb,1969
 3.383,slb,1970
@@ -9425,7 +9425,7 @@ population_growth_annual_percent,geo,time
 -0.04374,che,1975
 -0.5716,che,1976
 -0.339,che,1977
-0.008979,che,1978
+0.00898,che,1978
 0.2008,che,1979
 0.3971,che,1980
 0.5471,che,1981
@@ -10242,7 +10242,7 @@ population_growth_annual_percent,geo,time
 8.594,are,1961
 10.64,are,1962
 11.07,are,1963
-10.0,are,1964
+10,are,1964
 8.485,are,1965
 6.957,are,1966
 6.468,are,1967
@@ -10305,7 +10305,7 @@ population_growth_annual_percent,geo,time
 0.3391,gbr,1972
 0.1932,gbr,1973
 0.06306,gbr,1974
--0.007423,gbr,1975
+-0.00742,gbr,1975
 -0.0246,gbr,1976
 -0.03287,gbr,1977
 0.00536,gbr,1978
@@ -10436,7 +10436,7 @@ population_growth_annual_percent,geo,time
 0.4584,ury,1999
 0.3651,ury,2000
 0.2272,ury,2001
-0.005146,ury,2002
+0.00515,ury,2002
 -0.1508,ury,2003
 -0.05473,ury,2004
 0.1208,ury,2005
@@ -10694,7 +10694,7 @@ population_growth_annual_percent,geo,time
 2.105,vir,1976
 -3.175,vir,1977
 3.175,vir,1978
-0.0,vir,1979
+0,vir,1979
 1.036,vir,1980
 1.026,vir,1981
 4.001,vir,1982

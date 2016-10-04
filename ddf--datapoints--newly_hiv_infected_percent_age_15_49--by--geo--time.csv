@@ -218,13 +218,13 @@ newly_hiv_infected_percent_age_15_49,geo,time
 3.06,bwa,2002
 2.7,bwa,2003
 2.19,bwa,2004
-2.0,bwa,2005
+2,bwa,2005
 1.88,bwa,2006
 1.78,bwa,2007
 1.65,bwa,2008
 1.15,bwa,2009
 1.07,bwa,2010
-1.0,bwa,2011
+1,bwa,2011
 0.06,bra,2011
 0.06,bgr,2011
 0.36,bfa,1990
@@ -319,7 +319,7 @@ newly_hiv_infected_percent_age_15_49,geo,time
 1.53,caf,1990
 1.99,caf,1991
 2.17,caf,1992
-2.0,caf,1993
+2,caf,1993
 1.67,caf,1994
 1.37,caf,1995
 1.15,caf,1996
@@ -1505,7 +1505,7 @@ newly_hiv_infected_percent_age_15_49,geo,time
 2.27,zmb,1990
 2.2,zmb,1991
 2.11,zmb,1992
-2.0,zmb,1993
+2,zmb,1993
 1.89,zmb,1994
 1.81,zmb,1995
 1.76,zmb,1996

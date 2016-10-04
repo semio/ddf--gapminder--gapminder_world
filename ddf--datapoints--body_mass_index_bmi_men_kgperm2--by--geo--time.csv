@@ -195,7 +195,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 26.79,arg,1999
 26.88,arg,2000
 26.96,arg,2001
-27.0,arg,2002
+27,arg,2002
 27.05,arg,2003
 27.11,arg,2004
 27.19,arg,2005
@@ -206,7 +206,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 23.86,arm,1981
 23.91,arm,1982
 23.96,arm,1983
-24.0,arm,1984
+24,arm,1984
 24.04,arm,1985
 24.09,arm,1986
 24.13,arm,1987
@@ -232,7 +232,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.18,arm,2007
 25.36,arm,2008
 24.93,aus,1980
-25.0,aus,1981
+25,aus,1981
 25.08,aus,1982
 25.15,aus,1983
 25.23,aus,1984
@@ -282,7 +282,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.82,aut,1999
 25.87,aut,2000
 25.94,aut,2001
-26.0,aut,2002
+26,aut,2002
 26.06,aut,2003
 26.14,aut,2004
 26.21,aut,2005
@@ -608,7 +608,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 22.63,btn,2006
 22.72,btn,2007
 22.82,btn,2008
-23.0,bol,1980
+23,bol,1980
 23.04,bol,1981
 23.07,bol,1982
 23.09,bol,1983
@@ -883,7 +883,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 19.91,khm,1991
 19.94,khm,1992
 19.97,khm,1993
-20.0,khm,1994
+20,khm,1994
 20.04,khm,1995
 20.08,khm,1996
 20.13,khm,1997
@@ -961,7 +961,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 20.77,cpv,1982
 20.84,cpv,1983
 20.92,cpv,1984
-21.0,cpv,1985
+21,cpv,1985
 21.08,cpv,1986
 21.19,cpv,1987
 21.3,cpv,1988
@@ -1373,7 +1373,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.78,cyp,1988
 25.84,cyp,1989
 25.93,cyp,1990
-26.0,cyp,1991
+26,cyp,1991
 26.09,cyp,1992
 26.18,cyp,1993
 26.26,cyp,1994
@@ -1598,7 +1598,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 23.83,slv,1981
 23.89,slv,1982
 23.94,slv,1983
-24.0,slv,1984
+24,slv,1984
 24.05,slv,1985
 24.11,slv,1986
 24.17,slv,1987
@@ -1886,7 +1886,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.08,gab,2008
 19.94,gmb,1980
 19.97,gmb,1981
-20.0,gmb,1982
+20,gmb,1982
 20.03,gmb,1983
 20.06,gmb,1984
 20.08,gmb,1985
@@ -1905,7 +1905,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 20.77,gmb,1998
 20.84,gmb,1999
 20.92,gmb,2000
-21.0,gmb,2001
+21,gmb,2001
 21.07,gmb,2002
 21.16,gmb,2003
 21.25,gmb,2004
@@ -1922,9 +1922,9 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.89,geo,1986
 24.93,geo,1987
 24.97,geo,1988
-25.0,geo,1989
+25,geo,1989
 25.02,geo,1990
-25.0,geo,1991
+25,geo,1991
 24.93,geo,1992
 24.83,geo,1993
 24.73,geo,1994
@@ -1990,7 +1990,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 21.73,gha,1996
 21.82,gha,1997
 21.91,gha,1998
-22.0,gha,1999
+22,gha,1999
 22.08,gha,2000
 22.16,gha,2001
 22.25,gha,2002
@@ -2006,7 +2006,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.91,grc,1983
 24.94,grc,1984
 24.97,grc,1985
-25.0,grc,1986
+25,grc,1986
 25.01,grc,1987
 25.06,grc,1988
 25.11,grc,1989
@@ -2208,7 +2208,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 22.96,hti,1982
 22.97,hti,1983
 22.99,hti,1984
-23.0,hti,1985
+23,hti,1985
 23.01,hti,1986
 23.01,hti,1987
 23.01,hti,1988
@@ -2217,7 +2217,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 23.02,hti,1991
 23.02,hti,1992
 23.01,hti,1993
-23.0,hti,1994
+23,hti,1994
 23.01,hti,1995
 23.02,hti,1996
 23.05,hti,1997
@@ -2302,7 +2302,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.89,hun,1989
 25.94,hun,1990
 25.97,hun,1991
-26.0,hun,1992
+26,hun,1992
 26.02,hun,1993
 26.05,hun,1994
 26.08,hun,1995
@@ -2336,7 +2336,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.77,isl,1994
 25.84,isl,1995
 25.91,isl,1996
-26.0,isl,1997
+26,isl,1997
 26.1,isl,1998
 26.19,isl,1999
 26.3,isl,2000
@@ -2350,7 +2350,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 27.21,isl,2008
 21.09,ind,1980
 21.05,ind,1981
-21.0,ind,1982
+21,ind,1982
 20.96,ind,1983
 20.92,ind,1984
 20.88,ind,1985
@@ -2429,7 +2429,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.85,irn,2000
 24.91,irn,2001
 24.96,irn,2002
-25.0,irn,2003
+25,irn,2003
 25.05,irn,2004
 25.11,irn,2005
 25.17,irn,2006
@@ -2543,7 +2543,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.85,ita,1998
 25.89,ita,1999
 25.94,ita,2000
-26.0,ita,2001
+26,ita,2001
 26.06,ita,2002
 26.12,ita,2003
 26.19,ita,2004
@@ -2579,7 +2579,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 23.74,jam,2005
 23.82,jam,2006
 23.92,jam,2007
-24.0,jam,2008
+24,jam,2008
 22.1,jpn,1980
 22.12,jpn,1981
 22.14,jpn,1982
@@ -2648,7 +2648,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.89,kaz,1987
 24.93,kaz,1988
 24.97,kaz,1989
-25.0,kaz,1990
+25,kaz,1990
 25.02,kaz,1991
 25.03,kaz,1992
 25.03,kaz,1993
@@ -2729,7 +2729,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 21.84,prk,1981
 21.9,prk,1982
 21.95,prk,1983
-22.0,prk,1984
+22,prk,1984
 22.06,prk,1985
 22.11,prk,1986
 22.16,prk,1987
@@ -2788,7 +2788,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.69,kwt,1982
 25.79,kwt,1983
 25.9,kwt,1984
-26.0,kwt,1985
+26,kwt,1985
 26.09,kwt,1986
 26.19,kwt,1987
 26.29,kwt,1988
@@ -2810,7 +2810,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 28.52,kwt,2004
 28.68,kwt,2005
 28.84,kwt,2006
-29.0,kwt,2007
+29,kwt,2007
 29.17,kwt,2008
 24.36,kgz,1980
 24.39,kgz,1981
@@ -3015,7 +3015,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 26.36,lby,2006
 26.45,lby,2007
 26.54,lby,2008
-26.0,ltu,1980
+26,ltu,1980
 25.99,ltu,1981
 25.99,ltu,1982
 25.99,ltu,1983
@@ -3096,7 +3096,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.76,mac,2000
 24.83,mac,2001
 24.9,mac,2002
-25.0,mac,2003
+25,mac,2003
 25.12,mac,2004
 25.24,mac,2005
 25.38,mac,2006
@@ -3126,7 +3126,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.8,mkd,2001
 25.85,mkd,2002
 25.92,mkd,2003
-26.0,mkd,2004
+26,mkd,2004
 26.07,mkd,2005
 26.16,mkd,2006
 26.25,mkd,2007
@@ -3144,7 +3144,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 20.92,mdg,1990
 20.95,mdg,1991
 20.98,mdg,1992
-21.0,mdg,1993
+21,mdg,1993
 21.02,mdg,1994
 21.04,mdg,1995
 21.05,mdg,1996
@@ -3174,7 +3174,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 20.94,mwi,1991
 20.95,mwi,1992
 20.97,mwi,1993
-21.0,mwi,1994
+21,mwi,1994
 21.05,mwi,1995
 21.1,mwi,1996
 21.17,mwi,1997
@@ -3193,7 +3193,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 21.68,mys,1981
 21.78,mys,1982
 21.89,mys,1983
-22.0,mys,1984
+22,mys,1984
 22.11,mys,1985
 22.2,mys,1986
 22.3,mys,1987
@@ -3313,7 +3313,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.46,mhl,1985
 25.63,mhl,1986
 25.81,mhl,1987
-26.0,mhl,1988
+26,mhl,1988
 26.2,mhl,1989
 26.39,mhl,1990
 26.59,mhl,1991
@@ -3606,7 +3606,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 19.97,mmr,1988
 19.98,mmr,1989
 19.99,mmr,1990
-20.0,mmr,1991
+20,mmr,1991
 20.02,mmr,1992
 20.05,mmr,1993
 20.09,mmr,1994
@@ -3728,7 +3728,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.77,nld,1994
 24.85,nld,1995
 24.93,nld,1996
-25.0,nld,1997
+25,nld,1997
 25.08,nld,1998
 25.17,nld,1999
 25.26,nld,2000
@@ -3762,7 +3762,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 26.64,ant,1999
 26.77,ant,2000
 26.89,ant,2001
-27.0,ant,2002
+27,ant,2002
 27.11,ant,2003
 27.24,ant,2004
 27.35,ant,2005
@@ -3940,7 +3940,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.69,omn,2003
 25.79,omn,2004
 25.9,omn,2005
-26.0,omn,2006
+26,omn,2006
 26.12,omn,2007
 26.24,omn,2008
 21.54,pak,1980
@@ -4018,7 +4018,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.69,pan,1994
 24.78,pan,1995
 24.89,pan,1996
-25.0,pan,1997
+25,pan,1997
 25.11,pan,1998
 25.23,pan,1999
 25.34,pan,2000
@@ -4081,7 +4081,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.78,pry,1999
 24.85,pry,2000
 24.92,pry,2001
-25.0,pry,2002
+25,pry,2002
 25.08,pry,2003
 25.16,pry,2004
 25.25,pry,2005
@@ -4291,9 +4291,9 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.18,rou,2006
 25.29,rou,2007
 25.41,rou,2008
-25.0,rus,1980
-25.0,rus,1981
-25.0,rus,1982
+25,rus,1980
+25,rus,1981
+25,rus,1982
 24.99,rus,1983
 24.99,rus,1984
 24.98,rus,1985
@@ -4342,7 +4342,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 21.82,rwa,1999
 21.87,rwa,2000
 21.92,rwa,2001
-22.0,rwa,2002
+22,rwa,2002
 22.09,rwa,2003
 22.18,rwa,2004
 22.26,rwa,2005
@@ -4358,7 +4358,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.73,kna,1986
 25.82,kna,1987
 25.92,kna,1988
-26.0,kna,1989
+26,kna,1989
 26.09,kna,1990
 26.17,kna,1991
 26.26,kna,1992
@@ -4437,7 +4437,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.32,vct,2007
 25.44,vct,2008
 25.83,wsm,1980
-26.0,wsm,1981
+26,wsm,1981
 26.16,wsm,1982
 26.31,wsm,1983
 26.47,wsm,1984
@@ -4564,7 +4564,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.92,srb,1989
 25.96,srb,1990
 25.99,srb,1991
-26.0,srb,1992
+26,srb,1992
 25.95,srb,1993
 25.92,srb,1994
 25.91,srb,1995
@@ -4646,7 +4646,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 22.83,sgp,1984
 22.88,sgp,1985
 22.94,sgp,1986
-23.0,sgp,1987
+23,sgp,1987
 23.06,sgp,1988
 23.13,sgp,1989
 23.2,sgp,1990
@@ -4680,7 +4680,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.91,svk,1989
 25.95,svk,1990
 25.98,svk,1991
-26.0,svk,1992
+26,svk,1992
 26.02,svk,1993
 26.05,svk,1994
 26.08,svk,1995
@@ -4735,7 +4735,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.67,slb,1986
 24.77,slb,1987
 24.88,slb,1988
-25.0,slb,1989
+25,slb,1989
 25.12,slb,1990
 25.24,slb,1991
 25.38,slb,1992
@@ -4924,7 +4924,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.68,sur,2001
 24.77,sur,2002
 24.88,sur,2003
-25.0,sur,2004
+25,sur,2004
 25.13,sur,2005
 25.24,sur,2006
 25.36,sur,2007
@@ -4965,7 +4965,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.87,swe,1984
 24.91,swe,1985
 24.95,swe,1986
-25.0,swe,1987
+25,swe,1987
 25.05,swe,1988
 25.11,swe,1989
 25.16,swe,1990
@@ -5034,7 +5034,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 25.63,syr,1995
 25.76,syr,1996
 25.87,syr,1997
-26.0,syr,1998
+26,syr,1998
 26.12,syr,1999
 26.23,syr,2000
 26.32,syr,2001
@@ -5198,7 +5198,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 20.97,tgo,1985
 20.98,tgo,1986
 20.99,tgo,1987
-21.0,tgo,1988
+21,tgo,1988
 21.02,tgo,1989
 21.05,tgo,1990
 21.08,tgo,1991
@@ -5247,7 +5247,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 30.55,ton,2005
 30.7,ton,2006
 30.85,ton,2007
-31.0,ton,2008
+31,ton,2008
 24.81,tto,1980
 24.89,tto,1981
 24.97,tto,1982
@@ -5401,13 +5401,13 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.96,ukr,1985
 24.97,ukr,1986
 24.99,ukr,1987
-25.0,ukr,1988
+25,ukr,1988
 25.02,ukr,1989
 25.04,ukr,1990
 25.05,ukr,1991
 25.06,ukr,1992
 25.05,ukr,1993
-25.0,ukr,1994
+25,ukr,1994
 24.94,ukr,1995
 24.88,ukr,1996
 24.82,ukr,1997
@@ -5503,7 +5503,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 27.71,usa,2000
 27.81,usa,2001
 27.9,usa,2002
-28.0,usa,2003
+28,usa,2003
 28.1,usa,2004
 28.2,usa,2005
 28.29,usa,2006
@@ -5662,7 +5662,7 @@ body_mass_index_bmi_men_kgperm2,geo,time
 24.74,pse,1985
 24.83,pse,1986
 24.92,pse,1987
-25.0,pse,1988
+25,pse,1988
 25.09,pse,1989
 25.18,pse,1990
 25.27,pse,1991
