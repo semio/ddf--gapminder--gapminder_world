@@ -1,5 +1,8 @@
 # ddf--gapminder_world
 
+## The purpose of this dataset
+To integrate data from the Legacy dataset of Gapminder World into the new Systema Globalis
+
 ## source
 
 1. concept file
