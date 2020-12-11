@@ -1,4 +1,7 @@
 concept,name,concept_type,domain,indicator_url,color,scales,drill_up,unit,interpolation,description
+domain,Domain,string,,,,,,,,
+scales,Scales,string,,,,,,,,
+drill_up,Drill ups,string,,,,,,,,
 geographic_regions,Geographic regions,entity_set,geo,https://docs.google.com/spreadsheet/pub?key=phT4mwjvEuGBtdf1ZeO7_PQ,"{""selectable"": false, ""palette"": {""east_asia_pacific"": ""#f03838"", ""america"": ""#ebcc21"", ""sub_saharan_africa"": ""#4e7af0"", ""middle_east_north_africa"": ""#5be56b"", ""south_asia"": ""#35d1d1"", ""europe_central_asia"": ""#f49d37""}}","[""ordinal""]",,,,
 income_groups,Income groups,entity_set,geo,https://docs.google.com/spreadsheet/pub?key=phT4mwjvEuGCSmAe5aq7HKw,"{""palette"": {""upper_middle_income"": ""#a7cb7d"", ""high_income"": ""#7bc135"", ""lower_middle_income"": ""#7ea1d1"", ""low_income"": ""#4366f4""}}","[""ordinal""]",,,,
 landlocked,Landlocked,entity_set,geo,https://docs.google.com/spreadsheet/pub?key=rBwKBodk7Y08pGiA4OAfzUA,"{""palette"": {""landlocked"": ""#f05656"", ""coastline"": ""#7487ef""}}","[""ordinal""]",,,,
